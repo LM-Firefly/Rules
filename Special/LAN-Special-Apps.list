@@ -1,0 +1,5 @@
+## 🕸️ 局域网特殊应用
+## > 乐播投屏
+DOMAIN-SUFFIX,hpplay.cn
+## > mDNS CIDR
+IP-CIDR,224.0.0.251/24,no-resolve

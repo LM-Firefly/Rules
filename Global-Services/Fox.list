@@ -1,0 +1,17 @@
+## > Fox Now & Fox Plus
+USER-AGENT,FOX%20NOW*
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,theplatform.com
+DOMAIN-SUFFIX,uplynk.com
+DOMAIN-SUFFIX,foxplus.com
+DOMAIN-SUFFIX,foxnow.com
+DOMAIN-SUFFIX,foxplay.com
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,ask.fxnetworks.com
+DOMAIN-SUFFIX,foxbroadcasting.zendesk.com
+DOMAIN-SUFFIX,foxnews.com
+DOMAIN-SUFFIX,foxbusiness.com
+DOMAIN-SUFFIX,foxnewsplayer-a.akamaihd.net
+DOMAIN,dashasiafox.akamaized.net
+DOMAIN,staticasiafox.akamaized.net

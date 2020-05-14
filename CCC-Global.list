@@ -1,0 +1,82 @@
+## 🍖 PROXY
+## > CDN-Global
+# > Akamai
+DOMAIN-SUFFIX,akamai.net
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaistream.net
+# > Amazon
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,awsstatic.com
+DOMAIN-SUFFIX,media.amazonwebservices.com
+# > Cloudflare
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflare-ipfs.com
+DOMAIN-SUFFIX,cloudflareapps.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,cloudflaressl.com
+DOMAIN-SUFFIX,cloudflarestatus.com
+DOMAIN-SUFFIX,cloudflarestream.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,one.one.one.one
+IP-CIDR,103.21.244.0/22,no-resolve
+IP-CIDR,103.22.200.0/22,no-resolve
+IP-CIDR,103.31.4.0/22,no-resolve
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR,108.162.192.0/18,no-resolve
+IP-CIDR,131.0.72.0/22,no-resolve
+IP-CIDR,141.101.64.0/18,no-resolve
+IP-CIDR,141.101.74.0/24,no-resolve
+IP-CIDR,141.101.75.0/24,no-resolve
+IP-CIDR,141.101.76.0/23,no-resolve
+IP-CIDR,141.101.82.0/24,no-resolve
+IP-CIDR,141.101.83.0/24,no-resolve
+IP-CIDR,141.101.84.0/24,no-resolve
+IP-CIDR,141.101.85.0/24,no-resolve
+IP-CIDR,141.101.94.0/24,no-resolve
+IP-CIDR,141.101.95.0/24,no-resolve
+IP-CIDR,141.101.96.0/24,no-resolve
+IP-CIDR,141.101.97.0/24,no-resolve
+IP-CIDR,141.101.98.0/24,no-resolve
+IP-CIDR,141.101.99.0/24,no-resolve
+IP-CIDR,162.158.0.0/15,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+IP-CIDR,173.245.48.0/20,no-resolve
+IP-CIDR,188.114.96.0/20,no-resolve
+IP-CIDR,190.93.240.0/20,no-resolve
+IP-CIDR,197.234.240.0/22,no-resolve
+IP-CIDR,198.41.128.0/17,no-resolve
+## > CloudFront
+DOMAIN,d3c33hcgiwev3.cloudfront.net
+DOMAIN,d3rhr7kgmtrq1v.cloudfront.net
+# > HiNet
+DOMAIN-SUFFIX,cdn.hinet.net
+# > Live Person
+DOMAIN-SUFFIX,lpsnmedia.net
+DOMAIN-SUFFIX,liveperson.com
+DOMAIN-SUFFIX,liveperson.net
+# > Verizon Media Platform
+DOMAIN-SUFFIX,verizondigitalmedia.com
+# > Others
+DOMAIN-SUFFIX,dog1.verystream.com
+DOMAIN-SUFFIX,1fhjlv1.oloadcdn.net
+DOMAIN-SUFFIX,gounlimited.to
+DOMAIN-SUFFIX,signal.netu.tv
+DOMAIN-SUFFIX,vkcache.com
+DOMAIN-SUFFIX,deliver.vkcdnservice.com
+DOMAIN-SUFFIX,megapornfreehd.com
+DOMAIN-SUFFIX,openload.co
+DOMAIN-SUFFIX,streamcherry.com
+DOMAIN-SUFFIX,freepornhdonlinegay.com
+DOMAIN-SUFFIX,vidcpm.com
+DOMAIN-SUFFIX,a.o333o.com
+DOMAIN-SUFFIX,rapidvideo.com
+DOMAIN-SUFFIX,playercdn.net
+DOMAIN-SUFFIX,propvideo.net
+DOMAIN-SUFFIX,thumb.oloadcdn.net
+DOMAIN-SUFFIX,streamango.com
+DOMAIN-SUFFIX,cdn.vidarequre.com
+DOMAIN-SUFFIX,speedcurve.com

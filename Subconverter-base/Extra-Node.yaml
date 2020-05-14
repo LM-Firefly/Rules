@@ -1,0 +1,43 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: '127.0.0.1:9090'
+secret: ''
+proxies:
+  - name: UnblockNetEaseMusic
+    type: http
+    server: 192.168.43.215
+    port: '26266'
+    username:
+    password:
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: pcysanji网易云解锁
+    type: http
+    server: 106.15.250.108
+    port: '30000'
+    username:
+    password:
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: 如风博客网易云解锁
+    type: ss
+    server: music.desperadoj.com
+    port: '30001'
+    cipher: aes-128-gcm
+    password: desperadoj.com
+    udp: true
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - UnblockNetEaseMusic
+      - pcysanji网易云解锁
+      - 如风博客网易云解锁
+rules:
+  - 'MATCH,Proxy'

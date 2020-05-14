@@ -1,0 +1,58 @@
+## > ⏰ NTP服务
+DOMAIN,time.nist.gov
+## > openwrt使用的ntp服务
+DOMAIN,0.openwrt.pool.ntp.org
+DOMAIN,1.openwrt.pool.ntp.org
+DOMAIN,2.openwrt.pool.ntp.org
+DOMAIN,3.openwrt.pool.ntp.org
+## > 阿里云使用的ntp服务
+DOMAIN,ntp.aliyun.com
+DOMAIN,ntp1.aliyun.com
+DOMAIN,ntp2.aliyun.com
+DOMAIN,ntp3.aliyun.com
+DOMAIN,ntp4.aliyun.com
+DOMAIN,ntp5.aliyun.com
+DOMAIN,ntp6.aliyun.com
+DOMAIN,ntp7.aliyun.com
+DOMAIN,time1.aliyun.com
+DOMAIN,time2.aliyun.com
+DOMAIN,time3.aliyun.com
+DOMAIN,time4.aliyun.com
+DOMAIN,time5.aliyun.com
+DOMAIN,time6.aliyun.com
+DOMAIN,time7.aliyun.com
+DOMAIN,s1c.time.edu.cn
+DOMAIN,s2m.time.edu.cn
+DOMAIN,s1b.time.edu.cn
+DOMAIN,s1e.time.edu.cn
+DOMAIN,s2a.time.edu.cn
+DOMAIN,s2b.time.edu.cn
+## > Apple使用的ntp服务
+DOMAIN,time.apple.com
+DOMAIN,time1.apple.com
+DOMAIN,time2.apple.com
+DOMAIN,time3.apple.com
+DOMAIN,time4.apple.com
+DOMAIN,time5.apple.com
+DOMAIN,time6.apple.com
+DOMAIN,time7.apple.com
+DOMAIN,time.asia.apple.com
+## > Google使用的ntp服务
+DOMAIN,time1.google.com
+DOMAIN,time2.google.com
+DOMAIN,time3.google.com
+DOMAIN,time4.google.com
+## > 社区公用ntp服务池
+DOMAIN,pool.ntp.org
+DOMAIN,cn.ntp.org.cn
+DOMAIN,edu.ntp.org.cn
+DOMAIN,hk.ntp.org.cn
+DOMAIN,tw.ntp.org.cn
+DOMAIN,us.ntp.org.cn
+DOMAIN,sgp.ntp.org.cn
+DOMAIN,kr.ntp.org.cn
+DOMAIN,jp.ntp.org.cn
+DOMAIN,de.ntp.org.cn
+DOMAIN,ina.ntp.org.cn
+## > Windows使用的ntp服务
+DOMAIN,time.windows.com

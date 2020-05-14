@@ -1,0 +1,45 @@
+## > 腾讯
+USER-AGENT,live4iphone*
+USER-AGENT,qqlive4iphone*
+USER-AGENT,TencentMidasConnect*
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
+USER-AGENT,QQ%E9%9F%B3%E4%B9%90
+DOMAIN-SUFFIX,apcdns.net
+DOMAIN-SUFFIX,foxmail.com
+DOMAIN-SUFFIX,foxmail.com.cn
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,gtimg.com.cn
+DOMAIN-SUFFIX,imqq.com
+DOMAIN-SUFFIX,myapp.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,tencentyun.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,qcloudimg.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,qzone.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent.com.cn
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,wegame.com
+DOMAIN-SUFFIX,weiyun.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,url.cn
+DOMAIN-SUFFIX,idqqimg.com
+DOMAIN-SUFFIX,igamecj.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,qtimg.cn
+DOMAIN-SUFFIX,soso.com
+DOMAIN-SUFFIX,tencentmind.com
+DOMAIN-SUFFIX,weixin.com
+# >> Tencent Video
+DOMAIN-SUFFIX,video.qq.com
+# >> QQ Music
+DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,qqmusic.qq.com
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN-SUFFIX,aqqmusic.tc.qq.com
