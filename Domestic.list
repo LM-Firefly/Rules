@@ -207,6 +207,11 @@ DOMAIN-SUFFIX,apollo-share.com
 DOMAIN-SUFFIX,baidubcr.com
 DOMAIN-SUFFIX,bdurl.net
 DOMAIN-SUFFIX,hao123img.com
+DOMAIN-SUFFIX,baidubce.com
+DOMAIN-SUFFIX,baifae.com
+DOMAIN-SUFFIX,bdydns.cn
+DOMAIN-SUFFIX,mipcdn.com
+DOMAIN-SUFFIX,xianfae.com
 # > 太和音乐
 DOMAIN-SUFFIX,taihe.com
 DOMAIN-SUFFIX,qianqian.com
@@ -306,7 +311,7 @@ DOMAIN-SUFFIX,duowan.com
 DOMAIN-SUFFIX,yy.com
 DOMAIN-SUFFIX,hiido.com
 DOMAIN-SUFFIX,huanjuyun.com
-DOMAIN,c19ce66ff87253fdda68740edcb7ce3b.v.smtcdns.net
+DOMAIN-SUFFIX,c19ce66ff87253fdda68740edcb7ce3b.v.smtcdns.net
 # > 机核GCORES
 DOMAIN-SUFFIX,gcores.com
 ## > 京东
@@ -972,7 +977,7 @@ DOMAIN-SUFFIX,wbimg.cn
 DOMAIN-SUFFIX,wbimg.com
 DOMAIN-SUFFIX,wbimg.com.cn
 DOMAIN-SUFFIX,t.cn
-DOMAIN,ww1.sinaimg.cn
+DOMAIN-SUFFIX,ww1.sinaimg.cn
 DOMAIN-SUFFIX,leju.com
 DOMAIN-SUFFIX,miaopai.com
 DOMAIN-SUFFIX,xiaoka.tv
