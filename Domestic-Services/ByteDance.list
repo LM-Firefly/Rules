@@ -1,5 +1,6 @@
 ## > 字节跳动
 DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,byted.org
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,bytedns.net
@@ -66,6 +67,9 @@ DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,wangsu.com
 DOMAIN-SUFFIX,kaishou.com
 DOMAIN-SUFFIX,kspkg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,akamaized.net
 IP-CIDR,114.246.10.65/32,no-resolve
 # >> 西瓜视频
 DOMAIN-SUFFIX,ixigua.com
