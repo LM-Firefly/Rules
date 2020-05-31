@@ -25,8 +25,31 @@ DOMAIN-SUFFIX,4399.com
 DOMAIN-SUFFIX,4399pk.com
 DOMAIN-SUFFIX,5054399.com
 DOMAIN-SUFFIX,img4399.com
-## > 58
+DOMAIN-SUFFIX,3304399.net
+DOMAIN-SUFFIX,4399dmw.com
+DOMAIN-SUFFIX,4399er.com
+DOMAIN-SUFFIX,4399youpai.com
+## > 51Job
+DOMAIN-SUFFIX,51job.com
+DOMAIN-SUFFIX,51jobcdn.com
+DOMAIN-SUFFIX,yingjiesheng.com
+DOMAIN-SUFFIX,zhiding.com.cn
+## > 58 TongCheng
 DOMAIN-SUFFIX,58.com
+DOMAIN-SUFFIX,58.com.cn
+DOMAIN-SUFFIX,5858.com
+DOMAIN-SUFFIX,58che.com
+DOMAIN-SUFFIX,58xueche.com
+DOMAIN-SUFFIX,anjuke.com
+DOMAIN-SUFFIX,anjukestatic.com
+DOMAIN-SUFFIX,chinahr.com
+DOMAIN-SUFFIX,fang.com
+DOMAIN-SUFFIX,sofun.com
+DOMAIN-SUFFIX,soufunimg.com
+DOMAIN-SUFFIX,jxedt.com
+DOMAIN-SUFFIX,zhuancorp.com
+DOMAIN-SUFFIX,zhuanspirit.com
+DOMAIN-SUFFIX,zhuanzhuan.com
 ## > AcFun
 DOMAIN-SUFFIX,acfun.cn
 DOMAIN-SUFFIX,acfun.com
@@ -1188,8 +1211,6 @@ DOMAIN-SUFFIX,51.la
 DOMAIN-SUFFIX,51credit.com
 DOMAIN-SUFFIX,51cto.com
 DOMAIN-SUFFIX,51jingying.com
-DOMAIN-SUFFIX,51job.com
-DOMAIN-SUFFIX,51jobcdn.com
 DOMAIN-SUFFIX,51wendang.com
 DOMAIN-SUFFIX,51yes.com
 DOMAIN-SUFFIX,51ym.me
@@ -1205,7 +1226,6 @@ DOMAIN-SUFFIX,agrantsem.com
 DOMAIN-SUFFIX,air-matters.com
 DOMAIN-SUFFIX,air-matters.io
 DOMAIN-SUFFIX,allyes.com
-DOMAIN-SUFFIX,anjuke.com
 DOMAIN-SUFFIX,anquan.org
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.crisp.chat
@@ -1244,7 +1264,6 @@ DOMAIN-SUFFIX,che168.com
 DOMAIN-SUFFIX,china.com
 DOMAIN-SUFFIX,chinacache.com
 DOMAIN-SUFFIX,chinacache.net
-DOMAIN-SUFFIX,chinahr.com
 DOMAIN-SUFFIX,chinapay.com
 DOMAIN-SUFFIX,chinatranslation.net
 DOMAIN-SUFFIX,chinaz.com
@@ -1585,7 +1604,6 @@ DOMAIN-SUFFIX,yeepay.com
 DOMAIN-SUFFIX,yesky.com
 DOMAIN-SUFFIX,yigao.com
 DOMAIN-SUFFIX,yihaodian.com
-DOMAIN-SUFFIX,yingjiesheng.com
 DOMAIN-SUFFIX,yinxiang.com
 DOMAIN-SUFFIX,yinyuetai.com
 DOMAIN-SUFFIX,yixi.tv
@@ -1690,7 +1708,6 @@ DOMAIN-SUFFIX,cdnmama.com
 DOMAIN-SUFFIX,chinaz.net
 DOMAIN-SUFFIX,cn163.net
 DOMAIN-SUFFIX,dilidili.wang
-DOMAIN-SUFFIX,fang.com
 DOMAIN-SUFFIX,fantasy.tv
 DOMAIN-SUFFIX,ganji.com
 DOMAIN-SUFFIX,ganjistatic1.com
@@ -1711,7 +1728,6 @@ DOMAIN-SUFFIX,qiushibaike.com
 DOMAIN-SUFFIX,quanmin.tv
 DOMAIN-SUFFIX,repaik.com
 DOMAIN-SUFFIX,shumilou.net
-DOMAIN-SUFFIX,soufunimg.com
 DOMAIN-SUFFIX,th-sjy.com
 DOMAIN-SUFFIX,tianqi.com
 DOMAIN-SUFFIX,tianqistatic.com
