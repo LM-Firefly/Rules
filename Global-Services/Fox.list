@@ -20,5 +20,5 @@ DOMAIN-SUFFIX,foxbroadcasting.zendesk.com
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,foxbusiness.com
 DOMAIN-SUFFIX,foxnewsplayer-a.akamaihd.net
-DOMAIN,dashasiafox.akamaized.net
-DOMAIN,staticasiafox.akamaized.net
+DOMAIN-SUFFIX,dashasiafox.akamaized.net
+DOMAIN-SUFFIX,staticasiafox.akamaized.net

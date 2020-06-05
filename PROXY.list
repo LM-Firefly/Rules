@@ -1082,6 +1082,11 @@ DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zeit.co
 DOMAIN-SUFFIX,zeit.sh
 DOMAIN-SUFFIX,now.sh
+## > Zoho
+DOMAIN-SUFFIX,zoho.com
+DOMAIN-SUFFIX,zohomerchandise.com
+DOMAIN-SUFFIX,zohostatic.com
+DOMAIN-SUFFIX,zohouniversity.com
 ## > Porn
 DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,avgle.com
@@ -6704,7 +6709,6 @@ DOMAIN-SUFFIX,zkiz.com
 DOMAIN-SUFFIX,zlib.net
 DOMAIN-SUFFIX,zmw.cn
 DOMAIN-SUFFIX,zodgame.us
-DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zomobo.net
 DOMAIN-SUFFIX,zonaeuropa.com
 DOMAIN-SUFFIX,zonghexinwen.com
