@@ -424,6 +424,11 @@ DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
 ## > Vidol TV
 DOMAIN-SUFFIX,vidol.tv
+## > Viki
+DOMAIN-SUFFIX,viki.io
+DOMAIN-SUFFIX,viki.com
+DOMAIN-SUFFIX,vikiplatform.com
+DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
 ## > Vimeo
 DOMAIN-SUFFIX,vimeo.com
 DOMAIN-SUFFIX,vimeocdn.com
