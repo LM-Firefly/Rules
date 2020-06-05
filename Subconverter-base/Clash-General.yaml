@@ -1,0 +1,71 @@
+port: 8888
+socks-port: 8889
+redir-port: 8890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:8080
+secret: ''
+cfw-latency-url: https://connectivitycheck.gstatic.com/generate_204
+cfw-latency-timeout: 3000
+experimental:
+  ignore-resolve-fail: true # ignore dns resolve fail, default value is true
+  interface-name: WLAN # outbound interface name
+#authentication:
+#  - "firefly:960923"
+hosts:
+##
+dns:
+  enable: true
+  ipv6: true
+  listen: 127.0.0.1:53
+  enhanced-mode: fake-ip # redir-host #fake-ip
+  fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
+  fake-ip-filter:
+    - '*.lan'
+    - msftconnecttest.com
+    - '*.msftconnecttest.com'
+    - msftncsi.com
+    - '*.msftncsi.com'
+    - localhost.ptlogin2.qq.com
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - https://dns.alidns.com/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://dns.twnic.tw/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://doh.qis.io/dns-query
+    - https://doh.powerdns.org
+    #    - 101.101.101.101
+    #    - tcp://119.29.107.85:9090
+    #    - https://dns.rubyfish.cn/dns-query
+    #    - https://doh.dns.sb/dns-query
+    #    - https://sdns.233py.com/dns-query
+    #    - https://edns.233py.com/dns-query
+    #    - tls://cloudflare-dns.com:853
+    #    - tls://dns.google:853
+    #    - tls://dns-tls.qis.io:853
+  fallback:
+    - https://dns.alidns.com/dns-query
+    - https://dns.twnic.tw/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - https://doh.qis.io/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://doh.powerdns.org
+    #   - tcp://1.1.1.1
+    #    - https://doh.dns.sb/dns-query
+    #    - https://dns.rubyfish.cn/dns-query
+    #    - https://sdns.233py.com/dns-query
+    #    - https://edns.233py.com/dns-query
+    #    - tls://cloudflare-dns.com:853
+    #    - tls://dns.google:853
+    #    - tls://dns-tls.qis.io:853
+  fallback-filter:
+    geoip: true # default
+    ipcidr: # ips in these subnets will be considered polluted
+      - 240.0.0.0/4

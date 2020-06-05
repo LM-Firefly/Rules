@@ -1,0 +1,13 @@
+## > TikTok
+USER-AGENT,TikTok*
+DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net

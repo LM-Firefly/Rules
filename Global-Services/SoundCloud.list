@@ -1,0 +1,13 @@
+## > SoundCloud
+USER-AGENT,SoundCloud*
+DOMAIN-SUFFIX,p-cdn.us
+DOMAIN-SUFFIX,sndcdn.com
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,stackexchange.com
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,serverfault.com
+DOMAIN-SUFFIX,askubuntu.com
+DOMAIN-SUFFIX,superuser.com
+DOMAIN-SUFFIX,stackapps.com
+DOMAIN-SUFFIX,mathoverflow.net
+DOMAIN-SUFFIX,sstatic.net
