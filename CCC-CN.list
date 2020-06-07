@@ -657,6 +657,7 @@ DOMAIN-SUFFIX,cdnhub.net
 DOMAIN-SUFFIX,qiniudns.com
 DOMAIN-SUFFIX,qiniudn.com
 # > 网宿科技
+DOMAIN-SUFFIX,wangsu.com
 DOMAIN-SUFFIX,ourwebcdn.com
 DOMAIN-SUFFIX,cdn20.info
 DOMAIN-SUFFIX,speedws.com
@@ -686,6 +687,7 @@ DOMAIN-SUFFIX,lxdvs.com
 DOMAIN-SUFFIX,lxdvs.org
 DOMAIN-SUFFIX,lxdvs.info
 DOMAIN-SUFFIX,sgccdn.com
+DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,90kuai.net
 DOMAIN-SUFFIX,qtlglb.com
 DOMAIN-SUFFIX,ourcloudsec.com
@@ -719,7 +721,16 @@ DOMAIN-SUFFIX,fmssrc.com
 DOMAIN-SUFFIX,hntncdn.com
 DOMAIN-SUFFIX,hdtgtm.com
 DOMAIN-SUFFIX,lxdfs.com
-DOMAIN-SUFFIX,ourdvs.com
+DOMAIN-SUFFIX,fmsdlb.com
+DOMAIN-SUFFIX,picdlb.com
+DOMAIN-SUFFIX,ovdlb.com
+DOMAIN-SUFFIX,voddlb.com
+DOMAIN-SUFFIX,qtlgslbcn.net
+DOMAIN-SUFFIX,qtlcdn.cn
+DOMAIN-SUFFIX,qtlgslbcn.com
+DOMAIN-SUFFIX,qtlgslb.cn
+DOMAIN-SUFFIX,qtlcdn360.info
+DOMAIN-SUFFIX,quantilcn.com
 # > 腾讯云
 DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,smtcdns.com

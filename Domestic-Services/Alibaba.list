@@ -48,7 +48,6 @@ DOMAIN-SUFFIX,bcvbw.com
 DOMAIN-SUFFIX,cheng.xin
 DOMAIN-SUFFIX,cloudeagle.cn
 DOMAIN-SUFFIX,damai.cn
-DOMAIN-SUFFIX,dayu.com
 DOMAIN-SUFFIX,dfkhgj.com
 DOMAIN-SUFFIX,doctoryou.ai
 DOMAIN-SUFFIX,doctoryou.cn
@@ -172,8 +171,6 @@ DOMAIN-SUFFIX,mxhichina.com
 DOMAIN-SUFFIX,teambition.com
 DOMAIN-SUFFIX,teambition.net
 DOMAIN-SUFFIX,teambitionapis.com
-# >> SM
-DOMAIN-SUFFIX,sm.cn
 # >> 菜鸟裹裹
 DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,cainiao-inc.com
