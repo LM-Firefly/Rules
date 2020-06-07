@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,4399api.com
 DOMAIN-SUFFIX,51job.com
 DOMAIN-SUFFIX,51jobcdn.com
 DOMAIN-SUFFIX,yingjiesheng.com
+DOMAIN-SUFFIX,yingjiesheng.net
 DOMAIN-SUFFIX,zhiding.com.cn
 ## > 58 TongCheng
 DOMAIN-SUFFIX,58.com
@@ -950,11 +951,11 @@ DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,yeah.net
 ## > 新浪
-DOMAIN-SUFFIX,sina.com
-DOMAIN-SUFFIX,sinaimg.cn
-DOMAIN-SUFFIX,sina.com.cn
-DOMAIN-SUFFIX,sinajs.cn
 DOMAIN-SUFFIX,sina.cn
+DOMAIN-SUFFIX,sina.com
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sinajs.cn
 DOMAIN-SUFFIX,sinaapp.com
 DOMAIN-SUFFIX,sinaedge.com
 DOMAIN-SUFFIX,sinaimg.com
@@ -1047,6 +1048,7 @@ DOMAIN-SUFFIX,ww1.sinaimg.cn
 DOMAIN-SUFFIX,leju.com
 DOMAIN-SUFFIX,miaopai.com
 DOMAIN-SUFFIX,xiaoka.tv
+DOMAIN-SUFFIX,xhaiwai.com
 IP-CIDR,140.249.5.1/32,no-resolve
 IP-CIDR,140.249.6.0/32,no-resolve
 ## > 熊猫直播
