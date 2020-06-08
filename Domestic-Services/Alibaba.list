@@ -167,6 +167,7 @@ DOMAIN-SUFFIX,aliyuncdn.com
 DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,hichina.com
 DOMAIN-SUFFIX,mxhichina.com
+DOMAIN-SUFFIX,ica-alliance.org
 # >> Teambition
 DOMAIN-SUFFIX,teambition.com
 DOMAIN-SUFFIX,teambition.net
@@ -180,6 +181,8 @@ DOMAIN-SUFFIX,cainiao.com.cn
 DOMAIN-SUFFIX,freshhema.com
 DOMAIN-SUFFIX,hemaos.com
 DOMAIN-SUFFIX,shyhhema.com
+DOMAIN-SUFFIX,hemamax.com
+DOMAIN-SUFFIX,hemashare.cn
 # >> 淘宝
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tburl.in
@@ -199,6 +202,8 @@ DOMAIN-SUFFIX,etao.com
 DOMAIN-SUFFIX,img.alicdn.com
 DOMAIN-SUFFIX,tb.cn
 DOMAIN-SUFFIX,tmjl.ai
+DOMAIN-SUFFIX,mashort.cn
+DOMAIN-SUFFIX,taobizhong.com
 # >> 飞猪
 DOMAIN-SUFFIX,alitrip.com
 DOMAIN-SUFFIX,fliggy.com
