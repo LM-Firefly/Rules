@@ -1213,11 +1213,6 @@ DOMAIN-SUFFIX,appsimg.com
 DOMAIN-SUFFIX,appvipshop.com
 DOMAIN-SUFFIX,vip.com
 DOMAIN-SUFFIX,vipstatic.com
-## > 携程
-DOMAIN-SUFFIX,c-ctrip.com
-DOMAIN-SUFFIX,ctrip.cn
-DOMAIN-SUFFIX,ctrip.com
-DOMAIN-SUFFIX,ctripbiz.com
 ## > 万方数据库
 DOMAIN-SUFFIX,wanfangdata.com.cn
 ## > 网易
@@ -1242,6 +1237,36 @@ DOMAIN-SUFFIX,netease-inc.com
 DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,yeah.net
+## > 携程
+DOMAIN-SUFFIX,c-ctrip.com
+DOMAIN-SUFFIX,colinker.com
+DOMAIN-SUFFIX,ctrip.cn
+DOMAIN-SUFFIX,ctrip.co.id
+DOMAIN-SUFFIX,ctrip.co.kr
+DOMAIN-SUFFIX,ctrip.co.th
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,ctrip.com.hk
+DOMAIN-SUFFIX,ctrip.my
+DOMAIN-SUFFIX,ctrip.sg
+DOMAIN-SUFFIX,ctripbiz.com
+DOMAIN-SUFFIX,ctripbuy.hk
+DOMAIN-SUFFIX,ctripteam.com
+DOMAIN-SUFFIX,doticloud.com
+DOMAIN-SUFFIX,easytrip.com
+DOMAIN-SUFFIX,hhtravel.com
+DOMAIN-SUFFIX,hhtravel.com.tw
+DOMAIN-SUFFIX,izuchebao.com
+DOMAIN-SUFFIX,lvtds.com
+DOMAIN-SUFFIX,shuntu.cn
+DOMAIN-SUFFIX,skysea.com
+DOMAIN-SUFFIX,suanya.cn
+DOMAIN-SUFFIX,suanya.com
+DOMAIN-SUFFIX,tieyou.com
+DOMAIN-SUFFIX,toptown.cn
+DOMAIN-SUFFIX,toursbms.com
+DOMAIN-SUFFIX,trip.com
+DOMAIN-SUFFIX,tripcdn.com
+DOMAIN-SUFFIX,vipdlt.com
 ## > 新浪
 DOMAIN-SUFFIX,sina.cn
 DOMAIN-SUFFIX,sina.com
@@ -2068,7 +2093,6 @@ DOMAIN-SUFFIX,th-sjy.com
 DOMAIN-SUFFIX,tianqi.com
 DOMAIN-SUFFIX,tianqistatic.com
 DOMAIN-SUFFIX,tmiaoo.com
-DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,tuniucdn.com
 DOMAIN-SUFFIX,womai.com
 DOMAIN-SUFFIX,xiumi.us
