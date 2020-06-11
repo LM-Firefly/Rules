@@ -1431,6 +1431,14 @@ DOMAIN-SUFFIX,ctyuncdn.cn
 DOMAIN-SUFFIX,ctyun.cn
 DOMAIN-SUFFIX,ctyunbdcsc.cn
 DOMAIN-SUFFIX,ctyunapi.cn
+DOMAIN-SUFFIX,chinatelecom-h.com
+DOMAIN-SUFFIX,chinatelecomglobal.com
+# >> CTexcel
+DOMAIN-SUFFIX,ctexcel.ca
+DOMAIN-SUFFIX,ctexcel.com
+DOMAIN-SUFFIX,ctexcel.com.hk
+DOMAIN-SUFFIX,ctexcel.fr
+DOMAIN-SUFFIX,ctexcel.us
 ## > 中国联通
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,10010.com.cn
