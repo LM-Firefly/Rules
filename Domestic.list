@@ -1237,6 +1237,11 @@ DOMAIN-SUFFIX,netease-inc.com
 DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,yeah.net
+## > 问卷星
+DOMAIN-SUFFIX,sojump.com
+DOMAIN-SUFFIX,wjx.cn
+DOMAIN-SUFFIX,wjx.com
+DOMAIN-SUFFIX,wjx.top
 ## > 携程
 DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,colinker.com
