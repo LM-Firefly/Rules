@@ -1476,6 +1476,12 @@ DOMAIN-SUFFIX,fetion-portal.com
 DOMAIN-SUFFIX,fetionpic.com
 DOMAIN-SUFFIX,mmarket.com
 DOMAIN-SUFFIX,mmarket6.com
+## > 中国石化
+DOMAIN-SUFFIX,sinopec-usa.com
+DOMAIN-SUFFIX,sinopec.com
+DOMAIN-SUFFIX,sinopecgroup.com
+DOMAIN-SUFFIX,sinopecnews.com.cn
+DOMAIN-SUFFIX,sinopecsales.com
 ## > 中国太平
 DOMAIN-SUFFIX,cntaiping.com
 DOMAIN-SUFFIX,cntaiping.com.hk
