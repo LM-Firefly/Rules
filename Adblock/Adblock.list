@@ -40664,6 +40664,13 @@ DOMAIN-KEYWORD,epochtimes
 DOMAIN-KEYWORD,fenxi
 DOMAIN-KEYWORD,logger
 DOMAIN-KEYWORD,traffic
+## > Crack
+# >> Connectify
+DOMAIN-SUFFIX,updates.connectify.me
+DOMAIN-SUFFIX,activate.connectify.me
+DOMAIN-SUFFIX,d1.connectify.me
+DOMAIN-SUFFIX,d2.connectify.me
+DOMAIN-SUFFIX,d3.connectify.me
 ## > Others-ads
 IP-CIDR,1.3.0.10/32,no-resolve
 IP-CIDR,23.235.156.167/32,no-resolve
