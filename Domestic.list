@@ -1456,6 +1456,9 @@ DOMAIN-SUFFIX,cuecp.cn
 DOMAIN-SUFFIX,chinaunicom.cn
 DOMAIN-SUFFIX,data.mob.com
 DOMAIN-SUFFIX,10010.cn
+DOMAIN-SUFFIX,chinaunicom.com.hk
+DOMAIN-SUFFIX,chinaunicomglobal.com
+DOMAIN-SUFFIX,mychinaunicom.com
 IP-CIDR,113.200.56.63/32,no-resolve
 ## > 中国移动
 DOMAIN-SUFFIX,10086.cn
