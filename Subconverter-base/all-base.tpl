@@ -52,12 +52,12 @@ dns:
     - '*.msftncsi.com'
     - localhost.ptlogin2.qq.com
     - localhost.sec.qq.com
-    - "+.stun.*.*"
-    - "+.stun.*.*.*"
-    - "+.stun.*.*.*.*"
-    - "lens.l.google.com"
-    - "stun.l.google.com"
-    - "*.n.n.srv.nintendo.net"
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - 'lens.l.google.com'
+    - 'stun.l.google.com'
+    - '*.n.n.srv.nintendo.net'
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
