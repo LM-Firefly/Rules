@@ -1,0 +1,5 @@
+payload:
+  ## > RTHK 香港电台
+  - DOMAIN-SUFFIX,rthk.hk
+  - DOMAIN-SUFFIX,rthk.org.hk
+  - DOMAIN,rthklive2-lh.akamaihd.net

@@ -1,0 +1,5 @@
+payload:
+  ## > Heroku
+  - DOMAIN-SUFFIX,heroku.com
+  - DOMAIN-SUFFIX,herokuapp.com
+  - DOMAIN-SUFFIX,herokucdn.com

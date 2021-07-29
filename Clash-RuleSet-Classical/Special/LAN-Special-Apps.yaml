@@ -1,0 +1,4 @@
+payload:
+  ## 🕸️ 局域网特殊应用
+  ## > mDNS CIDR
+  - IP-CIDR,224.0.0.251/24,no-resolve

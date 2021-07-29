@@ -1,0 +1,8 @@
+payload:
+  ## > Akamai
+  - DOMAIN-SUFFIX,akamai.com
+  - DOMAIN-SUFFIX,akamai.net
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,akamaiedge.net
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamaistream.net

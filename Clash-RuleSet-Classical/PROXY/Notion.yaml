@@ -1,0 +1,5 @@
+payload:
+  ## > Notion
+  - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notion.new
+  - DOMAIN-SUFFIX,notion.so
