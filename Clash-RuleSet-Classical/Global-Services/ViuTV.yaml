@@ -1,5 +1,7 @@
 payload:
   ## > ViuTV
+  - PROCESS-NAME,com.viu.pad
+  - PROCESS-NAME,com.viu.phone
   - PROCESS-NAME,com.vuclip.viu
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv

@@ -1490,6 +1490,8 @@ payload:
   - DOMAIN-SUFFIX,vimeostatus.com
   - DOMAIN-SUFFIX,livestream.com
   ## > ViuTV
+  - PROCESS-NAME,com.viu.pad
+  - PROCESS-NAME,com.viu.phone
   - PROCESS-NAME,com.vuclip.viu
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv
@@ -1552,6 +1554,7 @@ payload:
   - DOMAIN-SUFFIX,voazimbabwe.com
   - DOMAIN-SUFFIX,zeriamerikes.com
   ## > WeTV
+  - PROCESS-NAME,com.tencent.qqlivei18n
   - PROCESS-NAME,com.tencent.qqlivei18n.us
   - DOMAIN-SUFFIX,wetv.vip
   - DOMAIN-SUFFIX,wetvinfo.com
