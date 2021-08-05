@@ -419,7 +419,7 @@ wifi-access-socks5-port=8839
 interface = 0.0.0.0
 socks-interface = 0.0.0.0
 internet-test-url = https://connectivitycheck.gstatic.com/generate_204
-proxy-test-url = https://connectivitycheck.gstatic.com/generate_204
+proxy-test-url = http://connectivitycheck.gstatic.com/generate_204
 test-timeout = 5
 
 {% endif %}
