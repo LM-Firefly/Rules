@@ -2826,6 +2826,9 @@ payload:
   - DOMAIN-SUFFIX,scholar.google.se
   - DOMAIN-SUFFIX,scholar.google.si
   - DOMAIN-SUFFIX,scholar.google.sk
+  ## >> Kaggle
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,kaggle.io
   ## >> Polymer
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,polymerproject.org
