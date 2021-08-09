@@ -4245,6 +4245,7 @@ payload:
   - DOMAIN-SUFFIX,1700.cn
   - DOMAIN-SUFFIX,17roco.com
   - DOMAIN-SUFFIX,700chat.com
+  - DOMAIN-SUFFIX,腾讯.中国
   - DOMAIN-SUFFIX,aitangyou.com
   - DOMAIN-SUFFIX,apdcdn.com
   - DOMAIN-SUFFIX,cdn-go.cn
@@ -4283,6 +4284,8 @@ payload:
   - DOMAIN-SUFFIX,qlippie.com
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,qplus.com
+  - DOMAIN-SUFFIX,qq.中国
+  - DOMAIN-SUFFIX,qq.xn--fiqs8s
   - DOMAIN-SUFFIX,qqgameapp.com
   - DOMAIN-SUFFIX,rdgz.org
   - DOMAIN-SUFFIX,rmwxgame.com
@@ -4333,6 +4336,7 @@ payload:
   - DOMAIN-SUFFIX,woa.com
   - DOMAIN-SUFFIX,wxgamemini.com
   - DOMAIN-SUFFIX,wxlagame.com
+  - DOMAIN-SUFFIX,xn--r70as2s.xn--fiqs8s
   - DOMAIN-SUFFIX,xuz0.cn
   - DOMAIN-SUFFIX,zjump.cn
   ## >> Apcdns
