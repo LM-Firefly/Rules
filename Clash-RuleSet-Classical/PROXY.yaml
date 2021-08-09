@@ -366,6 +366,12 @@ payload:
   - DOMAIN,d1c37gjwa26taa.cloudfront.net
   - DOMAIN,c33hcgiwev3.cloudfront.net
   - DOMAIN,rhr7kgmtrq1v.cloudfront.net
+  ## >> IMDB
+ - DOMAIN-SUFFIX,boxofficemojo.com
+ - DOMAIN-SUFFIX,imdb
+ - DOMAIN-SUFFIX,imdb.com
+ - DOMAIN-SUFFIX,imdb.to
+ - DOMAIN-SUFFIX,media-imdb.com
   ## >> Kindle
   - DOMAIN-SUFFIX,kindle
   - DOMAIN-SUFFIX,kindle.cn
@@ -3622,11 +3628,6 @@ payload:
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,identrust.co.uk
   - DOMAIN-SUFFIX,identrust.net
-  ## > IMDB
-  - DOMAIN-SUFFIX,boxofficemojo.com
-  - DOMAIN-SUFFIX,imdb.com
-  - DOMAIN-SUFFIX,imdb.to
-  - DOMAIN-SUFFIX,media-imdb.com
   ## > Imgur
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,imgurinc.com
