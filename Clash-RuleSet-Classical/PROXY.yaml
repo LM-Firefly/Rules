@@ -1916,6 +1916,14 @@ payload:
   - DOMAIN-SUFFIX,esmplus.com
   - DOMAIN-SUFFIX,g9.co.kr
   - DOMAIN-SUFFIX,gmarket.co.kr
+  ## > Embl
+  - DOMAIN-SUFFIX,ebi.ac.uk
+  - DOMAIN-SUFFIX,embl-hamburg.de
+  - DOMAIN-SUFFIX,embl.de
+  - DOMAIN-SUFFIX,embl.fr
+  - DOMAIN-SUFFIX,embl.it
+  - DOMAIN-SUFFIX,embl.org
+  - DOMAIN-SUFFIX,emblstatic.net
   ## > Emojipedia
   - DOMAIN-SUFFIX,emojipedia.org
   - DOMAIN-SUFFIX,worldemojiawards.com
