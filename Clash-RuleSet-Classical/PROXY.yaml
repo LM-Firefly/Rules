@@ -3575,12 +3575,13 @@ payload:
   - DOMAIN-SUFFIX,guccimuseo.com
   - DOMAIN-SUFFIX,guccitimeless.com
   - DOMAIN-SUFFIX,regiongold.com
-  ## > Hashicorp
+  ## > HashiCorp
   - DOMAIN-SUFFIX,consul.io
   - DOMAIN-SUFFIX,hashicorp.com
   - DOMAIN-SUFFIX,nomadproject.io
   - DOMAIN-SUFFIX,packer.io
   - DOMAIN-SUFFIX,terraform.io
+  - DOMAIN-SUFFIX,vagrantcloud.com
   - DOMAIN-SUFFIX,vagrantup.com
   - DOMAIN-SUFFIX,vaultproject.io
   ## > Heroku
