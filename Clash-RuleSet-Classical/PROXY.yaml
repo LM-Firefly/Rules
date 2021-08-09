@@ -5059,6 +5059,10 @@ payload:
   - DOMAIN-SUFFIX,samsunggalaxyfriends.com
   - DOMAIN-SUFFIX,samsungknox.com
   - DOMAIN-SUFFIX,samsungqbe.com
+  ## > Scaleflex
+  - DOMAIN-SUFFIX,cloudimage.io
+  - DOMAIN-SUFFIX,cloudimg.io
+  - DOMAIN-SUFFIX,scaleflex.com
   ## > Secom
   - DOMAIN-SUFFIX,secom.co.jp
   - DOMAIN-SUFFIX,secomtrust.net
