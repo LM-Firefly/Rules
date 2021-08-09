@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,cloudflarestatus.com
   - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,cloudflaretest.com
+  - DOMAIN-SUFFIX,cloudflarewarp.com
   - DOMAIN-SUFFIX,one.one.one
   - DOMAIN-SUFFIX,one.one.one.one
   - DOMAIN-SUFFIX,pages.dev

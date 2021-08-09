@@ -207,9 +207,6 @@ payload:
   - DOMAIN-SUFFIX,aboutamazon.it
   - DOMAIN-SUFFIX,aboutamazon.jp
   - DOMAIN-SUFFIX,aboutamazon.pl
-  - DOMAIN-SUFFIX,acmvalidations.com
-  - DOMAIN-SUFFIX,acmvalidationsaws.com
-  - DOMAIN-SUFFIX,aesworkshops.com
   - DOMAIN-SUFFIX,alexa.com
   - DOMAIN-SUFFIX,alexafund.cn
   - DOMAIN-SUFFIX,alexafund.com.cn
@@ -241,10 +238,6 @@ payload:
   - DOMAIN-SUFFIX,amazon.sg
   - DOMAIN-SUFFIX,amazonalexavoxcon.com
   - DOMAIN-SUFFIX,amazonauthorinsights.com
-  - DOMAIN-SUFFIX,amazonaws-china.com
-  - DOMAIN-SUFFIX,amazonaws.co.uk
-  - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,amazonaws.tv
   - DOMAIN-SUFFIX,amazonbusiness.cn
   - DOMAIN-SUFFIX,amazonbusiness.com.cn
   - DOMAIN-SUFFIX,amazonbusiness.org
@@ -273,24 +266,11 @@ payload:
   - DOMAIN-SUFFIX,amazonstudiosguilds.com
   - DOMAIN-SUFFIX,amazontrust.com
   - DOMAIN-SUFFIX,amazonvideodirect.com
-  - DOMAIN-SUFFIX,amazonworkdocs.cn
-  - DOMAIN-SUFFIX,amazonworkdocs.com
-  - DOMAIN-SUFFIX,amazonworkdocs.com.cn
-  - DOMAIN-SUFFIX,amplifyapp.com
-  - DOMAIN-SUFFIX,amplifyframework.com
   - DOMAIN-SUFFIX,amzn.com
   - DOMAIN-SUFFIX,amzn.to
   - DOMAIN-SUFFIX,amznl.com
   - DOMAIN-SUFFIX,assoc-amazon.cn
   - DOMAIN-SUFFIX,associates-amazon.com
-  - DOMAIN-SUFFIX,aws-iot-hackathon.com
-  - DOMAIN-SUFFIX,awsautopilot.com
-  - DOMAIN-SUFFIX,awsautoscaling.com
-  - DOMAIN-SUFFIX,awsbraket.com
-  - DOMAIN-SUFFIX,awscommandlineinterface.com
-  - DOMAIN-SUFFIX,awsedstart.com
-  - DOMAIN-SUFFIX,awseducate.com
-  - DOMAIN-SUFFIX,awseducate.net
   - DOMAIN-SUFFIX,awseducate.org
   - DOMAIN-SUFFIX,awsloft-johannesburg.com
   - DOMAIN-SUFFIX,awsloft-stockholm.com
@@ -316,10 +296,6 @@ payload:
   - DOMAIN-SUFFIX,yamaxun.cn
   - DOMAIN-SUFFIX,yamaxun.com
   - DOMAIN-SUFFIX,z.cn
-  - DOMAIN,d1b183sg0nvnuh.cloudfront.net
-  - DOMAIN,d1c37gjwa26taa.cloudfront.net
-  - DOMAIN,c33hcgiwev3.cloudfront.net
-  - DOMAIN,rhr7kgmtrq1v.cloudfront.net
   - IP-CIDR,13.32.0.0/16,no-resolve
   - IP-CIDR,13.33.0.0/16,no-resolve
   - IP-CIDR,13.35.0.0/17,no-resolve
@@ -336,9 +312,62 @@ payload:
   - IP-CIDR,54.226.0.0/15,no-resolve
   - IP-CIDR,54.230.156.0/22,no-resolve
   - IP-CIDR,54.93.0.0/16,no-resolve
+  ## >> Amazon Prime Video
+  - PROCESS-NAME,com.amazon.avod.thirdpartyclient
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+  - DOMAIN-SUFFIX,amazonprimevideos.com
+  - DOMAIN-SUFFIX,amazonvideo.cc
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN-SUFFIX,fls-na.amazon.com
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,prime-video.com
+  - DOMAIN-SUFFIX,primevideo.cc
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,primevideo.info
+  - DOMAIN-SUFFIX,primevideo.org
+  - DOMAIN-SUFFIX,primevideo.tv
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  - DOMAIN,d25xi40x97liuc.cloudfront.net
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
+  - DOMAIN-KEYWORD,avoddashs
   ## >> Audible
   - DOMAIN-SUFFIX,audible.com
+  ## >> AWS
+  - DOMAIN-SUFFIX,aws
+  - DOMAIN-SUFFIX,acmvalidations.com
+  - DOMAIN-SUFFIX,acmvalidationsaws.com
+  - DOMAIN-SUFFIX,aesworkshops.com
+  - DOMAIN-SUFFIX,amazonaws-china.com
+  - DOMAIN-SUFFIX,amazonaws.co.uk
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,amazonaws.tv
+  - DOMAIN-SUFFIX,amazonworkdocs.cn
+  - DOMAIN-SUFFIX,amazonworkdocs.com
+  - DOMAIN-SUFFIX,amazonworkdocs.com.cn
+  - DOMAIN-SUFFIX,amplifyapp.com
+  - DOMAIN-SUFFIX,amplifyframework.com
+  - DOMAIN-SUFFIX,aws-iot-hackathon.com
+  - DOMAIN-SUFFIX,awsautopilot.com
+  - DOMAIN-SUFFIX,awsautoscaling.com
+  - DOMAIN-SUFFIX,awsbraket.com
+  - DOMAIN-SUFFIX,awscommandlineinterface.com
+  - DOMAIN-SUFFIX,awsedstart.com
+  - DOMAIN-SUFFIX,awseducate.com
+  - DOMAIN-SUFFIX,awseducate.net
+  - DOMAIN,d1b183sg0nvnuh.cloudfront.net
+  - DOMAIN,d1c37gjwa26taa.cloudfront.net
+  - DOMAIN,c33hcgiwev3.cloudfront.net
+  - DOMAIN,rhr7kgmtrq1v.cloudfront.net
   ## >> Kindle
+  - DOMAIN-SUFFIX,kindle
   - DOMAIN-SUFFIX,kindle.cn
   - DOMAIN-SUFFIX,kindle.co.jp
   - DOMAIN-SUFFIX,kindle.co.uk
@@ -358,7 +387,7 @@ payload:
   - DOMAIN-SUFFIX,kindleoasis.us
   - DOMAIN-SUFFIX,kindleoasisnews.com
   - DOMAIN-SUFFIX,kindleproject.com
-  ## >> wholefoodsmarket
+  ## >> Wholefoodsmarket
   - DOMAIN-SUFFIX,wholecitiesfoundation.org
   - DOMAIN-SUFFIX,wholefoodsmarket.com
   - DOMAIN-SUFFIX,wholekidsfoundation.org
@@ -1525,6 +1554,7 @@ payload:
   - DOMAIN-SUFFIX,cloudflarestatus.com
   - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,cloudflaretest.com
+  - DOMAIN-SUFFIX,cloudflarewarp.com
   - DOMAIN-SUFFIX,one.one.one
   - DOMAIN-SUFFIX,one.one.one.one
   - DOMAIN-SUFFIX,pages.dev
@@ -4053,7 +4083,6 @@ payload:
   - DOMAIN-SUFFIX,llnw-trials.com
   - DOMAIN-SUFFIX,llnw.com
   - DOMAIN-SUFFIX,llnw.net
-  - DOMAIN-SUFFIX,llnwd.net
   - DOMAIN-SUFFIX,llnwi.net
   ## > Linguee
   - DOMAIN-SUFFIX,linguee.com
