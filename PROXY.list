@@ -5548,6 +5548,9 @@ DOMAIN-SUFFIX,unitychina.cn
 DOMAIN-SUFFIX,unityedu.cn
 DOMAIN-SUFFIX,unityedu.com
 DOMAIN-SUFFIX,unityedu.com.cn
+## > V2EX
+DOMAIN-SUFFIX,v2ex.co
+DOMAIN-SUFFIX,v2ex.com
 ## > Vercel
 DOMAIN-SUFFIX,now.sh
 DOMAIN-SUFFIX,vercel-analytics.com

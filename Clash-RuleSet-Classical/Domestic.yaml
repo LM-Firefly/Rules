@@ -4743,9 +4743,6 @@ payload:
   ## >> 上课堂
   - DOMAIN-SUFFIX,shangketang.com
   - DOMAIN-SUFFIX,sktcdn.com
-  ## > V2EX
-  - DOMAIN-SUFFIX,v2ex.co
-  - DOMAIN-SUFFIX,v2ex.com
   ## > Vaptcha 手势验证码
   - DOMAIN-SUFFIX,vaptcha.com
   - DOMAIN-SUFFIX,vaptcha.net
