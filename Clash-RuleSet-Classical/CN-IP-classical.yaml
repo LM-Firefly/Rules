@@ -887,7 +887,6 @@ payload:
   - IP-CIDR,101.34.0.0/15,no-resolve
   - IP-CIDR,101.36.0.0/18,no-resolve
   - IP-CIDR,101.36.64.0/19,no-resolve
-  - IP-CIDR,101.36.128.0/17,no-resolve
   - IP-CIDR,101.37.0.0/16,no-resolve
   - IP-CIDR,101.38.0.0/15,no-resolve
   - IP-CIDR,101.40.0.0/13,no-resolve
