@@ -10,7 +10,6 @@ mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: {{ default(global.clash.api_port, "9090")}}
 #external-ui: folder
-
 secret: ''
 #interface-name: en0
 profile:
