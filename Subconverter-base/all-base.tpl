@@ -8,7 +8,6 @@ allow-lan: {{ default(global.clash.allow_lan, "true") }}
 bind-address: '*'
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
-ipv6: true
 external-controller: {{ default(global.clash.api_port, "9090")}}
 #external-ui: folder
 
