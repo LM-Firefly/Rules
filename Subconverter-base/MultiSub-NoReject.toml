@@ -1,0 +1,1355 @@
+[custom]
+enable_rule_generator = true
+overwrite_original_rules = true
+
+clash_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+surge_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+surfboard_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+mellow_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+quan_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+quanx_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+loon_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+sssub_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+
+exclude_remarks = ["(到期|剩余流量|时间|官网|产品|先购买套餐|流量消耗|更新订阅|(.*流量.*剩.*天)|(■等级警报■)|(\(限速\))|(\[限速\])|(\[游戏\])|(\[游戏专用\])|(\[将下线\])|(.*耗尽.*)|(近期下线)|(游戏专线)|(维护)|(测试节点))"]
+
+
+[[node_pref.rename_node]]
+match = '(中转)([0-9][0-9][0-9]|[0-9][0-9][0-9][0-9])\|'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '^V[0-9]-'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '(解锁|)(\|)(x.*)(\|V2ray)'
+replace = "[$3]"
+
+[[node_pref.rename_node]]
+match = '(..|...)([0-9][0-9][0-9][0-9]|[0-9][0-9][0-9])(\|)(Azure|HKT|CN2GIA)'
+replace = "$1$4$2"
+
+[[node_pref.rename_node]]
+match = '商宽'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '移动'
+replace = "CM"
+
+[[node_pref.rename_node]]
+match = '电信'
+replace = "CT"
+
+[[node_pref.rename_node]]
+match = '联通'
+replace = "CU"
+
+[[node_pref.rename_node]]
+match = '上海'
+replace = "沪"
+
+[[node_pref.rename_node]]
+match = '中国'
+replace = "中"
+
+[[node_pref.rename_node]]
+match = '云南'
+replace = "云"
+
+[[node_pref.rename_node]]
+match = '佛山'
+replace = "禅"
+
+[[node_pref.rename_node]]
+match = '俄罗斯'
+replace = "俄"
+
+[[node_pref.rename_node]]
+match = '加拿大'
+replace = "加"
+
+[[node_pref.rename_node]]
+match = '北京'
+replace = "京"
+
+[[node_pref.rename_node]]
+match = '南京'
+replace = "宁"
+
+[[node_pref.rename_node]]
+match = '南阳'
+replace = "宛"
+
+[[node_pref.rename_node]]
+match = '印度'
+replace = "印"
+
+[[node_pref.rename_node]]
+match = '台湾'
+replace = "台"
+
+[[node_pref.rename_node]]
+match = '四川'
+replace = "川"
+
+[[node_pref.rename_node]]
+match = '土耳其'
+replace = "土"
+
+[[node_pref.rename_node]]
+match = '天津'
+replace = "津"
+
+[[node_pref.rename_node]]
+match = '宁波'
+replace = "甬"
+
+[[node_pref.rename_node]]
+match = '安徽'
+replace = "皖"
+
+[[node_pref.rename_node]]
+match = '新广东'
+replace = "粤"
+
+[[node_pref.rename_node]]
+match = '广东'
+replace = "粤"
+
+[[node_pref.rename_node]]
+match = '广州'
+replace = "穗"
+
+[[node_pref.rename_node]]
+match = '徐州'
+replace = "徐"
+
+[[node_pref.rename_node]]
+match = '德国'
+replace = "德"
+
+[[node_pref.rename_node]]
+match = '意大利'
+replace = "意"
+
+[[node_pref.rename_node]]
+match = '成都'
+replace = "蓉"
+
+[[node_pref.rename_node]]
+match = '新加坡'
+replace = "新"
+
+[[node_pref.rename_node]]
+match = '日本'
+replace = "日"
+
+[[node_pref.rename_node]]
+match = '杭州'
+replace = "杭"
+
+[[node_pref.rename_node]]
+match = '武汉'
+replace = "汉"
+
+[[node_pref.rename_node]]
+match = '汕头'
+replace = "汕"
+
+[[node_pref.rename_node]]
+match = '江苏'
+replace = "苏"
+
+[[node_pref.rename_node]]
+match = '沈阳'
+replace = "沈"
+
+[[node_pref.rename_node]]
+match = '法国'
+replace = "法"
+
+[[node_pref.rename_node]]
+match = '泰国'
+replace = "泰"
+
+[[node_pref.rename_node]]
+match = '浙江'
+replace = "浙"
+
+[[node_pref.rename_node]]
+match = '海南'
+replace = "琼"
+
+[[node_pref.rename_node]]
+match = '深圳'
+replace = "深"
+
+[[node_pref.rename_node]]
+match = '湖北'
+replace = "鄂"
+
+[[node_pref.rename_node]]
+match = '湖南'
+replace = "湘"
+
+[[node_pref.rename_node]]
+match = '长沙'
+replace = "长"
+
+[[node_pref.rename_node]]
+match = '澳门'
+replace = "澳"
+
+[[node_pref.rename_node]]
+match = '珠海'
+replace = "珠"
+
+[[node_pref.rename_node]]
+match = '瑞士'
+replace = "瑞"
+
+[[node_pref.rename_node]]
+match = '福建'
+replace = "闽"
+
+[[node_pref.rename_node]]
+match = '美国'
+replace = "美"
+
+[[node_pref.rename_node]]
+match = '芬兰'
+replace = "芬"
+
+[[node_pref.rename_node]]
+match = '英国'
+replace = "英"
+
+[[node_pref.rename_node]]
+match = '菲律宾'
+replace = "菲"
+
+[[node_pref.rename_node]]
+match = '许昌'
+replace = "许"
+
+[[node_pref.rename_node]]
+match = '贵州'
+replace = "贵"
+
+[[node_pref.rename_node]]
+match = '贵阳'
+replace = "筑"
+
+[[node_pref.rename_node]]
+match = '越南'
+replace = "越"
+
+[[node_pref.rename_node]]
+match = '镇江'
+replace = "镇"
+
+[[node_pref.rename_node]]
+match = '青岛'
+replace = "青"
+
+[[node_pref.rename_node]]
+match = '青海'
+replace = "青"
+
+[[node_pref.rename_node]]
+match = '韩国'
+replace = "韩"
+
+[[node_pref.rename_node]]
+match = '香港'
+replace = "港"
+
+[[node_pref.rename_node]]
+match = '深港专线'
+replace = "深港"
+
+[[node_pref.rename_node]]
+match = '(-)'
+replace = "▷"
+
+[[node_pref.rename_node]]
+match = '隧道测试'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '隧道'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '隧道测试[0-9]组'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '[0-9]组'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '(倍率:)'
+replace = "×"
+
+[[node_pref.rename_node]]
+match = '(❖)(CN[0-9])(❖)'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '(⓪|❶|❷|❸|❻)'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '(SS|V2|TJ|H2)\.'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '(.*)(x.*)(...)(中转|直连|80端口)'
+replace = "$1-$3[$2]"
+
+[[node_pref.rename_node]]
+match = '(.*)(x.*)(...)(中转|直连|80端口)(.*)(本土)'
+replace = "$1-$3[M][$2]"
+
+[[node_pref.rename_node]]
+match = '(.*)(..)(-.*)(\[x.*\])( 本土)'
+replace = "$1$2$3[M]$4"
+
+[[node_pref.rename_node]]
+match = '(.*)(x.*)( .* )(本土)'
+replace = "$1-$3[M][$2]"
+
+[[node_pref.rename_node]]
+match = '^(.*)(HK(?!B|G|T))([\u4e00-\u9fa5].*)'
+replace = "港-$3"
+
+[[node_pref.rename_node]]
+match = '^(HKBN)(.*)'
+replace = "港HKBN-$2"
+
+[[node_pref.rename_node]]
+match = '^(HKG)(.*)'
+replace = "港HKG-$2"
+
+[[node_pref.rename_node]]
+match = '^(HKT)(.*)'
+replace = "港HKT-$2"
+
+[[node_pref.rename_node]]
+match = '^(HGC)(.*)'
+replace = "港HGC-$2"
+
+[[node_pref.rename_node]]
+match = '^(WTT)(.*)'
+replace = "港WTT-$2"
+
+[[node_pref.rename_node]]
+match = '^(US)(.*)'
+replace = "美-$2"
+
+[[node_pref.rename_node]]
+match = '^(JP)(.*)'
+replace = "日-$2"
+
+[[node_pref.rename_node]]
+match = '^(TW)(.*)'
+replace = "台-$2"
+
+[[node_pref.rename_node]]
+match = '^(SG)(.*)'
+replace = "新-$2"
+
+[[node_pref.rename_node]]
+match = '^(RU)(.*)'
+replace = "俄-$2"
+
+[[node_pref.rename_node]]
+match = '^(TR)(.*)'
+replace = "土-$2"
+
+[[node_pref.rename_node]]
+match = '^(UK)(.*)'
+replace = "英-$2"
+
+[[node_pref.rename_node]]
+match = '^(KR)(.*)'
+replace = "韩-$2"
+
+[[node_pref.rename_node]]
+match = '^(FR)(.*)'
+replace = "法-$2"
+
+[[node_pref.rename_node]]
+match = '^(CA)(.*)'
+replace = "加-$2"
+
+[[node_pref.rename_node]]
+match = '^(CN)(.*)'
+replace = "中-$2"
+
+[[node_pref.rename_node]]
+match = '^(RO)(.*)'
+replace = "罗马尼亚-$2"
+
+[[node_pref.rename_node]]
+match = '^(BR)(.*)'
+replace = "巴西-$2"
+
+[[node_pref.rename_node]]
+match = '(--)'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '\[?\[NF\]|\[BBC\]|\[abema\]|\[动画疯\]|\[Hulu\]|\[注册Netflix\]|\[HBO\]|\[TVB\]|\[D\+\]|Y2B P\]'
+replace = "[M]"
+
+[[node_pref.rename_node]]
+match = '\[M\].*\[M\]'
+replace = "[M]"
+
+[[node_pref.rename_node]]
+match = '\[CM\]|\[CU\]|\[BT\/PT专用\]|\[荐\]|\[Beta\]|\[移动\]|\[联通\]|\[综合\]|\[备用\]|\[阿里云\]|\[测试\]|\[v6\]'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '\[0\.2\]'
+replace = "[×0.2]"
+
+[[node_pref.rename_node]]
+match = '\[0\.5\]'
+replace = "[×0.5]"
+
+[[node_pref.rename_node]]
+match = '\[0\.7\]'
+replace = "[×0.7]"
+
+[[node_pref.rename_node]]
+match = '\[0\.8\]'
+replace = "[×0.8]"
+
+[[node_pref.rename_node]]
+match = '\[0\.9\]'
+replace = "[×0.9]"
+
+[[node_pref.rename_node]]
+match = '\[1\]'
+replace = "[×1]"
+
+[[node_pref.rename_node]]
+match = '\[1\.2\]'
+replace = "[×1.2]"
+
+[[node_pref.rename_node]]
+match = '\[1\.5\]'
+replace = "[×1.5]"
+
+[[node_pref.rename_node]]
+match = '\[2\]'
+replace = "[×2]"
+
+[[node_pref.rename_node]]
+match = '\[5\]'
+replace = "[×5]"
+
+[[node_pref.rename_node]]
+match = '\[8\]'
+replace = "[×8]"
+
+[[node_pref.rename_node]]
+match = '\[10\]'
+replace = "[×10]"
+
+[[node_pref.rename_node]]
+match = ' '
+replace = ""
+
+[[node_pref.rename_node]]
+match = '\[\]'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '[ ]'
+replace = ""
+
+[[node_pref.rename_node]]
+match = '( )'
+replace = ""
+
+
+[[emojis.emoji]]
+match = '(?i:Bandwidth|expire|流量|时间|应急|过期)'
+emoji = '🏳️‍🌈'
+
+[[emojis.emoji]]
+match = '(NetEaseMusic|网易云音乐|网易云解锁)'
+emoji = '🎶'
+
+[[emojis.emoji]]
+match = '(Ascension|阿森松)'
+emoji = '🇦🇨'
+
+[[emojis.emoji]]
+match = '(Dubai|迪拜)'
+emoji = '🇦🇪'
+
+[[emojis.emoji]]
+match = '(AR|阿根廷|Argentina)'
+emoji = '🇦🇷'
+
+[[emojis.emoji]]
+match = '(Austria|Vienna|奥地利|维也纳)'
+emoji = '🇦🇹'
+
+[[emojis.emoji]]
+match = '(AU|Australia|Sydney|澳大利亚|澳洲|悉尼)'
+emoji = '🇦🇺'
+
+[[emojis.emoji]]
+match = '(BE|Belgium|比利时)'
+emoji = '🇧🇪'
+
+[[emojis.emoji]]
+match = '(BR|Brazil|Paulo|巴西|圣保罗)'
+emoji = '🇧🇷'
+
+[[emojis.emoji]]
+match = '(Canada|Montreal|Vancouver|加(?!州|坡).*(?!▷)|蒙特利尔|温哥华|楓葉|枫叶|CA)'
+emoji = '🇨🇦'
+
+[[emojis.emoji]]
+match = '(Switzerland|Zurich|瑞士|苏黎世)'
+emoji = '🇨🇭'
+
+[[emojis.emoji]]
+match = '(DE|Germany|法兰克福|德.*(?!▷))'
+emoji = '🇩🇪'
+
+[[emojis.emoji]]
+match = '(Denmark|丹麦)'
+emoji = '🇩🇰'
+
+[[emojis.emoji]]
+match = '(Spain|西班牙)'
+emoji = '🇪🇸'
+
+[[emojis.emoji]]
+match = '(Europe|欧洲)'
+emoji = '🇪🇺'
+
+[[emojis.emoji]]
+match = '(Finland|Helsinki|芬兰|赫尔辛基)'
+emoji = '🇫🇮'
+
+[[emojis.emoji]]
+match = '(FR|France|Paris|法国.*(?!▷)|巴黎)'
+emoji = '🇫🇷'
+
+[[emojis.emoji]]
+match = '(?i:UK|England|United.*?Kingdom|London|英.*(?!▷)|[^-]英|伦敦)'
+emoji = '🇬🇧'
+
+[[emojis.emoji]]
+match = '(Indonesia|Jakarta|印尼|印度尼西亚|雅加达)'
+emoji = '🇮🇩'
+
+[[emojis.emoji]]
+match = '(Ireland|Dublin|爱尔兰|都柏林)'
+emoji = '🇮🇪'
+
+[[emojis.emoji]]
+match = '(India|Mumbai|印度|孟买)'
+emoji = '🇮🇳'
+
+[[emojis.emoji]]
+match = '(Italy|Milan|意大利|米兰)'
+emoji = '🇮🇹'
+
+[[emojis.emoji]]
+match = '(?i:JP|Japan|Tokyo|Osaka|Saitama|日.*(?!▷)|东京|大阪|埼玉|沪日|穗日|川日|中日|泉日|杭日|[^-]日)'
+emoji = '🇯🇵'
+
+[[emojis.emoji]]
+match = '(KP|North.*?Korea|朝鲜)'
+emoji = '🇰🇵'
+
+[[emojis.emoji]]
+match = '(?i:KR|Korea|KOR|首尔|韩|韓)'
+emoji = '🇰🇷'
+
+[[emojis.emoji]]
+match = '(MO|Macao|澳.*(?!▷)|CTM)'
+emoji = '🇲🇴'
+
+[[emojis.emoji]]
+match = '(MY|Malaysia|马来西亚)'
+emoji = '🇲🇾'
+
+[[emojis.emoji]]
+match = '(NL|Netherlands|荷兰|阿姆斯特丹)'
+emoji = '🇳🇱'
+
+[[emojis.emoji]]
+match = '(PH|Philippines|菲律宾)'
+emoji = '🇵🇭'
+
+[[emojis.emoji]]
+match = '(RO|Romania|罗马尼亚)'
+emoji = '🇷🇴'
+
+[[emojis.emoji]]
+match = '(?i:RU|Russia|Moscow|Petersburg|Siberia|俄.*(?!▷)|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|京俄|杭俄|[^-]俄)'
+emoji = '🇷🇺'
+
+[[emojis.emoji]]
+match = '(Arabia|沙特)'
+emoji = '🇸🇦'
+
+[[emojis.emoji]]
+match = '(SE|Sweden|瑞典)'
+emoji = '🇸🇪'
+
+[[emojis.emoji]]
+match = '(?i:SG|新(?!▷|西)|Singapore|狮城|沪新|京新|泉新|穗新|深新|杭新|[^-]新)'
+emoji = '🇸🇬'
+
+[[emojis.emoji]]
+match = '(TH|Thailand|泰国|曼谷)'
+emoji = '🇹🇭'
+
+[[emojis.emoji]]
+match = '(TR|Turkey|土.*(?!▷)|伊斯坦布尔)'
+emoji = '🇹🇷'
+
+[[emojis.emoji]]
+match = '(?i:US|America|United.*?States|美.*(?!▷)|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|沪美|京美)'
+emoji = '🇺🇸'
+
+[[emojis.emoji]]
+match = '(VN|Vietnam|越南)'
+emoji = '🇻🇳'
+
+[[emojis.emoji]]
+match = '(ZA|Africa|南非)'
+emoji = '🇿🇦'
+
+[[emojis.emoji]]
+match = '(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|港(?!▷|回))'
+emoji = '🇭🇰'
+
+[[emojis.emoji]]
+match = '(?i:TW|Taiwan|CHT|HiNet|台.*(?!▷)|台北|台中|新北|彰化|[^-]台)'
+emoji = '🇹🇼'
+
+[[emojis.emoji]]
+match = '(?i:CN|China|回国|中.*(?!▷)|苏.*(?!▷)|京.*(?!▷)|沪.*(?!▷)|穗.*(?!▷)|深(?!▷|港)|杭.*(?!▷)|徐.*(?!▷)|青.*(?!▷)|甬.*(?!▷)|镇.*(?!▷)|禅.*(?!▷)|蓉.*(?!▷)|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|成都|back)'
+emoji = '🇨🇳'
+
+
+[[custom_groups]]
+name = "🍖 默认代理"
+type = "select"
+rule = ["[]🔄 延迟最低", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇰🇷 韩国-SUB1", "[]🇰🇷 韩国-SUB2", "[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2", "[]🍱 冷门地区", "[]🇭🇰 香港-轮询", "[]🇹🇼 台湾-轮询", "[]🇺🇸 美国-轮询", "[]🇯🇵 日本-轮询", "[]🇬🇧 英国", "[]🇷🇺 俄罗斯-轮询", "[]🇸🇬 新加坡-轮询", "[]🇰🇷 韩国-轮询"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🌍 国外媒体"
+type = "select"
+rule = ["[]🇭🇰 香港-Media", "[]🇹🇼 台湾-Media", "[]🇺🇸 美国-Media", "[]🇯🇵 日本-Media", "[]🇬🇧 英国-Media", "[]🇸🇬 新加坡-Media", "[]🇰🇷 韩国-Media", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇬🇧 英国", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🎮 游戏服务"
+type = "select"
+rule = ["[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇬🇧 英国", "[]🇰🇷 韩国-SUB1", "[]🇰🇷 韩国-SUB2", "[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🌏 大陆服务"
+type = "select"
+rule = ["[]🎯 直连服务", "(🇨🇳)", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🚧 终末策略"
+type = "select"
+rule = ["[]🔄 延迟最低", "[]🎯 直连服务", "[]🌏 大陆服务", "(灭霸)", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "📡 视频解析"
+type = "select"
+rule = ["[]🎯 直连服务", "[]🔄 延迟最低", "[]🌏 大陆服务", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "📺 哔哩哔哩"
+type = "select"
+rule = ["[]🎯 直连服务", "[]🇭🇰 香港-Media", "[]🇹🇼 台湾-Media", "(🇨🇳)", "[]🇭🇰 香港-轮询", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇹🇼 台湾-轮询", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇺🇸 美国-轮询", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🍱 冷门地区", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🥝 爱奇艺"
+type = "select"
+rule = ["[]🎯 直连服务", "[]🇭🇰 香港-Media", "[]🇹🇼 台湾-Media", "[]🇺🇸 美国-Media", "[]🇯🇵 日本-Media", "[]🇬🇧 英国-Media", "[]🇸🇬 新加坡-Media", "[]🇰🇷 韩国-Media", "(🇨🇳)", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🐷 网易音乐"
+type = "select"
+rule = ["[]🎯 直连服务", "(网易云)", "(UnblockNetEaseMusic)", "(🇨🇳)", "[]🌏 大陆服务"]
+disable_udp = false
+
+[[custom_groups]]
+name = "💊 小米服务"
+type = "select"
+rule = ["[]🎯 直连服务", "(🇨🇳)", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🏬 阿里巴巴"
+type = "select"
+rule = ["[]🎯 直连服务", "(🇨🇳)", "[]🌏 大陆服务"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🍎 苹果服务"
+type = "select"
+rule = ["[]🍖 默认代理", "[]🔄 延迟最低", "[]🎯 直连服务"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🙈 谷歌服务"
+type = "select"
+rule = ["[]🔄 延迟最低", "[]🇭🇰 香港-轮询", "[]🇹🇼 台湾-轮询", "[]🇺🇸 美国-轮询", "[]🇯🇵 日本-轮询", "[]🇬🇧 英国", "[]🇸🇬 新加坡-轮询", "[]🇷🇺 俄罗斯-轮询", "[]🇰🇷 韩国-轮询", "[]🍱 冷门地区", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2", "[]🇰🇷 韩国-SUB1", "[]🇰🇷 韩国-SUB2"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🐻 LineTV"
+type = "select"
+rule = ["[]🇹🇼 台湾-Media", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇯🇵 日本-Media", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🐼 微软服务"
+type = "select"
+rule = ["[]🔄 延迟最低", "[]🇺🇸 美国-轮询", "[]🇭🇰 香港-轮询", "[]🇹🇼 台湾-轮询", "[]🇯🇵 日本-轮询", "[]🇸🇬 新加坡-轮询", "[]🇰🇷 韩国-轮询", "[]🇬🇧 英国", "[]🍱 冷门地区", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🌏 大陆服务", "[]🎯 直连服务"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🎥 奈飞影视"
+type = "select"
+rule = ["[]🇭🇰 香港-Media", "[]🇹🇼 台湾-Media", "[]🇺🇸 美国-Media", "[]🇯🇵 日本-Media", "[]🇬🇧 英国-Media", "[]🇸🇬 新加坡-Media", "[]🇰🇷 韩国-Media", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇬🇧 英国", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "📲 电报消息"
+type = "select"
+rule = ["[]🔄 延迟最低", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇹🇼 台湾-轮询", "[]🇭🇰 香港-轮询", "[]🇺🇸 美国-轮询", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🍱 冷门地区", "[]🇯🇵 日本-轮询", "[]🇬🇧 英国", "[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2", "[]🇷🇺 俄罗斯-轮询", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🎬 推趣影音"
+type = "select"
+rule = ["[]🔄 延迟最低", "[]🇺🇸 美国-轮询", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🍱 冷门地区", "[]🇯🇵 日本-轮询", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇬🇧 英国", "[]🇭🇰 香港-轮询", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇹🇼 台湾-轮询", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🥥 DNS Improvement"
+type = "select"
+rule = ["[]🎯 直连服务", "(🇨🇳)", "[]🔄 延迟最低", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🚦 DMCA Sensitive"
+type = "select"
+rule = ["[]🎯 直连服务", "[]🌏 大陆服务", "(灭霸)", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🕸️ 局域网服务"
+type = "select"
+rule = ["[]🎯 直连服务", "[]🍖 默认代理"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🚀 SpeedTest"
+type = "select"
+rule = ["[]🎯 直连服务", "[]🍖 默认代理", ".*"]
+disable_udp = false
+
+[[custom_groups]]
+name = "🇹🇼 台湾-延迟最低"
+type = "url-test"
+rule = ["[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇼 台湾-轮询"
+type = "fallback"
+rule = ["[]🇹🇼 台湾-延迟最低", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+
+[[custom_groups]]
+name = "🇹🇼 台湾-SUB1"
+type = "url-test"
+rule = ["!!GROUPID=0!!(^🇹🇼.*台.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇼 台湾-SUB2"
+type = "url-test"
+rule = ["!!GROUPID=1!!(^🇹🇼.*台.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-延迟最低"
+type = "url-test"
+rule = ["[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-轮询"
+type = "fallback"
+rule = ["[]🇭🇰 香港-延迟最低", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+
+[[custom_groups]]
+name = "🇭🇰 香港-SUB1"
+type = "url-test"
+rule = ["!!GROUPID=0!!(^🇭🇰.*港.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-SUB2"
+type = "url-test"
+rule = ["!!GROUPID=1!!(^🇭🇰.*港.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇬🇧 英国"
+type = "url-test"
+rule = ["(^🇬🇧.*伦敦|英.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-延迟最低"
+type = "url-test"
+rule = ["[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-轮询"
+type = "fallback"
+rule = ["[]🇺🇸 美国-延迟最低", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+
+[[custom_groups]]
+name = "🇺🇸 美国-SUB1"
+type = "url-test"
+rule = ["!!GROUPID=0!!(^🇺🇸.*美.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-SUB2"
+type = "url-test"
+rule = ["!!GROUPID=1!!(^🇺🇸.*美.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-延迟最低"
+type = "url-test"
+rule = ["[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-轮询"
+type = "fallback"
+rule = ["[]🇯🇵 日本-延迟最低", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+
+[[custom_groups]]
+name = "🇯🇵 日本-SUB1"
+type = "url-test"
+rule = ["!!GROUPID=0!!(^🇯🇵.*日.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-SUB2"
+type = "url-test"
+rule = ["!!GROUPID=1!!(^🇯🇵.*日.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-延迟最低"
+type = "url-test"
+rule = ["[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-轮询"
+type = "fallback"
+rule = ["[]🇷🇺 俄罗斯-延迟最低", "[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-SUB1"
+type = "url-test"
+rule = ["!!GROUPID=0!!(^🇷🇺.*俄.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-SUB2"
+type = "url-test"
+rule = ["!!GROUPID=1!!(^🇷🇺.*俄.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-延迟最低"
+type = "url-test"
+rule = ["[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-轮询"
+type = "fallback"
+rule = ["[]🇸🇬 新加坡-延迟最低", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-SUB1"
+type = "url-test"
+rule = ["!!GROUPID=0!!(^🇸🇬.*新.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-SUB2"
+type = "url-test"
+rule = ["!!GROUPID=1!!(^🇸🇬.*新.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇰🇷 韩国-延迟最低"
+type = "url-test"
+rule = ["[]🇰🇷 韩国-SUB1", "[]🇰🇷 韩国-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇰🇷 韩国-轮询"
+type = "fallback"
+rule = ["[]🇰🇷 韩国-延迟最低", "[]🇰🇷 韩国-SUB1", "[]🇰🇷 韩国-SUB2"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+
+[[custom_groups]]
+name = "🇰🇷 韩国-SUB1"
+type = "url-test"
+rule = ["!!GROUPID=0!!(^🇰🇷.*韩.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇰🇷 韩国-SUB2"
+type = "url-test"
+rule = ["!!GROUPID=1!!(^🇰🇷.*韩.*(?!▷))", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🔄 延迟最低"
+type = "url-test"
+rule = ["[]🇺🇸 美国-延迟最低", "[]🇭🇰 香港-延迟最低", "[]🇹🇼 台湾-延迟最低", "[]🇯🇵 日本-延迟最低", "[]🇷🇺 俄罗斯-延迟最低", "[]🍱 冷门地区", "[]🇸🇬 新加坡-延迟最低", "[]🇬🇧 英国", "[]🇰🇷 韩国-延迟最低"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🍱 冷门地区"
+type = "url-test"
+rule = ["(🇩🇪)`(🇹🇷)`(🇵🇭)`(🇮🇪)`(🇫🇷)`(🇮🇳)`(🇨🇦)`(🇧🇷)`(🇲🇾)"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-Media"
+type = "url-test"
+rule = ["(^🇭🇰.*\[M\])", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇼 台湾-Media"
+type = "url-test"
+rule = ["(^🇹🇼.*\[M\])", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇬🇧 英国-Media"
+type = "url-test"
+rule = ["(^🇬🇧.*\[M\])", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-Media"
+type = "url-test"
+rule = ["(^🇺🇸.*\[M\])", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-Media"
+type = "url-test"
+rule = ["(^🇯🇵.*\[M\])", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-Media"
+type = "url-test"
+rule = ["(^🇸🇬.*\[M\])", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇰🇷 韩国-Media"
+type = "url-test"
+rule = ["(^🇰🇷.*\[M\])", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🎯 直连服务"
+type = "select"
+rule = [", "[]DIRECT]
+disable_udp = false
+
+[[custom_groups]]
+name = "🍥 政府网站"
+type = "select"
+rule = [", "[]🎯 直连服务]
+disable_udp = false
+
+[[custom_groups]]
+name = "☠️ 软件验证"
+type = "select"
+rule = [", "[]REJECT", "[]🎯 直连服务", "[]🍖 默认代理]
+disable_udp = false
+
+# [[custom_groups]]
+# name = "⛔️ 广告服务"
+# type = "select"
+# rule = [", "[]REJECT", "[]🎯 直连服务]
+# disable_udp = false
+
+[[custom_groups]]
+name = "⏰ 时间校准"
+type = "select"
+rule = [", "[]🎯 直连服务]
+disable_udp = false
+
+
+[[rulesets]]
+group = "🥥 DNS Improvement"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DNS.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "☠️ 软件验证"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/App-Activation.list"
+type = "surge-ruleset"
+interval = 3600
+
+# [[rulesets]]
+# group = "⛔️ 广告服务"
+# ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list"
+# type = "surge-ruleset"
+# interval = 3600
+
+[[rulesets]]
+group = "⏰ 时间校准"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/NTP-Service.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🙈 谷歌服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🍥 政府网站"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Government-CN.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🥝 爱奇艺"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🐻 LineTV"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LineTV.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🐼 微软服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🐷 网易音乐"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎥 奈飞影视"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "📲 电报消息"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎬 推趣影音"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitch.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "📡 视频解析"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Video-Crack.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "💊 小米服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🚦 DMCA Sensitive"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎯 直连服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🕸️ 局域网服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/LAN-Special-Apps.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎮 游戏服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌍 国外媒体"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/GlobalMedia.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🍖 默认代理"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌏 大陆服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌏 大陆服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🍖 默认代理"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🏬 阿里巴巴"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🚀 SpeedTest"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/SpeedTest.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎯 直连服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Local-LAN.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌏 大陆服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CN-IP.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌏 大陆服务"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🚧 终末策略"
+ruleset = "[]MATCH"
+
+[[template.globals]]
+key = "clash.mixed_port"
+value = "8888"
+
+[[template.globals]]
+key = "clash.redir_port"
+value = "8890"
+
+[[template.globals]]
+key = "clash.allow_lan"
+value = "true"
+
+[[template.globals]]
+key = "clash.log_level"
+value = "info"
+
+[[template.globals]]
+key = "clash.api_port"
+value = "0.0.0.0:8080"
