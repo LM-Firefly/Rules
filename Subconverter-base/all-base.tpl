@@ -1,14 +1,15 @@
 {% if request.target == "clash" or request.target == "clashr" %}
 
-mixed-port: {{ local.clash.mixed_port }}
-redir-port: {{ local.clash.redir_port}}
+mixed-port: {{ default(global.clash.http_port, "8888") }}
+redir-port-port: {{ default(global.clash.redir_port, "8890") }}
 #authentication:
 #  - "firefly:WJ960923"
-allow-lan: {{ local.clash.allow_lan }}
+allow-lan: {{ default(global.clash.allow_lan, "true") }}
 bind-address: '*'
 mode: rule
-log-level: {{ local.clash.log_level }}
-external-controller: {{ local.clash.api_port}}
+log-level: {{ default(global.clash.log_level, "info") }}
+ipv6: true
+external-controller: {{ default(global.clash.api_port, "9090")}}
 #external-ui: folder
 
 secret: ''

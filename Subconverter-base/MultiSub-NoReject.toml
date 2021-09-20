@@ -1334,22 +1334,22 @@ ruleset = "[]GEOIP,CN"
 group = "🚧 终末策略"
 ruleset = "[]MATCH"
 
-[[template.local]]
+[[template.globals]]
 key = "clash.mixed_port"
 value = "8888"
 
-[[template.local]]
+[[template.globals]]
 key = "clash.redir_port"
 value = "8890"
 
-[[template.local]]
+[[template.globals]]
 key = "clash.allow_lan"
 value = "true"
 
-[[template.local]]
+[[template.globals]]
 key = "clash.log_level"
 value = "info"
 
-[[template.local]]
+[[template.globals]]
 key = "clash.api_port"
 value = "0.0.0.0:8080"
