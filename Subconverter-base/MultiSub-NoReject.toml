@@ -479,171 +479,171 @@ match = '( )'
 replace = ""
 
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:Bandwidth|expire|流量|时间|应急|过期)'
 emoji = '🏳️‍🌈'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(NetEaseMusic|网易云音乐|网易云解锁)'
 emoji = '🎶'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Ascension|阿森松)'
 emoji = '🇦🇨'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Dubai|迪拜)'
 emoji = '🇦🇪'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(AR|阿根廷|Argentina)'
 emoji = '🇦🇷'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Austria|Vienna|奥地利|维也纳)'
 emoji = '🇦🇹'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(AU|Australia|Sydney|澳大利亚|澳洲|悉尼)'
 emoji = '🇦🇺'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(BE|Belgium|比利时)'
 emoji = '🇧🇪'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(BR|Brazil|Paulo|巴西|圣保罗)'
 emoji = '🇧🇷'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Canada|Montreal|Vancouver|加(?!州|坡).*(?!▷)|蒙特利尔|温哥华|楓葉|枫叶|CA)'
 emoji = '🇨🇦'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Switzerland|Zurich|瑞士|苏黎世)'
 emoji = '🇨🇭'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(DE|Germany|法兰克福|德.*(?!▷))'
 emoji = '🇩🇪'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Denmark|丹麦)'
 emoji = '🇩🇰'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Spain|西班牙)'
 emoji = '🇪🇸'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Europe|欧洲)'
 emoji = '🇪🇺'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Finland|Helsinki|芬兰|赫尔辛基)'
 emoji = '🇫🇮'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(FR|France|Paris|法国.*(?!▷)|巴黎)'
 emoji = '🇫🇷'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:UK|England|United.*?Kingdom|London|英.*(?!▷)|[^-]英|伦敦)'
 emoji = '🇬🇧'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Indonesia|Jakarta|印尼|印度尼西亚|雅加达)'
 emoji = '🇮🇩'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Ireland|Dublin|爱尔兰|都柏林)'
 emoji = '🇮🇪'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(India|Mumbai|印度|孟买)'
 emoji = '🇮🇳'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Italy|Milan|意大利|米兰)'
 emoji = '🇮🇹'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:JP|Japan|Tokyo|Osaka|Saitama|日.*(?!▷)|东京|大阪|埼玉|沪日|穗日|川日|中日|泉日|杭日|[^-]日)'
 emoji = '🇯🇵'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(KP|North.*?Korea|朝鲜)'
 emoji = '🇰🇵'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:KR|Korea|KOR|首尔|韩|韓)'
 emoji = '🇰🇷'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(MO|Macao|澳.*(?!▷)|CTM)'
 emoji = '🇲🇴'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(MY|Malaysia|马来西亚)'
 emoji = '🇲🇾'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(NL|Netherlands|荷兰|阿姆斯特丹)'
 emoji = '🇳🇱'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(PH|Philippines|菲律宾)'
 emoji = '🇵🇭'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(RO|Romania|罗马尼亚)'
 emoji = '🇷🇴'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:RU|Russia|Moscow|Petersburg|Siberia|俄.*(?!▷)|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|京俄|杭俄|[^-]俄)'
 emoji = '🇷🇺'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(Arabia|沙特)'
 emoji = '🇸🇦'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(SE|Sweden|瑞典)'
 emoji = '🇸🇪'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:SG|新(?!▷|西)|Singapore|狮城|沪新|京新|泉新|穗新|深新|杭新|[^-]新)'
 emoji = '🇸🇬'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(TH|Thailand|泰国|曼谷)'
 emoji = '🇹🇭'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(TR|Turkey|土.*(?!▷)|伊斯坦布尔)'
 emoji = '🇹🇷'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:US|America|United.*?States|美.*(?!▷)|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|沪美|京美)'
 emoji = '🇺🇸'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(VN|Vietnam|越南)'
 emoji = '🇻🇳'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(ZA|Africa|南非)'
 emoji = '🇿🇦'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|港(?!▷|回))'
 emoji = '🇭🇰'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:TW|Taiwan|CHT|HiNet|台.*(?!▷)|台北|台中|新北|彰化|[^-]台)'
 emoji = '🇹🇼'
 
-[[emojis.emoji]]
+[[emoji]]
 match = '(?i:CN|China|回国|中.*(?!▷)|苏.*(?!▷)|京.*(?!▷)|沪.*(?!▷)|穗.*(?!▷)|深(?!▷|港)|杭.*(?!▷)|徐.*(?!▷)|青.*(?!▷)|甬.*(?!▷)|镇.*(?!▷)|禅.*(?!▷)|蓉.*(?!▷)|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|成都|back)'
 emoji = '🇨🇳'
 
