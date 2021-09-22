@@ -516,7 +516,7 @@ match = "(BR|Brazil|Paulo|巴西|圣保罗)"
 emoji = "🇧🇷"
 
 [[emoji]]
-match = "(Canada|Montreal|Vancouver|加(?!州|坡).*(?!▷|转)|蒙特利尔|温哥华|楓葉|枫叶|CA)"
+match = "(Canada|Montreal|Vancouver|加(?!州|坡).*(?!▷|回|转)|蒙特利尔|温哥华|楓葉|枫叶|CA)"
 emoji = "🇨🇦"
 
 [[emoji]]
@@ -524,7 +524,7 @@ match = "(Switzerland|Zurich|瑞士|苏黎世)"
 emoji = "🇨🇭"
 
 [[emoji]]
-match = "(DE|Germany|法兰克福|德.*(?!▷|转))"
+match = "(DE|Germany|法兰克福|德.*(?!▷|回|转))"
 emoji = "🇩🇪"
 
 [[emoji]]
@@ -544,7 +544,7 @@ match = "(Finland|Helsinki|芬兰|赫尔辛基)"
 emoji = "🇫🇮"
 
 [[emoji]]
-match = "(FR|France|Paris|法国.*(?!▷|转)|巴黎)"
+match = "(FR|France|Paris|法国.*(?!▷|回|转)|巴黎)"
 emoji = "🇫🇷"
 
 [[emoji]]
@@ -576,7 +576,7 @@ match = "(KP|North.*?Korea|朝鲜)"
 emoji = "🇰🇵"
 
 [[emoji]]
-match = "(MO|Macao|澳.*(?!▷|转)|CTM)"
+match = "(MO|Macao|澳.*(?!▷|回|转)|CTM)"
 emoji = "🇲🇴"
 
 [[emoji]]
@@ -616,7 +616,7 @@ match = "(TH|Thailand|泰国|曼谷)"
 emoji = "🇹🇭"
 
 [[emoji]]
-match = "(TR|Turkey|土.*(?!▷|转)|伊斯坦布尔)"
+match = "(TR|Turkey|土.*(?!▷|回|转)|伊斯坦布尔)"
 emoji = "🇹🇷"
 
 [[emoji]]
@@ -628,11 +628,11 @@ match = "(ZA|Africa|南非)"
 emoji = "🇿🇦"
 
 [[emoji]]
-match = "(?i:UK|England|United.*?Kingdom|London|英.*(?!▷|转)|[^-]英|伦敦)"
+match = "(?i:UK|England|United.*?Kingdom|London|英.*(?!▷|回|转)|[^-]英|伦敦)"
 emoji = "🇬🇧"
 
 [[emoji]]
-match = "(?i:JP|Japan|Tokyo|Osaka|Saitama|日.*(?!▷|转)|东京|大阪|埼玉|沪日|穗日|川日|中日|泉日|杭日|[^-]日)"
+match = "(?i:JP|Japan|Tokyo|Osaka|Saitama|日.*(?!▷|回|转)|东京|大阪|埼玉|沪日|穗日|川日|中日|泉日|杭日|[^-]日)"
 emoji = "🇯🇵"
 
 [[emoji]]
@@ -640,7 +640,7 @@ match = "(?i:KR|Korea|KOR|首尔|韩|韓)"
 emoji = "🇰🇷"
 
 [[emoji]]
-match = "(?i:RU|Russia|Moscow|Petersburg|Siberia|俄.*(?!▷|转)|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|京俄|杭俄|[^-]俄)"
+match = "(?i:RU|Russia|Moscow|Petersburg|Siberia|俄.*(?!▷|回|转)|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|京俄|杭俄|[^-]俄)"
 emoji = "🇷🇺"
 
 [[emoji]]
@@ -648,7 +648,7 @@ match = "(?i:SG|新(?!▷|西)|Singapore|狮城|沪新|京新|泉新|穗新|深�
 emoji = "🇸🇬"
 
 [[emoji]]
-match = "(?i:US|America|United.*?States|美.*(?!▷|转)|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|沪美|京美)"
+match = "(?i:US|America|United.*?States|美.*(?!▷|回|转)|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|沪美|京美)"
 emoji = "🇺🇸"
 
 [[emoji]]
@@ -656,11 +656,11 @@ match = "(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|港(?!▷|回)|[^-]港)"
 emoji = "🇭🇰"
 
 [[emoji]]
-match = "(?i:TW|Taiwan|CHT|HiNet|台.*(?!▷|转)|台北|台中|新北|彰化|[^-]台)"
+match = "(?i:TW|Taiwan|CHT|HiNet|台.*(?!▷|回|转)|台北|台中|新北|彰化|[^-]台)"
 emoji = "🇹🇼"
 
 [[emoji]]
-match = "(?i:CN|China|回国|中.*(?!▷|转)|苏.*(?!▷|转)|京.*(?!▷|转)|沪.*(?!▷|转)|穗.*(?!▷|转)|深(?!▷|港)|杭.*(?!▷|转)|徐.*(?!▷|转)|青.*(?!▷|转)|甬.*(?!▷|转)|镇.*(?!▷|转)|禅.*(?!▷|转)|蓉.*(?!▷|转)|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|成都|back)"
+match = "(?i:CN|China|回国|中.*(?!▷|回|转)|苏.*(?!▷|回|转)|京.*(?!▷|回|转)|沪.*(?!▷|回|转)|穗.*(?!▷|回|转)|深(?!▷|港)|杭.*(?!▷|回|转)|徐.*(?!▷|回|转)|青.*(?!▷|回|转)|甬.*(?!▷|回|转)|镇.*(?!▷|回|转)|禅.*(?!▷|回|转)|蓉.*(?!▷|回|转)|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|成都|back)"
 emoji = "🇨🇳"
 
 
@@ -816,7 +816,7 @@ tolerance = 60
 [[custom_groups]]
 name = "🇹🇼 台湾-SUB1"
 type = "url-test"
-rule = ["!!GROUPID=0!!(^🇹🇼.*台.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇹🇼.*台.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -825,7 +825,7 @@ lazy = true
 [[custom_groups]]
 name = "🇹🇼 台湾-SUB2"
 type = "url-test"
-rule = ["!!GROUPID=1!!(^🇹🇼.*台.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇹🇼.*台.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -851,7 +851,7 @@ tolerance = 60
 [[custom_groups]]
 name = "🇭🇰 香港-SUB1"
 type = "url-test"
-rule = ["!!GROUPID=0!!(^🇭🇰.*港.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇭🇰.*港.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -860,7 +860,7 @@ lazy = true
 [[custom_groups]]
 name = "🇭🇰 香港-SUB2"
 type = "url-test"
-rule = ["!!GROUPID=1!!(^🇭🇰.*港.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇭🇰.*港.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -869,7 +869,7 @@ lazy = true
 [[custom_groups]]
 name = "🇬🇧 英国"
 type = "url-test"
-rule = ["(^🇬🇧.*伦敦|英.*(?!▷))", "[]REJECT"]
+rule = ["(^🇬🇧.*伦敦|英.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -895,7 +895,7 @@ tolerance = 60
 [[custom_groups]]
 name = "🇺🇸 美国-SUB1"
 type = "url-test"
-rule = ["!!GROUPID=0!!(^🇺🇸.*美.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇺🇸.*美.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -904,7 +904,7 @@ lazy = true
 [[custom_groups]]
 name = "🇺🇸 美国-SUB2"
 type = "url-test"
-rule = ["!!GROUPID=1!!(^🇺🇸.*美.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇺🇸.*美.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -930,7 +930,7 @@ tolerance = 60
 [[custom_groups]]
 name = "🇯🇵 日本-SUB1"
 type = "url-test"
-rule = ["!!GROUPID=0!!(^🇯🇵.*日.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇯🇵.*日.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -939,7 +939,7 @@ lazy = true
 [[custom_groups]]
 name = "🇯🇵 日本-SUB2"
 type = "url-test"
-rule = ["!!GROUPID=1!!(^🇯🇵.*日.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇯🇵.*日.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -965,7 +965,7 @@ tolerance = 60
 [[custom_groups]]
 name = "🇷🇺 俄罗斯-SUB1"
 type = "url-test"
-rule = ["!!GROUPID=0!!(^🇷🇺.*俄.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇷🇺.*俄.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -974,7 +974,7 @@ lazy = true
 [[custom_groups]]
 name = "🇷🇺 俄罗斯-SUB2"
 type = "url-test"
-rule = ["!!GROUPID=1!!(^🇷🇺.*俄.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇷🇺.*俄.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -1000,7 +1000,7 @@ tolerance = 60
 [[custom_groups]]
 name = "🇸🇬 新加坡-SUB1"
 type = "url-test"
-rule = ["!!GROUPID=0!!(^🇸🇬.*新.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇸🇬.*新.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -1009,7 +1009,7 @@ lazy = true
 [[custom_groups]]
 name = "🇸🇬 新加坡-SUB2"
 type = "url-test"
-rule = ["!!GROUPID=1!!(^🇸🇬.*新.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇸🇬.*新.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -1035,7 +1035,7 @@ tolerance = 60
 [[custom_groups]]
 name = "🇰🇷 韩国-SUB1"
 type = "url-test"
-rule = ["!!GROUPID=0!!(^🇰🇷.*韩.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇰🇷.*韩.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
@@ -1044,7 +1044,7 @@ lazy = true
 [[custom_groups]]
 name = "🇰🇷 韩国-SUB2"
 type = "url-test"
-rule = ["!!GROUPID=1!!(^🇰🇷.*韩.*(?!▷))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇰🇷.*韩.*(?!▷|回|转))", "[]REJECT"]
 url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 60
