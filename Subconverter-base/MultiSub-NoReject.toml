@@ -1,4 +1,4 @@
-[custom]
+[common]
 enable_rule_generator = true
 overwrite_original_rules = true
 
@@ -14,468 +14,468 @@ sssub_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Sub
 exclude_remarks = ["(到期|剩余流量|时间|官网|产品|先购买套餐|流量消耗|更新订阅|(.*流量.*剩.*天)|(■等级警报■)|(\(限速\))|(\[限速\])|(\[游戏\])|(\[游戏专用\])|(\[将下线\])|(.*耗尽.*)|(近期下线)|(游戏专线)|(维护)|(测试节点))"]
 
 
-[[node_pref.rename_node]]
-match = '(中转)([0-9][0-9][0-9]|[0-9][0-9][0-9][0-9])\|'
+[[rename_node]]
+match = "(中转)([0-9][0-9][0-9]|[0-9][0-9][0-9][0-9])\|"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '^V[0-9]-'
+[[rename_node]]
+match = "^V[0-9]-"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '(解锁|)(\|)(x.*)(\|V2ray)'
+[[rename_node]]
+match = "(解锁|)(\|)(x.*)(\|V2ray)"
 replace = "[$3]"
 
-[[node_pref.rename_node]]
-match = '(..|...)([0-9][0-9][0-9][0-9]|[0-9][0-9][0-9])(\|)(Azure|HKT|CN2GIA)'
+[[rename_node]]
+match = "(..|...)([0-9][0-9][0-9][0-9]|[0-9][0-9][0-9])(\|)(Azure|HKT|CN2GIA)"
 replace = "$1$4$2"
 
-[[node_pref.rename_node]]
-match = '商宽'
+[[rename_node]]
+match = "商宽"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '移动'
+[[rename_node]]
+match = "移动"
 replace = "CM"
 
-[[node_pref.rename_node]]
-match = '电信'
+[[rename_node]]
+match = "电信"
 replace = "CT"
 
-[[node_pref.rename_node]]
-match = '联通'
+[[rename_node]]
+match = "联通"
 replace = "CU"
 
-[[node_pref.rename_node]]
-match = '上海'
+[[rename_node]]
+match = "上海"
 replace = "沪"
 
-[[node_pref.rename_node]]
-match = '中国'
+[[rename_node]]
+match = "中国"
 replace = "中"
 
-[[node_pref.rename_node]]
-match = '云南'
+[[rename_node]]
+match = "云南"
 replace = "云"
 
-[[node_pref.rename_node]]
-match = '佛山'
+[[rename_node]]
+match = "佛山"
 replace = "禅"
 
-[[node_pref.rename_node]]
-match = '俄罗斯'
+[[rename_node]]
+match = "俄罗斯"
 replace = "俄"
 
-[[node_pref.rename_node]]
-match = '加拿大'
+[[rename_node]]
+match = "加拿大"
 replace = "加"
 
-[[node_pref.rename_node]]
-match = '北京'
+[[rename_node]]
+match = "北京"
 replace = "京"
 
-[[node_pref.rename_node]]
-match = '南京'
+[[rename_node]]
+match = "南京"
 replace = "宁"
 
-[[node_pref.rename_node]]
-match = '南阳'
+[[rename_node]]
+match = "南阳"
 replace = "宛"
 
-[[node_pref.rename_node]]
-match = '印度'
+[[rename_node]]
+match = "印度"
 replace = "印"
 
-[[node_pref.rename_node]]
-match = '台湾'
+[[rename_node]]
+match = "台湾"
 replace = "台"
 
-[[node_pref.rename_node]]
-match = '四川'
+[[rename_node]]
+match = "四川"
 replace = "川"
 
-[[node_pref.rename_node]]
-match = '土耳其'
+[[rename_node]]
+match = "土耳其"
 replace = "土"
 
-[[node_pref.rename_node]]
-match = '天津'
+[[rename_node]]
+match = "天津"
 replace = "津"
 
-[[node_pref.rename_node]]
-match = '宁波'
+[[rename_node]]
+match = "宁波"
 replace = "甬"
 
-[[node_pref.rename_node]]
-match = '安徽'
+[[rename_node]]
+match = "安徽"
 replace = "皖"
 
-[[node_pref.rename_node]]
-match = '新广东'
+[[rename_node]]
+match = "新广东"
 replace = "粤"
 
-[[node_pref.rename_node]]
-match = '广东'
+[[rename_node]]
+match = "广东"
 replace = "粤"
 
-[[node_pref.rename_node]]
-match = '广州'
+[[rename_node]]
+match = "广州"
 replace = "穗"
 
-[[node_pref.rename_node]]
-match = '徐州'
+[[rename_node]]
+match = "徐州"
 replace = "徐"
 
-[[node_pref.rename_node]]
-match = '德国'
+[[rename_node]]
+match = "德国"
 replace = "德"
 
-[[node_pref.rename_node]]
-match = '意大利'
+[[rename_node]]
+match = "意大利"
 replace = "意"
 
-[[node_pref.rename_node]]
-match = '成都'
+[[rename_node]]
+match = "成都"
 replace = "蓉"
 
-[[node_pref.rename_node]]
-match = '新加坡'
+[[rename_node]]
+match = "新加坡"
 replace = "新"
 
-[[node_pref.rename_node]]
-match = '日本'
+[[rename_node]]
+match = "日本"
 replace = "日"
 
-[[node_pref.rename_node]]
-match = '杭州'
+[[rename_node]]
+match = "杭州"
 replace = "杭"
 
-[[node_pref.rename_node]]
-match = '武汉'
+[[rename_node]]
+match = "武汉"
 replace = "汉"
 
-[[node_pref.rename_node]]
-match = '汕头'
+[[rename_node]]
+match = "汕头"
 replace = "汕"
 
-[[node_pref.rename_node]]
-match = '江苏'
+[[rename_node]]
+match = "江苏"
 replace = "苏"
 
-[[node_pref.rename_node]]
-match = '沈阳'
+[[rename_node]]
+match = "沈阳"
 replace = "沈"
 
-[[node_pref.rename_node]]
-match = '法国'
+[[rename_node]]
+match = "法国"
 replace = "法"
 
-[[node_pref.rename_node]]
-match = '泰国'
+[[rename_node]]
+match = "泰国"
 replace = "泰"
 
-[[node_pref.rename_node]]
-match = '浙江'
+[[rename_node]]
+match = "浙江"
 replace = "浙"
 
-[[node_pref.rename_node]]
-match = '海南'
+[[rename_node]]
+match = "海南"
 replace = "琼"
 
-[[node_pref.rename_node]]
-match = '深圳'
+[[rename_node]]
+match = "深圳"
 replace = "深"
 
-[[node_pref.rename_node]]
-match = '湖北'
+[[rename_node]]
+match = "湖北"
 replace = "鄂"
 
-[[node_pref.rename_node]]
-match = '湖南'
+[[rename_node]]
+match = "湖南"
 replace = "湘"
 
-[[node_pref.rename_node]]
-match = '长沙'
+[[rename_node]]
+match = "长沙"
 replace = "长"
 
-[[node_pref.rename_node]]
-match = '澳门'
+[[rename_node]]
+match = "澳门"
 replace = "澳"
 
-[[node_pref.rename_node]]
-match = '珠海'
+[[rename_node]]
+match = "珠海"
 replace = "珠"
 
-[[node_pref.rename_node]]
-match = '瑞士'
+[[rename_node]]
+match = "瑞士"
 replace = "瑞"
 
-[[node_pref.rename_node]]
-match = '福建'
+[[rename_node]]
+match = "福建"
 replace = "闽"
 
-[[node_pref.rename_node]]
-match = '美国'
+[[rename_node]]
+match = "美国"
 replace = "美"
 
-[[node_pref.rename_node]]
-match = '芬兰'
+[[rename_node]]
+match = "芬兰"
 replace = "芬"
 
-[[node_pref.rename_node]]
-match = '英国'
+[[rename_node]]
+match = "英国"
 replace = "英"
 
-[[node_pref.rename_node]]
-match = '菲律宾'
+[[rename_node]]
+match = "菲律宾"
 replace = "菲"
 
-[[node_pref.rename_node]]
-match = '许昌'
+[[rename_node]]
+match = "许昌"
 replace = "许"
 
-[[node_pref.rename_node]]
-match = '贵州'
+[[rename_node]]
+match = "贵州"
 replace = "贵"
 
-[[node_pref.rename_node]]
-match = '贵阳'
+[[rename_node]]
+match = "贵阳"
 replace = "筑"
 
-[[node_pref.rename_node]]
-match = '越南'
+[[rename_node]]
+match = "越南"
 replace = "越"
 
-[[node_pref.rename_node]]
-match = '镇江'
+[[rename_node]]
+match = "镇江"
 replace = "镇"
 
-[[node_pref.rename_node]]
-match = '青岛'
+[[rename_node]]
+match = "青岛"
 replace = "青"
 
-[[node_pref.rename_node]]
-match = '青海'
+[[rename_node]]
+match = "青海"
 replace = "青"
 
-[[node_pref.rename_node]]
-match = '韩国'
+[[rename_node]]
+match = "韩国"
 replace = "韩"
 
-[[node_pref.rename_node]]
-match = '香港'
+[[rename_node]]
+match = "香港"
 replace = "港"
 
-[[node_pref.rename_node]]
-match = '深港专线'
+[[rename_node]]
+match = "深港专线"
 replace = "深港"
 
-[[node_pref.rename_node]]
-match = '(-)'
+[[rename_node]]
+match = "(-)"
 replace = "▷"
 
-[[node_pref.rename_node]]
-match = '隧道测试'
+[[rename_node]]
+match = "隧道测试"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '隧道'
+[[rename_node]]
+match = "隧道"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '隧道测试[0-9]组'
+[[rename_node]]
+match = "隧道测试[0-9]组"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '[0-9]组'
+[[rename_node]]
+match = "[0-9]组"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '(倍率:)'
+[[rename_node]]
+match = "(倍率:)"
 replace = "×"
 
-[[node_pref.rename_node]]
-match = '(❖)(CN[0-9])(❖)'
+[[rename_node]]
+match = "(❖)(CN[0-9])(❖)"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '(⓪|❶|❷|❸|❻)'
+[[rename_node]]
+match = "(⓪|❶|❷|❸|❻)"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '(SS|V2|TJ|H2)\.'
+[[rename_node]]
+match = "(SS|V2|TJ|H2)\."
 replace = ""
 
-[[node_pref.rename_node]]
-match = '(.*)(x.*)(...)(中转|直连|80端口)'
+[[rename_node]]
+match = "(.*)(x.*)(...)(中转|直连|80端口)"
 replace = "$1-$3[$2]"
 
-[[node_pref.rename_node]]
-match = '(.*)(x.*)(...)(中转|直连|80端口)(.*)(本土)'
+[[rename_node]]
+match = "(.*)(x.*)(...)(中转|直连|80端口)(.*)(本土)"
 replace = "$1-$3[M][$2]"
 
-[[node_pref.rename_node]]
-match = '(.*)(..)(-.*)(\[x.*\])( 本土)'
+[[rename_node]]
+match = "(.*)(..)(-.*)(\[x.*\])( 本土)"
 replace = "$1$2$3[M]$4"
 
-[[node_pref.rename_node]]
-match = '(.*)(x.*)( .* )(本土)'
+[[rename_node]]
+match = "(.*)(x.*)( .* )(本土)"
 replace = "$1-$3[M][$2]"
 
-[[node_pref.rename_node]]
-match = '^(.*)(HK(?!B|G|T))([\u4e00-\u9fa5].*)'
+[[rename_node]]
+match = "^(.*)(HK(?!B|G|T))([\u4e00-\u9fa5].*)"
 replace = "港-$3"
 
-[[node_pref.rename_node]]
-match = '^(HKBN)(.*)'
+[[rename_node]]
+match = "^(HKBN)(.*)"
 replace = "港HKBN-$2"
 
-[[node_pref.rename_node]]
-match = '^(HKG)(.*)'
+[[rename_node]]
+match = "^(HKG)(.*)"
 replace = "港HKG-$2"
 
-[[node_pref.rename_node]]
-match = '^(HKT)(.*)'
+[[rename_node]]
+match = "^(HKT)(.*)"
 replace = "港HKT-$2"
 
-[[node_pref.rename_node]]
-match = '^(HGC)(.*)'
+[[rename_node]]
+match = "^(HGC)(.*)"
 replace = "港HGC-$2"
 
-[[node_pref.rename_node]]
-match = '^(WTT)(.*)'
+[[rename_node]]
+match = "^(WTT)(.*)"
 replace = "港WTT-$2"
 
-[[node_pref.rename_node]]
-match = '^(US)(.*)'
+[[rename_node]]
+match = "^(US)(.*)"
 replace = "美-$2"
 
-[[node_pref.rename_node]]
-match = '^(JP)(.*)'
+[[rename_node]]
+match = "^(JP)(.*)"
 replace = "日-$2"
 
-[[node_pref.rename_node]]
-match = '^(TW)(.*)'
+[[rename_node]]
+match = "^(TW)(.*)"
 replace = "台-$2"
 
-[[node_pref.rename_node]]
-match = '^(SG)(.*)'
+[[rename_node]]
+match = "^(SG)(.*)"
 replace = "新-$2"
 
-[[node_pref.rename_node]]
-match = '^(RU)(.*)'
+[[rename_node]]
+match = "^(RU)(.*)"
 replace = "俄-$2"
 
-[[node_pref.rename_node]]
-match = '^(TR)(.*)'
+[[rename_node]]
+match = "^(TR)(.*)"
 replace = "土-$2"
 
-[[node_pref.rename_node]]
-match = '^(UK)(.*)'
+[[rename_node]]
+match = "^(UK)(.*)"
 replace = "英-$2"
 
-[[node_pref.rename_node]]
-match = '^(KR)(.*)'
+[[rename_node]]
+match = "^(KR)(.*)"
 replace = "韩-$2"
 
-[[node_pref.rename_node]]
-match = '^(FR)(.*)'
+[[rename_node]]
+match = "^(FR)(.*)"
 replace = "法-$2"
 
-[[node_pref.rename_node]]
-match = '^(CA)(.*)'
+[[rename_node]]
+match = "^(CA)(.*)"
 replace = "加-$2"
 
-[[node_pref.rename_node]]
-match = '^(CN)(.*)'
+[[rename_node]]
+match = "^(CN)(.*)"
 replace = "中-$2"
 
-[[node_pref.rename_node]]
-match = '^(RO)(.*)'
+[[rename_node]]
+match = "^(RO)(.*)"
 replace = "罗马尼亚-$2"
 
-[[node_pref.rename_node]]
-match = '^(BR)(.*)'
+[[rename_node]]
+match = "^(BR)(.*)"
 replace = "巴西-$2"
 
-[[node_pref.rename_node]]
-match = '(--)'
+[[rename_node]]
+match = "(--)"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '\[?\[NF\]|\[BBC\]|\[abema\]|\[动画疯\]|\[Hulu\]|\[注册Netflix\]|\[HBO\]|\[TVB\]|\[D\+\]|Y2B P\]'
+[[rename_node]]
+match = "\[?\[NF\]|\[BBC\]|\[abema\]|\[动画疯\]|\[Hulu\]|\[注册Netflix\]|\[HBO\]|\[TVB\]|\[D\+\]|Y2B P\]"
 replace = "[M]"
 
-[[node_pref.rename_node]]
-match = '\[M\].*\[M\]'
+[[rename_node]]
+match = "\[M\].*\[M\]"
 replace = "[M]"
 
-[[node_pref.rename_node]]
-match = '\[CM\]|\[CU\]|\[BT\/PT专用\]|\[荐\]|\[Beta\]|\[移动\]|\[联通\]|\[综合\]|\[备用\]|\[阿里云\]|\[测试\]|\[v6\]'
+[[rename_node]]
+match = "\[CM\]|\[CU\]|\[BT\/PT专用\]|\[荐\]|\[Beta\]|\[移动\]|\[联通\]|\[综合\]|\[备用\]|\[阿里云\]|\[测试\]|\[v6\]"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '\[0\.2\]'
+[[rename_node]]
+match = "\[0\.2\]"
 replace = "[×0.2]"
 
-[[node_pref.rename_node]]
-match = '\[0\.5\]'
+[[rename_node]]
+match = "\[0\.5\]"
 replace = "[×0.5]"
 
-[[node_pref.rename_node]]
-match = '\[0\.7\]'
+[[rename_node]]
+match = "\[0\.7\]"
 replace = "[×0.7]"
 
-[[node_pref.rename_node]]
-match = '\[0\.8\]'
+[[rename_node]]
+match = "\[0\.8\]"
 replace = "[×0.8]"
 
-[[node_pref.rename_node]]
-match = '\[0\.9\]'
+[[rename_node]]
+match = "\[0\.9\]"
 replace = "[×0.9]"
 
-[[node_pref.rename_node]]
-match = '\[1\]'
+[[rename_node]]
+match = "\[1\]"
 replace = "[×1]"
 
-[[node_pref.rename_node]]
-match = '\[1\.2\]'
+[[rename_node]]
+match = "\[1\.2\]"
 replace = "[×1.2]"
 
-[[node_pref.rename_node]]
-match = '\[1\.5\]'
+[[rename_node]]
+match = "\[1\.5\]"
 replace = "[×1.5]"
 
-[[node_pref.rename_node]]
-match = '\[2\]'
+[[rename_node]]
+match = "\[2\]"
 replace = "[×2]"
 
-[[node_pref.rename_node]]
-match = '\[5\]'
+[[rename_node]]
+match = "\[5\]"
 replace = "[×5]"
 
-[[node_pref.rename_node]]
-match = '\[8\]'
+[[rename_node]]
+match = "\[8\]"
 replace = "[×8]"
 
-[[node_pref.rename_node]]
-match = '\[10\]'
+[[rename_node]]
+match = "\[10\]"
 replace = "[×10]"
 
-[[node_pref.rename_node]]
-match = ' '
+[[rename_node]]
+match = " "
 replace = ""
 
-[[node_pref.rename_node]]
-match = '\[\]'
+[[rename_node]]
+match = "\[\]"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '[ ]'
+[[rename_node]]
+match = "[ ]"
 replace = ""
 
-[[node_pref.rename_node]]
-match = '( )'
+[[rename_node]]
+match = "( )"
 replace = ""
 
 
