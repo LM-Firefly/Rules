@@ -143,11 +143,6 @@ payload:
   ## >> ShowTime
   - PROCESS-NAME,com.showtime.standalone
   - DOMAIN-SUFFIX,showtime.com
-  ## > CNBC
-  - DOMAIN-SUFFIX,cnbc.com
-  - DOMAIN-SUFFIX,cnbcfm.com
-  - DOMAIN-SUFFIX,nbcuni.com
-  - DOMAIN-SUFFIX,nbcudigitaladops.com
   ## > CNN
   - DOMAIN-SUFFIX,cnn.com
   - DOMAIN-SUFFIX,cnn.io
@@ -826,12 +821,37 @@ payload:
   - DOMAIN-SUFFIX,naver.com
   - DOMAIN-SUFFIX,smartmediarep.com
   ## > NBC
+  - DOMAIN-SUFFIX,nbc-sports.go-vip.net
   - DOMAIN-SUFFIX,nbc.co
   - DOMAIN-SUFFIX,nbc.com
+  - DOMAIN-SUFFIX,nbcnews.com
+  - DOMAIN-SUFFIX,nbcsports.com
+  - DOMAIN-SUFFIX,nbcsports.h-cdn.com
   - DOMAIN-SUFFIX,nbcuni.com
+  - DOMAIN-SUFFIX,s-nbcnews.com
   - DOMAIN-SUFFIX,usanetwork.com
-  ## >> peacockTV
+  ## >> BravoTV
+  - DOMAIN-SUFFIX,bravotv.com
+  ## >> CNBC
+  - DOMAIN-SUFFIX,cnbc.com
+  - DOMAIN-SUFFIX,cnbcfm.com
+  - DOMAIN-SUFFIX,nbcudigitaladops.com
+  ## >> EL Universo
+  - DOMAIN-SUFFIX,eluniverso.com
+  ## >> E!
+  - DOMAIN-SUFFIX,eonline.com
+  ## >> MSNBC
+  - DOMAIN-SUFFIX,msnbc.com
+  ## >> Oxygen
+  - DOMAIN-SUFFIX,oxygen.com
+  ## >> PeacockTV
   - DOMAIN-SUFFIX,peacocktv.com
+  ## >> SYFY
+  - DOMAIN-SUFFIX,syfy.com
+  ## >> Telemundo
+  - DOMAIN-SUFFIX,telemundo.com
+  ## >> Universalkids
+  - DOMAIN-SUFFIX,universalkids.com
   ## > Netflix
   - PROCESS-NAME,com.netflix.mediaclient
   - DOMAIN-SUFFIX,fast.com
