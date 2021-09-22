@@ -825,6 +825,13 @@ payload:
   ## > Naver TV
   - DOMAIN-SUFFIX,naver.com
   - DOMAIN-SUFFIX,smartmediarep.com
+  ## > NBC
+  - DOMAIN-SUFFIX,nbc.co
+  - DOMAIN-SUFFIX,nbc.com
+  - DOMAIN-SUFFIX,nbcuni.com
+  - DOMAIN-SUFFIX,usanetwork.com
+  ## >> peacockTV
+  - DOMAIN-SUFFIX,peacocktv.com
   ## > Netflix
   - PROCESS-NAME,com.netflix.mediaclient
   - DOMAIN-SUFFIX,fast.com

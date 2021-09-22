@@ -834,6 +834,13 @@ DOMAIN,d349g9zuie06uo.cloudfront.net
 USER-AGENT,Naver%20TV*
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,smartmediarep.com
+## > NBC
+DOMAIN-SUFFIX,nbc.co
+DOMAIN-SUFFIX,nbc.com
+DOMAIN-SUFFIX,nbcuni.com
+DOMAIN-SUFFIX,usanetwork.com
+## >> peacockTV
+DOMAIN-SUFFIX,peacocktv.com
 ## > Netflix
 PROCESS-NAME,com.netflix.mediaclient
 USER-AGENT,Argo*
