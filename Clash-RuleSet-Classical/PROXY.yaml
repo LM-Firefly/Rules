@@ -4197,6 +4197,7 @@ payload:
   ## >> firefox
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,firefox.com.cn
+  - DOMAIN-SUFFIX,firefoxusercontent.com
   ## >> mdn
   - DOMAIN-SUFFIX,developer.mozilla.org
   - DOMAIN-SUFFIX,interactive-examples.mdn.mozilla.net
