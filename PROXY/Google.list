@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,androidify.com
 ## >> Blogspot
+DOMAIN-SUFFIX,blogblog.com
+DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,blogspot.ae
 DOMAIN-SUFFIX,blogspot.al
 DOMAIN-SUFFIX,blogspot.am
@@ -632,8 +634,6 @@ DOMAIN-SUFFIX,bazel.build
 DOMAIN-SUFFIX,bdn.dev
 DOMAIN-SUFFIX,beatthatquote.com
 DOMAIN-SUFFIX,blink.org
-DOMAIN-SUFFIX,blogblog.com
-DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,brocaproject.com
 DOMAIN-SUFFIX,brotli.org
 DOMAIN-SUFFIX,bumpshare.com
