@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,dell.com.sg
 DOMAIN-SUFFIX,dell.com.tw
 DOMAIN-SUFFIX,dellcdn.com
 ## >> Vmware
+DOMAIN-SUFFIX,vmware.com
 DOMAIN-SUFFIX,cfblob.com
 DOMAIN-SUFFIX,cloudchoose.com
 DOMAIN-SUFFIX,cloudvolumes.com

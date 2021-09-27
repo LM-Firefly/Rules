@@ -1622,6 +1622,7 @@ DOMAIN-SUFFIX,dell.com.sg
 DOMAIN-SUFFIX,dell.com.tw
 DOMAIN-SUFFIX,dellcdn.com
 ## >> Vmware
+DOMAIN-SUFFIX,vmware.com
 DOMAIN-SUFFIX,cfblob.com
 DOMAIN-SUFFIX,cloudchoose.com
 DOMAIN-SUFFIX,cloudvolumes.com
@@ -3277,8 +3278,6 @@ DOMAIN-SUFFIX,bazel.build
 DOMAIN-SUFFIX,bdn.dev
 DOMAIN-SUFFIX,beatthatquote.com
 DOMAIN-SUFFIX,blink.org
-DOMAIN-SUFFIX,blogblog.com
-DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,brocaproject.com
 DOMAIN-SUFFIX,brotli.org
 DOMAIN-SUFFIX,bumpshare.com
