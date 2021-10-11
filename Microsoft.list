@@ -233,6 +233,7 @@ DOMAIN-SUFFIX,onedrive.net
 DOMAIN-SUFFIX,onedrive.org
 DOMAIN-SUFFIX,storage.live.com
 ## >> Skype
+DOMAIN-SUFFIX,groupme.com
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,skype.net
 DOMAIN-SUFFIX,skypeassets.com
