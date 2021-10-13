@@ -3596,10 +3596,6 @@ DOMAIN-SUFFIX,terraform.io
 DOMAIN-SUFFIX,vagrantcloud.com
 DOMAIN-SUFFIX,vagrantup.com
 DOMAIN-SUFFIX,vaultproject.io
-## > Heroku
-DOMAIN-SUFFIX,heroku.com
-DOMAIN-SUFFIX,herokuapp.com
-DOMAIN-SUFFIX,herokucdn.com
 ## > HKBN
 DOMAIN-SUFFIX,csifund.org
 DOMAIN-SUFFIX,hkbn.com.hk
@@ -5069,6 +5065,21 @@ DOMAIN-SUFFIX,redditstatic.com
 ## > Ruleoflaw
 DOMAIN-SUFFIX,rolfoundation.org
 DOMAIN-SUFFIX,rolsociety.org
+## > Salesforce
+DOMAIN-SUFFIX,force.com
+DOMAIN-SUFFIX,salesforce.com
+DOMAIN-SUFFIX,salesforce.org
+DOMAIN-SUFFIX,salesforceliveagent.com
+DOMAIN-SUFFIX,sfdcstatic.com
+DOMAIN-SUFFIX,trailhead.com
+## >> Heroku
+DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,herokuapp.com
+DOMAIN-SUFFIX,herokucdn.com
+## >> Mulesoft
+DOMAIN-SUFFIX,mulesoft.com
+## >> Tableau
+DOMAIN-SUFFIX,tableau.com
 ## > Samsung
 DOMAIN-SUFFIX,anrdoezrs.net
 DOMAIN-SUFFIX,galaxyappstore.com

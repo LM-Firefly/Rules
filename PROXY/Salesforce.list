@@ -1,0 +1,15 @@
+## > Salesforce
+DOMAIN-SUFFIX,force.com
+DOMAIN-SUFFIX,salesforce.com
+DOMAIN-SUFFIX,salesforce.org
+DOMAIN-SUFFIX,salesforceliveagent.com
+DOMAIN-SUFFIX,sfdcstatic.com
+DOMAIN-SUFFIX,trailhead.com
+## >> Heroku
+DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,herokuapp.com
+DOMAIN-SUFFIX,herokucdn.com
+## >> Mulesoft
+DOMAIN-SUFFIX,mulesoft.com
+## >> Tableau
+DOMAIN-SUFFIX,tableau.com
