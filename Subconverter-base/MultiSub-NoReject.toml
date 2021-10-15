@@ -1167,181 +1167,181 @@ disable_udp = false
 group = "🥥 DNS Improvement"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DNS.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "☠️ 软件验证"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/App-Activation.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 # [[rulesets]]
 # group = "⛔️ 广告服务"
 # ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list"
 # type = "surge-ruleset"
-# interval = 3600
+# interval = 1800
 
 [[rulesets]]
 group = "⏰ 时间校准"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/NTP-Service.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🍎 苹果服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "📺 哔哩哔哩"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🙈 谷歌服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🍥 政府网站"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Government-CN.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🥝 爱奇艺"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🐻 LineTV"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LineTV.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🐼 微软服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🐷 网易音乐"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🎥 奈飞影视"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "📲 电报消息"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🎬 推趣影音"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitch.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "📡 视频解析"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Video-Crack.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "💊 小米服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🚦 DMCA Sensitive"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🎯 直连服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🕸️ 局域网服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/LAN-Special-Apps.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🎮 游戏服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🌍 国外媒体"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/GlobalMedia.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🍖 默认代理"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🌏 大陆服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🌏 大陆服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🍖 默认代理"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🏬 阿里巴巴"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🚀 SpeedTest"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/SpeedTest.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🎯 直连服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Local-LAN.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🌏 大陆服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CN-IP.list"
 type = "surge-ruleset"
-interval = 3600
+interval = 1800
 
 [[rulesets]]
 group = "🌏 大陆服务"
