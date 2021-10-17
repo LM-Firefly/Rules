@@ -4252,6 +4252,7 @@ payload:
   - DOMAIN-SUFFIX,700chat.com
   - DOMAIN-SUFFIX,腾讯.中国
   - DOMAIN-SUFFIX,aitangyou.com
+  - DOMAIN-SUFFIX,alloyteam.com
   - DOMAIN-SUFFIX,apdcdn.com
   - DOMAIN-SUFFIX,cdn-go.cn
   - DOMAIN-SUFFIX,cfmna-tencent.com
@@ -4269,8 +4270,10 @@ payload:
   - DOMAIN-SUFFIX,idqqimg.com
   - DOMAIN-SUFFIX,igcdn.cn
   - DOMAIN-SUFFIX,imqq.com
+  - DOMAIN-SUFFIX,imweb.io
   - DOMAIN-SUFFIX,in.th
   - DOMAIN-SUFFIX,isd.com
+  - DOMAIN-SUFFIX,ivweb.io
   - DOMAIN-SUFFIX,lexiangla.com
   - DOMAIN-SUFFIX,lightalk.com
   - DOMAIN-SUFFIX,mmbizurl.cn
@@ -4296,6 +4299,7 @@ payload:
   - DOMAIN-SUFFIX,rmwxgame.com
   - DOMAIN-SUFFIX,roblox.cn
   - DOMAIN-SUFFIX,romzj.com
+  - DOMAIN-SUFFIX,rtx.com.cn
   - DOMAIN-SUFFIX,rtxapp.com
   - DOMAIN-SUFFIX,rtxonline.com
   - DOMAIN-SUFFIX,safejmp.com
@@ -4505,7 +4509,7 @@ payload:
   - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,doyonoc.com
   - DOMAIN-SUFFIX,oywtv.com
-    ## >> 虎牙
+  ## >> 虎牙
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,huyagame.cn
   - DOMAIN-SUFFIX,huyaos.com
