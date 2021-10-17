@@ -621,7 +621,7 @@ match = "(Israel|以色列)"
 emoji = "🇮🇱"
 
 [[emoji]]
-match = "(MAN|马恩岛|Mann)"
+match = "(IMAN|马恩岛|Mann)"
 emoji = "🇮🇲"
 
 [[emoji]]
