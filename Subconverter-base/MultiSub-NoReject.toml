@@ -1415,7 +1415,7 @@ interval = 1800
 
 [[rulesets]]
 group = "📡 视频解析"
-ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Video-Crack.list"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Video-Crack.list"
 type = "surge-ruleset"
 interval = 1800
 
