@@ -412,6 +412,10 @@ match = "\[M\].*\[M\]"
 replace = "[M]"
 
 [[rename_node]]
+match = "解锁流媒体"
+replace = "[M]"
+
+[[rename_node]]
 match = "\[CM\]|\[CU\]|\[BT\/PT专用\]|\[荐\]|\[Beta\]|\[移动\]|\[联通\]|\[综合\]|\[备用\]|\[阿里云\]|\[测试\]|\[v6\]"
 replace = ""
 
