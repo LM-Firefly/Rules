@@ -84,10 +84,6 @@ match = "南阳"
 replace = "宛"
 
 [[rename_node]]
-match = "印度"
-replace = "印"
-
-[[rename_node]]
 match = "台湾"
 replace = "台"
 
