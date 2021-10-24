@@ -851,6 +851,29 @@ payload:
   - DOMAIN,zer0day.000webhostapp.com
   - DOMAIN,zer0day.ch
   - DOMAIN,zer0day.to
+  - DOMAIN,www.torrent.eu.org
+  - DOMAIN,tracker.altrosky.nl
+  - DOMAIN,tracker.lilithraws.cf
+  - DOMAIN,tracker.iriseden.fr
+  - DOMAIN,tracker.iriseden.eu
+  - DOMAIN,tracker.loadbt.com
+  - DOMAIN,udp-tracker.shittyurl.org
+  - DOMAIN,tracker1.bt.moack.co.kr
+  - DOMAIN,tracker.theoks.net
+  - DOMAIN,tracker.ololosh.space
+  - DOMAIN,tracker.monitorit4.me
+  - DOMAIN,tracker.leech.ie
+  - DOMAIN,tracker.jordan.im
+  - DOMAIN,tracker.haynet.io
+  - DOMAIN,tracker.breizh.pm
+  - DOMAIN,tracker.bitsearch.to
+  - DOMAIN,tracker-de.ololosh.space
+  - DOMAIN,public.tracker.vraphim.com
+  - DOMAIN,open.publictracker.xyz
+  - DOMAIN,abufinzio.monocul.us
+  - DOMAIN,trackme.theom.nz
+  - DOMAIN,tracker.foreverpirates.co
+  - DOMAIN,tr.torland.ga
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
   - IP-CIDR,5.2.79.22/32,no-resolve
