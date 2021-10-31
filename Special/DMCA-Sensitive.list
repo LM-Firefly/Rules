@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,xlyouxi.net
 DOMAIN-SUFFIX,xunlei.cn
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,xunlei.net
+PROCESS-NAME,com.xunlei.downloadprovider
 PROCESS-NAME,DownloadSDKServer.exe
 PROCESS-NAME,Thunder
 PROCESS-NAME,Thunder.exe
