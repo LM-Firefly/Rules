@@ -83,9 +83,6 @@ payload:
   - DOMAIN-SUFFIX,nhcilab.com
   - DOMAIN-SUFFIX,oklpoi.com
   - DOMAIN-SUFFIX,philanthropy.xin
-  - DOMAIN-SUFFIX,taobao
-  - DOMAIN-SUFFIX,taobao.org
-  - DOMAIN-SUFFIX,tmall
   - DOMAIN-SUFFIX,ttpod.com
   - DOMAIN-SUFFIX,wandoujia.com
   - DOMAIN-SUFFIX,xinlingshou.cn
@@ -899,6 +896,7 @@ payload:
   - DOMAIN-SUFFIX,alibabacloud.com.tw
   - DOMAIN-SUFFIX,alicloud.com
   ## >> 淘宝
+  - PROCESS-NAME,com.taobao.taobao
   - DOMAIN-SUFFIX,a-isv.org
   - DOMAIN-SUFFIX,aa5d.com
   - DOMAIN-SUFFIX,ahd.so
@@ -966,6 +964,8 @@ payload:
   - DOMAIN-SUFFIX,tangping.com
   - DOMAIN-SUFFIX,tangping.com.cn
   - DOMAIN-SUFFIX,tanx.com
+  - DOMAIN-SUFFIX,taobao
+  - DOMAIN-SUFFIX,taobao.org
   - DOMAIN-SUFFIX,taobao.cn
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,taobao.wang
@@ -984,6 +984,7 @@ payload:
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,tbmkt.com
   - DOMAIN-SUFFIX,tbsandbox.com
+  - DOMAIN-SUFFIX,tmall
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,tmall.hk
   - DOMAIN-SUFFIX,tmall.ru
