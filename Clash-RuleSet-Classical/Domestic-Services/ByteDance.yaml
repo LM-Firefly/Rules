@@ -288,3 +288,6 @@ payload:
   ## >> 朝夕光年
   - DOMAIN-SUFFIX,dailygn.com
   - DOMAIN-SUFFIX,nvsgames.cn
+  # >> 沐瞳科技
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,moonton.com
