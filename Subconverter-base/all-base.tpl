@@ -49,7 +49,7 @@ dns:
 ipv6: true
 tun:
   enable: true
-  stack: gvisor # or system
+  stack: system # gvisor or system
 #  dns-hijack:
 #    - 198.18.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
 #  macOS-auto-route: true # auto set global route for Windows
