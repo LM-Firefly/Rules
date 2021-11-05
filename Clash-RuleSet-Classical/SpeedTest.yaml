@@ -1,7 +1,7 @@
 payload:
   ## > Speedtest by Ookla
-  - PROCESS-NAME,Speedtest.exe
   - PROCESS-NAME,org.zwanoo.android.speedtest
+  - PROCESS-NAME,Speedtest.exe
   - DOMAIN-KEYWORD,ookla
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,lg-hkg.fdcservers.net

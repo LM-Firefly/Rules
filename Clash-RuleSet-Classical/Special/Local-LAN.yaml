@@ -44,7 +44,6 @@ payload:
   - PROCESS-NAME,shadowsocks-win.exe
   - PROCESS-NAME,shadowsocksr-win.exe
   - PROCESS-NAME,simple-obfs.exe
-  - PROCESS-NAME,Speedtest.exe
   - PROCESS-NAME,ss-local.exe
   - PROCESS-NAME,ssr-local.exe
   - PROCESS-NAME,stairspeedtest.exe

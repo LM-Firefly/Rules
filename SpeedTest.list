@@ -1,5 +1,6 @@
 ## > Speedtest by Ookla
 PROCESS-NAME,org.zwanoo.android.speedtest
+PROCESS-NAME,Speedtest.exe
 USER-AGENT,SpeedTest*
 DOMAIN-KEYWORD,ookla
 DOMAIN-KEYWORD,speedtest
