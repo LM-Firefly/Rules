@@ -1,5 +1,4 @@
 payload:
-  ## > Speedtest by Ookla
   - PROCESS-NAME,shadowsocks-win.exe
   - PROCESS-NAME,shadowsocksr-win.exe
   - PROCESS-NAME,simple-obfs.exe
@@ -11,6 +10,7 @@ payload:
   - PROCESS-NAME,v2ctl.exe
   - PROCESS-NAME,v2ray-plugin.exe
   - PROCESS-NAME,v2ray.exe
+  ## > Speedtest by Ookla
   - PROCESS-NAME,Speedtest.exe
   - PROCESS-NAME,org.zwanoo.android.speedtest
   - DOMAIN-KEYWORD,ookla
