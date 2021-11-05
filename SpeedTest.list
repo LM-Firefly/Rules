@@ -1,14 +1,3 @@
-PROCESS-NAME,shadowsocks-win.exe
-PROCESS-NAME,shadowsocksr-win.exe
-PROCESS-NAME,simple-obfs.exe
-PROCESS-NAME,Speedtest.exe
-PROCESS-NAME,ss-local.exe
-PROCESS-NAME,ssr-local.exe
-PROCESS-NAME,stairspeedtest.exe
-PROCESS-NAME,trojan.exe
-PROCESS-NAME,v2ctl.exe
-PROCESS-NAME,v2ray-plugin.exe
-PROCESS-NAME,v2ray.exe
 ## > Speedtest by Ookla
 PROCESS-NAME,org.zwanoo.android.speedtest
 USER-AGENT,SpeedTest*
