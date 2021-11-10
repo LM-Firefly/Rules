@@ -4086,6 +4086,12 @@ payload:
   ## > 石头科技
   - DOMAIN-SUFFIX,roborock.com
   - DOMAIN-SUFFIX,rockrobo.com
+  ## > 水星路由器
+  - DOMAIN-SUFFIX,mcloud-ops.com.cn
+  - DOMAIN-SUFFIX,meauth.cn
+  - DOMAIN-SUFFIX,melogin.cn
+  - DOMAIN-SUFFIX,mercuryclouds.com.cn
+  - DOMAIN-SUFFIX,mercurycom.cn
   ## > 搜狐
   - DOMAIN-SUFFIX,acoloo.com
   - DOMAIN-SUFFIX,didipai.com
