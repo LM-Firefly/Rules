@@ -1,6 +1,10 @@
 ## > DigiCert
+DOMAIN-SUFFIX,digicert.cn
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,digitalcertvalidation.com
 DOMAIN-SUFFIX,freessl.com
 DOMAIN-SUFFIX,geotrust.com
 DOMAIN-SUFFIX,rapidssl.com
+DOMAIN-SUFFIX,thawte.com
+DOMAIN-SUFFIX,thawte.de
+DOMAIN-SUFFIX,thawte.fr

@@ -1423,8 +1423,11 @@ payload:
   - DOMAIN-SUFFIX,chinapower.csis.org
   ## > CHT (中华电信)
   - DOMAIN-SUFFIX,cht.com.tw
+  - DOMAIN-SUFFIX,chtf.org.tw
   ## >> HiNet
+  - DOMAIN-SUFFIX,emome.net
   - DOMAIN-SUFFIX,hinet.net
+  - DOMAIN-SUFFIX,xuite.net
   ## >> Litv
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
@@ -1554,6 +1557,7 @@ payload:
   ## > Cloudflare
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com
+  - DOMAIN-SUFFIX,cloudflare-quic.com
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudflare.net
   - DOMAIN-SUFFIX,cloudflareapps.com
@@ -1740,11 +1744,15 @@ payload:
   - DOMAIN-SUFFIX,whatisworkspaceone.com
   - DOMAIN-SUFFIX,workspaceone.com
   ## > DigiCert
+  - DOMAIN-SUFFIX,digicert.cn
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,digitalcertvalidation.com
   - DOMAIN-SUFFIX,freessl.com
   - DOMAIN-SUFFIX,geotrust.com
   - DOMAIN-SUFFIX,rapidssl.com
+  - DOMAIN-SUFFIX,thawte.com
+  - DOMAIN-SUFFIX,thawte.de
+  - DOMAIN-SUFFIX,thawte.fr
   ## > Discord
   - DOMAIN-SUFFIX,discord.co
   - DOMAIN-SUFFIX,discord.com
@@ -2535,6 +2543,25 @@ payload:
   - IP-CIDR,179.60.192.0/22,no-resolve
   - IP-CIDR,185.60.216.0/22,no-resolve
   - IP-CIDR,204.15.20.0/22,no-resolve
+  ## > Faronics
+  - DOMAIN-SUFFIX,clickedu.co.uk
+  - DOMAIN-SUFFIX,deepfreeze.co.uk
+  - DOMAIN-SUFFIX,deepfreeze.com
+  - DOMAIN-SUFFIX,deepfreeze.com.br
+  - DOMAIN-SUFFIX,deepfreeze.eu
+  - DOMAIN-SUFFIX,deepfreeze.net
+  - DOMAIN-SUFFIX,deepfreeze.tech
+  - DOMAIN-SUFFIX,faronics.ca
+  - DOMAIN-SUFFIX,faronics.co.uk
+  - DOMAIN-SUFFIX,faronics.com
+  - DOMAIN-SUFFIX,faronics.com.au
+  - DOMAIN-SUFFIX,faronics.com.sg
+  - DOMAIN-SUFFIX,faronics.eu
+  - DOMAIN-SUFFIX,faronics.kayako.com
+  - DOMAIN-SUFFIX,faronics.tech
+  - DOMAIN-SUFFIX,faronicslabs.com
+  - DOMAIN-SUFFIX,faronicswise.co.uk
+  - DOMAIN-SUFFIX,faronicswise.com
   ## > Fastly
   - DOMAIN-SUFFIX,fastly.com
   - DOMAIN-SUFFIX,fastly.net
@@ -3920,9 +3947,10 @@ payload:
   ## > mgstage
   - DOMAIN-SUFFIX,mstage.io
   ## > Jetbrains
+  - DOMAIN-SUFFIX,datalore.io
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,jetbrains.net
-  - DOMAIN-SUFFIX,datalore.io
+  - DOMAIN-SUFFIX,jetbrains.team
   - DOMAIN-SUFFIX,kotlinlang.org
   ## > Jfrog
   - DOMAIN-SUFFIX,jfrog.com
@@ -4197,6 +4225,7 @@ payload:
   ## >> Bugzilla
   - DOMAIN-SUFFIX,bugzilla.org
   ## >> firefox
+  - DOMAIN-SUFFIX,extensionworkshop.com
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,firefox.com.cn
   - DOMAIN-SUFFIX,firefoxusercontent.com
@@ -5135,7 +5164,10 @@ payload:
   - DOMAIN-SUFFIX,shopifystatus.com
   - DOMAIN-SUFFIX,shopifysvc.com
   ## > Signal
+  - DOMAIN-SUFFIX,signal.art
   - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-SUFFIX,signalusers.org
+  - DOMAIN-SUFFIX,whispersystems.org
   ## > Slack
   - DOMAIN-SUFFIX,slack-core.com
   - DOMAIN-SUFFIX,slack-edge.com
@@ -5560,6 +5592,11 @@ payload:
   ## > Ubuntu
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,ubuntu.net
+  ## > Udn
+  - DOMAIN-SUFFIX,udn.com
+  - DOMAIN-SUFFIX,udn.com.tw
+  - DOMAIN-SUFFIX,udndata.com
+  - DOMAIN-SUFFIX,udnfunlife.com
   ## > Un
   - DOMAIN-SUFFIX,un.org
   ## > Unpkg
@@ -11291,8 +11328,6 @@ payload:
   - DOMAIN-SUFFIX,ucanews.com
   - DOMAIN-SUFFIX,ucdc1998.org
   - DOMAIN-SUFFIX,uderzo.it
-  - DOMAIN-SUFFIX,udn.com
-  - DOMAIN-SUFFIX,udn.com.tw
   - DOMAIN-SUFFIX,udnbkk.com
   - DOMAIN-SUFFIX,uforadio.com.tw
   - DOMAIN-SUFFIX,ufreevpn.com
@@ -11611,7 +11646,6 @@ payload:
   - DOMAIN-SUFFIX,whereiswerner.com
   - DOMAIN-SUFFIX,wheretowatch.com
   - DOMAIN-SUFFIX,whippedass.com
-  - DOMAIN-SUFFIX,whispersystems.org
   - DOMAIN-SUFFIX,whodns.xyz
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,whotalking.com
@@ -11773,7 +11807,6 @@ payload:
   - DOMAIN-SUFFIX,xuchao.net
   - DOMAIN-SUFFIX,xuchao.org
   - DOMAIN-SUFFIX,xuehua.us
-  - DOMAIN-SUFFIX,xuite.net
   - DOMAIN-SUFFIX,xuzhiyong.net
   - DOMAIN-SUFFIX,xvideo.cc
   - DOMAIN-SUFFIX,xvideos.es
