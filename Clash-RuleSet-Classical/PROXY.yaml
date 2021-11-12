@@ -404,6 +404,9 @@ payload:
   - DOMAIN-SUFFIX,wholefoodsmarket.com
   - DOMAIN-SUFFIX,wholekidsfoundation.org
   - DOMAIN-SUFFIX,wholeplanetfoundation.org
+  ## > AMD
+  - DOMAIN-SUFFIX,amd.com
+  - DOMAIN-SUFFIX,amd.com.cn
   ## > Amplitude
   - DOMAIN-SUFFIX,amplitude.com
   ## > AOL
