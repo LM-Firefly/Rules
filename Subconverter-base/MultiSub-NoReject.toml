@@ -288,11 +288,11 @@ replace = ""
 
 [[rename_node]]
 match = "(倍率:)"
-replace = "×"
+replace = "x"
 
 [[rename_node]]
 match = "([0-9])(倍率)"
-replace = "[×$1]"
+replace = "[x$1]"
 
 [[rename_node]]
 match = "(❖)(CN[0-9])(❖)"
@@ -432,55 +432,55 @@ replace = "$1-$2"
 
 [[rename_node]]
 match = "\[0\.2\]"
-replace = "[×0.2]"
+replace = "[x0.2]"
 
 [[rename_node]]
 match = "\[0\.5\]"
-replace = "[×0.5]"
+replace = "[x0.5]"
 
 [[rename_node]]
 match = "\[0\.7\]"
-replace = "[×0.7]"
+replace = "[x0.7]"
 
 [[rename_node]]
 match = "\[0\.8\]"
-replace = "[×0.8]"
+replace = "[x0.8]"
 
 [[rename_node]]
 match = "\[0\.9\]"
-replace = "[×0.9]"
+replace = "[x0.9]"
 
 [[rename_node]]
 match = "\[1\]"
-replace = "[×1]"
+replace = "[x1]"
 
 [[rename_node]]
 match = "\[1\.2\]"
-replace = "[×1.2]"
+replace = "[x1.2]"
 
 [[rename_node]]
 match = "\[1\.5\]"
-replace = "[×1.5]"
+replace = "[x1.5]"
 
 [[rename_node]]
 match = "\[2\]"
-replace = "[×2]"
+replace = "[x2]"
 
 [[rename_node]]
 match = "\[5\]"
-replace = "[×5]"
+replace = "[x5]"
 
 [[rename_node]]
 match = "\[8\]"
-replace = "[×8]"
+replace = "[x8]"
 
 [[rename_node]]
 match = "\[10\]"
-replace = "[×10]"
+replace = "[x10]"
 
 ;[[rename_node]]
 match = "(?!<=[\]|\)])$"
-replace = "[×1]"
+replace = "[x1]"
 
 [[rename_node]]
 match = " "
