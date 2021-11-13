@@ -14,7 +14,6 @@ sssub_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Sub
 
 exclude_remarks = ["(到期|剩余流量|时间|官网|产品|先购买套餐|流量消耗|更新订阅|(.*流量.*剩.*天)|(■等级警报■)|(\(限速\))|(\[限速\])|(\[游戏\])|(\[游戏专用\])|(\[将下线\])|(.*耗尽.*)|(近期下线)|(游戏专线)|(维护)|(测试节点))"]
 
-
 [[rename_node]]
 match = "(中转)([0-9][0-9][0-9]|[0-9][0-9][0-9][0-9])\|"
 replace = ""
@@ -292,6 +291,10 @@ match = "(倍率:)"
 replace = "×"
 
 [[rename_node]]
+match = "([0-9])(倍率)"
+replace = "[×$1]"
+
+[[rename_node]]
 match = "(❖)(CN[0-9])(❖)"
 replace = ""
 
@@ -302,6 +305,10 @@ replace = ""
 [[rename_node]]
 match = "(SS|V2|TJ|H2)\."
 replace = ""
+
+;[[rename_node]]
+match = "^(.*)(HK(?!(B|T|G)))([\u4e00-\u9fa5])"
+replace = "港-$3"
 
 [[rename_node]]
 match = "(.*)(x.*)(...)(中转|直连|80端口)"
@@ -400,7 +407,11 @@ match = "(--)"
 replace = ""
 
 [[rename_node]]
-match = "\[?\[NF\]|\[BBC\]|\[abema\]|\[动画疯\]|\[Hulu\]|\[注册Netflix\]|\[HBO\]|\[TVB\]|\[D\+\]|Y2B P\]"
+match = "(◆)"
+replace = ""
+
+[[rename_node]]
+match = "\[?\[NF\]|\[BBC\]|\[abema\]|\[动画疯\]|Netflix|動畫瘋|\[Hulu\]|\[注册Netflix\]|\[HBO\]|\[TVB\]|\[D\+\]|Y2B P\]"
 replace = "[M]"
 
 [[rename_node]]
@@ -412,8 +423,12 @@ match = "解锁流媒体"
 replace = "[M]"
 
 [[rename_node]]
-match = "\[CM\]|\[CU\]|\[BT\/PT专用\]|\[荐\]|\[Beta\]|\[移动\]|\[联通\]|\[综合\]|\[备用\]|\[阿里云\]|\[测试\]|\[v6\]"
+match = "\[CM\]|\[CU\]|\[BT\/PT专用\]|\[荐\]|\[Beta\]|\[移动\]|\[联通\]|\[综合\]|\[备用\]|\[阿里云\]|\[测试\]|\[v6\]|高速|100m限速|CDN加速"
 replace = ""
+
+[[rename_node]]
+match = "(.*)([0-9][0-9])"
+replace = "$1-$2"
 
 [[rename_node]]
 match = "\[0\.2\]"
@@ -462,6 +477,10 @@ replace = "[×8]"
 [[rename_node]]
 match = "\[10\]"
 replace = "[×10]"
+
+;[[rename_node]]
+match = "(?!<=[\]|\)])$"
+replace = "[×1]"
 
 [[rename_node]]
 match = " "
