@@ -766,6 +766,7 @@ payload:
   - DOMAIN-KEYWORD,japonx
   - DOMAIN-KEYWORD,japronx
   ## > JOOX
+  - PROCESS-NAME,com.tencent.ibg.joox
   - DOMAIN-SUFFIX,joox.com
   - DOMAIN-KEYWORD,jooxweb-api
   ## > Kakao
