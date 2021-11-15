@@ -1549,3 +1549,7 @@ value = "info"
 [[template.globals]]
 key = "clash.api_port"
 value = "0.0.0.0:8080"
+
+[[template.globals]]
+key = "clash.routing_mark"
+value = "6666"
