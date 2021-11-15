@@ -1,7 +1,6 @@
 {% if request.target == "clash" or request.target == "clashr" %}
-
-mixed-port: {{ default(global.clash.http_port, "8888") }}
-redir-port-port: {{ default(global.clash.redir_port, "8890") }}
+mixed-port: {{ default(global.clash.mixed_port, "8888") }}
+redir-port: {{ default(global.clash.redir_port, "8890") }}
 #authentication:
 #  - "firefly:WJ960923"
 allow-lan: {{ default(global.clash.allow_lan, "true") }}
@@ -9,21 +8,21 @@ bind-address: '*'
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: {{ default(global.clash.api_port, "9090")}}
-#external-ui: folder
+external-ui: folder
 secret: ''
-#interface-name: en0
+routing-mark: 6666
 profile:
-  # store the `select` results in $HOME/.cache
-  # when two different configurations have groups with the same name, the selected values are shared
-  # set false if you don't want this behavior
   store-selected: true
-  # open tracing exporter API
   tracing: true
+  store-fake-ip: true
 {% if exists("request.clash.dns") %}
 {% if request.clash.dns == "tap" %}
 ipv6: true
 #interface-name: WLAN
 hosts:
+  # '*.clash.dev': 127.0.0.1
+  # '.dev': 127.0.0.1
+  # 'alpha.clash.dev': '::1'
 dns:
   enable: true
   listen: 0.0.0.0:53
@@ -36,10 +35,13 @@ tun:
   stack: system # or gvisor
   dns-hijack:
     - 198.18.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
-  macOS-auto-route: true # auto set global route for Windows
-  macOS-auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+  auto-route: true # auto set global route for Windows
+  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
 #interface-name: WLAN
 hosts:
+  # '*.clash.dev': 127.0.0.1
+  # '.dev': 127.0.0.1
+  # 'alpha.clash.dev': '::1'
 dns:
   enable: true
 #  listen: 0.0.0.0:53
@@ -47,14 +49,16 @@ dns:
 {% endif %}
 {% else %}
 ipv6: true
+#interface-name: WLAN
 hosts:
+  # '*.clash.dev': 127.0.0.1
+  # '.dev': 127.0.0.1
+  # 'alpha.clash.dev': '::1'
 dns:
   enable: true
   listen: 127.0.0.1:1053
   ipv6: true
 {% endif %}
-  # These nameservers are used to resolve the DNS nameserver hostnames below.
-  # Specify IP addresses only
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
