@@ -411,15 +411,11 @@ match = "(◆)"
 replace = ""
 
 [[rename_node]]
-match = "\[?\[NF\]|\[BBC\]|\[abema\]|\[动画疯\]|Netflix|動畫瘋|\[Hulu\]|\[注册Netflix\]|\[HBO\]|\[TVB\]|\[D\+\]|Y2B P\]"
+match = "(\[?\[NF\]|\[NF\*\]|\[BBC\]|\[abema\]|\[动画疯\]|Netflix|動畫瘋|\[Hulu\]|\[注册Netflix\]|\[HBO\]|\[TVB\]|\[D\+\]|\[Yp\]|Y2B P\]|解锁流媒体)"
 replace = "[M]"
 
 [[rename_node]]
 match = "\[M\].*\[M\]"
-replace = "[M]"
-
-[[rename_node]]
-match = "解锁流媒体"
 replace = "[M]"
 
 [[rename_node]]
