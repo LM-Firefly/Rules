@@ -203,7 +203,6 @@ dns:
     - https://public.dns.iij.jp/dns-query
     - https://doh.mullvad.net/dns-query
     - https://dns.google/dns-query
-    - https://dns.rubyfish.cn/dns-query
 #    - https://doh.qis.io/dns-query
 #    - https://dns-unfiltered.adguard.com/dns-query
 #    - https://dns.quad9.net/dns-query
