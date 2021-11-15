@@ -4,12 +4,22 @@ allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: info
-ipv6: true
 external-controller: 0.0.0.0:8080
 secret: ''
+routing-mark: 6666
+profile:
+  store-selected: true
+  tracing: true
+  store-fake-ip: true
+ipv6: true
 tun:
   enable: true
   stack: system # or gvisor
+  dns-hijack:
+    - 198.18.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
+  auto-route: true # auto set global route for Windows
+  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+#interface-name: WLAN
 hosts: ~
 dns:
   enable: true
@@ -127,24 +137,28 @@ dns:
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
-    - https://doh.pub/dns-query
-    - https://cdn-doh.ssnm.xyz/dns-query
     - https://dns.alidns.com/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://doh.opendns.com/dns-query
-    - https://dns.twnic.tw/dns-query
+    - https://i.233py.com/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.pub/dns-query
+    - https://dns.cfiec.net/dns-query
+    - https://dns.rubyfish.cn/dns-query
+    - https://doh.mullvad.net/dns-query
+    - https://dns-unfiltered.adguard.com/dns-query
   fallback:
+    - https://doh.dns.sb/dns-query
     - https://dns.twnic.tw/dns-query
-    - https://dns.quad9.net/dns-query
-    - https://cdn-doh.ssnm.xyz/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google/dns-query
-    - https://doh.qis.io/dns-query
     - https://doh.opendns.com/dns-query
-    - https://doh.powerdns.org
+    - https://dns.233py.com/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://doh.mullvad.net/dns-query
+    - https://dns.google/dns-query
+    - https://dns.rubyfish.cn/dns-query
   fallback-filter:
     geoip: true # default
     ipcidr: # ips in these subnets will be considered polluted
       - 0.0.0.0/32
+      - 100.64.0.0/10
       - 127.0.0.0/8
       - 240.0.0.0/4
+      - 255.255.255.255/32

@@ -178,11 +178,11 @@ dns:
     - https://dns.cfiec.net/dns-query
     - https://dns.rubyfish.cn/dns-query
     - https://doh.mullvad.net/dns-query
+    - https://dns-unfiltered.adguard.com/dns-query
 #    - https://cdn-doh.ssnm.xyz/dns-query
 #    - tls://dns.233py.com
 #    - https://dns.233py.com/dns-query
 #    - https://dns.twnic.tw/dns-query
-#    - https://dns-unfiltered.adguard.com/dns-query
 #    - https://doh.opendns.com/dns-query
 #    - https://cloudflare-dns.com/dns-query
 #    - https://dns.google/dns-query
@@ -202,16 +202,16 @@ dns:
     - https://dns.233py.com/dns-query
     - https://public.dns.iij.jp/dns-query
     - https://doh.mullvad.net/dns-query
+    - https://dns.google/dns-query
+    - https://dns.rubyfish.cn/dns-query
 #    - https://doh.qis.io/dns-query
 #    - https://dns-unfiltered.adguard.com/dns-query
 #    - https://dns.quad9.net/dns-query
 #    - https://cdn-doh.ssnm.xyz/dns-query
-#    - https://dns.google/dns-query
 #    - https://cloudflare-dns.com/dns-query
 #    - tcp://1.1.1.1
 #    - https://dns.alidns.com/dns-query
 #    - https://doh.dns.sb/dns-query
-#    - https://dns.rubyfish.cn/dns-query
 #    - tls://cloudflare-dns.com:853
 #    - tls://dns.google:853
 #    - tls://dns-tls.qis.io:853
