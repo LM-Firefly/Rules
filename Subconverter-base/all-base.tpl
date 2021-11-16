@@ -8,7 +8,7 @@ bind-address: '*'
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: {{ default(global.clash.api_port, "9090")}}
-external-ui: folder
+#external-ui: folder
 secret: ''
 routing-mark: {{ default(global.clash.routing_mark, "6666")}}
 profile:
