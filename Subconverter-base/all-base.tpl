@@ -168,6 +168,8 @@ dns:
     ## QQ Quick Login
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
+    ## BiliBili P2P
+    - '*.mcdn.bilivideo.cn'
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
