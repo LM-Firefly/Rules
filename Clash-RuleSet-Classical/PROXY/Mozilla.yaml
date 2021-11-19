@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,media.prod.mdn.mozit.cloud
   ## >> Pocket
   - DOMAIN-SUFFIX,getpocket.com
+  - DOMAIN-SUFFIX,pocket-image-cache.com
   ## >> SeaMonkey
   - DOMAIN-SUFFIX,seamonkey-project.org
   ## >> Thunderbird
