@@ -1477,6 +1477,12 @@ type = "surge-ruleset"
 interval = 1800
 
 [[rulesets]]
+group = "🏬 阿里巴巴"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
+type = "surge-ruleset"
+interval = 1800
+
+[[rulesets]]
 group = "🌏 大陆服务"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list"
 type = "surge-ruleset"
@@ -1491,12 +1497,6 @@ interval = 1800
 [[rulesets]]
 group = "🍖 默认代理"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global.list"
-type = "surge-ruleset"
-interval = 1800
-
-[[rulesets]]
-group = "🏬 阿里巴巴"
-ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
 type = "surge-ruleset"
 interval = 1800
 
