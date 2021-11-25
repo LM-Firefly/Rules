@@ -173,6 +173,7 @@ dns:
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
+    - dhcp://system
     - https://dns.alidns.com/dns-query
     - https://i.233py.com/dns-query
     - https://doh.pub/dns-query
@@ -218,6 +219,7 @@ dns:
 #    - tls://dns-tls.qis.io:853
   fallback-filter:
     geoip: true # default
+    geoip-code: CN
     ipcidr: # ips in these subnets will be considered polluted
       - 0.0.0.0/32
       - 100.64.0.0/10
