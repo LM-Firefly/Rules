@@ -205,11 +205,15 @@ payload:
   - DOMAIN-SUFFIX,mobile-collector.newrelic.com
   ## > Disney
   - PROCESS-NAME,com.disney.disneyplus
+  - DOMAIN-SUFFIX,20thcenturystudios.com.au
+  - DOMAIN-SUFFIX,20thcenturystudios.com.br
+  - DOMAIN-SUFFIX,20thcenturystudios.jp
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,adventuresbydisney.com
   - DOMAIN-SUFFIX,babble.com
   - DOMAIN-SUFFIX,babyzone.com
   - DOMAIN-SUFFIX,bam.nr-data.net
+  - DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk
   - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,cdn.optimizely.com
   - DOMAIN-SUFFIX,cdn.registerdisney.go.com
@@ -223,16 +227,22 @@ payload:
   - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
   - DOMAIN-SUFFIX,disney-studio.com
   - DOMAIN-SUFFIX,disney-studio.net
+  - DOMAIN-SUFFIX,disney.asia
   - DOMAIN-SUFFIX,disney.be
   - DOMAIN-SUFFIX,disney.bg
   - DOMAIN-SUFFIX,disney.ca
+  - DOMAIN-SUFFIX,disney.ch
   - DOMAIN-SUFFIX,disney.co.il
+  - DOMAIN-SUFFIX,disney.co.jp
+  - DOMAIN-SUFFIX,disney.co.kr
   - DOMAIN-SUFFIX,disney.co.th
   - DOMAIN-SUFFIX,disney.co.uk
   - DOMAIN-SUFFIX,disney.co.za
   - DOMAIN-SUFFIX,disney.com
   - DOMAIN-SUFFIX,disney.com.au
   - DOMAIN-SUFFIX,disney.com.br
+  - DOMAIN-SUFFIX,disney.com.hk
+  - DOMAIN-SUFFIX,disney.com.tw
   - DOMAIN-SUFFIX,disney.cz
   - DOMAIN-SUFFIX,disney.de
   - DOMAIN-SUFFIX,disney.demdex.net
@@ -254,6 +264,7 @@ payload:
   - DOMAIN-SUFFIX,disney.pl
   - DOMAIN-SUFFIX,disney.pt
   - DOMAIN-SUFFIX,disney.ro
+  - DOMAIN-SUFFIX,disney.ru
   - DOMAIN-SUFFIX,disney.se
   - DOMAIN-SUFFIX,disney.sg
   - DOMAIN-SUFFIX,disneyadsales.com
@@ -267,6 +278,8 @@ payload:
   - DOMAIN-SUFFIX,disneyenconcert.com
   - DOMAIN-SUFFIX,disneyiejobs.com
   - DOMAIN-SUFFIX,disneyinflight.com
+  - DOMAIN-SUFFIX,disneyinternational.com
+  - DOMAIN-SUFFIX,disneyinternationalhd.com
   - DOMAIN-SUFFIX,disneyjunior.com
   - DOMAIN-SUFFIX,disneyjuniortreataday.com
   - DOMAIN-SUFFIX,disneylatino.com
@@ -280,6 +293,7 @@ payload:
   - DOMAIN-SUFFIX,disneymagicmoments.gr
   - DOMAIN-SUFFIX,disneymagicmoments.it
   - DOMAIN-SUFFIX,disneymagicmoments.pl
+  - DOMAIN-SUFFIX,disneymagicmomentsme.com
   - DOMAIN-SUFFIX,disneyme.com
   - DOMAIN-SUFFIX,disneymeetingsandevents.com
   - DOMAIN-SUFFIX,disneymovieinsiders.com
@@ -289,11 +303,13 @@ payload:
   - DOMAIN-SUFFIX,disneypeoplesurveys.com
   - DOMAIN-SUFFIX,disneyplus.bn5x.net
   - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
   - DOMAIN-SUFFIX,disneyredirects.com
   - DOMAIN-SUFFIX,disneysrivieraresort.com
   - DOMAIN-SUFFIX,disneystore.com
   - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN-SUFFIX,disneysubscription.com
+  - DOMAIN-SUFFIX,disneytickets.co.uk
   - DOMAIN-SUFFIX,disneyturkiye.com.tr
   - DOMAIN-SUFFIX,disneytvajobs.com
   - DOMAIN-SUFFIX,disneyworld-go.com
@@ -304,13 +320,17 @@ payload:
   - DOMAIN-SUFFIX,js-agent.newrelic.com
   - DOMAIN-SUFFIX,mickey.tv
   - DOMAIN-SUFFIX,moviesanywhere.com
+  - DOMAIN-SUFFIX,nomadlandmovie.ch
   - DOMAIN-SUFFIX,playmation.com
   - DOMAIN-SUFFIX,shopdisney.com
   - DOMAIN-SUFFIX,shops-disney.com
   - DOMAIN-SUFFIX,sorcerersarena.com
   - DOMAIN-SUFFIX,spaindisney.com
+  - DOMAIN-SUFFIX,star-brasil.com
+  - DOMAIN-SUFFIX,star-latam.com
   - DOMAIN-SUFFIX,starwars.com
   - DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com
+  - DOMAIN-SUFFIX,starwarskids.com
   - DOMAIN-SUFFIX,streamingdisney.net
   - DOMAIN-SUFFIX,thestationbymaker.com
   - DOMAIN-SUFFIX,thisispolaris.com

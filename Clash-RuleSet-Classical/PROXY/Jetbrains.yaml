@@ -3,5 +3,6 @@ payload:
   - DOMAIN-SUFFIX,datalore.io
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,jetbrains.net
+  - DOMAIN-SUFFIX,jetbrains.space
   - DOMAIN-SUFFIX,jetbrains.team
   - DOMAIN-SUFFIX,kotlinlang.org

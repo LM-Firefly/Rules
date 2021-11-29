@@ -3953,6 +3953,7 @@ payload:
   - DOMAIN-SUFFIX,datalore.io
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,jetbrains.net
+  - DOMAIN-SUFFIX,jetbrains.space
   - DOMAIN-SUFFIX,jetbrains.team
   - DOMAIN-SUFFIX,kotlinlang.org
   ## > Jfrog
@@ -4955,12 +4956,13 @@ payload:
   - DOMAIN-SUFFIX,pinimg.com
   - DOMAIN-SUFFIX,pinterest.nl
   ## > Pixiv
+  - DOMAIN-SUFFIX,booth.pm
+  - DOMAIN-SUFFIX,fanbox.cc
+  - DOMAIN-SUFFIX,pixiv.co.jp
   - DOMAIN-SUFFIX,pixiv.me
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pixiv.org
-  - DOMAIN-SUFFIX,pixiv.co.jp
   - DOMAIN-SUFFIX,pximg.net
-  - DOMAIN-SUFFIX,fanbox.cc
   ## > Pixnet (痞客邦)
   - DOMAIN-SUFFIX,pimg.tw
   - DOMAIN-SUFFIX,pixanalytics.com
