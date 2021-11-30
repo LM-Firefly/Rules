@@ -12,9 +12,9 @@ external-controller: {{ default(global.clash.api_port, "9090")}}
 secret: ''
 routing-mark: {{ default(global.clash.routing_mark, "6666")}}
 profile:
+  store-fake-ip: true
   store-selected: true
   tracing: true
-  store-fake-ip: true
 {% if exists("request.clash.dns") %}
 {% if request.clash.dns == "tap" %}
 ipv6: true
@@ -32,7 +32,7 @@ dns:
 ipv6: true
 tun:
   enable: true
-  stack: gvisor # or system
+  stack: system # or gvisor
   dns-hijack:
     - 198.18.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
   auto-route: true # auto set global route for Windows
