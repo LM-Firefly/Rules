@@ -1,6 +1,9 @@
 payload:
   ## > Jetbrains
   - DOMAIN-SUFFIX,datalore.io
+  - DOMAIN-SUFFIX,intellij.com
+  - DOMAIN-SUFFIX,intellij.net
+  - DOMAIN-SUFFIX,intellij.org
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,jetbrains.net
   - DOMAIN-SUFFIX,jetbrains.space
