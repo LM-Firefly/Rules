@@ -303,7 +303,7 @@ match = "(⓪|❶|❷|❸|❻)"
 replace = ""
 
 [[node_pref.rename_node]]
-match = "(SS|V2|TJ|H2)\."
+match = "(SS|V2|TJ|H2|gR)\."
 replace = ""
 
 ;[[node_pref.rename_node]]
