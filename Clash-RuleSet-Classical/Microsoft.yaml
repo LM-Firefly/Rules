@@ -54,6 +54,7 @@ payload:
   - DOMAIN-SUFFIX,microsofteca.com
   - DOMAIN-SUFFIX,microsoftiotcentral.com
   - DOMAIN-SUFFIX,serverlesslibrary.net
+  - DOMAIN-SUFFIX,signalr.net
   - DOMAIN-SUFFIX,tryfunctions.com
   - DOMAIN-SUFFIX,windowsazure.cn
   - DOMAIN-SUFFIX,windowsazure.com
