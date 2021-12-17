@@ -143,6 +143,7 @@ payload:
   - DOMAIN-SUFFIX,codethemicrobit.com
   - DOMAIN-SUFFIX,devopsassessment.net
   - DOMAIN-SUFFIX,dot.net
+  - DOMAIN-SUFFIX,exp-tas.com
   - DOMAIN-SUFFIX,gamesstack.com
   - DOMAIN-SUFFIX,graphengine.io
   - DOMAIN-SUFFIX,insiderdevtour.com
@@ -253,6 +254,9 @@ payload:
   - DOMAIN-SUFFIX,visualstudio.eu
   - DOMAIN-SUFFIX,visualstudio.net
   - DOMAIN-SUFFIX,vsassets.io
+  - DOMAIN-SUFFIX,vscode-unpkg.net
+  - DOMAIN-SUFFIX,vscode-webview.net
+  - DOMAIN-SUFFIX,vscode.dev
   ## >> WindowsLive
   - DOMAIN-SUFFIX,live.cn
   - DOMAIN-SUFFIX,live.com.akadns.net
