@@ -33,10 +33,10 @@ ipv6: true
 tun:
   enable: true
   stack: system # or gvisor
-  dns-hijack:
-    - 22.0.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
   auto-route: true # auto set global route for Windows
   auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+  dns-hijack:
+    - 22.0.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
 #interface-name: WLAN
 hosts:
   # '*.clash.dev': 127.0.0.1
