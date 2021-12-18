@@ -279,7 +279,7 @@ match = "[0-9]组"
 replace = ""
 
 [[node_pref.rename_node]]
-match = "(\[x[0-9].*\])(.*)"
+match = "(\[x.*[0-9]\])(.*)"
 replace = "$2$1"
 
 [[node_pref.rename_node]]
