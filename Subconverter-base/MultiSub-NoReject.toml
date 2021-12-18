@@ -24,7 +24,7 @@ replace = ""
 
 [[node_pref.rename_node]]
 match = "(解锁|)(\|)(x.*)(\|V2ray)"
-replace = "[$3]"
+replace = "$[$3]"
 
 [[node_pref.rename_node]]
 match = "(..|...)([0-9][0-9][0-9][0-9]|[0-9][0-9][0-9])(\|)(Azure|HKT|CN2GIA)"
