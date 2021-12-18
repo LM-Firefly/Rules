@@ -271,20 +271,8 @@ match = "深港专线"
 replace = "深港"
 
 [[node_pref.rename_node]]
-match = "(-)"
+match = "(转)"
 replace = "▷"
-
-[[node_pref.rename_node]]
-match = "隧道测试"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "隧道"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "隧道测试[0-9]组"
-replace = ""
 
 [[node_pref.rename_node]]
 match = "[0-9]组"
