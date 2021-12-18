@@ -291,8 +291,8 @@ match = "[0-9]组"
 replace = ""
 
 [[node_pref.rename_node]]
-match = "(倍率:)"
-replace = "x"
+match = "(^)(\[x...\])"
+replace = "$$2"
 
 [[node_pref.rename_node]]
 match = "(.*)( )([0-9].*)(倍率)"
