@@ -835,7 +835,7 @@ match = "(?i:US|America|United.*?States|美.*(?!▷|回|转)|[^-]美|波特兰|�
 emoji = "🇺🇸"
 
 [[emojis.emoji]]
-match = "(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|港(?!▷|回|转)|[^-]港)"
+match = "(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|港(?!▷|回|转)|[^-]港(?!▷|回|转))"
 emoji = "🇭🇰"
 
 [[emojis.emoji]]
