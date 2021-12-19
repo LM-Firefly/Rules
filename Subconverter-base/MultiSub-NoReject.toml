@@ -14,6 +14,9 @@ sssub_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Sub
 
 exclude_remarks = ["(到期|剩余流量|时间|官网|产品|先购买套餐|流量消耗|更新订阅|(.*流量.*剩.*天)|(■等级警报■)|(\(限速\))|(\[限速\])|(\[游戏\])|(\[游戏专用\])|(\[将下线\])|(.*耗尽.*)|(近期下线)|(游戏专线)|(维护)|(测试节点))"]
 
+[node_pref]
+udp_flag = true
+
 [[node_pref.rename_node]]
 match = "(中转)([0-9][0-9][0-9]|[0-9][0-9][0-9][0-9])\|"
 replace = ""
