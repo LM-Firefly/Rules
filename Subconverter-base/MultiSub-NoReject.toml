@@ -294,20 +294,12 @@ match = "(.*)( )([0-9].*)(倍率)"
 replace = "$1[x$3]"
 
 [[node_pref.rename_node]]
-match = "(❖)(CN[0-9])(❖)"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "(⓪|❶|❷|❸|❻)"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "(SS|V2|TJ|H2|gR)\."
+match = "((❖CN[0-9]❖)|^)(⓪|❶|❷|❸|❻)(TJ\.|gR\.|V2\.|H2\.|SS\.)"
 replace = ""
 
 ;[[node_pref.rename_node]]
-match = "^(.*)(HK(?!(B|T|G)))([\u4e00-\u9fa5])"
-replace = "港-$3"
+;match = "^(.*)(HK(?!(B|T|G)))([\u4e00-\u9fa5])"
+;replace = "港-$3"
 
 [[node_pref.rename_node]]
 match = "(.*)(x.*)(...)(中转|直连|80端口)"
@@ -474,8 +466,8 @@ match = "\[10\]"
 replace = "[x10]"
 
 ;[[node_pref.rename_node]]
-match = "(?!<=[\]|\)])$"
-replace = "[x1]"
+;match = "(?!<=[\]|\)])$"
+;replace = "[x1]"
 
 [[node_pref.rename_node]]
 match = " "
