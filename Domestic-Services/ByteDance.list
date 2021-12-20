@@ -206,6 +206,7 @@ DOMAIN-SUFFIX,zjurl.cn
 ## >> 巨量引擎
 DOMAIN-SUFFIX,bytesfield.com
 DOMAIN-SUFFIX,bytesmanager.com
+DOMAIN-SUFFIX,csjplatform.com
 DOMAIN-SUFFIX,juliangyinqing.cn
 DOMAIN-SUFFIX,juliangyinqing.com
 DOMAIN-SUFFIX,juliangyinqing.net
@@ -220,6 +221,8 @@ DOMAIN-SUFFIX,panplayable-toutiao-b.com
 DOMAIN-SUFFIX,panplayable-toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao-b.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,volccdn.com
+DOMAIN-SUFFIX,volcdem.com
 ## >> 掘金
 DOMAIN-SUFFIX,juejin.cn
 DOMAIN-SUFFIX,juejin.im
