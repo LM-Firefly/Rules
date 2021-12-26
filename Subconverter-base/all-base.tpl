@@ -61,7 +61,6 @@ hosts:
   # 'alpha.clash.dev': '::1'
 dns:
   enable: true
-  use-hosts: true
   ipv6: true
   listen: 127.0.0.1:6868
 {% endif %}
@@ -82,6 +81,7 @@ dns:
     - 119.29.29.29
   enhanced-mode: fake-ip # redir-host #fake-ip
   fake-ip-range: 198.18.0.1/16
+  use-hosts: true
   fake-ip-filter:
     # === LAN ===
     - '*.example'
