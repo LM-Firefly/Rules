@@ -1531,11 +1531,11 @@ ruleset = "[]MATCH"
 
 [[template_args]]
 key = "clash.mixed_port"
-value = "8888"
+value = "18888"
 
 [[template_args]]
 key = "clash.redir_port"
-value = "8890"
+value = "18890"
 
 [[template_args]]
 key = "clash.allow_lan"
@@ -1547,8 +1547,8 @@ value = "info"
 
 [[template_args]]
 key = "clash.api_port"
-value = "0.0.0.0:8080"
+value = "0.0.0.0:19090"
 
 [[template_args]]
 key = "clash.routing_mark"
-value = "6666"
+value = "16666"

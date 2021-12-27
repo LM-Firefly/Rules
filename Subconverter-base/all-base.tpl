@@ -1,16 +1,16 @@
 {% if request.target == "clash" or request.target == "clashr" %}
-mixed-port: {{ default(global.clash.mixed_port, "8888") }}
-redir-port: {{ default(global.clash.redir_port, "8890") }}
+mixed-port: {{ default(global.clash.mixed_port, "18888") }}
+redir-port: {{ default(global.clash.redir_port, "18890") }}
 #authentication:
 #  - "firefly:WJ960923"
 allow-lan: {{ default(global.clash.allow_lan, "true") }}
 bind-address: '*'
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
-external-controller: {{ default(global.clash.api_port, "0.0.0.0:9090")}}
+external-controller: {{ default(global.clash.api_port, "0.0.0.0:19090")}}
 #external-ui: folder
 secret: ''
-routing-mark: {{ default(global.clash.routing_mark, "6666")}}
+routing-mark: {{ default(global.clash.routing_mark, "16666")}}
 profile:
   store-fake-ip: true
   store-selected: true
@@ -32,7 +32,7 @@ dns:
 ipv6: true
 tun:
   enable: true
-  stack: system # or gvisor
+  stack: gvisor # or system
   auto-route: true # auto set global route for Windows
   auto-detect-interface: true # auto detect interface, conflict with `interface-name`
   dns-hijack:
