@@ -2879,6 +2879,8 @@ DOMAIN-SUFFIX,scholar.google.sk
 ## >> Kaggle
 DOMAIN-SUFFIX,kaggle.com
 DOMAIN-SUFFIX,kaggle.io
+## >> Neverware
+DOMAIN-SUFFIX,neverware.com
 ## >> Polymer
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,polymerproject.org
