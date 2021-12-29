@@ -1391,6 +1391,12 @@ interval = 1800
 
 [[rulesets]]
 group = "🥝 爱奇艺"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI-Intl.list"
+type = "surge-ruleset"
+interval = 1800
+
+[[rulesets]]
+group = "🥝 爱奇艺"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list"
 type = "surge-ruleset"
 interval = 1800
