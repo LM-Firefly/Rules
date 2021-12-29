@@ -1373,6 +1373,12 @@ interval = 1800
 
 [[rulesets]]
 group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BiliBiliHMT.list"
+type = "surge-ruleset"
+interval = 1800
+
+[[rulesets]]
+group = "📺 哔哩哔哩"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
 type = "surge-ruleset"
 interval = 1800

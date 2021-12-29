@@ -16,6 +16,8 @@
 
 - # [BBC](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/BBC.list)
 
+- # [哔哩哔哩 港澳台番剧](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/BiliBiliHMT.list)
+
 - # [BoXun](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/BoXun.list)
 
 - # [CableTV](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/CableTV.list)
@@ -71,6 +73,8 @@
 - # [Hulu](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/Hulu.list)
 
 - # [华文电视](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/HWTV.list)
+
+- # [iQIYI 国际站](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/iQIYI-Intl.list)
 
 - # [iTalkBB](https://github.com/LM-Firefly/Rules/blob/master/Global-Services/iTalkBB.list)
 

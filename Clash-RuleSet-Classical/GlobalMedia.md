@@ -16,6 +16,8 @@
 
 - # [BBC](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/BBC.yaml)
 
+- # [哔哩哔哩 港澳台番剧](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/BiliBiliHMT.yaml)
+
 - # [BoXun](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/BoXun.yaml)
 
 - # [CableTV](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/CableTV.yaml)
@@ -71,6 +73,8 @@
 - # [Hulu](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/Hulu.yaml)
 
 - # [华文电视](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/HWTV.yaml)
+
+- # [iQIYI 国际站](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/iQIYI-Intl.yaml)
 
 - # [iTalkBB](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/iTalkBB.yaml)
 
