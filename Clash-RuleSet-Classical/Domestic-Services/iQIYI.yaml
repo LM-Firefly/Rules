@@ -23,9 +23,6 @@ payload:
   - DOMAIN-SUFFIX,qy.com
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN-SUFFIX,jiangbing.cn
-  ## >> iQIYI 国际站
-  - PROCESS-NAME,com.iqiyi.i18n
-  - DOMAIN-SUFFIX,iq.com
   ## >> PPS
   - DOMAIN-SUFFIX,baiying.com
   - DOMAIN-SUFFIX,pps.tv
