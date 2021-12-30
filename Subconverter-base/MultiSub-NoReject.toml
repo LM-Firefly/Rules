@@ -1328,11 +1328,11 @@ type = "select"
 rule = [", "[]REJECT", "[]🎯 直连服务", "[]🍖 默认代理]
 disable_udp = false
 
-# [[custom_groups]]
-# name = "⛔️ 广告服务"
-# type = "select"
-# rule = [", "[]REJECT", "[]🎯 直连服务]
-# disable_udp = false
+; [[custom_groups]]
+; name = "⛔️ 广告服务"
+; type = "select"
+; rule = [", "[]REJECT", "[]🎯 直连服务]
+; disable_udp = false
 
 [[custom_groups]]
 name = "⏰ 时间校准"
@@ -1353,11 +1353,11 @@ ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/App
 type = "surge-ruleset"
 interval = 3600
 
-# [[rulesets]]
-# group = "⛔️ 广告服务"
-# ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list"
-# type = "surge-ruleset"
-# interval = 3600
+; [[rulesets]]
+; group = "⛔️ 广告服务"
+; ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list"
+; type = "surge-ruleset"
+; interval = 3600
 
 [[rulesets]]
 group = "⏰ 时间校准"
@@ -1545,9 +1545,9 @@ ruleset = "[]MATCH"
 key = "clash.mixed_port"
 value = "18888"
 
-[[template_args]]
-key = "clash.redir_port"
-value = "18890"
+;[[template_args]]
+;key = "clash.redir_port"
+;value = "18890"
 
 [[template_args]]
 key = "clash.allow_lan"

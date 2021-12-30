@@ -1,6 +1,6 @@
 {% if request.target == "clash" or request.target == "clashr" %}
 mixed-port: {{ default(global.clash.mixed_port, "18888") }}
-redir-port: {{ default(global.clash.redir_port, "18890") }}
+#redir-port: {{ default(global.clash.redir_port, "18890") }}
 #authentication:
 #  - "firefly:WJ960923"
 allow-lan: {{ default(global.clash.allow_lan, "true") }}
