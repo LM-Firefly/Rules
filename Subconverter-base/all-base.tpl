@@ -36,7 +36,7 @@ tun:
   auto-route: true # auto set global route for Windows
   auto-detect-interface: true # auto detect interface, conflict with `interface-name`
   dns-hijack:
-    - 198.18.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
+    - 22.0.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
 #interface-name: WLAN
 hosts:
   # '*.clash.dev': 127.0.0.1
@@ -80,7 +80,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   enhanced-mode: fake-ip # redir-host #fake-ip
-  fake-ip-range: 198.18.0.1/16
+  fake-ip-range: 22.0.0.0/8
   use-hosts: true
   fake-ip-filter:
     # === LAN ===
