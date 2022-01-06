@@ -550,10 +550,6 @@ match = "(BR|Brazil|Paulo|巴西|圣保罗)"
 emoji = "🇧🇷"
 
 [[emojis.emoji]]
-match = "(Canada|Montreal|Vancouver|加拿大|加(?!州|坡).*(?!▷|回|转)|蒙特利尔|温哥华|楓葉|枫叶|CA)"
-emoji = "🇨🇦"
-
-[[emojis.emoji]]
 match = "(Switzerland|Zurich|瑞士|苏黎世)"
 emoji = "🇨🇭"
 
@@ -804,6 +800,10 @@ emoji = "🇻🇳"
 [[emojis.emoji]]
 match = "(ZA|Africa|南非)"
 emoji = "🇿🇦"
+
+[[emojis.emoji]]
+match = "(?i:CA|Canada|Toronto|Montreal|Vancouver|加拿大|加(?!州|坡).*(?!▷|回|转)|蒙特利尔|温哥华|楓葉|枫叶)"
+emoji = "🇨🇦"
 
 [[emojis.emoji]]
 match = "(?i:UK|England|United.*?Kingdom|London|英.*(?!▷|回|转)|[^-]英|伦敦)"
