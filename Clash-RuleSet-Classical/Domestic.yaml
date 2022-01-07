@@ -8268,6 +8268,7 @@ payload:
   - DOMAIN-SUFFIX,wukongwenda.com
   ## >> 西瓜视频
   - DOMAIN-SUFFIX,bdxiguaimg.com
+  - DOMAIN-SUFFIX,bdxiguastatic.com
   - DOMAIN-SUFFIX,ixgvideo.com
   - DOMAIN-SUFFIX,ixigua.com
   - DOMAIN-SUFFIX,ixiguavideo.com
