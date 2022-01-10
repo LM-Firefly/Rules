@@ -4509,7 +4509,9 @@ DOMAIN-SUFFIX,swoosh.com
 DOMAIN-SUFFIX,nodejs.org
 ## > Notion
 DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
+DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 ## > Nvidia
 DOMAIN-SUFFIX,geforce.cn
@@ -5605,8 +5607,10 @@ IP-CIDR,209.237.192.0/19,no-resolve
 DOMAIN-SUFFIX,uber.com
 DOMAIN-SUFFIX,ubereats.com
 ## > Ubuntu
+DOMAIN-SUFFIX,ubuntu-touch.io
 DOMAIN-SUFFIX,ubuntu.com
 DOMAIN-SUFFIX,ubuntu.net
+DOMAIN-SUFFIX,ubuntuforums.org
 ## > Udn
 DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,udn.com.tw
