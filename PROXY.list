@@ -5110,6 +5110,17 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmail.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,reddituploads.com
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
+## > Red Hat
+DOMAIN-SUFFIX,3scale.net
+DOMAIN-SUFFIX,ansible.com
+DOMAIN-SUFFIX,feedhenry.org
+DOMAIN-SUFFIX,jboss.org
+DOMAIN-SUFFIX,noobaa.io
+DOMAIN-SUFFIX,redhat.com
+DOMAIN-SUFFIX,stackrox.io
 ## > Ruleoflaw
 DOMAIN-SUFFIX,rolfoundation.org
 DOMAIN-SUFFIX,rolsociety.org
@@ -5607,10 +5618,59 @@ IP-CIDR,209.237.192.0/19,no-resolve
 DOMAIN-SUFFIX,uber.com
 DOMAIN-SUFFIX,ubereats.com
 ## > Ubuntu
+DOMAIN-SUFFIX,aerialline.com
+DOMAIN-SUFFIX,canonical.com
+DOMAIN-SUFFIX,debianadmin.com
+DOMAIN-SUFFIX,debuntu.org
+DOMAIN-SUFFIX,fullcirclemagazine.org
+DOMAIN-SUFFIX,iloveubuntu.net
+DOMAIN-SUFFIX,omgubuntu.co.uk
+DOMAIN-SUFFIX,snapcraft.io
+DOMAIN-SUFFIX,ualinux.com
+DOMAIN-SUFFIX,ubucentrum.net
+DOMAIN-SUFFIX,ubuntu-br.org
+DOMAIN-SUFFIX,ubuntu-cl.org
+DOMAIN-SUFFIX,ubuntu-fi.org
+DOMAIN-SUFFIX,ubuntu-fr.org
+DOMAIN-SUFFIX,ubuntu-gr.org
+DOMAIN-SUFFIX,ubuntu-hr.org
+DOMAIN-SUFFIX,ubuntu-ie.org
+DOMAIN-SUFFIX,ubuntu-it.org
+DOMAIN-SUFFIX,ubuntu-manual.org
+DOMAIN-SUFFIX,ubuntu-news.ru
+DOMAIN-SUFFIX,ubuntu-nl.org
+DOMAIN-SUFFIX,ubuntu-pe.org
+DOMAIN-SUFFIX,ubuntu-pt.org
+DOMAIN-SUFFIX,ubuntu-rs.org
+DOMAIN-SUFFIX,ubuntu-se.org
 DOMAIN-SUFFIX,ubuntu-touch.io
+DOMAIN-SUFFIX,ubuntu-tr.net
+DOMAIN-SUFFIX,ubuntu-tw.org
+DOMAIN-SUFFIX,ubuntu-vn.org
+DOMAIN-SUFFIX,ubuntu-za.org
 DOMAIN-SUFFIX,ubuntu.com
+DOMAIN-SUFFIX,ubuntu.cz
+DOMAIN-SUFFIX,ubuntu.hu
+DOMAIN-SUFFIX,ubuntu.ir
+DOMAIN-SUFFIX,ubuntu.lt
+DOMAIN-SUFFIX,ubuntu.lv
 DOMAIN-SUFFIX,ubuntu.net
+DOMAIN-SUFFIX,ubuntu.or.kr
+DOMAIN-SUFFIX,ubuntu.org.cn
+DOMAIN-SUFFIX,ubuntu.pl
+DOMAIN-SUFFIX,ubuntu.ro
+DOMAIN-SUFFIX,ubuntu.ru
+DOMAIN-SUFFIX,ubuntu.se
+DOMAIN-SUFFIX,ubuntu.si
+DOMAIN-SUFFIX,ubuntu.sk
+DOMAIN-SUFFIX,ubuntuclub.com
 DOMAIN-SUFFIX,ubuntuforums.org
+DOMAIN-SUFFIX,ubuntugeek.com
+DOMAIN-SUFFIX,ubuntuguide.org
+DOMAIN-SUFFIX,ubuntulinux.jp
+DOMAIN-SUFFIX,ubuntulinux.org
+DOMAIN-SUFFIX,ubuntustats.com
+DOMAIN-SUFFIX,ubuntuusers.de
 ## > Udn
 DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,udn.com.tw
@@ -6208,6 +6268,246 @@ DOMAIN-SUFFIX,zohowebstatic.com
 DOMAIN-SUFFIX,zoom.com
 DOMAIN-SUFFIX,zoom.com.cn
 DOMAIN-SUFFIX,zoom.us
+## > Linux Distros
+# >> Alpine Linux
+DOMAIN-SUFFIX,alpinelinux.org
+# >> AntiX
+DOMAIN-SUFFIX,antixforum.com
+DOMAIN-SUFFIX,antixlinux.com
+# >> Arch Linux
+DOMAIN-SUFFIX,archlinux-br.org
+DOMAIN-SUFFIX,archlinux-es.org
+DOMAIN-SUFFIX,archlinux.cl
+DOMAIN-SUFFIX,archlinux.de
+DOMAIN-SUFFIX,archlinux.dk
+DOMAIN-SUFFIX,archlinux.fr
+DOMAIN-SUFFIX,archlinux.fsf.hu
+DOMAIN-SUFFIX,archlinux.it
+DOMAIN-SUFFIX,archlinux.org
+DOMAIN-SUFFIX,archlinux.org.ru
+DOMAIN-SUFFIX,archlinuxarm.org
+DOMAIN-SUFFIX,archtr.org
+# >> ArcoLinux
+DOMAIN-SUFFIX,arcolinux.com
+DOMAIN-SUFFIX,arcolinux.info
+DOMAIN-SUFFIX,arcolinuxforum.com
+# >> Budgie
+DOMAIN-SUFFIX,budgie-desktop.org
+# >> CentOS
+DOMAIN-SUFFIX,centos-italia.org
+DOMAIN-SUFFIX,centos.org
+# >> Cinnamon
+DOMAIN-SUFFIX,cinnamon.org
+#>> Clear OS
+DOMAIN-SUFFIX,clear.co.com
+DOMAIN-SUFFIX,clearcenter.com
+DOMAIN-SUFFIX,clearfoundation.co.nz
+DOMAIN-SUFFIX,clearos.com
+DOMAIN-SUFFIX,clearunited.com
+DOMAIN-SUFFIX,clearvm.com
+# >> Debian
+DOMAIN-SUFFIX,aboutdebian.com
+DOMAIN-SUFFIX,debian-administration.org
+DOMAIN-SUFFIX,debian-fr.org
+DOMAIN-SUFFIX,debian-fr.xyz
+DOMAIN-SUFFIX,debian-handbook.info
+DOMAIN-SUFFIX,debian-linux.cz
+DOMAIN-SUFFIX,debian-linux.ro
+DOMAIN-SUFFIX,debian.cz
+DOMAIN-SUFFIX,debian.net
+DOMAIN-SUFFIX,debian.or.jp
+DOMAIN-SUFFIX,debian.org
+DOMAIN-SUFFIX,debian.pl
+DOMAIN-SUFFIX,debiancn.org
+DOMAIN-SUFFIX,debianforum.de
+DOMAIN-SUFFIX,debianforum.ru
+DOMAIN-SUFFIX,debianguiden.dk
+DOMAIN-SUFFIX,debianitalia.org
+DOMAIN-SUFFIX,debianizzati.org
+DOMAIN-SUFFIX,debianpt.org
+DOMAIN-SUFFIX,exdebian.org
+DOMAIN-SUFFIX,forum.dug.net.pl
+# >> Elementary OS
+DOMAIN-SUFFIX,elementary.io
+# >> Endeavour OS
+DOMAIN-SUFFIX,endeavouros.com
+# >> EuroLinux
+DOMAIN-SUFFIX,euro-linux.com
+# >> Fedora
+DOMAIN-SUFFIX,fedora-es.com
+DOMAIN-SUFFIX,fedora-fr.org
+DOMAIN-SUFFIX,fedora-hungary.org
+DOMAIN-SUFFIX,fedora.cz
+DOMAIN-SUFFIX,fedora.pl
+DOMAIN-SUFFIX,fedora.web.id
+DOMAIN-SUFFIX,fedoramagazine.org
+DOMAIN-SUFFIX,fedoraonline.it
+DOMAIN-SUFFIX,fedoraproject.org
+DOMAIN-SUFFIX,fedorausers.de
+DOMAIN-SUFFIX,fedoraforum.org
+DOMAIN-SUFFIX,getfedora.org
+DOMAIN-SUFFIX,rpm.pbone.net
+DOMAIN-SUFFIX,rpmfusion.org
+DOMAIN-SUFFIX,rpms.remirepo.net
+# >> FreeBSD
+DOMAIN-SUFFIX,bsdforen.de
+DOMAIN-SUFFIX,bsdguru.org
+DOMAIN-SUFFIX,bsdnexus.com
+DOMAIN-SUFFIX,daemonforums.org
+DOMAIN-SUFFIX,freebsd.org
+DOMAIN-SUFFIX,freebsddiary.org
+DOMAIN-SUFFIX,freebsdfoundation.org
+DOMAIN-SUFFIX,freebsdmall.com
+DOMAIN-SUFFIX,freebsdnews.com
+DOMAIN-SUFFIX,freebsdsoftware.org
+DOMAIN-SUFFIX,freshports.org
+DOMAIN-SUFFIX,mdoc.su
+DOMAIN-SUFFIX,unitedbsd.com
+# >> Garuda Linux
+DOMAIN-SUFFIX,garudalinux.org
+# >> Gentoo
+DOMAIN-SUFFIX,gentoo.de
+DOMAIN-SUFFIX,gentoo.gr.jp
+DOMAIN-SUFFIX,gentoo.org
+DOMAIN-SUFFIX,gentoo.ru
+DOMAIN-SUFFIX,gentoo.tw
+DOMAIN-SUFFIX,gentooforum.de
+DOMAIN-SUFFIX,gentoovps.net
+# >> Gnome
+DOMAIN-SUFFIX,flathub.org
+DOMAIN-SUFFIX,gnome.org
+# >> Kali Linux
+DOMAIN-SUFFIX,kalilinux.org
+# >> KDE
+DOMAIN-SUFFIX,kde.org
+# >> Kubuntu
+DOMAIN-SUFFIX,kubuntu-de.org
+DOMAIN-SUFFIX,kubuntu-es.org
+DOMAIN-SUFFIX,kubuntu.org
+DOMAIN-SUFFIX,kubuntu.ru
+DOMAIN-SUFFIX,kubuntuforums.net
+# >> Linuxfx
+DOMAIN-SUFFIX,linuxfx.org
+# >> Linux Lite
+DOMAIN-SUFFIX,linuxliteos.com
+DOMAIN-SUFFIX,linuxliteos.org
+# >> Linux Mint
+DOMAIN-SUFFIX,alternativalinux.it
+DOMAIN-SUFFIX,linux-mint-czech.cz
+DOMAIN-SUFFIX,linuxmint.com
+DOMAIN-SUFFIX,linuxmint.com.br
+DOMAIN-SUFFIX,linuxmint.com.ua
+DOMAIN-SUFFIX,linuxmint.hu
+DOMAIN-SUFFIX,linuxmint.pl
+DOMAIN-SUFFIX,linuxmintnl.nl
+DOMAIN-SUFFIX,linuxmintusers.de
+DOMAIN-SUFFIX,mintguide.org
+DOMAIN-SUFFIX,mintlinux.ru
+# >> Lubuntu
+DOMAIN-SUFFIX,lubuntu.me
+# >> LXDE
+DOMAIN-SUFFIX,lxde.org
+# >> LXQt
+DOMAIN-SUFFIX,lxqt.org
+# >> Mabox Linux
+DOMAIN-SUFFIX,maboxlinux.org
+# >> Manjaro Linux
+DOMAIN-SUFFIX,manjaro-forum.de
+DOMAIN-SUFFIX,manjaro-it.org
+DOMAIN-SUFFIX,manjaro-linux.com.br
+DOMAIN-SUFFIX,manjaro.cz
+DOMAIN-SUFFIX,manjaro.fr
+DOMAIN-SUFFIX,manjaro.org
+DOMAIN-SUFFIX,manjaro.pl
+DOMAIN-SUFFIX,manjaro.ru
+# >> MATE
+DOMAIN-SUFFIX,mate.org
+# >> MX Linux
+DOMAIN-SUFFIX,mxlinux.org
+DOMAIN-SUFFIX,mxrepo.com
+# >> NixOS
+DOMAIN-SUFFIX,nixos.org
+# >> OpenSUSE
+DOMAIN-SUFFIX,alionet.org
+DOMAIN-SUFFIX,forosuse.org
+DOMAIN-SUFFIX,links2linux.de
+DOMAIN-SUFFIX,linux01.gwdg.de
+DOMAIN-SUFFIX,open-suse.ru
+DOMAIN-SUFFIX,opensuse-community.org
+DOMAIN-SUFFIX,opensuse-guide.org
+DOMAIN-SUFFIX,opensuse.hu
+DOMAIN-SUFFIX,opensuse.org
+DOMAIN-SUFFIX,susebr.org
+DOMAIN-SUFFIX,susegeek.com
+DOMAIN-SUFFIX,suseitalia.org
+DOMAIN-SUFFIX,susek.info
+DOMAIN-SUFFIX,suseportal.cz
+# >> Parrot OS
+DOMAIN-SUFFIX,parrotlinux.org
+# >> PCLinuxOS
+DOMAIN-SUFFIX,linfx.com
+DOMAIN-SUFFIX,pclinuxos-fr.tuxfamily.org
+DOMAIN-SUFFIX,pclinuxos.com
+DOMAIN-SUFFIX,pclinuxos.dk
+DOMAIN-SUFFIX,pclinuxos.it
+DOMAIN-SUFFIX,pclinuxos.nl
+DOMAIN-SUFFIX,pclinuxos.org.pl
+DOMAIN-SUFFIX,pclinuxos.su
+DOMAIN-SUFFIX,pclinuxosbrasil.com.br
+# >> Pop!_OS
+DOMAIN-SUFFIX,system76.com
+# >> Puppy Linux
+DOMAIN-SUFFIX,bkhome.org
+DOMAIN-SUFFIX,dotpups.de
+DOMAIN-SUFFIX,e-pup.5d6d.com
+DOMAIN-SUFFIX,minilinux.net
+DOMAIN-SUFFIX,puppylinux.org
+DOMAIN-SUFFIX,puppylinux.pl
+DOMAIN-SUFFIX,puppylinuxnews.org
+DOMAIN-SUFFIX,skamilinux.hu
+# >> Pure OS
+DOMAIN-SUFFIX,pureos.net
+# >> Raspberry Pi OS
+DOMAIN-SUFFIX,raspberrypi.org
+# >> ReactOS
+DOMAIN-SUFFIX,reactos.org
+# >> Reborn OS
+DOMAIN-SUFFIX,rebornos.org
+# >> Robo Linux
+DOMAIN-SUFFIX,robolinux.org
+# >> Rocky Linux
+DOMAIN-SUFFIX,rockylinux.org
+# >> Slackware
+DOMAIN-SUFFIX,droplinegnome.org
+DOMAIN-SUFFIX,rlworkman.net
+DOMAIN-SUFFIX,sbopkg.org
+DOMAIN-SUFFIX,slackblogs.blogspot.com
+DOMAIN-SUFFIX,slackbook.org
+DOMAIN-SUFFIX,slackbuilds.org
+DOMAIN-SUFFIX,slackware-fr.org
+DOMAIN-SUFFIX,slackware-id.org
+DOMAIN-SUFFIX,slackware-srbija.org
+DOMAIN-SUFFIX,slackware.com
+DOMAIN-SUFFIX,slackware.it
+DOMAIN-SUFFIX,slackware.pl
+DOMAIN-SUFFIX,slackwarelinux.se
+DOMAIN-SUFFIX,slacky.eu
+DOMAIN-SUFFIX,slint.fr
+# >> Ubuntu Budgie
+DOMAIN-SUFFIX,ubuntubudgie.org
+# >> Ubuntu MATE
+DOMAIN-SUFFIX,ubuntu-mate.community
+DOMAIN-SUFFIX,ubuntu-mate.org
+# >> Ubuntu Studio
+DOMAIN-SUFFIX,ubuntustudio.org
+# >> XFCE
+DOMAIN-SUFFIX,xfce.org
+# >> Xubuntu
+DOMAIN-SUFFIX,bluesabre.org
+DOMAIN-SUFFIX,xubuntu.org
+# >> Zorin OS
+DOMAIN-SUFFIX,zorin.com
+DOMAIN-SUFFIX,zorincdn.com
 ## > Porn
 DOMAIN-SUFFIX,0plkijj.vip
 DOMAIN-SUFFIX,114av.xyz
@@ -7733,7 +8033,6 @@ DOMAIN-SUFFIX,ddns.name
 DOMAIN-SUFFIX,ddns.net
 DOMAIN-SUFFIX,ddns.us
 DOMAIN-SUFFIX,de-sci.org
-DOMAIN-SUFFIX,debian.org
 DOMAIN-SUFFIX,deck.ly
 DOMAIN-SUFFIX,decodet.co
 DOMAIN-SUFFIX,deepdiscount.com
