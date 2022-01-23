@@ -19,10 +19,6 @@ profile:
 {% if request.clash.dns == "tap" %}
 ipv6: true
 #interface-name: WLAN
-hosts:
-  # '*.clash.dev': 127.0.0.1
-  # '.dev': 127.0.0.1
-  # 'alpha.clash.dev': '::1'
 dns:
   enable: true
   listen: 0.0.0.0:53
@@ -38,10 +34,6 @@ tun:
   dns-hijack:
     - 22.0.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
 #interface-name: WLAN
-hosts:
-  # '*.clash.dev': 127.0.0.1
-  # '.dev': 127.0.0.1
-  # 'alpha.clash.dev': '::1'
 dns:
   enable: true
 #  listen: 0.0.0.0:53
@@ -52,14 +44,10 @@ ipv6: true
 tun:
   enable: true
   stack: system # or gvisor
-  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+#  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
   dns-hijack:
     - 1.0.0.1:53 # Do not modifly this line
 #interface-name: WLAN
-hosts:
-  # '*.clash.dev': 127.0.0.1
-  # '.dev': 127.0.0.1
-  # 'alpha.clash.dev': '::1'
 dns:
   enable: true
   listen: 127.0.0.1:1053
@@ -73,10 +61,6 @@ tun:
   dns-listen: 0.0.0.0:53 # additional dns server listen on TUN
   auto-route: true # auto set global route
 #interface-name: WLAN
-hosts:
-  # '*.clash.dev': 127.0.0.1
-  # '.dev': 127.0.0.1
-  # 'alpha.clash.dev': '::1'
 dns:
   enable: true
   ipv6: true
@@ -85,10 +69,6 @@ dns:
 {% else %}
 ipv6: true
 #interface-name: WLAN
-hosts:
-  # '*.clash.dev': 127.0.0.1
-  # '.dev': 127.0.0.1
-  # 'alpha.clash.dev': '::1'
 dns:
   enable: true
   listen: 127.0.0.1:1053
@@ -99,7 +79,6 @@ dns:
     - 119.29.29.29
   enhanced-mode: fake-ip # redir-host #fake-ip
   fake-ip-range: 22.0.0.0/8
-  use-hosts: true
   fake-ip-filter:
     # === LAN ===
     - '*.example'
