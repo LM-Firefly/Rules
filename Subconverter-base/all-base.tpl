@@ -62,7 +62,7 @@ hosts:
   # 'alpha.clash.dev': '::1'
 dns:
   enable: true
-#  listen: 0.0.0.0:53
+  listen: 127.0.0.1:1053
   ipv6: true
 {% endif %}
 {% if request.clash.dns == "meta-tun" %}
