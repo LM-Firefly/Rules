@@ -28,7 +28,7 @@ dns:
   listen: 0.0.0.0:53
   ipv6: true
 {% endif %}
-{% if request.clash.dns == "tun" %}
+{% if request.clash.dns == "win-tun" %}
 ipv6: true
 tun:
   enable: true
