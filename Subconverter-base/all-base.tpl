@@ -47,6 +47,24 @@ dns:
 #  listen: 0.0.0.0:53
   ipv6: true
 {% endif %}
+{% if request.clash.dns == "linux-tun" %}
+ipv6: true
+tun:
+  enable: true
+  stack: system # or gvisor
+  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+  dns-hijack:
+    - 1.0.0.1:53 # Do not modifly this line
+#interface-name: WLAN
+hosts:
+  # '*.clash.dev': 127.0.0.1
+  # '.dev': 127.0.0.1
+  # 'alpha.clash.dev': '::1'
+dns:
+  enable: true
+#  listen: 0.0.0.0:53
+  ipv6: true
+{% endif %}
 {% if request.clash.dns == "meta-tun" %}
 ipv6: true
 tun:
