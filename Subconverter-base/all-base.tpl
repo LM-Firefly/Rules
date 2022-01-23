@@ -267,8 +267,8 @@ tls-provider = openssl
 exclude-simple-hostnames = true
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 force-http-engine-hosts = 122.14.246.33, 175.102.178.52, mobile-api2011.elong.com
-internet-test-url = http://connectivitycheck.gstatic.com/generate_204
-proxy-test-url = http://connectivitycheck.gstatic.com/generate_204
+internet-test-url = http://cp.cloudflare.com/generate_204
+proxy-test-url = http://cp.cloudflare.com/generate_204
 test-timeout = 3
 
 [Replica]
@@ -460,8 +460,8 @@ wifi-access-http-port=8838
 wifi-access-socks5-port=8839
 interface = 0.0.0.0
 socks-interface = 0.0.0.0
-internet-test-url = http://connectivitycheck.gstatic.com/generate_204
-proxy-test-url = http://connectivitycheck.gstatic.com/generate_204
+internet-test-url = http://cp.cloudflare.com/generate_204
+proxy-test-url = http://cp.cloudflare.com/generate_204
 test-timeout = 5
 
 {% endif %}
