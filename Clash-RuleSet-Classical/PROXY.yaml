@@ -1563,7 +1563,6 @@ payload:
   ## > Cloudflare
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com
-  - DOMAIN-SUFFIX,cloudflare-quic.com
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudflare.net
   - DOMAIN-SUFFIX,cloudflareapps.com
@@ -5559,11 +5558,12 @@ payload:
   - DOMAIN-SUFFIX,tmblr.co
   ## > Twitch
   - PROCESS-NAME,tv.twitch.android.app
-  - DOMAIN-SUFFIX,twitch.tv
-  - DOMAIN-SUFFIX,twitchcdn.net
-  - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-SUFFIX,twitchsvc.net
   - IP-CIDR,23.160.0.0/24,no-resolve
   - IP-CIDR,45.113.128.0/22,no-resolve
@@ -6510,6 +6510,7 @@ payload:
   ## > Porn
   - DOMAIN-SUFFIX,0plkijj.vip
   - DOMAIN-SUFFIX,114av.xyz
+  - DOMAIN-SUFFIX,128100.xyz
   - DOMAIN-SUFFIX,16fhgdty.xyz
   - DOMAIN-SUFFIX,18novel.xyz
   - DOMAIN-SUFFIX,1jjdg2.vip
@@ -6539,9 +6540,11 @@ payload:
   - DOMAIN-SUFFIX,airav.cc
   - DOMAIN-SUFFIX,animezilla.com
   - DOMAIN-SUFFIX,asianpornmovies.com
+  - DOMAIN-SUFFIX,assylum.com
   - DOMAIN-SUFFIX,av01.tv
   - DOMAIN-SUFFIX,av1688.cc
   - DOMAIN-SUFFIX,av6k.com
+  - DOMAIN-SUFFIX,avbebe.com
   - DOMAIN-SUFFIX,avfox.cc
   - DOMAIN-SUFFIX,avinin.com
   - DOMAIN-SUFFIX,avmoo.cyou
@@ -6551,8 +6554,11 @@ payload:
   - DOMAIN-SUFFIX,aznude.com
   - DOMAIN-SUFFIX,bangbros.com
   - DOMAIN-SUFFIX,besthentaitube.com
+  - DOMAIN-SUFFIX,boylove.cc
+  - DOMAIN-SUFFIX,boyloves.cc
   - DOMAIN-SUFFIX,brazzers.com
   - DOMAIN-SUFFIX,buzzav.com
+  - DOMAIN-SUFFIX,cableav.tv
   - DOMAIN-SUFFIX,caime.xyz
   - DOMAIN-SUFFIX,calvappd.me
   - DOMAIN-SUFFIX,cam4.com
@@ -6564,18 +6570,25 @@ payload:
   - DOMAIN-SUFFIX,dvh30n.vip
   - DOMAIN-SUFFIX,flirt4free.com
   - DOMAIN-SUFFIX,follasian.com
+  - DOMAIN-SUFFIX,footseen.com
   - DOMAIN-SUFFIX,gaypad.net
+  - DOMAIN-SUFFIX,girlspoopingtube.com
   - DOMAIN-SUFFIX,gouri.xyz
   - DOMAIN-SUFFIX,hanime.tv
   - DOMAIN-SUFFIX,hanime1.me
+  - DOMAIN-SUFFIX,heavy-r.com
   - DOMAIN-SUFFIX,hpjav.tv
   - DOMAIN-SUFFIX,hsxhr.cc
+  - DOMAIN-SUFFIX,hxc10.vip
+  - DOMAIN-SUFFIX,hxcsxs.pro
   - DOMAIN-SUFFIX,i91av.org
   - DOMAIN-SUFFIX,ichineseporn.com
   - DOMAIN-SUFFIX,iijav.com
   - DOMAIN-SUFFIX,immxd.com
+  - DOMAIN-SUFFIX,inasian.club
   - DOMAIN-SUFFIX,isexlove.tw
   - DOMAIN-SUFFIX,isexomega.tw
+  - DOMAIN-SUFFIX,iwara.tv
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,japan-whores.com
   - DOMAIN-SUFFIX,japanesebeauties.net
@@ -6584,17 +6597,22 @@ payload:
   - DOMAIN-SUFFIX,jav101.com
   - DOMAIN-SUFFIX,jav168.cc
   - DOMAIN-SUFFIX,jav321.com
+  - DOMAIN-SUFFIX,jav777.cc
   - DOMAIN-SUFFIX,javcc.cc
   - DOMAIN-SUFFIX,javcc.com
+  - DOMAIN-SUFFIX,javdb.com
   - DOMAIN-SUFFIX,javdoe.com
   - DOMAIN-SUFFIX,javdove8.xyz
   - DOMAIN-SUFFIX,javfor.me
+  - DOMAIN-SUFFIX,javfree.me
   - DOMAIN-SUFFIX,javfull.net
   - DOMAIN-SUFFIX,javhd.pro
   - DOMAIN-SUFFIX,javhd3x.com
   - DOMAIN-SUFFIX,javhdfree.net
+  - DOMAIN-SUFFIX,javmodel.com
   - DOMAIN-SUFFIX,javmost.com
   - DOMAIN-SUFFIX,javqd.com
+  - DOMAIN-SUFFIX,javscreens.com
   - DOMAIN-SUFFIX,javynow.com
   - DOMAIN-SUFFIX,jgg18.xyz
   - DOMAIN-SUFFIX,jiayoulu.com
@@ -6602,8 +6620,10 @@ payload:
   - DOMAIN-SUFFIX,jjdong7.com
   - DOMAIN-SUFFIX,johren.net
   - DOMAIN-SUFFIX,kissjav.com
+  - DOMAIN-SUFFIX,kompoz2.com
   - DOMAIN-SUFFIX,kphimsex.net
   - DOMAIN-SUFFIX,kslive.tv
+  - DOMAIN-SUFFIX,letmejerk.com
   - DOMAIN-SUFFIX,love7.xyz
   - DOMAIN-SUFFIX,lp99.pw
   - DOMAIN-SUFFIX,lsnzxzy1.com
@@ -6617,23 +6637,37 @@ payload:
   - DOMAIN-SUFFIX,namethatporn.com
   - DOMAIN-SUFFIX,nekoxxx.com
   - DOMAIN-SUFFIX,nhentai.net
+  - DOMAIN-SUFFIX,nonktube.com
+  - DOMAIN-SUFFIX,nudevista.com
   - DOMAIN-SUFFIX,ohyeah1080.com
   - DOMAIN-SUFFIX,onejav.com
   - DOMAIN-SUFFIX,osakamotion.net
   - DOMAIN-SUFFIX,p3.csgfnmdb.com
   - DOMAIN-SUFFIX,papalah.com
+  - DOMAIN-SUFFIX,playno1.com
   - DOMAIN-SUFFIX,popjav.tv
+  - DOMAIN-SUFFIX,pornacho.com
   - DOMAIN-SUFFIX,pornbest.org
+  - DOMAIN-SUFFIX,pornbrb.com
+  - DOMAIN-SUFFIX,pornhits.com
+  - DOMAIN-SUFFIX,pornkai.com
+  - DOMAIN-SUFFIX,pornmd.com
+  - DOMAIN-SUFFIX,pornogramxxx.com
+  - DOMAIN-SUFFIX,pornstarbyface.com
   - DOMAIN-SUFFIX,porntea.com
+  - DOMAIN-SUFFIX,pornzog.com
   - DOMAIN-SUFFIX,pyhapp.com
   - DOMAIN-SUFFIX,qingse.one
+  - DOMAIN-SUFFIX,r18.com
   - DOMAIN-SUFFIX,r18lu.com
   - DOMAIN-SUFFIX,realitykings.com
+  - DOMAIN-SUFFIX,redgifs.com
   - DOMAIN-SUFFIX,rule34.xxx
   - DOMAIN-SUFFIX,seqingx.com
   - DOMAIN-SUFFIX,seselah.com
   - DOMAIN-SUFFIX,sextop1.net
   - DOMAIN-SUFFIX,sexzy4.com
+  - DOMAIN-SUFFIX,shireyishunjian.com
   - DOMAIN-SUFFIX,soirt4.fun
   - DOMAIN-SUFFIX,south-plus.net
   - DOMAIN-SUFFIX,stripchat.com
@@ -6642,15 +6676,20 @@ payload:
   - DOMAIN-SUFFIX,tbr.tangbr.net
   - DOMAIN-SUFFIX,theav.cc
   - DOMAIN-SUFFIX,thisav.com
+  - DOMAIN-SUFFIX,thisvid.com
   - DOMAIN-SUFFIX,thtmod1.com
   - DOMAIN-SUFFIX,tkb008.xyz
   - DOMAIN-SUFFIX,tokyomotion.net
+  - DOMAIN-SUFFIX,torrentkitty.tv
   - DOMAIN-SUFFIX,tssp.best
+  - DOMAIN-SUFFIX,tube4world.com
+  - DOMAIN-SUFFIX,tubesafari.com
   - DOMAIN-SUFFIX,tubetubetube.com
   - DOMAIN-SUFFIX,upjav.cc
   - DOMAIN-SUFFIX,vgg8.com
   - DOMAIN-SUFFIX,vjav.com
   - DOMAIN-SUFFIX,watchjavonline.com
+  - DOMAIN-SUFFIX,water-and-power.com
   - DOMAIN-SUFFIX,wuso.me
   - DOMAIN-SUFFIX,wzmyg.com
   - DOMAIN-SUFFIX,x18r.com
@@ -8900,7 +8939,6 @@ payload:
   - DOMAIN-SUFFIX,hdzog.com
   - DOMAIN-SUFFIX,headius.com
   - DOMAIN-SUFFIX,heartyit.com
-  - DOMAIN-SUFFIX,heavy-r.com
   - DOMAIN-SUFFIX,hec.su
   - DOMAIN-SUFFIX,hecaitou.net
   - DOMAIN-SUFFIX,hechaji.com
@@ -10410,7 +10448,6 @@ payload:
   - DOMAIN-SUFFIX,playboy.com
   - DOMAIN-SUFFIX,playboyplus.com
   - DOMAIN-SUFFIX,player.fm
-  - DOMAIN-SUFFIX,playno1.com
   - DOMAIN-SUFFIX,playpcesor.com
   - DOMAIN-SUFFIX,plays.com.tw
   - DOMAIN-SUFFIX,plixi.com
@@ -10578,7 +10615,6 @@ payload:
   - DOMAIN-SUFFIX,qx.net
   - DOMAIN-SUFFIX,qz.com
   - DOMAIN-SUFFIX,r-chart.com
-  - DOMAIN-SUFFIX,r18.com
   - DOMAIN-SUFFIX,ra.gg
   - DOMAIN-SUFFIX,radicalparty.org
   - DOMAIN-SUFFIX,radiko.jp
