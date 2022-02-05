@@ -8136,6 +8136,8 @@ DOMAIN-SUFFIX,huoshanzhibo.com
 ## >> 番茄小说
 DOMAIN-SUFFIX,changdunovel.com
 DOMAIN-SUFFIX,muyewx.com
+## >> 飞聊
+DOMAIN-SUFFIX,feiliao.com
 ## >> 飞书
 DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,feishucdn.com
@@ -8190,6 +8192,7 @@ DOMAIN-SUFFIX,wohst8.com
 DOMAIN-SUFFIX,healthybaike.com
 ## >> 今日头条
 DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,toutiaoapi.com
 DOMAIN-SUFFIX,toutiaocdn.com
 DOMAIN-SUFFIX,toutiaocloud.com
 DOMAIN-SUFFIX,toutiaocloud.net
