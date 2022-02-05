@@ -233,8 +233,8 @@ dns:
 #    - tls://dns.google:853
 #    - tls://dns-tls.qis.io:853
   fallback-filter:
-    geoip: true # default
-    geoip-code: CN
+#    geoip: true # default
+#    geoip-code: CN
     ipcidr: # ips in these subnets will be considered polluted
       - 0.0.0.0/32
       - 100.64.0.0/10
