@@ -2255,6 +2255,15 @@ payload:
   - DOMAIN-SUFFIX,bfshow.cn
   - DOMAIN-SUFFIX,bjtndao.org
   - DOMAIN-SUFFIX,stormshow.cn
+  ## > 北京广播电视台
+  - DOMAIN-SUFFIX,bist2011.com
+  - DOMAIN-SUFFIX,brtn.cn
+  - DOMAIN-SUFFIX,brtn.com.cn
+  - DOMAIN-SUFFIX,brtn.org
+  - DOMAIN-SUFFIX,brtv.org.cn
+  - DOMAIN-SUFFIX,brtvcloud.com
+  - DOMAIN-SUFFIX,btime.com
+  - DOMAIN-SUFFIX,btvcloud.com
   ## > 北京青年报
   - DOMAIN-SUFFIX,ynet.com.cn
   - DOMAIN-SUFFIX,ynet.com
