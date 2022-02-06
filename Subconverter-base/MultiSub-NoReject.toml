@@ -18,14 +18,6 @@ exclude_remarks = ["(到期|剩余流量|时间|官网|产品|先购买套餐|�
 udp_flag = true
 
 [[node_pref.rename_node]]
-match = "(中转)([0-9][0-9][0-9]|[0-9][0-9][0-9][0-9])\|"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "^V[0-9]-"
-replace = ""
-
-[[node_pref.rename_node]]
 match = "(解锁|)(\|)(x.*)(\|V2ray)"
 replace = "$[$3]"
 
@@ -36,6 +28,30 @@ replace = "$1$4$2"
 [[node_pref.rename_node]]
 match = "^CordCloud - "
 replace = ""
+
+[[node_pref.rename_node]]
+match = "(.*) (x.*[0-9]) (.*) (中转|直连|80端口)"
+replace = "$1-$3[$2]"
+
+[[node_pref.rename_node]]
+match = "(.*) (x.*[0-9]) (..)(中转|直连|80端口)"
+replace = "$1-$3[$2]"
+
+[[node_pref.rename_node]]
+match = "(V[0-9]-)(IEPL专线 |)(.*)( | \| )([0-9].*)(x$)"
+replace = "$3[x$5]"
+
+[[node_pref.rename_node]]
+match = "(V[0-9]-)(IEPL专线 |)(.*)( )([0-9].*)(x) (原生IP)"
+replace = "$3[M][x$5]"
+
+[[node_pref.rename_node]]
+match = "(.*)([0-9].*[0-9])(解锁|原生)(\|[\w].*[0-9])"
+replace = "$1$2[M]"
+
+[[node_pref.rename_node]]
+match = "(.*)([0-9].*[0-9])(标准|)(\|[\w].*[0-9])"
+replace = "$1$2"
 
 [[node_pref.rename_node]]
 match = "(.*)(\[)(倍率:)(.*[0-9])(\])"
@@ -56,30 +72,6 @@ replace = ""
 ;[[node_pref.rename_node]]
 ;match = "^(.*)(HK(?!(B|T|G)))([\u4e00-\u9fa5])"
 ;replace = "港-$3"
-
-[[node_pref.rename_node]]
-match = "(.*) (x.*[0-9]) (.*) (中转|直连|80端口)"
-replace = "$1-$3[$2]"
-
-[[node_pref.rename_node]]
-match = "(.*) (x.*[0-9]) (..)(中转|直连|80端口)"
-replace = "$1-$3[$2]"
-
-[[node_pref.rename_node]]
-match = "(^V[0-9]-)(IEPL专线 |)(.*)( | \| )([0-9].*)(x$)"
-replace = "$3[x$5]"
-
-[[node_pref.rename_node]]
-match = "(^V[0-9]-)(IEPL专线 |)(.*)( )([0-9].*)(x) (原生IP)"
-replace = "$3[M][x$5]"
-
-[[node_pref.rename_node]]
-match = "(.*)([0-9].*[0-9])(解锁|原生)(\|D.*[0-9])"
-replace = "$1$2[M]"
-
-[[node_pref.rename_node]]
-match = "(.*)([0-9].*[0-9])(标准)(\|D.*[0-9])"
-replace = "$1$2"
 
 [[node_pref.rename_node]]
 match = "^(.*)(HK(?!B|G|T))([\u4e00-\u9fa5].*)"
@@ -420,10 +412,6 @@ replace = "[M]"
 [[node_pref.rename_node]]
 match = "\[CM\]|\[CU\]|\[BT\/PT专用\]|\[荐\]|\[Beta\]|\[移动\]|\[联通\]|\[综合\]|\[备用\]|\[阿里云\]|\[测试\]|\[v6\]|高速|100m限速|CDN加速|Game|PPCW|Sakura"
 replace = ""
-
-[[node_pref.rename_node]]
-match = "(.*)([0-9][0-9])"
-replace = "$1-$2"
 
 [[node_pref.rename_node]]
 match = "\[0\.2\]"
