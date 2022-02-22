@@ -24,12 +24,14 @@ payload:
   - DOMAIN-SUFFIX,cbsradio.com
   ## >> Paramount
   - PROCESS-NAME,com.cbs.app
+  - DOMAIN-SUFFIX,amlg.io
   - DOMAIN-SUFFIX,cbsaavideo.com
   - DOMAIN-SUFFIX,cbsi.com
   - DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
   - DOMAIN-SUFFIX,cbsivideo.com
   - DOMAIN-SUFFIX,cbsplaylistserver.aws.syncbak.com
   - DOMAIN-SUFFIX,cbsservice.aws.syncbak.com
+  - DOMAIN-SUFFIX,mtvnservices.com
   - DOMAIN-SUFFIX,paramount.com
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
