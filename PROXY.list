@@ -4628,20 +4628,23 @@ IP-CIDR6,2001:4c28:3000::/48,no-resolve
 IP-CIDR6,2001:4c28::/32,no-resolve
 IP-CIDR6,2001:4c28:4000::/36,no-resolve
 ## > Oracle
-DOMAIN-SUFFIX,oracle.com
-DOMAIN-SUFFIX,oraclecloud.com
-DOMAIN-SUFFIX,oracleimg.com
-DOMAIN-SUFFIX,sun.com
-DOMAIN-SUFFIX,oraclefoundation.org
 DOMAIN-SUFFIX,ateam-oracle.com
 DOMAIN-SUFFIX,bronto.com
 DOMAIN-SUFFIX,covid19-rx.org
 DOMAIN-SUFFIX,covid19rx.org
+DOMAIN-SUFFIX,oracle
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,oraclecloud.com
+DOMAIN-SUFFIX,oraclefoundation.org
+DOMAIN-SUFFIX,oracleimg.com
+DOMAIN-SUFFIX,oracleinfinity.io
+DOMAIN-SUFFIX,sun.com
 # >> Addthis
 DOMAIN-SUFFIX,addthis.com
 DOMAIN-SUFFIX,addthiscdn.com
 DOMAIN-SUFFIX,addthisedge.com
 # >> Java
+DOMAIN-SUFFIX,java
 DOMAIN-SUFFIX,java.com
 DOMAIN-SUFFIX,java.net
 ## > Oreilly
