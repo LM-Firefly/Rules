@@ -184,6 +184,7 @@ payload:
   - DOMAIN-SUFFIX,yahoo.ws
   - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,yahoodns.net
+  - DOMAIN-SUFFIX,yahoosandbox.com
   - DOMAIN-SUFFIX,yimg.com
   - DOMAIN-SUFFIX,yimg.jp
   # >> Flickr
