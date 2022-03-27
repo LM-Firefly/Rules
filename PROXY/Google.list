@@ -201,6 +201,11 @@ DOMAIN-SUFFIX,kaggle.com
 DOMAIN-SUFFIX,kaggle.io
 ## >> Neverware
 DOMAIN-SUFFIX,neverware.com
+## >> Opensourceinsights
+DOMAIN-SUFFIX,deps.dev
+DOMAIN-SUFFIX,deps.info
+DOMAIN-SUFFIX,opensourceinsight.dev
+DOMAIN-SUFFIX,opensourceinsights.dev
 ## >> Polymer
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,polymerproject.org
