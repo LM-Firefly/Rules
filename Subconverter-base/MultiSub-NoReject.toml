@@ -50,6 +50,10 @@ match = "(.*)([0-9].*[0-9])(解锁|原生)(\|[\w].*[0-9])"
 replace = "$1$2[M]"
 
 [[node_pref.rename_node]]
+match = "(.*)(\b[0-9][0-9]\b)(解锁|原生)"
+replace = "$1$2[M]"
+
+[[node_pref.rename_node]]
 match = "(.*)([0-9].*[0-9])(标准|)(\|[\w].*[0-9])"
 replace = "$1$2"
 
