@@ -75,75 +75,75 @@ replace = ""
 
 ;[[node_pref.rename_node]]
 ;match = "^(.*)(HK(?!(B|T|G)))([\u4e00-\u9fa5])"
-;replace = "港-$3"
+;replace = "香港-$3"
 
 [[node_pref.rename_node]]
 match = "^(.*)(HK(?!B|G|T))([\u4e00-\u9fa5].*)"
-replace = "港-$3"
+replace = "香港-$3"
 
 [[node_pref.rename_node]]
 match = "^(HKBN)(.*)"
-replace = "港HKBN-$2"
+replace = "香港HKBN-$2"
 
 [[node_pref.rename_node]]
 match = "^(HKG)(.*)"
-replace = "港HKG-$2"
+replace = "香港HKG-$2"
 
 [[node_pref.rename_node]]
 match = "^(HKT)(.*)"
-replace = "港HKT-$2"
+replace = "香港HKT-$2"
 
 [[node_pref.rename_node]]
 match = "^(HGC)(.*)"
-replace = "港HGC-$2"
+replace = "香港HGC-$2"
 
 [[node_pref.rename_node]]
 match = "^(WTT)(.*)"
-replace = "港WTT-$2"
+replace = "香港WTT-$2"
 
 [[node_pref.rename_node]]
 match = "^(US)(.*)"
-replace = "美-$2"
+replace = "美国-$2"
 
 [[node_pref.rename_node]]
 match = "^(JP)(.*)"
-replace = "日-$2"
+replace = "日本-$2"
 
 [[node_pref.rename_node]]
 match = "^(TW)(.*)"
-replace = "台-$2"
+replace = "台湾-$2"
 
 [[node_pref.rename_node]]
 match = "^(SG)(.*)"
-replace = "新-$2"
+replace = "新加坡-$2"
 
 [[node_pref.rename_node]]
 match = "^(RU)(.*)"
-replace = "俄-$2"
+replace = "俄罗斯-$2"
 
 [[node_pref.rename_node]]
 match = "^(TR)(.*)"
-replace = "土-$2"
+replace = "土耳其-$2"
 
 [[node_pref.rename_node]]
 match = "^(UK)(.*)"
-replace = "英-$2"
+replace = "英国-$2"
 
 [[node_pref.rename_node]]
 match = "^(KR)(.*)"
-replace = "韩-$2"
+replace = "韩国-$2"
 
 [[node_pref.rename_node]]
 match = "^(FR)(.*)"
-replace = "法-$2"
+replace = "法国-$2"
 
 [[node_pref.rename_node]]
 match = "^(CA)(.*)"
-replace = "加-$2"
+replace = "加拿大-$2"
 
 [[node_pref.rename_node]]
 match = "^(CN)(.*)"
-replace = "中-$2"
+replace = "中国-$2"
 
 [[node_pref.rename_node]]
 match = "^(RO)(.*)"
@@ -168,222 +168,6 @@ replace = "CT"
 [[node_pref.rename_node]]
 match = "联通"
 replace = "CU"
-
-[[node_pref.rename_node]]
-match = "上海"
-replace = "沪"
-
-[[node_pref.rename_node]]
-match = "中国"
-replace = "中"
-
-[[node_pref.rename_node]]
-match = "云南"
-replace = "云"
-
-[[node_pref.rename_node]]
-match = "佛山"
-replace = "禅"
-
-[[node_pref.rename_node]]
-match = "俄罗斯"
-replace = "俄"
-
-[[node_pref.rename_node]]
-match = "加拿大"
-replace = "加"
-
-[[node_pref.rename_node]]
-match = "北京"
-replace = "京"
-
-[[node_pref.rename_node]]
-match = "南京"
-replace = "宁"
-
-[[node_pref.rename_node]]
-match = "南阳"
-replace = "宛"
-
-[[node_pref.rename_node]]
-match = "台湾"
-replace = "台"
-
-[[node_pref.rename_node]]
-match = "四川"
-replace = "川"
-
-[[node_pref.rename_node]]
-match = "土耳其"
-replace = "土"
-
-[[node_pref.rename_node]]
-match = "天津"
-replace = "津"
-
-[[node_pref.rename_node]]
-match = "宁波"
-replace = "甬"
-
-[[node_pref.rename_node]]
-match = "安徽"
-replace = "皖"
-
-[[node_pref.rename_node]]
-match = "新广东"
-replace = "粤"
-
-[[node_pref.rename_node]]
-match = "广东"
-replace = "粤"
-
-[[node_pref.rename_node]]
-match = "广州"
-replace = "穗"
-
-[[node_pref.rename_node]]
-match = "徐州"
-replace = "徐"
-
-[[node_pref.rename_node]]
-match = "德国"
-replace = "德"
-
-[[node_pref.rename_node]]
-match = "意大利"
-replace = "意"
-
-[[node_pref.rename_node]]
-match = "成都"
-replace = "蓉"
-
-[[node_pref.rename_node]]
-match = "新加坡"
-replace = "新"
-
-[[node_pref.rename_node]]
-match = "日本"
-replace = "日"
-
-[[node_pref.rename_node]]
-match = "杭州"
-replace = "杭"
-
-[[node_pref.rename_node]]
-match = "武汉"
-replace = "汉"
-
-[[node_pref.rename_node]]
-match = "汕头"
-replace = "汕"
-
-[[node_pref.rename_node]]
-match = "江苏"
-replace = "苏"
-
-[[node_pref.rename_node]]
-match = "沈阳"
-replace = "沈"
-
-[[node_pref.rename_node]]
-match = "法国"
-replace = "法"
-
-[[node_pref.rename_node]]
-match = "泰国"
-replace = "泰"
-
-[[node_pref.rename_node]]
-match = "浙江"
-replace = "浙"
-
-[[node_pref.rename_node]]
-match = "海南"
-replace = "琼"
-
-[[node_pref.rename_node]]
-match = "深圳"
-replace = "深"
-
-[[node_pref.rename_node]]
-match = "湖北"
-replace = "鄂"
-
-[[node_pref.rename_node]]
-match = "湖南"
-replace = "湘"
-
-[[node_pref.rename_node]]
-match = "长沙"
-replace = "长"
-
-[[node_pref.rename_node]]
-match = "澳门"
-replace = "澳"
-
-[[node_pref.rename_node]]
-match = "珠海"
-replace = "珠"
-
-[[node_pref.rename_node]]
-match = "瑞士"
-replace = "瑞"
-
-[[node_pref.rename_node]]
-match = "福建"
-replace = "闽"
-
-[[node_pref.rename_node]]
-match = "美国"
-replace = "美"
-
-[[node_pref.rename_node]]
-match = "芬兰"
-replace = "芬"
-
-[[node_pref.rename_node]]
-match = "英国"
-replace = "英"
-
-[[node_pref.rename_node]]
-match = "菲律宾"
-replace = "菲"
-
-[[node_pref.rename_node]]
-match = "许昌"
-replace = "许"
-
-[[node_pref.rename_node]]
-match = "贵州"
-replace = "贵"
-
-[[node_pref.rename_node]]
-match = "贵阳"
-replace = "筑"
-
-[[node_pref.rename_node]]
-match = "越南"
-replace = "越"
-
-[[node_pref.rename_node]]
-match = "镇江"
-replace = "镇"
-
-[[node_pref.rename_node]]
-match = "青岛"
-replace = "青"
-
-[[node_pref.rename_node]]
-match = "青海"
-replace = "青"
-
-[[node_pref.rename_node]]
-match = "韩国"
-replace = "韩"
-
-[[node_pref.rename_node]]
-match = "香港"
-replace = "港"
 
 [[node_pref.rename_node]]
 match = "深港专线"
