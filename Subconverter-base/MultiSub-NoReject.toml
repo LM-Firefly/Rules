@@ -282,56 +282,152 @@ match = "(NetEaseMusic|网易云音乐|网易云解锁)"
 emoji = "🎶"
 
 [[emojis.emoji]]
-match = "(Ascension|阿森松)"
-emoji = "🇦🇨"
-
-[[emojis.emoji]]
-match = "(UAE|Dubai|阿联酋|迪拜)"
-emoji = "🇦🇪"
-
-[[emojis.emoji]]
 match = "(阿尔巴尼亚|Albania)"
 emoji = "🇦🇱"
-
-[[emojis.emoji]]
-match = "(AR|阿根廷|Argentina)"
-emoji = "🇦🇷"
-
-[[emojis.emoji]]
-match = "(Austria|Vienna|奥地利|维也纳)"
-emoji = "🇦🇹"
-
-[[emojis.emoji]]
-match = "(AU|Australia|Sydney|澳大利亚|澳洲|悉尼)"
-emoji = "🇦🇺"
 
 [[emojis.emoji]]
 match = "(阿塞拜疆|Azerbaijan)"
 emoji = "🇦🇿"
 
 [[emojis.emoji]]
-match = "(波黑共和国|波士尼亚与赫塞哥维纳|Bosnia|Herzegovina)"
-emoji = "🇧🇦"
+match = "(埃及|Egypt)"
+emoji = "🇪🇬"
 
 [[emojis.emoji]]
-match = "(BE|Belgium|比利时)"
-emoji = "🇧🇪"
+match = "(爱沙尼亚|Estonia)"
+emoji = "🇪🇪"
+
+[[emojis.emoji]]
+match = "(巴拿马|Panama)"
+emoji = "🇵🇦"
 
 [[emojis.emoji]]
 match = "(保加利亚|Bulgaria)"
 emoji = "🇧🇬"
 
 [[emojis.emoji]]
-match = "(BR|Brazil|Paulo|巴西|圣保罗)"
-emoji = "🇧🇷"
+match = "(北马其顿|Macedonia)"
+emoji = "🇲🇰"
 
 [[emojis.emoji]]
-match = "(Switzerland|Zurich|瑞士|苏黎世)"
-emoji = "🇨🇭"
+match = "(波黑共和国|波士尼亚与赫塞哥维纳|Bosnia|Herzegovina)"
+emoji = "🇧🇦"
+
+[[emojis.emoji]]
+match = "(格鲁吉亚|Georgia)"
+emoji = "🇪"
+
+[[emojis.emoji]]
+match = "(格鲁吉亚|Georgia)"
+emoji = "🇬🇪"
+
+[[emojis.emoji]]
+match = "(哈萨克斯坦|Kazakhstan)"
+emoji = "🇰🇿"
+
+[[emojis.emoji]]
+match = "(吉尔吉斯斯坦|Kyrgyzstan)"
+emoji = "🇰🇬"
+
+[[emojis.emoji]]
+match = "(柬埔寨|Cambodia)"
+emoji = "🇰🇭"
+
+[[emojis.emoji]]
+match = "(克罗地亚|Croatia)"
+emoji = "🇭🇷"
+
+[[emojis.emoji]]
+match = "(肯尼亚|Kenya)"
+emoji = "🇰🇪"
+
+[[emojis.emoji]]
+match = "(拉脱维亚|Latvia)"
+emoji = "🇱🇻"
+
+[[emojis.emoji]]
+match = "(立陶宛|Lietuvos)"
+emoji = "🇱🇹"
+
+[[emojis.emoji]]
+match = "(卢森堡|Luxemburg|Luxembourg)"
+emoji = "🇱🇺"
+
+[[emojis.emoji]]
+match = "(蒙古|Монголулс|Mongolia)"
+emoji = "🇲🇳"
+
+[[emojis.emoji]]
+match = "(秘鲁|Peru)"
+emoji = "🇵🇪"
+
+[[emojis.emoji]]
+match = "(墨西哥|Mexico)"
+emoji = "🇲🇽"
+
+[[emojis.emoji]]
+match = "(尼日利亚|Nigeria)"
+emoji = "🇳🇬"
+
+[[emojis.emoji]]
+match = "(葡萄牙|Portugal)"
+emoji = "🇵🇹"
+
+[[emojis.emoji]]
+match = "(塞尔维亚|Serbia)"
+emoji = "🇷🇸"
+
+[[emojis.emoji]]
+match = "(塞浦路斯|Cyprus)"
+emoji = "🇨🇾"
+
+[[emojis.emoji]]
+match = "(斯洛伐克|Slovensko)"
+emoji = "🇸🇰"
+
+[[emojis.emoji]]
+match = "(斯洛文尼亚|Slovenia)"
+emoji = "🇸🇮"
+
+[[emojis.emoji]]
+match = "(突尼斯|Tunisia)"
+emoji = "🇹🇳"
+
+[[emojis.emoji]]
+match = "(乌克兰|Ukraine)"
+emoji = "🇺🇦"
+
+[[emojis.emoji]]
+match = "(乌拉圭|Uruguay)"
+emoji = "🇺🇾"
+
+[[emojis.emoji]]
+match = "(希腊|Greece)"
+emoji = "🇬🇷"
+
+[[emojis.emoji]]
+match = "(新西兰|纽西兰|New Zealand)"
+emoji = "🇳🇿"
+
+[[emojis.emoji]]
+match = "(伊朗|Iran)"
+emoji = "🇮🇷"
+
+[[emojis.emoji]]
+match = "(约旦|Jordan)"
+emoji = "🇯🇴"
 
 [[emojis.emoji]]
 match = "(智利|Chile)"
 emoji = "🇨🇱"
+
+[[emojis.emoji]]
+match = "(Ascension|阿森松)"
+emoji = "🇦🇨"
+
+[[emojis.emoji]]
+match = "(Austria|Vienna|奥地利|维也纳)"
+emoji = "🇦🇹"
 
 [[emojis.emoji]]
 match = "(Colombia|哥伦比亚)"
@@ -342,32 +438,8 @@ match = "(Costa Rica|哥斯达黎加)"
 emoji = "🇨🇷"
 
 [[emojis.emoji]]
-match = "(塞浦路斯|Cyprus)"
-emoji = "🇨🇾"
-
-[[emojis.emoji]]
 match = "(Czech|捷克)"
 emoji = "🇨🇿"
-
-[[emojis.emoji]]
-match = "(?i:DE|Germany|法兰克福|德.*(?!▷|回|转))"
-emoji = "🇩🇪"
-
-[[emojis.emoji]]
-match = "(Denmark|丹麦)"
-emoji = "🇩🇰"
-
-[[emojis.emoji]]
-match = "(爱沙尼亚|Estonia)"
-emoji = "🇪🇪"
-
-[[emojis.emoji]]
-match = "(埃及|Egypt)"
-emoji = "🇪🇬"
-
-[[emojis.emoji]]
-match = "(Spain|西班牙)"
-emoji = "🇪🇸"
 
 [[emojis.emoji]]
 match = "(Europe|欧洲)"
@@ -378,24 +450,12 @@ match = "(Finland|Helsinki|芬兰|赫尔辛基)"
 emoji = "🇫🇮"
 
 [[emojis.emoji]]
-match = "(FR|France|Paris|法国.*(?!▷|回|转)|巴黎)"
-emoji = "🇫🇷"
-
-[[emojis.emoji]]
-match = "(格鲁吉亚|Georgia)"
-emoji = "🇬🇪"
-
-[[emojis.emoji]]
-match = "(希腊|Greece)"
-emoji = "🇬🇷"
-
-[[emojis.emoji]]
-match = "(克罗地亚|Croatia)"
-emoji = "🇭🇷"
-
-[[emojis.emoji]]
 match = "(Hungary|匈牙利)"
 emoji = "🇭🇺"
+
+[[emojis.emoji]]
+match = "(IMAN|马恩岛|Mann)"
+emoji = "🇮🇲"
 
 [[emojis.emoji]]
 match = "(Indonesia|Jakarta|印尼|印度尼西亚|雅加达)"
@@ -410,211 +470,159 @@ match = "(Israel|以色列)"
 emoji = "🇮🇱"
 
 [[emojis.emoji]]
-match = "(IMAN|马恩岛|Mann)"
-emoji = "🇮🇲"
-
-[[emojis.emoji]]
-match = "(India|Mumbai|印度|孟买)"
-emoji = "🇮🇳"
-
-[[emojis.emoji]]
-match = "(伊朗|Iran)"
-emoji = "🇮🇷"
-
-[[emojis.emoji]]
-match = "(Iceland|冰岛)"
-emoji = "🇮🇸"
-
-[[emojis.emoji]]
 match = "(Italy|Milan|意大利|米兰)"
 emoji = "🇮🇹"
-
-[[emojis.emoji]]
-match = "(约旦|Jordan)"
-emoji = "🇯🇴"
-
-[[emojis.emoji]]
-match = "(肯尼亚|Kenya)"
-emoji = "🇰🇪"
-
-[[emojis.emoji]]
-match = "(吉尔吉斯斯坦|Kyrgyzstan)"
-emoji = "🇰🇬"
-
-[[emojis.emoji]]
-match = "(柬埔寨|Cambodia)"
-emoji = "🇰🇭"
-
-[[emojis.emoji]]
-match = "(KP|North.*?Korea|朝鲜)"
-emoji = "🇰🇵"
-
-[[emojis.emoji]]
-match = "(哈萨克斯坦|Kazakhstan)"
-emoji = "🇰🇿"
-
-[[emojis.emoji]]
-match = "(立陶宛|Lietuvos)"
-emoji = "🇱🇹"
-
-[[emojis.emoji]]
-match = "(卢森堡|Luxemburg|Luxembourg)"
-emoji = "🇱🇺"
-
-[[emojis.emoji]]
-match = "(拉脱维亚|Latvia)"
-emoji = "🇱🇻"
 
 [[emojis.emoji]]
 match = "(Moldova|摩尔多瓦)"
 emoji = "🇲🇩"
 
 [[emojis.emoji]]
-match = "(北马其顿|Macedonia)"
-emoji = "🇲🇰"
-
-[[emojis.emoji]]
-match = "(蒙古|Монголулс|Mongolia)"
-emoji = "🇲🇳"
-
-[[emojis.emoji]]
-match = "(MO|Macao|澳.*(?!▷|回|转)|CTM)"
-emoji = "🇲🇴"
-
-[[emojis.emoji]]
-match = "(墨西哥|Mexico)"
-emoji = "🇲🇽"
-
-[[emojis.emoji]]
-match = "(MY|Malaysia|马来西亚)"
-emoji = "🇲🇾"
-
-[[emojis.emoji]]
-match = "(尼日利亚|Nigeria)"
-emoji = "🇳🇬"
-
-[[emojis.emoji]]
-match = "(NL|Netherlands|荷兰|阿姆斯特丹)"
-emoji = "🇳🇱"
-
-[[emojis.emoji]]
 match = "(Norway|挪威)"
 emoji = "🇳🇴"
-
-[[emojis.emoji]]
-match = "(新西兰|纽西兰)"
-emoji = "🇳🇿"
-
-[[emojis.emoji]]
-match = "(巴拿马|Panama)"
-emoji = "🇵🇦"
-
-[[emojis.emoji]]
-match = "(秘鲁|Peru)"
-emoji = "🇵🇪"
-
-[[emojis.emoji]]
-match = "(PH|Philippines|菲律宾)"
-emoji = "🇵🇭"
 
 [[emojis.emoji]]
 match = "(Pakistan|巴基斯坦)"
 emoji = "🇵🇰"
 
 [[emojis.emoji]]
-match = "(Poland|波兰)"
-emoji = "🇵🇱"
+match = "(Switzerland|Zurich|瑞士|苏黎世)"
+emoji = "🇨🇭"
 
 [[emojis.emoji]]
-match = "(葡萄牙|Portugal)"
-emoji = "🇵🇹"
+match = "(\bAR\b|阿根廷|Argentina)"
+emoji = "🇦🇷"
 
 [[emojis.emoji]]
-match = "(RO|Romania|罗马尼亚)"
+match = "(\bBE\b|Belgium|比利时)"
+emoji = "🇧🇪"
+
+[[emojis.emoji]]
+match = "(\bBR\b|Brazil|Paulo|巴西|圣保罗)"
+emoji = "🇧🇷"
+
+[[emojis.emoji]]
+match = "(\bMO\b|Macao|澳门|\bCTM\b|澳.*(?!▷|回|转))"
+emoji = "🇲🇴"
+
+[[emojis.emoji]]
+match = "(\bMY\b|Malaysia|马来西亚)"
+emoji = "🇲🇾"
+
+[[emojis.emoji]]
+match = "(\bPH\b|Philippines|菲律宾)"
+emoji = "🇵🇭"
+
+[[emojis.emoji]]
+match = "(\bRO\b|Romania|罗马尼亚)"
 emoji = "🇷🇴"
 
 [[emojis.emoji]]
-match = "(塞尔维亚|Serbia)"
-emoji = "🇷🇸"
-
-[[emojis.emoji]]
-match = "(SA|Arabia|沙特)"
+match = "(\bSA\b|Arabia|沙特)"
 emoji = "🇸🇦"
 
 [[emojis.emoji]]
-match = "(SE|Sweden|瑞典)"
+match = "(\bSE\b|Sweden|瑞典)"
 emoji = "🇸🇪"
 
 [[emojis.emoji]]
-match = "(斯洛文尼亚|Slovenia)"
-emoji = "🇸🇮"
-
-[[emojis.emoji]]
-match = "(斯洛伐克|Slovensko)"
-emoji = "🇸🇰"
-
-[[emojis.emoji]]
-match = "(TH|Thailand|泰国|曼谷)"
+match = "(\bTH\b|Thailand|泰国|曼谷)"
 emoji = "🇹🇭"
 
 [[emojis.emoji]]
-match = "(突尼斯|Tunisia)"
-emoji = "🇹🇳"
-
-[[emojis.emoji]]
-match = "(TR|Turkey|土耳其|土.*(?!▷|回|转)|伊斯坦布尔)"
+match = "(\bTR\b|Turkey|土耳其|土.*(?!▷|回|转)|伊斯坦布尔)"
 emoji = "🇹🇷"
 
 [[emojis.emoji]]
-match = "(乌拉圭|Uruguay)"
-emoji = "🇺🇾"
-
-[[emojis.emoji]]
-match = "(VN|Vietnam|越南)"
+match = "(\bVN\b|Vietnam|越南)"
 emoji = "🇻🇳"
 
 [[emojis.emoji]]
-match = "(ZA|Africa|南非)"
+match = "(\bZA\b|Africa|南非)"
 emoji = "🇿🇦"
 
 [[emojis.emoji]]
-match = "(?i:CA|Canada|Toronto|Montreal|Vancouver|加拿大|加(?!州|坡).*(?!▷|回|转)|蒙特利尔|温哥华|楓葉|枫叶)"
+match = "(?i:\bAU[S]?\b|Australia|Sydney|澳大利亚|澳洲|悉尼)"
+emoji = "🇦🇺"
+
+[[emojis.emoji]]
+match = "(?i:\bD[N]?K\b|Denmark|丹麦)"
+emoji = "🇩🇰"
+
+[[emojis.emoji]]
+match = "(?i:\bDE[U]?\b|Germany|法兰克福|德(国|意志)|中德|^德$|德.*(?!▷|回|转))"
+emoji = "🇩🇪"
+
+[[emojis.emoji]]
+match = "(?i:\bES[P]?\b|Spain|西班牙)"
+emoji = "🇪🇸"
+
+[[emojis.emoji]]
+match = "(?i:\bFR[A]?\b|France|Paris|法国|巴黎|法国.*(?!▷|回|转))"
+emoji = "🇫🇷"
+
+[[emojis.emoji]]
+match = "(?i:\bIN[D]?\b|India|Mumbai|印度|孟买|加尔各答|贾坎德|泰米尔纳德)"
+emoji = "🇮🇳"
+
+[[emojis.emoji]]
+match = "(?i:\bIS[L]?\b|Iceland|冰岛)"
+emoji = "🇮🇸"
+
+[[emojis.emoji]]
+match = "(?i:\bKP\b|North.*?Korea|朝鲜)"
+emoji = "🇰🇵"
+
+[[emojis.emoji]]
+match = "(?i:\bNL[D]?\b|Netherlands|荷兰|阿姆斯特丹)"
+emoji = "🇳🇱"
+
+[[emojis.emoji]]
+match = "(?i:\bP[O]?L\b|Poland|波兰)"
+emoji = "🇵🇱"
+
+[[emojis.emoji]]
+match = "(?i:\bUAE\b|Dubai|阿联酋|迪拜)"
+emoji = "🇦🇪"
+
+[[emojis.emoji]]
+match = "(?i:\bCA[N]?\b|Canada|Toronto|Montreal|Vancouver|加拿大|蒙特利尔|温哥华|楓葉|枫叶|加(?!州|坡).*(?!▷|回|转))"
 emoji = "🇨🇦"
 
 [[emojis.emoji]]
-match = "(?i:UK|England|United.*?Kingdom|London|英.*(?!▷|回|转)|[^-]英|伦敦)"
-emoji = "🇬🇧"
-
-[[emojis.emoji]]
-match = "(?i:JP|Japan|Tokyo|Osaka|Saitama|日.*(?!▷|回|转)|东京|大阪|埼玉|沪日|穗日|川日|中日|泉日|杭日|[^-]日)"
+match = "(?i:\bJP[N]?\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日|日.*(?!▷|回|转)|沪日|穗日|川日|中日|泉日|杭日)"
 emoji = "🇯🇵"
 
 [[emojis.emoji]]
-match = "(?i:KR|Korea|KOR|首尔|韩|韓)"
+match = "(?i:\bK[O]?R\b|Korea|首尔|韩|韓)"
 emoji = "🇰🇷"
 
 [[emojis.emoji]]
-match = "(?i:RU|Russia|Moscow|Petersburg|Siberia|俄.*(?!▷|回|转)|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|京俄|杭俄|[^-]俄)"
+match = "(?i:\bRU[S]?\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄|俄.*(?!▷|回|转)|京俄|杭俄)"
 emoji = "🇷🇺"
 
 [[emojis.emoji]]
-match = "(?i:SG|新加坡|新(?!▷|西)|Singapore|狮城|沪新|京新|泉新|穗新|深新|杭新|[^-]新)"
+match = "(?i:\bSG[P]?\b|Singapore|新加坡|狮城|[^-]新|新(?!▷|西)|沪新|京新|泉新|穗新|深新|杭新)"
 emoji = "🇸🇬"
 
 [[emojis.emoji]]
-match = "(?i:US|America|United.*?States|美.*(?!▷|回|转)|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|沪美|京美)"
+match = "(?i:\bUK\b|\bGB[R]?\b|England|United.*?Kingdom|London|英国|[^-]英|伦敦|英.*(?!▷|回|转))"
+emoji = "🇬🇧"
+
+[[emojis.emoji]]
+match = "(?i:\bUS[A]?\b|America|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|美.*(?!▷|回|转)|沪美|京美)"
 emoji = "🇺🇸"
 
 [[emojis.emoji]]
-match = "(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|港(?!▷|回|转)|[^-]港(?!▷|回|转))"
+match = "(?i:\bHK[G]?\b|Hong.*?Kong|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|[^-]港|港(?!▷|回|转))"
 emoji = "🇭🇰"
 
 [[emojis.emoji]]
-match = "(?i:TW|Taiwan|CHT|HiNet|台.*(?!▷|回|转)|台北|台中|新北|彰化|[^-]台)"
+match = "(?i:\bTW[N]?\b|Taiwan|新北|彰化|\bCHT\b|台湾|[^-]台|\bHINET\b|台.*(?!▷|回|转)|台北|台中)"
 emoji = "🇹🇼"
 
 [[emojis.emoji]]
-match = "(?i:CN|China|回国|中.*(?!▷|回|转)|苏.*(?!▷|回|转)|京.*(?!▷|回|转)|沪.*(?!▷|回|转)|穗.*(?!▷|回|转)|深(?!▷|港)|杭.*(?!▷|回|转)|徐.*(?!▷|回|转)|青.*(?!▷|回|转)|甬.*(?!▷|回|转)|镇.*(?!▷|回|转)|禅.*(?!▷|回|转)|蓉.*(?!▷|回|转)|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|成都|back)"
+match = "(?i:\bC[H]?N\b|China|回国|中国[^-]|江苏[^-]|北京[^-]|上海[^-]|广州[^-]|深圳[^-]|杭州[^-]|常州[^-]|徐州[^-]|青岛[^-]|宁波[^-]|镇江[^-]|成都[^-]|back|中.*(?!▷|回|转)|苏.*(?!▷|回|转)|京.*(?!▷|回|转)|沪.*(?!▷|回|转)|穗.*(?!▷|回|转)|深(?!▷|港)|杭.*(?!▷|回|转)|徐.*(?!▷|回|转)|青.*(?!▷|回|转)|甬.*(?!▷|回|转)|镇.*(?!▷|回|转)|禅.*(?!▷|回|转)|蓉.*(?!▷|回|转))"
 emoji = "🇨🇳"
 
 
