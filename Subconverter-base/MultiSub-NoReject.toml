@@ -254,19 +254,7 @@ replace = "[x10]"
 ;replace = "[x1]"
 
 [[node_pref.rename_node]]
-match = " "
-replace = ""
-
-[[node_pref.rename_node]]
 match = "\[\]"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "[ ]"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "( )"
 replace = ""
 
 [emojis]
