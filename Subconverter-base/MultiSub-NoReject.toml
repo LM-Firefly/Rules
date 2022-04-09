@@ -31,11 +31,11 @@ replace = ""
 
 [[node_pref.rename_node]]
 match = "(.*) (x.*[0-9]) (.*) (中转|直连|80端口)"
-replace = "$1-$3[$2]"
+replace = "$1 $3[$2]"
 
 [[node_pref.rename_node]]
 match = "(.*) (x.*[0-9]) (..)(中转|直连|80端口)"
-replace = "$1-$3[$2]"
+replace = "$1 $3[$2]"
 
 [[node_pref.rename_node]]
 match = "(V[0-9]-)(IEPL专线 |)(.*)( | \| )([0-9].*)(x$)"
@@ -75,83 +75,83 @@ replace = ""
 
 ;[[node_pref.rename_node]]
 ;match = "^(.*)(HK(?!(B|T|G)))([\u4e00-\u9fa5])"
-;replace = "香港-$3"
+;replace = "香港 $3"
 
 [[node_pref.rename_node]]
 match = "^(.*)(HK(?!B|G|T))([\u4e00-\u9fa5].*)"
-replace = "香港-$3"
+replace = "香港 $3"
 
 [[node_pref.rename_node]]
 match = "^(HKBN)(.*)"
-replace = "香港HKBN-$2"
+replace = "香港HKBN $2"
 
 [[node_pref.rename_node]]
 match = "^(HKG)(.*)"
-replace = "香港HKG-$2"
+replace = "香港HKG $2"
 
 [[node_pref.rename_node]]
 match = "^(HKT)(.*)"
-replace = "香港HKT-$2"
+replace = "香港HKT $2"
 
 [[node_pref.rename_node]]
 match = "^(HGC)(.*)"
-replace = "香港HGC-$2"
+replace = "香港HGC $2"
 
 [[node_pref.rename_node]]
 match = "^(WTT)(.*)"
-replace = "香港WTT-$2"
+replace = "香港WTT $2"
 
 [[node_pref.rename_node]]
 match = "^(US)(.*)"
-replace = "美国-$2"
+replace = "美国 $2"
 
 [[node_pref.rename_node]]
 match = "^(JP)(.*)"
-replace = "日本-$2"
+replace = "日本 $2"
 
 [[node_pref.rename_node]]
 match = "^(TW)(.*)"
-replace = "台湾-$2"
+replace = "台湾 $2"
 
 [[node_pref.rename_node]]
 match = "^(SG)(.*)"
-replace = "新加坡-$2"
+replace = "新加坡 $2"
 
 [[node_pref.rename_node]]
 match = "^(RU)(.*)"
-replace = "俄罗斯-$2"
+replace = "俄罗斯 $2"
 
 [[node_pref.rename_node]]
 match = "^(TR)(.*)"
-replace = "土耳其-$2"
+replace = "土耳其 $2"
 
 [[node_pref.rename_node]]
 match = "^(UK)(.*)"
-replace = "英国-$2"
+replace = "英国 $2"
 
 [[node_pref.rename_node]]
 match = "^(KR)(.*)"
-replace = "韩国-$2"
+replace = "韩国 $2"
 
 [[node_pref.rename_node]]
 match = "^(FR)(.*)"
-replace = "法国-$2"
+replace = "法国 $2"
 
 [[node_pref.rename_node]]
 match = "^(CA)(.*)"
-replace = "加拿大-$2"
+replace = "加拿大 $2"
 
 [[node_pref.rename_node]]
 match = "^(CN)(.*)"
-replace = "中国-$2"
+replace = "中国 $2"
 
 [[node_pref.rename_node]]
 match = "^(RO)(.*)"
-replace = "罗马尼亚-$2"
+replace = "罗马尼亚 $2"
 
 [[node_pref.rename_node]]
 match = "^(BR)(.*)"
-replace = "巴西-$2"
+replace = "巴西 $2"
 
 [[node_pref.rename_node]]
 match = "商宽"
