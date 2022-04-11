@@ -303,10 +303,6 @@ emoji = "🇧🇦"
 
 [[emojis.emoji]]
 match = "(格鲁吉亚|Georgia)"
-emoji = "🇪"
-
-[[emojis.emoji]]
-match = "(格鲁吉亚|Georgia)"
 emoji = "🇬🇪"
 
 [[emojis.emoji]]
@@ -344,6 +340,10 @@ emoji = "🇱🇺"
 [[emojis.emoji]]
 match = "(蒙古|Монголулс|Mongolia)"
 emoji = "🇲🇳"
+
+[[emojis.emoji]]
+match = "(孟加拉|Bangladesh)"
+emoji = "🇧🇩"
 
 [[emojis.emoji]]
 match = "(秘鲁|Peru)"
@@ -574,7 +574,7 @@ match = "(?i:\bUAE\b|Dubai|阿联酋|迪拜)"
 emoji = "🇦🇪"
 
 [[emojis.emoji]]
-match = "(?i:\bCA[N]?\b|Canada|Toronto|Montreal|Vancouver|加拿大|蒙特利尔|温哥华|楓葉|枫叶|加(?!州|坡).*(?!▷|回|转))"
+match = "(?i:\bCA[N]?\b|Canada|Toronto|Montreal|Vancouver|加拿大|蒙特利尔|温哥华|楓葉|枫叶|加(?!州|坡|拉).*(?!▷|回|转))"
 emoji = "🇨🇦"
 
 [[emojis.emoji]]
