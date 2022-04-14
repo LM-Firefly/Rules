@@ -33,6 +33,7 @@ tun:
   auto-detect-interface: true # auto detect interface, conflict with `interface-name`
   dns-hijack:
     - 22.0.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
+    - udp://any:53
 #interface-name: WLAN
 dns:
   enable: true
@@ -47,6 +48,7 @@ tun:
 #  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
   dns-hijack:
     - 1.0.0.1:53 # Do not modifly this line
+    - udp://any:53
 #interface-name: WLAN
 dns:
   enable: true
