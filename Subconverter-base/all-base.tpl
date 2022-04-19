@@ -59,8 +59,9 @@ dns:
 ipv6: true
 tun:
   enable: true
-  stack: gvisor #  system or gvisor
-  dns-listen: 0.0.0.0:53 # additional dns server listen on TUN
+  stack: gvisor #  only gvisor
+  dns-hijack:
+    - 0.0.0.0:53 # additional dns server listen on TUN
   auto-route: true # auto set global route
 #interface-name: WLAN
 dns:
