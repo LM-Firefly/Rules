@@ -82,6 +82,18 @@
 
 - # [Gog](https://github.com/LM-Firefly/Rules/blob/master/Game/Gog.list)
 
+- # [HoYoverse](https://github.com/LM-Firefly/Rules/blob/master/Game/HoYoverse.list)
+
+  - ## 原神
+
+  - ## 崩壞 3
+
+  - ## 星穹鐵道
+
+  - ## HoYoLab
+
+  - ## n0va
+
 - # [Nintendo](https://github.com/LM-Firefly/Rules/blob/master/Game/Nintendo.list)
 
   - ## Animal Croosing 动物森友会

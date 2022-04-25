@@ -82,6 +82,18 @@
 
 - # [Gog](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Game/Gog.yaml)
 
+- # [HoYoverse](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Game/HoYoverse.yaml)
+
+  - ## 原神
+
+  - ## 崩壞 3
+
+  - ## 星穹鐵道
+
+  - ## HoYoLab
+
+  - ## n0va
+
 - # [Nintendo](https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Game/Nintendo.yaml)
 
   - ## Animal Croosing 动物森友会
