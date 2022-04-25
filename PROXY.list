@@ -72,6 +72,7 @@ DOMAIN-SUFFIX,adobecreativityawards.com
 DOMAIN-SUFFIX,adobedc.cn
 DOMAIN-SUFFIX,adobedc.net
 DOMAIN-SUFFIX,adobedemo.com
+DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adobeexchange.com
 DOMAIN-SUFFIX,adobeexperienceawards.com
 DOMAIN-SUFFIX,adobegov.com
@@ -127,6 +128,8 @@ DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
 ## >> Adobe Dev
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,developria.com
+## >> Adobe Dynamic Media Delivery
+DOMAIN-SUFFIX,scene7.com
 ## >> Behance
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,s2stagehance.com
