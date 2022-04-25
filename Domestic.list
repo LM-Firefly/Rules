@@ -5227,9 +5227,23 @@ DOMAIN-SUFFIX,flyme.cn
 DOMAIN-SUFFIX,meizu.cn
 DOMAIN-SUFFIX,meizu.com
 DOMAIN-SUFFIX,mzres.com
-## > 米忽悠
+## > 米哈游
+DOMAIN-SUFFIX,mhyurl.cn
+DOMAIN-SUFFIX,mihayo.com
+DOMAIN-SUFFIX,mihayou.com
 DOMAIN-SUFFIX,mihoyo.com
+DOMAIN-SUFFIX,mihoyocg.com
+DOMAIN-SUFFIX,mihoyogift.com
+DOMAIN-SUFFIX,mihoyomall.com
+DOMAIN-SUFFIX,miyoushe.com
+## >> 崩坏2
+DOMAIN-SUFFIX,benghuai.com
+## >> 崩坏3
 DOMAIN-SUFFIX,bh3.com
+## >> 未定事件簿
+DOMAIN-SUFFIX,themisweeps.com
+## >> 原神
+DOMAIN-SUFFIX,yuanshen.com
 ## > 米物
 DOMAIN-SUFFIX,miiiw.cn
 DOMAIN-SUFFIX,miiiw.com
