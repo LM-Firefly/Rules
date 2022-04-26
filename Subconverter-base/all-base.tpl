@@ -80,6 +80,7 @@ dns:
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
+    - dhcp://system
   enhanced-mode: fake-ip # redir-host #fake-ip
   fake-ip-range: 22.0.0.0/8
   fake-ip-filter:
