@@ -1,5 +1,6 @@
 payload:
   ## 💊 小米
+  - PROCESS-NAME,小米云服务.exe
   ## > 小米
   - DOMAIN-SUFFIX,aleenote.cn
   - DOMAIN-SUFFIX,aleenote.com
