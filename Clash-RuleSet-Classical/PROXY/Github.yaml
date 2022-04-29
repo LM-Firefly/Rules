@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,githubuniverse.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,myoctocat.com
+  - DOMAIN-SUFFIX,opensource.guide
   - DOMAIN-SUFFIX,rawgit.com
   - DOMAIN-SUFFIX,rawgithub.com
   - DOMAIN-SUFFIX,thegithubshop.com
