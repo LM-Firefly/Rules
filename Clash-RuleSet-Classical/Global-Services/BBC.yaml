@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN,aod-dash-uk-live.akamaized.net
   - DOMAIN,aod-hls-uk-live.akamaized.net
+  - DOMAIN,as-dash-uk-live.akamaized.net
   - DOMAIN,as-hls-uk-live.akamaized.net
   - DOMAIN,vod-dash-uk-live.akamaized.net
   - DOMAIN,vod-dash-uk-live.bbcfmt.hs.llnwd.net
