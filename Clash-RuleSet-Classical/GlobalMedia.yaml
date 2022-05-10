@@ -100,6 +100,7 @@ payload:
   - DOMAIN,vod-thumb-uk-live.bbcfmt.hs.llnwd.net
   - DOMAIN,vod-thumb-ww-live.akamaized.net
   - DOMAIN,vod-thumb-ww-live.bbcfmt.s.llnwi.net
+  - DOMAIN,vs-cmaf-push-uk-live.akamaized.net
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
   ## > BiliBiliHMT 哔哩哔哩 港澳台番剧
