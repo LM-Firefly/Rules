@@ -5175,6 +5175,9 @@ DOMAIN-SUFFIX,jboss.org
 DOMAIN-SUFFIX,noobaa.io
 DOMAIN-SUFFIX,redhat.com
 DOMAIN-SUFFIX,stackrox.io
+## > Render
+DOMAIN-SUFFIX,onrender.com
+DOMAIN-SUFFIX,render.com
 ## > Ruleoflaw
 DOMAIN-SUFFIX,rolfoundation.org
 DOMAIN-SUFFIX,rolsociety.org
