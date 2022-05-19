@@ -46,11 +46,11 @@ match = "(V[0-9]-)(IEPL专线 |)(.*)( )([0-9].*)(x) (原生IP)"
 replace = "$3[M][x$5]"
 
 [[node_pref.rename_node]]
-match = "(.*)([0-9].*[0-9])(解锁|原生)(\|[\w].*[0-9])"
+match = "(.*)([0-9].*[0-9])(静态解锁|动态原生)(\|[\w].*[0-9])"
 replace = "$1$2[M]"
 
 [[node_pref.rename_node]]
-match = "(.*)(\b[0-9][0-9]\b)(解锁|原生)"
+match = "(.*)(\b[0-9][0-9]\b)(静态解锁|动态原生)"
 replace = "$1$2[M]"
 
 [[node_pref.rename_node]]
