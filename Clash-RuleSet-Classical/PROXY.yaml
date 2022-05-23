@@ -1761,6 +1761,10 @@ payload:
   - DOMAIN-SUFFIX,thawte.com
   - DOMAIN-SUFFIX,thawte.de
   - DOMAIN-SUFFIX,thawte.fr
+  ## > DigitalOcean
+  - DOMAIN-SUFFIX,digitalocean.com
+  - DOMAIN-SUFFIX,digitaloceanspaces.com
+  - DOMAIN-SUFFIX,nginxconfig.io
   ## > Discord
   - DOMAIN-SUFFIX,airhorn.solutions
   - DOMAIN-SUFFIX,airhornbot.com
