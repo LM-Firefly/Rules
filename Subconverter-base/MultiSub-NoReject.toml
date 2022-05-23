@@ -510,11 +510,11 @@ match = "(\bSE\b|Sweden|瑞典)"
 emoji = "🇸🇪"
 
 [[emojis.emoji]]
-match = "(\bTH(?A)\b|Thailand|泰国|曼谷)"
+match = "(\bTH\b|Thailand|泰国|曼谷)"
 emoji = "🇹🇭"
 
 [[emojis.emoji]]
-match = "(\bT(?U)R\b|Turkey|土耳其|土.*(?!▷|回|转)|伊斯坦布尔)"
+match = "(\bTR\b|Turkey|土耳其|土.*(?!▷|回|转)|伊斯坦布尔)"
 emoji = "🇹🇷"
 
 [[emojis.emoji]]
