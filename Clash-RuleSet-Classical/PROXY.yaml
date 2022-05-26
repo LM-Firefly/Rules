@@ -5041,10 +5041,11 @@ payload:
   - DOMAIN-SUFFIX,pixnet.tw
   - DOMAIN-SUFFIX,pixplug.in
   ## > Protonmail
+  - DOMAIN-SUFFIX,pm.me
+  - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,protonmail.ch
   - DOMAIN-SUFFIX,protonmail.com
   - DOMAIN-SUFFIX,protonstatus.com
-  - DOMAIN-SUFFIX,pm.me
   ## > Potato Chat
   - DOMAIN-SUFFIX,potato.im
   - IP-CIDR,13.251.24.157/24,no-resolve
