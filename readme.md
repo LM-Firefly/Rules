@@ -1,6 +1,6 @@
-# Rules
+## Rules
 
-自用 Clash 规则集
+### 自用 Clash 规则集
 
 | 文件名                | 包含内容                                                                                                 |
 | --------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -23,11 +23,14 @@
 | SpeedTest.list        | Ookla SpeedTest 服务器                                                                                   |
 | Local-LAN.list        | 局域网 IP 段                                                                                             |
 
-须知:
-Domestic-Services | Global-Services 只是作为引用小切片列出, 与 Domestic.list | GlobalMedia.list 并非相互对映，具体包含关系以列表注释为准。
+### 须知:
 
-灵活转换:
+Domestic-Services | Global-Services 只是作为引用小切片列出, 与 [Domestic.list](https://github.com/LM-Firefly/Rules/blob/master/Domestic.list) | [GlobalMedia.list](https://github.com/LM-Firefly/Rules/blob/master/GlobalMedia.list) 并非相互对映，具体包含关系以列表注释为准。
+
+### 灵活转换:
+
 如果有特殊格式需要，可以尝试使用 [Subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md#%E8%A7%84%E5%88%99%E8%BD%AC%E6%8D%A2) 自行转换，有很多公共的免费服务可以白嫖。这里提供一个我的后端，render 白嫖的 [firefly-subs.onrender.com](https://firefly-subs.onrender.com/)。
 
-相关引用:
+### 相关引用:
+
 [Telegram CIDR](https://core.telegram.org/resources/cidr.txt)
