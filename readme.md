@@ -5,7 +5,7 @@
 | 文件名                                                                                                 | 包含内容                                                                                                 |
 | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | [Adblock.list](https://github.com/LM-Firefly/Rules/blob/master/Adblock/Adblock.list)                   | 常见广告域名（广告联盟 等）                                                                              |
-| [App-Activation.list](https://github.com/LM-Firefly/Rules/blob/master/Special/App-Activation.list)     | 软件激活域名 （Adobe 全家桶 等）                                                                         |
+| [App-Activation.list](https://github.com/LM-Firefly/Rules/blob/master/Special/App-Activation.list)     | 软件激活域名（Adobe 全家桶 等）                                                                          |
 | [DNS.list](https://github.com/LM-Firefly/Rules/blob/master/Special/DNS.list)                           | 常用 DNS                                                                                                 |
 | [Apple.list](https://github.com/LM-Firefly/Rules/blob/master/Apple.list)                               | 苹果公司服务, 详见 [Apple.md](https://github.com/LM-Firefly/Rules/blob/master/Apple.md)                  |
 | [Game.list](https://github.com/LM-Firefly/Rules/blob/master/Game.list)                                 | 游戏平台, 详见 [Game.md](https://github.com/LM-Firefly/Rules/blob/master/Game.md)                        |
