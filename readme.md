@@ -25,7 +25,7 @@
 
 ### 须知:
 
-Domestic-Services | Global-Services 只是作为引用小切片列出, 与 [Domestic.list](https://github.com/LM-Firefly/Rules/blob/master/Domestic.list) | [GlobalMedia.list](https://github.com/LM-Firefly/Rules/blob/master/GlobalMedia.list) 并非相互对映，具体包含关系以列表注释为准。
+[Domestic-Services](https://github.com/LM-Firefly/Rules/tree/master/Domestic-Services) | [Global-Services](https://github.com/LM-Firefly/Rules/tree/master/Global-Services) 只是作为引用小切片列出, 与 [Domestic.list](https://github.com/LM-Firefly/Rules/blob/master/Domestic.list) | [GlobalMedia.list](https://github.com/LM-Firefly/Rules/blob/master/GlobalMedia.list) 并非相互对映，具体包含关系以列表注释为准。
 
 ### 灵活转换:
 
