@@ -8213,6 +8213,8 @@ payload:
   - DOMAIN-SUFFIX,bytedns.net
   - DOMAIN-SUFFIX,bytednsdoc.com
   - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,bytetcc.com
   - DOMAIN-SUFFIX,bytexservice.com
   - DOMAIN-SUFFIX,douyin.com
   - DOMAIN-SUFFIX,douyinact.com
@@ -8231,6 +8233,8 @@ payload:
   - DOMAIN-SUFFIX,dyshortvideo.com
   - DOMAIN-SUFFIX,dyvideotape.com
   - DOMAIN-SUFFIX,huaxiong.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ibyteimg.com
   - DOMAIN-SUFFIX,idouyinpic.com
   - DOMAIN-SUFFIX,idouyinstatic.com
   - DOMAIN-SUFFIX,idouyinvod.com
@@ -8241,8 +8245,21 @@ payload:
   - DOMAIN-SUFFIX,zijiecdn.com
   - DOMAIN-SUFFIX,zijiecdn.net
   - DOMAIN-SUFFIX,zjcdn.com
+  ## >> TikTok
+  - PROCESS-NAME,com.zhiliaoapp.musically
+  - DOMAIN-KEYWORD,-tiktokcdn-com
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,sgpstatp.com
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
   ## >> 抖音火山版
   - DOMAIN-SUFFIX,huoshan.com
+  - DOMAIN-SUFFIX,huoshanstatic.com
   - DOMAIN-SUFFIX,huoshanzhibo.com
   ## >> 番茄小说
   - DOMAIN-SUFFIX,changdunovel.com
@@ -8277,7 +8294,6 @@ payload:
   - DOMAIN-SUFFIX,huoshanimg.com
   - DOMAIN-SUFFIX,huoshanlive.com
   - DOMAIN-SUFFIX,huoshanparty.com
-  - DOMAIN-SUFFIX,huoshanstatic.com
   - DOMAIN-SUFFIX,huoshante8.com
   - DOMAIN-SUFFIX,huoshanvideo.cn
   - DOMAIN-SUFFIX,huoshanvideo.net
