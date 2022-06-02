@@ -1,4 +1,14 @@
 ## > Amazon
+## >> All .amazon domains
+DOMAIN-SUFFIX,amazon
+## >> All .アマゾン domains
+DOMAIN-SUFFIX,xn--cckwcxetd
+## >> All .亚马逊 domains
+DOMAIN-SUFFIX,xn--jlq480n2rg
+## >> All .yamaxun domains
+DOMAIN-SUFFIX,yamaxun
+## >> All .zappos domains
+DOMAIN-SUFFIX,zappos
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,aboutamazon.cn
 DOMAIN-SUFFIX,aboutamazon.co.uk
@@ -26,6 +36,7 @@ DOMAIN-SUFFIX,amazon.ca
 DOMAIN-SUFFIX,amazon.cn
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,amazon.co.uk
+DOMAIN-SUFFIX,amzn.asia
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazon.com.au
 DOMAIN-SUFFIX,amazon.com.br
@@ -86,7 +97,6 @@ DOMAIN-SUFFIX,awstrust.com
 DOMAIN-SUFFIX,cdkworkshop.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,containersonaws.com
-DOMAIN-SUFFIX,createspace.com
 DOMAIN-SUFFIX,elasticbeanstalk.com
 DOMAIN-SUFFIX,gameon-masters.com
 DOMAIN-SUFFIX,gdansk-amazon.com
@@ -176,6 +186,10 @@ DOMAIN,d1b183sg0nvnuh.cloudfront.net
 DOMAIN,d1c37gjwa26taa.cloudfront.net
 DOMAIN,c33hcgiwev3.cloudfront.net
 DOMAIN,rhr7kgmtrq1v.cloudfront.net
+## >> CreateSpace
+DOMAIN-SUFFIX,createspace.com
+DOMAIN-SUFFIX,images-cn.ssl-images-amazon.com
+DOMAIN-SUFFIX,images-cn-8.ssl-images-amazon.com
 ## >> IMDB
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,imdb
