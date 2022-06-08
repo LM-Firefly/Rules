@@ -3452,9 +3452,9 @@ payload:
   - DOMAIN-SUFFIX,icbkfs.com
   - DOMAIN-SUFFIX,icbkus.com
   ## > PSBC (邮政储蓄)
+  - DOMAIN-SUFFIX,95580.net
   - DOMAIN-SUFFIX,psbc.com
   - DOMAIN-SUFFIX,psbcoa.com.cn
-  - DOMAIN-SUFFIX,95580.net
   ## > UnionPay (中国银联)
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,95516.net
@@ -4549,7 +4549,6 @@ payload:
   - DOMAIN-SUFFIX,zsciupd.com
   - DOMAIN-SUFFIX,zygvqivs.com
   ## >> AcFun
-  #  - USER-AGENT,AcFun*
   - DOMAIN-SUFFIX,04r0e3w2ac.com
   - DOMAIN-SUFFIX,0s73o26p67.com
   - DOMAIN-SUFFIX,18t0f515a3.com
@@ -7224,6 +7223,12 @@ payload:
   - DOMAIN-SUFFIX,newsapp01.com
   - DOMAIN-SUFFIX,ttnea.com
   - DOMAIN-SUFFIX,xiaoyiads.com
+  ## > 我来
+  - DOMAIN-SUFFIX,wol.tv
+  - DOMAIN-SUFFIX,wolai.com
+  - DOMAIN-SUFFIX,wolai.ren
+  - DOMAIN-SUFFIX,wostatic.cn
+  - DOMAIN-SUFFIX,woyun.work
   ## > 喜马拉雅
   - DOMAIN-SUFFIX,9nali.com
   - DOMAIN-SUFFIX,himalaya.cool
