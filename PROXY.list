@@ -5126,8 +5126,6 @@ DOMAIN-SUFFIX,wirelessreach.com
 DOMAIN-SUFFIX,xtracloud.cn
 ## >> brew
 DOMAIN-SUFFIX,brewmp.com
-## > Quantil
-DOMAIN-SUFFIX,quantil.com
 ## > Quora
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
@@ -8929,8 +8927,6 @@ DOMAIN-SUFFIX,brill.com
 DOMAIN-SUFFIX,cabdirect.org
 DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,cell.com
-DOMAIN-SUFFIX,cnki.net
-DOMAIN-SUFFIX,cqvip.com
 DOMAIN-SUFFIX,csiro.au
 DOMAIN-SUFFIX,deepdyve.com
 DOMAIN-SUFFIX,degruyter.com
@@ -8959,7 +8955,6 @@ DOMAIN-SUFFIX,jmlr.org
 DOMAIN-SUFFIX,jneurosci.org
 DOMAIN-SUFFIX,jstor.org
 DOMAIN-SUFFIX,karger.com
-DOMAIN-SUFFIX,kuke.com
 DOMAIN-SUFFIX,lawdata.com.tw
 DOMAIN-SUFFIX,libguides.com
 DOMAIN-SUFFIX,literatumonline.com
