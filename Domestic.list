@@ -7391,6 +7391,7 @@ DOMAIN-SUFFIX,youpin.com.cn
 DOMAIN-SUFFIX,youpin.cn
 ## >> MIUI 系统接口
 DOMAIN-SUFFIX,growth.ai.srv
+DOMAIN-SUFFIX,qsb.browser.miui.srv
 DOMAIN-SUFFIX,restapi.amap.com
 DOMAIN-SUFFIX,kssdata-yz1.kuaipandata.com
 DOMAIN-SUFFIX,kssdata-yz2-lt.kuaipandata.com
