@@ -5645,15 +5645,18 @@ DOMAIN-SUFFIX,telekom.com
 DOMAIN-SUFFIX,telekom.de
 ## > Tesla
 DOMAIN-SUFFIX,solarcity.com
+DOMAIN-SUFFIX,tesla-cdn.thron.cn
+DOMAIN-SUFFIX,tesla-cdn.thron.com
 DOMAIN-SUFFIX,tesla.cn
 DOMAIN-SUFFIX,tesla.com
 DOMAIN-SUFFIX,tesla.com.cn
+DOMAIN-SUFFIX,tesla.services
+DOMAIN-SUFFIX,teslaenergy.services
 DOMAIN-SUFFIX,teslamotors.cn
 DOMAIN-SUFFIX,teslamotors.com
 DOMAIN-SUFFIX,teslamotors.com.cn
+DOMAIN-SUFFIX,teslazta.net
 DOMAIN-SUFFIX,ts.la
-DOMAIN,tesla-cdn.thron.cn
-DOMAIN,tesla-cdn.thron.com
 ## > Thomson Reuters (湯森路透)
 DOMAIN-SUFFIX,aranzadi.es
 DOMAIN-SUFFIX,corepublishingsolutions.com
