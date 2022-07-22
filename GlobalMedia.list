@@ -1484,10 +1484,13 @@ DOMAIN-SUFFIX,pbs.org
 ## > Pornhub
 PROCESS-NAME,com.app.pornhub
 DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,porngub.com
+DOMAIN-SUFFIX,pornhub-deutsch.net
 DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubapparel.com
 DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,pronstore.com
-DOMAIN-SUFFIX,phprcdn.com
 ## > Qobuz
 DOMAIN-SUFFIX,cobeuz.fr
 DOMAIN-SUFFIX,cobuz.fr
