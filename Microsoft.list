@@ -120,6 +120,8 @@ DOMAIN-SUFFIX,emoi-cncdn.bing.com
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cn.bing.net
 DOMAIN-SUFFIX,ditu.live.com
+## >> Clipchamp
+DOMAIN-SUFFIX,clipchamp.com
 ## >> Edge
 DOMAIN-SUFFIX,a-msedge.net
 DOMAIN-SUFFIX,c-msedge.net
