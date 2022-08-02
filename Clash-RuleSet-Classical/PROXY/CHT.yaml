@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,weblive-hamivideo.cdn.hinet.net
   ## >> HiNet
   - DOMAIN-SUFFIX,emome.net
+  - DOMAIN-SUFFIX,gtlsca.nat.gov.tw
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,xuite.net
   ## >> Litv
