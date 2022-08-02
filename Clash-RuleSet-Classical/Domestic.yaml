@@ -2839,6 +2839,8 @@ payload:
   - DOMAIN-SUFFIX,deepin.com
   - DOMAIN-SUFFIX,deepin.io
   - DOMAIN-SUFFIX,deepin.org
+  ## >> 玲珑
+  - DOMAIN-SUFFIX,linglong.dev
   ## >> 统信
   - DOMAIN-SUFFIX,chinauos.com
   - DOMAIN-SUFFIX,uniontech.com
