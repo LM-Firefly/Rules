@@ -2,11 +2,14 @@ payload:
   ## > Netflix
   - PROCESS-NAME,com.netflix.mediaclient
   - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,flxvpn.net
   - DOMAIN-SUFFIX,netflix.ca
   - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.com.au
   - DOMAIN-SUFFIX,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,netflix.net
   - DOMAIN-SUFFIX,netflixinvestor.com
+  - DOMAIN-SUFFIX,netflixstudios.com
   - DOMAIN-SUFFIX,netflixtechblog.com
   - DOMAIN-SUFFIX,nflxext.com
   - DOMAIN-SUFFIX,nflximg.com
