@@ -134,6 +134,9 @@ DOMAIN-SUFFIX,watchdisneyfe.com
 PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
 DOMAIN-SUFFIX,abc-studios.com
 DOMAIN-SUFFIX,abc.com
+DOMAIN-SUFFIX,abcnews.com
+DOMAIN-SUFFIX,abcnews.edgesuite.net
+DOMAIN-SUFFIX,abcnews.go.com
 DOMAIN-SUFFIX,edgedatg.com
 ## >> Bamtech
 DOMAIN-SUFFIX,bamgrid.com
