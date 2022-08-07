@@ -526,7 +526,7 @@ match = "(\\bSE\\b|Sweden|瑞典)"
 emoji = "🇸🇪"
 
 [[emojis.emoji]]
-match = "(\\bTH[A]\\b|Thailand|泰国|曼谷)"
+match = "(\\bTH[A]\\b|Thailand|泰国|泰國|曼谷)"
 emoji = "🇹🇭"
 
 [[emojis.emoji]]
