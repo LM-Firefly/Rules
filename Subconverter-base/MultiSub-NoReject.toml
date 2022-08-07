@@ -298,7 +298,7 @@ match = "(北马其顿|Macedonia)"
 emoji = "🇲🇰"
 
 [[emojis.emoji]]
-match = "(波黑共和国|波士尼亚与赫塞哥维纳|Bosnia|Herzegovina)"
+match = "(波黑共和[国國]|波士尼亚与赫塞哥维纳|Bosnia|Herzegovina)"
 emoji = "🇧🇦"
 
 [[emojis.emoji]]
@@ -318,7 +318,7 @@ match = "(柬埔寨|Cambodia)"
 emoji = "🇰🇭"
 
 [[emojis.emoji]]
-match = "(克罗地亚|Croatia)"
+match = "(克[罗羅]地亚|Croatia)"
 emoji = "🇭🇷"
 
 [[emojis.emoji]]
@@ -502,7 +502,7 @@ match = "(\\bBE\\b|Belgium|比利时)"
 emoji = "🇧🇪"
 
 [[emojis.emoji]]
-match = "(\\bBR\\b|Brazil|Paulo|巴西|圣保罗)"
+match = "(\\bBR\\b|Brazil|Paulo|巴西|圣保[罗羅])"
 emoji = "🇧🇷"
 
 [[emojis.emoji]]
@@ -514,7 +514,7 @@ match = "(\\bPH\\b|Philippines|菲律宾)"
 emoji = "🇵🇭"
 
 [[emojis.emoji]]
-match = "(\\bRO\\b|Romania|罗马尼亚)"
+match = "(\\bRO\\b|Romania|[罗羅]马尼亚)"
 emoji = "🇷🇴"
 
 [[emojis.emoji]]
@@ -526,7 +526,7 @@ match = "(\\bSE\\b|Sweden|瑞典)"
 emoji = "🇸🇪"
 
 [[emojis.emoji]]
-match = "(\\bTH[A]\\b|Thailand|泰国|曼谷)"
+match = "(\\bTH[A]\\b|Thailand|泰[国國]|曼谷)"
 emoji = "🇹🇭"
 
 [[emojis.emoji]]
@@ -554,7 +554,7 @@ match = "(?i:\\bD[N]?K\\b|Denmark|丹麦)"
 emoji = "🇩🇰"
 
 [[emojis.emoji]]
-match = "(?i:\\bDE[U]?\\b|Germany|法兰克福|德(国|意志)|中德|^德$|德.*(?!▷|回|转))"
+match = "(?i:\\bDE[U]?\\b|Germany|法兰克福|德([国國]|意志)|中德|^德$|德.*(?!▷|回|转))"
 emoji = "🇩🇪"
 
 [[emojis.emoji]]
@@ -562,7 +562,7 @@ match = "(?i:\\bES[P]?\\b|Spain|西班牙)"
 emoji = "🇪🇸"
 
 [[emojis.emoji]]
-match = "(?i:\\bFR[A]?\\b|France|Paris|法国|巴黎|法国.*(?!▷|回|转))"
+match = "(?i:\\bFR[A]?\\b|France|Paris|法[国國]|巴黎|法[国國].*(?!▷|回|转))"
 emoji = "🇫🇷"
 
 [[emojis.emoji]]
@@ -602,7 +602,7 @@ match = "(?i:\\bK[O]?R\\b|Korea|首尔|韩|韓)"
 emoji = "🇰🇷"
 
 [[emojis.emoji]]
-match = "(?i:\\bRU[S]?\\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄|俄.*(?!▷|回|转)|京俄|杭俄)"
+match = "(?i:\\bRU[S]?\\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴[罗羅]夫斯克|俄[罗羅]斯|[^-]俄|俄.*(?!▷|回|转)|京俄|杭俄)"
 emoji = "🇷🇺"
 
 [[emojis.emoji]]
@@ -610,11 +610,11 @@ match = "(?i:\\bSG[P]?\\b|Singapore|新加坡|狮城|[^-]新|新(?!▷|西)|沪�
 emoji = "🇸🇬"
 
 [[emojis.emoji]]
-match = "(?i:\\bUK\\b|\\bGB[R]?\\b|England|United.*?Kingdom|London|英国|[^-]英|伦敦|英.*(?!▷|回|转))"
+match = "(?i:\\bUK\\b|\\bGB[R]?\\b|England|United.*?Kingdom|London|英[国國]|[^-]英|伦敦|英.*(?!▷|回|转))"
 emoji = "🇬🇧"
 
 [[emojis.emoji]]
-match = "(?i:\\bUS[A]?\\b|America|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|美.*(?!▷|回|转)|沪美|京美)"
+match = "(?i:\\bUS[A]?\\b|America|United.*?States|美[国國]|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|美.*(?!▷|回|转)|沪美|京美)"
 emoji = "🇺🇸"
 
 [[emojis.emoji]]
@@ -630,7 +630,7 @@ match = "(?i:\\bTW[N]?\\b|Taiwan|新北|彰化|\\bCHT\\b|台湾|[^-]台|\\bHINET
 emoji = "🇹🇼"
 
 [[emojis.emoji]]
-match = "(?i:\\bC[H]?N\\b|China|back|回国|中国[^-]|江苏[^-]|北京[^-]|上海[^-]|广州[^-]|深圳[^-]|杭州[^-]|常州[^-]|徐州[^-]|青岛[^-]|宁波[^-]|镇江[^-]|成都[^-]|河北[^-]|山西[^-]|辽宁[^-]|吉林[^-]|黑龙江[^-]|江苏[^-]|浙江[^-]|安徽[^-]|福建[^-]|江西[^-]|山东[^-]|河南[^-]|湖北[^-]|湖南[^-]|广东[^-]|海南[^-]|四川[^-]|贵州[^-]|云南[^-]|陕西[^-]|甘肃[^-]|青海[^-]|内蒙古[^-]|广西[^-]|西藏[^-]|宁夏[^-]|新疆[^-]|中.*(?!▷|回|转)|苏.*(?!▷|回|转)|京.*(?!▷|回|转)|沪.*(?!▷|回|转)|穗.*(?!▷|回|转)|深(?!▷|港)|杭.*(?!▷|回|转)|徐.*(?!▷|回|转)|青.*(?!▷|回|转)|甬.*(?!▷|回|转)|镇.*(?!▷|回|转)|禅.*(?!▷|回|转)|蓉.*(?!▷|回|转))"
+match = "(?i:\\bC[H]?N\\b|China|back|回[国國]|中[国國][^-]|江苏[^-]|北京[^-]|上海[^-]|广州[^-]|深圳[^-]|杭州[^-]|常州[^-]|徐州[^-]|青岛[^-]|宁波[^-]|镇江[^-]|成都[^-]|河北[^-]|山西[^-]|辽宁[^-]|吉林[^-]|黑龙江[^-]|江苏[^-]|浙江[^-]|安徽[^-]|福建[^-]|江西[^-]|山东[^-]|河南[^-]|湖北[^-]|湖南[^-]|广东[^-]|海南[^-]|四川[^-]|贵州[^-]|云南[^-]|陕西[^-]|甘肃[^-]|青海[^-]|内蒙古[^-]|广西[^-]|西藏[^-]|宁夏[^-]|新疆[^-]|中.*(?!▷|回|转)|苏.*(?!▷|回|转)|京.*(?!▷|回|转)|沪.*(?!▷|回|转)|穗.*(?!▷|回|转)|深(?!▷|港)|杭.*(?!▷|回|转)|徐.*(?!▷|回|转)|青.*(?!▷|回|转)|甬.*(?!▷|回|转)|镇.*(?!▷|回|转)|禅.*(?!▷|回|转)|蓉.*(?!▷|回|转))"
 emoji = "🇨🇳"
 
 
