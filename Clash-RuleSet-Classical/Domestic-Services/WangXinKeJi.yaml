@@ -1,6 +1,8 @@
 payload:
   ## > 网心科技
+  - DOMAIN-SUFFIX,hiveshared.com
   - DOMAIN-SUFFIX,ionecloud.cn
+  - DOMAIN-SUFFIX,kuiniuca.com
   - DOMAIN-SUFFIX,miuapp.com.cn
   - DOMAIN-SUFFIX,onething.net
   - DOMAIN-SUFFIX,onethingc.com
@@ -11,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,onethingtech.net
   - DOMAIN-SUFFIX,peiluyou.com
   - DOMAIN-SUFFIX,seekr.com.cn
+  - DOMAIN-SUFFIX,uhabo.com
   - DOMAIN-SUFFIX,walk-live.com
   - DOMAIN-SUFFIX,xunleioa.com
   ## >> 玩客云
