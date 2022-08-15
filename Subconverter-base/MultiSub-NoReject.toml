@@ -510,7 +510,7 @@ match = "(\\bMY\\b|Malaysia|马来西亚)"
 emoji = "🇲🇾"
 
 [[emojis.emoji]]
-match = "(\\bPH\\b|Philippines|菲律宾)"
+match = "(\\bPH\\b|Philippines|菲律宾|马尼拉)"
 emoji = "🇵🇭"
 
 [[emojis.emoji]]
