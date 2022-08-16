@@ -5226,9 +5226,17 @@ DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
 ## > 魅族
 DOMAIN-SUFFIX,flyme.cn
+DOMAIN-SUFFIX,flyme.com
+DOMAIN-SUFFIX,flyme.net
+DOMAIN-SUFFIX,mblu.com
+DOMAIN-SUFFIX,meiklife.cn
 DOMAIN-SUFFIX,meizu.cn
 DOMAIN-SUFFIX,meizu.com
+DOMAIN-SUFFIX,meizu.com.hk
+DOMAIN-SUFFIX,meizuapi.com
+DOMAIN-SUFFIX,mklink.com.cn
 DOMAIN-SUFFIX,mzres.com
+DOMAIN-SUFFIX,mzssp.cn
 ## > 米哈游
 DOMAIN-SUFFIX,mhyurl.cn
 DOMAIN-SUFFIX,mihayo.com
