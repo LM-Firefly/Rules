@@ -30,32 +30,16 @@ match = "^CordCloud - "
 replace = ""
 
 [[node_pref.rename_node]]
+match = "IPV6"
+replace = ""
+
+[[node_pref.rename_node]]
 match = "(.*) (x.*[0-9]) (.*) (中转|直连|80端口)"
 replace = "$1 $3[$2]"
 
 [[node_pref.rename_node]]
 match = "(.*) (x.*[0-9]) (..)(中转|直连|80端口)"
 replace = "$1 $3[$2]"
-
-[[node_pref.rename_node]]
-match = "(V[0-9]-)(IEPL专线 |)(.*)( | \| )([0-9].*)(x$)"
-replace = "$3[x$5]"
-
-[[node_pref.rename_node]]
-match = "(V[0-9]-)(IEPL专线 |)(.*)( )([0-9].*)(x) (原生IP)"
-replace = "$3[M][x$5]"
-
-[[node_pref.rename_node]]
-match = "(.*)([0-9].*[0-9])(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生|(原生\|IPV6解锁))(\|[\w].*[0-9])"
-replace = "$1$2[M]"
-
-[[node_pref.rename_node]]
-match = "(.*)(\b[0-9][0-9]\b)(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生|(原生\|IPV6解锁))"
-replace = "$1$2[M]"
-
-[[node_pref.rename_node]]
-match = "(.*)([0-9].*[0-9])(标准|)(\|[\w].*[0-9])"
-replace = "$1$2"
 
 [[node_pref.rename_node]]
 match = "(.*)(\[)(倍率:)(.*[0-9])(\])"
@@ -68,6 +52,30 @@ replace = "$2$1"
 [[node_pref.rename_node]]
 match = "(.*)( )(.*[0-9])(倍率)"
 replace = "$1[x$3]"
+
+[[node_pref.rename_node]]
+match = "(.*)(\|)(x.*[0-9])(倍率)"
+replace = "$1[$3]"
+
+[[node_pref.rename_node]]
+match = "(V[0-9]-)(IEPL专线 |)(.*)( | \| )([0-9].*)(x$)"
+replace = "$3[x$5]"
+
+[[node_pref.rename_node]]
+match = "(V[0-9]-)(IEPL专线 |)(.*)( )([0-9].*)(x) (原生IP)"
+replace = "$3[M][x$5]"
+
+[[node_pref.rename_node]]
+match = "(.*)([0-9].*[0-9])(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生)"
+replace = "$1$2[M]"
+
+[[node_pref.rename_node]]
+match = "(.*)(\b[0-9][0-9]\b)(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生)"
+replace = "$1$2[M]"
+
+[[node_pref.rename_node]]
+match = "(.*)([0-9].*[0-9])(标准|)(\|[\w].*[0-9])"
+replace = "$1$2"
 
 [[node_pref.rename_node]]
 match = "((❖CN[0-9]❖)|^)(⓪|❶|❷|❸|❻)(TJ\.|gR\.|V2\.|H2\.|SS\.)"
@@ -256,6 +264,10 @@ replace = "[x10]"
 [[node_pref.rename_node]]
 match = "\[\]"
 replace = ""
+
+;[[node_pref.rename_node]]
+;match = "\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?"
+;replace = "[x$1]"
 
 [emojis]
 add_emoji = true
