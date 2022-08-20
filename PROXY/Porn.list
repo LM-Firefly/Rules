@@ -3714,6 +3714,14 @@ DOMAIN-SUFFIX,metartnetwork.com
 DOMAIN-SUFFIX,metcams.com
 DOMAIN-SUFFIX,naiadsystems.com
 DOMAIN-SUFFIX,nsimg.net
+## >> PicACG
+DOMAIN-SUFFIX,bikaa.xyz
+DOMAIN-SUFFIX,bikac.xyz
+DOMAIN-SUFFIX,bikaios.xyz
+DOMAIN-SUFFIX,picacn.xyz
+DOMAIN-SUFFIX,picacomic.com
+DOMAIN-SUFFIX,picacomic.xyz
+DOMAIN-SUFFIX,wikawika.xyz
 ## >> pornhub
 PROCESS-NAME,com.app.pornhub
 DOMAIN-SUFFIX,phncdn.com
