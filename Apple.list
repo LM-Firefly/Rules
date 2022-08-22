@@ -137,6 +137,7 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-isupport.com
 DOMAIN-SUFFIX,icloud.ch
 DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.akadns.net
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud.de
 DOMAIN-SUFFIX,icloud.ee
@@ -165,12 +166,12 @@ DOMAIN-SUFFIX,icloudhome.com
 DOMAIN-SUFFIX,icloudmail.net
 DOMAIN-SUFFIX,icloudmusic.net
 DOMAIN-SUFFIX,icloudnet.net
-DOMAIN-SUFFIX,icloudpay.net
 DOMAIN-SUFFIX,icloudo.com
 DOMAIN-SUFFIX,icloudo.de
 DOMAIN-SUFFIX,icloudo.net
 DOMAIN-SUFFIX,icloudos.de
 DOMAIN-SUFFIX,icloudos.net
+DOMAIN-SUFFIX,icloudpay.net
 DOMAIN-SUFFIX,icloudsecure.net
 DOMAIN-SUFFIX,icloudsetup.com
 DOMAIN-SUFFIX,ios-icloud.com
@@ -178,7 +179,6 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,myicloud.net
 DOMAIN-SUFFIX,mylcloud.net
 DOMAIN-SUFFIX,wwwicloud.com
-DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net
 ## >> iTunes
 DOMAIN-SUFFIX,12diasdepresentesdeitunes.com
 DOMAIN-SUFFIX,12diasderegalosdeitunes.cl
@@ -1241,6 +1241,7 @@ DOMAIN-SUFFIX,worldcoinpay.com
 DOMAIN-SUFFIX,yourmonsterbeats.com
 DOMAIN-SUFFIX,beatselectronicsllc.tt.omtrdc.net
 ## >> All .apple domains
+DOMAIN-SUFFIX,apple
 DOMAIN-SUFFIX,apple.ae
 DOMAIN-SUFFIX,apple.at
 DOMAIN-SUFFIX,apple.be
@@ -1269,6 +1270,8 @@ DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,apple.com.co
 DOMAIN-SUFFIX,apple.com.de
 DOMAIN-SUFFIX,apple.com.do
+DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN-SUFFIX,apple.com.gr
 DOMAIN-SUFFIX,apple.com.gy
 DOMAIN-SUFFIX,apple.com.jm
@@ -1372,6 +1375,7 @@ DOMAIN-SUFFIX,apple-inc.net
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,apple-maps.cn
 DOMAIN-SUFFIX,apple-online.com
+DOMAIN-SUFFIX,apple-support.akadns.net
 DOMAIN-SUFFIX,apple-usa.net
 DOMAIN-SUFFIX,appleafrica.com
 DOMAIN-SUFFIX,appleantilles.com
@@ -1463,6 +1467,7 @@ DOMAIN-SUFFIX,camelspaceeffect.com
 DOMAIN-SUFFIX,carbon.com
 DOMAIN-SUFFIX,catalina.hk
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cdn-apple.com.akadns.net
 DOMAIN-SUFFIX,chomp.com
 DOMAIN-SUFFIX,coreml.net
 DOMAIN-SUFFIX,dashwood360.com
@@ -1528,6 +1533,7 @@ DOMAIN-SUFFIX,livephotos.cn
 DOMAIN-SUFFIX,livephotos.com.cn
 DOMAIN-SUFFIX,livephotos.tv
 DOMAIN-SUFFIX,lojaiphone.com.br
+DOMAIN-SUFFIX,ls-apple.com.akadns.net
 DOMAIN-SUFFIX,mac-mini.com
 DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,mac.com.au
@@ -1553,6 +1559,7 @@ DOMAIN-SUFFIX,mr-apple.com.tw
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,newton.com
 DOMAIN-SUFFIX,next.com
+DOMAIN-SUFFIX,origin-apple.com.akadns.net
 DOMAIN-SUFFIX,overapple.com
 DOMAIN-SUFFIX,powerbook.eu
 DOMAIN-SUFFIX,pullstring.net

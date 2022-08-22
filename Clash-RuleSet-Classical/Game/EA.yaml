@@ -10,6 +10,9 @@ payload:
   - DOMAIN-SUFFIX,eastore.com
   - DOMAIN-SUFFIX,lordofultima.com
   - DOMAIN-SUFFIX,origin.tv
+  - DOMAIN,cloudsync-prod.s3.amazonaws.com
+  - DOMAIN,eaasserts-a.akamaihd.net
+  - DOMAIN,originasserts.akamaized.net
   ## >> Anthem
   - DOMAIN-SUFFIX,anthemgame.com
   - DOMAIN-SUFFIX,anthemthegame.com

@@ -1,5 +1,5 @@
 payload:
-  ## 🏬 Alibaba
+  ## 🐱 Alibaba
   ## > 阿里巴巴
   - DOMAIN-SUFFIX,10029.com
   - DOMAIN-SUFFIX,1688.com
@@ -1185,6 +1185,9 @@ payload:
   - IP-CIDR,42.156.192.0/18,no-resolve
   - IP-CIDR,43.242.168.0/22,no-resolve
   - IP-CIDR,45.112.212.0/22,no-resolve
+  - IP-CIDR,45.113.40.0/23,no-resolve
+  - IP-CIDR,45.113.40.0/22,no-resolve
+  - IP-CIDR,45.113.42.0/23,no-resolve
   - IP-CIDR,47.235.0.0/16,no-resolve
   - IP-CIDR,47.236.0.0/14,no-resolve
   - IP-CIDR,47.240.0.0/14,no-resolve
@@ -1202,9 +1205,12 @@ payload:
   - IP-CIDR,59.82.240.0/21,no-resolve
   - IP-CIDR,59.82.248.0/22,no-resolve
   - IP-CIDR,72.254.0.0/16,no-resolve
-  - IP-CIDR,103.206.40.0/22,no-resolve
   - IP-CIDR,103.38.56.0/22,no-resolve
   - IP-CIDR,103.52.76.0/22,no-resolve
+  - IP-CIDR,103.52.196.0/22,no-resolve
+  - IP-CIDR,103.52.196.0/23,no-resolve
+  - IP-CIDR,103.52.198.0/23,no-resolve
+  - IP-CIDR,103.206.40.0/22,no-resolve
   - IP-CIDR,106.11.0.0/16,no-resolve
   - IP-CIDR,106.11.1.0/24,no-resolve
   - IP-CIDR,106.11.128.0/20,no-resolve
@@ -1233,6 +1239,25 @@ payload:
   - IP-CIDR,110.173.196.0/24,no-resolve
   - IP-CIDR,110.173.208.0/20,no-resolve
   - IP-CIDR,110.75.0.0/16,no-resolve
+  - IP-CIDR,110.75.128.0/17,no-resolve
+  - IP-CIDR,110.75.138.0/23,no-resolve
+  - IP-CIDR,110.75.227.0/24,no-resolve
+  - IP-CIDR,110.75.228.0/24,no-resolve
+  - IP-CIDR,110.75.230.0/24,no-resolve
+  - IP-CIDR,110.75.233.0/24,no-resolve
+  - IP-CIDR,110.75.235.0/24,no-resolve
+  - IP-CIDR,110.75.236.0/22,no-resolve
+  - IP-CIDR,110.75.240.0/20,no-resolve
+  - IP-CIDR,110.76.0.0/20,no-resolve
+  - IP-CIDR,110.76.0.0/19,no-resolve
+  - IP-CIDR,110.76.15.0/24,no-resolve
+  - IP-CIDR,110.76.16.0/20,no-resolve
+  - IP-CIDR,110.76.21.0/24,no-resolve
+  - IP-CIDR,110.76.23.0/24,no-resolve
+  - IP-CIDR,110.76.30.0/23,no-resolve
+  - IP-CIDR,110.76.48.0/20,no-resolve
+  - IP-CIDR,110.76.56.0/22,no-resolve
+  - IP-CIDR,110.76.60.0/22,no-resolve
   - IP-CIDR,112.125.0.0/17,no-resolve
   - IP-CIDR,115.124.16.0/20,no-resolve
   - IP-CIDR,115.124.20.0/22,no-resolve
@@ -1262,3 +1287,35 @@ payload:
   - IP-CIDR,170.33.0.0/16,no-resolve
   - IP-CIDR,198.11.128.0/18,no-resolve
   - IP-CIDR,205.204.96.0/19,no-resolve
+  - IP-CIDR,203.209.224.0/20,no-resolve
+  - IP-CIDR,203.209.224.0/19,no-resolve
+  - IP-CIDR,203.209.225.0/24,no-resolve
+  - IP-CIDR,203.209.226.0/23,no-resolve
+  - IP-CIDR,203.209.228.0/22,no-resolve
+  - IP-CIDR,203.209.232.0/21,no-resolve
+  - IP-CIDR,203.209.236.0/23,no-resolve
+  - IP-CIDR,203.209.240.0/20,no-resolve
+  - IP-CIDR,203.209.242.0/24,no-resolve
+  - IP-CIDR,203.209.242.0/23,no-resolve
+  - IP-CIDR,203.209.243.0/24,no-resolve
+  - IP-CIDR,203.209.244.0/23,no-resolve
+  - IP-CIDR,203.209.244.0/22,no-resolve
+  - IP-CIDR,203.209.246.0/23,no-resolve
+  - IP-CIDR,203.209.248.0/24,no-resolve
+  - IP-CIDR,203.209.248.0/23,no-resolve
+  - IP-CIDR,203.209.249.0/24,no-resolve
+  - IP-CIDR,203.209.250.0/24,no-resolve
+  - IP-CIDR,203.209.250.0/23,no-resolve
+  - IP-CIDR,203.209.251.0/24,no-resolve
+  - IP-CIDR,203.209.252.0/23,no-resolve
+  - IP-CIDR,203.209.252.0/22,no-resolve
+  - IP-CIDR,203.209.254.0/23,no-resolve
+  - IP-CIDR6,2400:b200::/36,no-resolve
+  - IP-CIDR6,2400:b200::/32,no-resolve
+  - IP-CIDR6,2400:b200:1000::/36,no-resolve
+  - IP-CIDR6,2400:b200:2000::/36,no-resolve
+  - IP-CIDR6,2400:b200:3000::/36,no-resolve
+  - IP-CIDR6,2400:b200:4100::/48,no-resolve
+  - IP-CIDR6,2400:b200:4101::/48,no-resolve
+  - IP-CIDR6,2400:b200:4102::/48,no-resolve
+  - IP-CIDR6,2400:b200:4103::/48,no-resolve

@@ -14,6 +14,8 @@ payload:
   - DOMAIN-SUFFIX,bytedns2.com
   - DOMAIN-SUFFIX,bytefcdn.com
   - DOMAIN-SUFFIX,bytegoofy.com
+  - DOMAIN-SUFFIX,bytegslb.com
+  - DOMAIN-SUFFIX,bytelb.net
   - DOMAIN-SUFFIX,bytescm.com
   - DOMAIN-SUFFIX,bytetos.com
   - DOMAIN-SUFFIX,cdndns1.com
@@ -87,6 +89,10 @@ payload:
   - DOMAIN-SUFFIX,amemv.cn
   - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,amemv.net
+  ## >> 半次元
+  - DOMAIN-SUFFIX,bcy.net
+  - DOMAIN-SUFFIX,bcyimg.com
+  - DOMAIN-SUFFIX,lf-rc1.yhgfb-cn-static.com
   ## >> 锤子商城
   - DOMAIN-SUFFIX,smartisan.cn
   - DOMAIN-SUFFIX,smartisan.com
@@ -117,6 +123,7 @@ payload:
   - DOMAIN-SUFFIX,douyinact.net
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinclips.com
+  - DOMAIN-SUFFIX,douyinliving.com
   - DOMAIN-SUFFIX,douyinmusicclips.com
   - DOMAIN-SUFFIX,douyinmusicvideo.com
   - DOMAIN-SUFFIX,douyinpic.com
@@ -226,6 +233,7 @@ payload:
   - DOMAIN-SUFFIX,toutiaoimg.net
   - DOMAIN-SUFFIX,toutiaopage.com
   - DOMAIN-SUFFIX,toutiaostatic.com
+  - DOMAIN-SUFFIX,toutiaovod.com
   ##>> 吉云互动
   - DOMAIN-SUFFIX,bdurl.net
   - DOMAIN-SUFFIX,jiyunhudong.cn

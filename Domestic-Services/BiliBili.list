@@ -4,6 +4,10 @@ PROCESS-NAME,com.bilibili.app.in
 PROCESS-NAME,tv.danmaku.bili
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,animetamashi.cn
+DOMAIN-SUFFIX,animetamashi.com
+DOMAIN-SUFFIX,anitama.cn
+DOMAIN-SUFFIX,anitama.net
 DOMAIN-SUFFIX,b23.tv
 DOMAIN-SUFFIX,baka.im
 DOMAIN-SUFFIX,bigfun.cn
@@ -18,8 +22,10 @@ DOMAIN-SUFFIX,bilibili.cc
 DOMAIN-SUFFIX,bilibili.cn
 DOMAIN-SUFFIX,bilibili.co
 DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.net
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bilibiligame.cn
+DOMAIN-SUFFIX,bilibiligame.co
 DOMAIN-SUFFIX,bilibiligame.net
 DOMAIN-SUFFIX,bilibilipay.cn
 DOMAIN-SUFFIX,bilibilipay.com
@@ -29,6 +35,7 @@ DOMAIN-SUFFIX,bilicdn3.com
 DOMAIN-SUFFIX,bilicdn4.com
 DOMAIN-SUFFIX,bilicdn5.com
 DOMAIN-SUFFIX,biligame.cn
+DOMAIN-SUFFIX,biligame.co
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
 DOMAIN-SUFFIX,biligo.com
@@ -46,6 +53,7 @@ DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com
 DOMAIN-SUFFIX,hdslb.net
 DOMAIN-SUFFIX,hdslb.org
 DOMAIN-SUFFIX,im9.com
+DOMAIN-SUFFIX,maoercdn.com
 DOMAIN-SUFFIX,mcbbs.net
 DOMAIN-SUFFIX,mincdn.com
 DOMAIN-SUFFIX,sharejoytech.com

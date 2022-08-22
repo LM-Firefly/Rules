@@ -11,6 +11,10 @@ external-controller: {{ default(global.clash.api_port, "0.0.0.0:19090")}}
 #external-ui: folder
 secret: ''
 routing-mark: {{ default(global.clash.routing_mark, "16666")}}
+experimental:
+  ignore-resolve-fail: true
+  sniff-tls-sni: true
+  udp-fallback-match: true
 profile:
   store-fake-ip: true
   store-selected: true
@@ -24,64 +28,82 @@ dns:
   listen: 0.0.0.0:53
   ipv6: true
 {% endif %}
-{% if request.clash.dns == "win-tun" %}
+{% if request.clash.dns == "win-tun" or request.clash.dns == "linux-tun" %}
 ipv6: true
 tun:
   enable: true
   stack: system # or gvisor
-  auto-route: true # auto set global route for Windows
+  auto-route: true # auto set global route
   auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+#interface-name: WLAN
   dns-hijack:
     - 22.0.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
-    - udp://any:53
-#interface-name: WLAN
+    - any:53
+auto-redir:
+  enable: true
+  auto-route: true
 dns:
   enable: true
-#  listen: 0.0.0.0:53
-  ipv6: true
-{% endif %}
-{% if request.clash.dns == "linux-tun" %}
-ipv6: true
-tun:
-  enable: true
-  stack: system # or gvisor
-#  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
-  dns-hijack:
-    - 1.0.0.1:53 # Do not modifly this line
-    - udp://any:53
-#interface-name: WLAN
-dns:
-  enable: true
-  listen: 127.0.0.1:1053
+  listen: 0.0.0.0:6053
   ipv6: true
 {% endif %}
 {% if request.clash.dns == "meta-tun" %}
+find-process-mode: strict
+global-client-fingerprint: chrome
 ipv6: true
+tcp-concurrent: true
 tun:
   enable: true
-  stack: gvisor #  only gvisor
+  stack: system # gvisor / lwip
+  device: utun0
   dns-hijack:
-    - 0.0.0.0:53 # additional dns server listen on TUN
-  auto-route: true # auto set global route
+  - any:53
+  auto-detect-interface: true
+  auto-route: true
+  mtu: 9000
+  strict_route: true
+  inet4_route_address:
+    - 0.0.0.0/1
+    - 128.0.0.0/1
+  inet6_route_address:
+    - "::/1"
+    - "8000::/1"
 #interface-name: WLAN
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+#  force-domain:
+#    - +.v2ex.com
+  skip-domain:
+     - Mijia Cloud
 dns:
   enable: true
+  prefer-h3: true
   ipv6: true
-  listen: 127.0.0.1:6868
+  ipv6-timeout: 150
+  listen: 0.0.0.0:5053
 {% endif %}
 {% else %}
 ipv6: true
 #interface-name: WLAN
 dns:
   enable: true
-  listen: 127.0.0.1:1053
+  listen: 0.0.0.0:1053
   ipv6: true
 {% endif %}
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
     - 1.1.1.1
-  enhanced-mode: fake-ip # redir-host #fake-ip
+  enhanced-mode: fake-ip # or redir-host (not recommended)
   fake-ip-range: 22.0.0.0/8
   fake-ip-filter:
     # === LAN ===
@@ -239,6 +261,8 @@ dns:
   fallback-filter:
 #    geoip: true # default
 #    geoip-code: CN
+#    geosite:
+#        - gfw
     ipcidr: # ips in these subnets will be considered polluted
       - 0.0.0.0/32
       - 100.64.0.0/10

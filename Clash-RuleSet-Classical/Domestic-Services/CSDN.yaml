@@ -1,11 +1,18 @@
 payload:
   ## > CSDN
+  - DOMAIN-SUFFIX,codechina.net
   - DOMAIN-SUFFIX,csdn.com
   - DOMAIN-SUFFIX,csdn.net
   - DOMAIN-SUFFIX,csdn.net.cn
   - DOMAIN-SUFFIX,csdnimg.cn
   - DOMAIN-SUFFIX,csto.com
+  - DOMAIN-SUFFIX,datasea.cn
+  - DOMAIN-SUFFIX,gitbook.cn
+  - DOMAIN-SUFFIX,gitchat.cn
+  - DOMAIN-SUFFIX,gitcode.com
+  - DOMAIN-SUFFIX,gitcode.net
   - DOMAIN-SUFFIX,iteye.com
+  - DOMAIN-SUFFIX,kaifayun.com
   - DOMAIN-SUFFIX,linuxpower.com.cn
   - DOMAIN-SUFFIX,powerlinux.com.cn
   - DOMAIN-SUFFIX,programmer.com.cn

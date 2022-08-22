@@ -5,12 +5,23 @@ payload:
   - DOMAIN-SUFFIX,aicccloud.com
   - DOMAIN-SUFFIX,androidga.com
   - DOMAIN-SUFFIX,apifabric.com.cn
+  - DOMAIN-SUFFIX,attendees.cn
+  - DOMAIN-SUFFIX,attendees.link
+  - DOMAIN-SUFFIX,bisheng.cn
+  - DOMAIN-SUFFIX,bishengcompiler.cn
   - DOMAIN-SUFFIX,cloudnetb2b.com
   - DOMAIN-SUFFIX,dbankcdn.com
+  - DOMAIN-SUFFIX,dcia.org.cn
   - DOMAIN-SUFFIX,devui.design
   - DOMAIN-SUFFIX,ewindcloud.com.cn
   - DOMAIN-SUFFIX,goldenear.club
+  - DOMAIN-SUFFIX,hiascend.cn
+  - DOMAIN-SUFFIX,hiascend.com
+  - DOMAIN-SUFFIX,hiascend.net
   - DOMAIN-SUFFIX,hiclc.com
+  - DOMAIN-SUFFIX,hihonor.com
+  - DOMAIN-SUFFIX,hikunpeng.com
+  - DOMAIN-SUFFIX,huawei.cn
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-SUFFIX,huawei.com.cn
   - DOMAIN-SUFFIX,huaweiacad.com
@@ -27,8 +38,11 @@ payload:
   - DOMAIN-SUFFIX,hwlchain.com
   - DOMAIN-SUFFIX,hwtelcloud.com
   - DOMAIN-SUFFIX,hwtrip.com
+  - DOMAIN-SUFFIX,imc-oneaccess.cn
+  - DOMAIN-SUFFIX,imcapptest.com
   - DOMAIN-SUFFIX,italentclc.com
   - DOMAIN-SUFFIX,mindspore.cn
+  - DOMAIN-SUFFIX,msg5.cn
   - DOMAIN-SUFFIX,openarkcompiler.cn
   - DOMAIN-SUFFIX,pmallstore.com
   - DOMAIN-SUFFIX,router-hwtest.cn
@@ -44,6 +58,7 @@ payload:
   - DOMAIN-SUFFIX,gneec3.com
   - DOMAIN-SUFFIX,gneec4.com
   - DOMAIN-SUFFIX,gneec5.com
+  - DOMAIN-SUFFIX,gneec7.com
   - DOMAIN-SUFFIX,gneeccloud.com
   ## >> 鸿蒙
   - DOMAIN-SUFFIX,harmonyos.com
@@ -73,13 +88,16 @@ payload:
   - DOMAIN-SUFFIX,cdnhwc3.com
   - DOMAIN-SUFFIX,cdnhwc5.cn
   - DOMAIN-SUFFIX,cdnhwc5.com
+  - DOMAIN-SUFFIX,cdnhwc6.cn
   - DOMAIN-SUFFIX,cdnhwc6.com
+  - DOMAIN-SUFFIX,cdnhwc7.cn
   - DOMAIN-SUFFIX,cdnhwc7.com
   ## >> 华为云
   - DOMAIN-SUFFIX,apifabric.cn
   - DOMAIN-SUFFIX,apifabric.net
   - DOMAIN-SUFFIX,bescloud.com
   - DOMAIN-SUFFIX,besclouds.com
+  - DOMAIN-SUFFIX,cdnhwcibv122.com
   - DOMAIN-SUFFIX,cloudnet-ecloud.com.cn
   - DOMAIN-SUFFIX,dbankcdn.cn
   - DOMAIN-SUFFIX,dbankcloud.asia
@@ -90,8 +108,14 @@ payload:
   - DOMAIN-SUFFIX,hc-cdn.cn
   - DOMAIN-SUFFIX,hc-cdn.com
   - DOMAIN-SUFFIX,hicloud.com
+  - DOMAIN-SUFFIX,huaweicloud-dns.cn
+  - DOMAIN-SUFFIX,huaweicloud-dns.com
+  - DOMAIN-SUFFIX,huaweicloud-dns.net
+  - DOMAIN-SUFFIX,huaweicloud-dns.org
   - DOMAIN-SUFFIX,huaweicloud.cn
   - DOMAIN-SUFFIX,huaweicloud.com
+  - DOMAIN-SUFFIX,huaweicloudapis.cn
+  - DOMAIN-SUFFIX,huaweicloudlive.com
   - DOMAIN-SUFFIX,huaweicloudwaf.cn
   - DOMAIN-SUFFIX,huaweicloudwaf.com
   - DOMAIN-SUFFIX,huaweiief.cn
@@ -100,11 +124,16 @@ payload:
   - DOMAIN-SUFFIX,huaweirtc.com
   - DOMAIN-SUFFIX,huaweisafedns.cn
   - DOMAIN-SUFFIX,huaweisafedns.com
+  - DOMAIN-SUFFIX,huaweisafehub.cn
   - DOMAIN-SUFFIX,huaweisre.cn
   - DOMAIN-SUFFIX,huaweisre.com
   - DOMAIN-SUFFIX,huaweistatic.com
+  - DOMAIN-SUFFIX,huaweiyun.cn
   - DOMAIN-SUFFIX,huaweiyun.com
   - DOMAIN-SUFFIX,hwcloudlive.com
+  - DOMAIN-SUFFIX,hwclouds-dns.cn
+  - DOMAIN-SUFFIX,hwclouds-dns.com
+  - DOMAIN-SUFFIX,hwclouds-dns.net
   - DOMAIN-SUFFIX,hwclouds.cn
   - DOMAIN-SUFFIX,hwclouds.com
   - DOMAIN-SUFFIX,hwclouds.com.cn
@@ -114,12 +143,15 @@ payload:
   - DOMAIN-SUFFIX,hwclouds.org
   - DOMAIN-SUFFIX,hwclouds.org.cn
   - DOMAIN-SUFFIX,hwcloudtest.cn
+  - DOMAIN-SUFFIX,hwcloudvis.cn
+  - DOMAIN-SUFFIX,hwcloudvis.com
   - DOMAIN-SUFFIX,hwocloud.com
   - DOMAIN-SUFFIX,livehwc3.cn
   - DOMAIN-SUFFIX,myhuaweicloud.cn
   - DOMAIN-SUFFIX,myhuaweicloud.com
   - DOMAIN-SUFFIX,myhwcdn.cn
   - DOMAIN-SUFFIX,myhwcdn.com
+  - DOMAIN-SUFFIX,myhwcloudlive.com
   - DOMAIN-SUFFIX,myhwclouds.cn
   - DOMAIN-SUFFIX,myhwclouds.com
   - DOMAIN-SUFFIX,myhwclouds.com.cn
