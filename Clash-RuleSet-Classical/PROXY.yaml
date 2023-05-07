@@ -4796,6 +4796,13 @@ payload:
   - DOMAIN-SUFFIX,tegrazone.kr
   - DOMAIN-SUFFIX,nvda.d2.sc.omtrdc.net
   - DOMAIN-SUFFIX,nvidia.tt.omtrdc.net
+  ## > OpenAi
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,stripe.com
   ## > Opera
   - DOMAIN-SUFFIX,1npq4.tk
   - DOMAIN-SUFFIX,coastbyopera.com
