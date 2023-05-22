@@ -2748,6 +2748,10 @@ DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn
 DOMAIN-SUFFIX,国家广播电视总台.cn
 DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s
 DOMAIN-SUFFIX,国家广播电视总台.中国
+## > CETV (中国教育电视台)
+DOMAIN-SUFFIX,centv.cn
+DOMAIN-SUFFIX,centv.net.cn
+DOMAIN-SUFFIX,cetv.cn
 ## > 中国新闻网
 DOMAIN-SUFFIX,chinanews.com
 DOMAIN-SUFFIX,chinanews.com.cn
