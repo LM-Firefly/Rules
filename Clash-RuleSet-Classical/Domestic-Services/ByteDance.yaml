@@ -13,7 +13,6 @@ payload:
   - DOMAIN-SUFFIX,bytedns1.com
   - DOMAIN-SUFFIX,bytedns2.com
   - DOMAIN-SUFFIX,bytefcdn.com
-  - DOMAIN-SUFFIX,bytegecko.com
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,bytegslb.com
   - DOMAIN-SUFFIX,bytelb.net
@@ -116,6 +115,7 @@ payload:
   - DOMAIN-SUFFIX,bytedns.net
   - DOMAIN-SUFFIX,bytednsdoc.com
   - DOMAIN-SUFFIX,byteeffecttos.com
+  - DOMAIN-SUFFIX,bytegecko.com
   - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,bytetcc.com
@@ -160,6 +160,7 @@ payload:
   - DOMAIN-SUFFIX,sgpstatp.com
   - DOMAIN-SUFFIX,tik-tokapi.com
   - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
   ## >> 抖音火山版
@@ -177,6 +178,21 @@ payload:
   ## >> GoGoKid
   - DOMAIN-SUFFIX,gogokid.com
   - DOMAIN-SUFFIX,gogokid.com.cn
+  ## >> 格物致品网络科技
+  - DOMAIN-SUFFIX,buydouke.com
+  - DOMAIN-SUFFIX,doubao.cn
+  - DOMAIN-SUFFIX,doubao.com
+  - DOMAIN-SUFFIX,douyinec.com
+  - DOMAIN-SUFFIX,ecom-lightapp.com
+  - DOMAIN-SUFFIX,ecombdapi.com
+  - DOMAIN-SUFFIX,ecombdimg.com
+  - DOMAIN-SUFFIX,ecombdstatic.com
+  - DOMAIN-SUFFIX,ecombdvod.com
+  - DOMAIN-SUFFIX,jinritemai-inc.com
+  - DOMAIN-SUFFIX,jinritemai.com
+  - DOMAIN-SUFFIX,maidouke.com
+  - DOMAIN-SUFFIX,shoppingads.cn
+  - DOMAIN-SUFFIX,temaiapi.com
   ## >> 好运万年历
   - DOMAIN-SUFFIX,fullluckcalendar.com
   - DOMAIN-SUFFIX,goodluckcalendar.com
