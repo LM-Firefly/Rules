@@ -6197,6 +6197,11 @@ payload:
   - DOMAIN-SUFFIX,ssreader.com.cn
   - DOMAIN-SUFFIX,uonline-sh.com
   - DOMAIN-SUFFIX,uonline-sh.net
+  ## > SMG 上海广播电视台
+  - DOMAIN-SUFFIX,cptn.tv
+  - DOMAIN-SUFFIX,sava.sh.cn
+  - DOMAIN-SUFFIX,smg.cn
+  - DOMAIN-SUFFIX,smg.sh.cn
   ## > 上海聚效
   - DOMAIN-SUFFIX,bubuying.net
   - DOMAIN-SUFFIX,kuaishuru.net
