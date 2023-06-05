@@ -2357,6 +2357,14 @@ DOMAIN-SUFFIX,pdeepmatrix.com
 DOMAIN-SUFFIX,percent.cn
 DOMAIN-SUFFIX,pertalk.cn
 DOMAIN-SUFFIX,xworld.net.cn
+## > 百视通
+DOMAIN-SUFFIX,bbtv.cn
+DOMAIN-SUFFIX,bestv.com.cn
+DOMAIN-SUFFIX,bestvcdn.cn
+DOMAIN-SUFFIX,bestvcdn.com
+DOMAIN-SUFFIX,bestvcdn.com.cn
+DOMAIN-SUFFIX,bestvcdn.net
+DOMAIN-SUFFIX,smgbb.cn
 ## > 保利威
 DOMAIN-SUFFIX,polyv.net
 DOMAIN-SUFFIX,videocc.net
@@ -7813,7 +7821,6 @@ DOMAIN-SUFFIX,interface.music.163.com
 DOMAIN-SUFFIX,interface3.music.163.com
 DOMAIN-SUFFIX,music.163.com
 DOMAIN-SUFFIX,music.163.com.163jiasu.com
-DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,hz.netease.com
 DOMAIN-SUFFIX,mam.netease.com
 DOMAIN-SUFFIX,yun-app.net

@@ -2358,6 +2358,14 @@ payload:
   - DOMAIN-SUFFIX,percent.cn
   - DOMAIN-SUFFIX,pertalk.cn
   - DOMAIN-SUFFIX,xworld.net.cn
+  ## > 百视通
+  - DOMAIN-SUFFIX,bbtv.cn
+  - DOMAIN-SUFFIX,bestv.com.cn
+  - DOMAIN-SUFFIX,bestvcdn.cn
+  - DOMAIN-SUFFIX,bestvcdn.com
+  - DOMAIN-SUFFIX,bestvcdn.com.cn
+  - DOMAIN-SUFFIX,bestvcdn.net
+  - DOMAIN-SUFFIX,smgbb.cn
   ## > 保利威
   - DOMAIN-SUFFIX,polyv.net
   - DOMAIN-SUFFIX,videocc.net
