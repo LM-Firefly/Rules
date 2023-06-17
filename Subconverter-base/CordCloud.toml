@@ -1232,6 +1232,46 @@ rule = [
 ]
 
 [[custom_groups]]
+name = "🤖 OpenAi"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🍖 默认代理",
+    "[]🇺🇸 美国-Media",
+    "[]🇭🇰 香港-Media",
+    "[]🇲🇴 澳门-Media",
+    "[]🇹🇼 台湾-Media",
+    "[]🇬🇧 英国-Media",
+    "[]🇯🇵 日本-Media",
+    "[]🇸🇬 新加坡-Media",
+    "[]🇰🇷 韩国-Media",
+    "[]🇷🇺 俄罗斯-Media",
+    "[]🇮🇳 印度-Media",
+    "[]🇦🇷 阿根廷-Media",
+    "[]🇦🇹 奥地利-Media",
+    "[]🇦🇿 阿塞拜疆-Media",
+    "[]🇧🇬 保加利亚-Media",
+    "[]🇧🇷 巴西-Media",
+    "[]🇨🇭 瑞士-Media",
+    "[]🇨🇱 智利-Media",
+    "[]🇨🇴 哥伦比亚-Media",
+    "[]🇨🇿 捷克-Media",
+    "[]🇪🇬 埃及-Media",
+    "[]🇪🇸 西班牙-Media",
+    "[]🇫🇮 芬兰-Media",
+    "[]🇮🇱 以色列-Media",
+    "[]🇱🇻 拉脱维亚-Media",
+    "[]🇲🇾 马来西亚-Media",
+    "[]🇳🇱 荷兰-Media",
+    "[]🇵🇰 巴基斯坦-Media",
+    "[]🇵🇱 波兰-Media",
+    "[]🇹🇭 泰国-Media",
+    "[]🇹🇷 土耳其-Media",
+    "[]🇺🇦 乌克兰-Media",
+    "[]🇻🇳 越南-Media",
+]
+
+[[custom_groups]]
 name = "💊 小米服务"
 type = "select"
 disable_udp = false
@@ -2857,6 +2897,12 @@ interval = 3600
 [[rulesets]]
 group = "🎥 奈飞影视"
 ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🤖 OpenAi"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/OpenAi.list"
 type = "surge-ruleset"
 interval = 3600
 

@@ -301,6 +301,7 @@ DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,primeday.cn
 DOMAIN-SUFFIX,primeday.com.cn
 DOMAIN-SUFFIX,primeday.info
+DOMAIN-SUFFIX,seattlespheres.com
 DOMAIN-SUFFIX,siege-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
 DOMAIN-SUFFIX,thinkboxsoftware.com
@@ -4801,9 +4802,14 @@ DOMAIN-SUFFIX,nvidia.tt.omtrdc.net
 ## > OpenAi
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 ## > Opera
 DOMAIN-SUFFIX,1npq4.tk

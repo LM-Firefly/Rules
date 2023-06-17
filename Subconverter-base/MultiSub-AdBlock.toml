@@ -665,58 +665,36 @@ type = "select"
 disable_udp = false
 rule = [
     "[]🔄 延迟最低",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-ZHS",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇯🇵 日本-ZHS",
-    "[]🇸🇬 新加坡-ZHS",
-    "[]🥗 ZHS-Others",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
+    "[]🇰🇷 韩国-SUB1",
+    "[]🇰🇷 韩国-SUB2",
+    "[]🇰🇷 韩国-SUB3",
+    "[]🇷🇺 俄罗斯-SUB1",
+    "[]🇷🇺 俄罗斯-SUB2",
+    "[]🇷🇺 俄罗斯-SUB3",
     "[]🍱 冷门地区",
-    "[]🇺🇸 美国-轮询",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-Others",
-    "[]🇯🇵 日本-轮询",
-    "[]🇯🇵 日本-AWS",
-    "[]🇯🇵 日本-Azure",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
-    "[]🇯🇵 日本-CloudN",
-    "[]🇯🇵 日本-Others",
-    "[]🇬🇧 英国",
     "[]🇭🇰 香港-轮询",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 深港专线",
-    "[]🇭🇰 香港-Others",
-    "[]🇷🇺 俄罗斯-Others",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇺🇸 美国-轮询",
+    "[]🇯🇵 日本-轮询",
+    "[]🇬🇧 英国",
     "[]🇷🇺 俄罗斯-轮询",
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
-    "[]🇸🇬 新加坡-Others",
     "[]🇸🇬 新加坡-轮询",
     "[]🇰🇷 韩国-轮询",
-    "[]🇰🇷 韩国-Azure",
-    "[]🇩🇪 德国-轮询",
-    "[]🇩🇪 德国-TL",
 ]
 
 [[custom_groups]]
@@ -756,43 +734,22 @@ rule = [
     "[]🇹🇷 土耳其-Media",
     "[]🇺🇦 乌克兰-Media",
     "[]🇻🇳 越南-Media",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-轮询",
-    "[]🇹🇼 台湾-ZHS",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇯🇵 日本-ZHS",
-    "[]🇸🇬 新加坡-ZHS",
-    "[]🇯🇵 日本-CloudN",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
     "[]🇬🇧 英国",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-Others",
-    "[]🇰🇷 韩国-Azure",
-    "[]🇩🇪 德国-TL",
     "[]🍖 默认代理",
 ]
 
@@ -801,43 +758,28 @@ name = "🎮 游戏服务"
 type = "select"
 disable_udp = false
 rule = [
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 深港专线",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-轮询",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇯🇵 日本-ZHS",
-    "[]🇸🇬 新加坡-ZHS",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
-    "[]🇯🇵 日本-CloudN",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
     "[]🇬🇧 英国",
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
-    "[]🇸🇬 新加坡-Others",
-    "[]🇰🇷 韩国-Azure",
-    "[]🇩🇪 德国-TL",
+    "[]🇰🇷 韩国-SUB1",
+    "[]🇰🇷 韩国-SUB2",
+    "[]🇰🇷 韩国-SUB3",
+    "[]🇷🇺 俄罗斯-SUB1",
+    "[]🇷🇺 俄罗斯-SUB2",
+    "[]🇷🇺 俄罗斯-SUB3",
     "[]🍖 默认代理",
 ]
 
@@ -848,19 +790,17 @@ disable_udp = false
 rule = [
     "[]🎯 直连服务",
     "(🇨🇳)",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 香港-Others",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "台TFN",
-    "[]🇹🇼 台湾-ZHS",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
+    "[]🇭🇰 香港-轮询",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
     "[]🍖 默认代理",
 ]
 
@@ -886,41 +826,24 @@ rule = [
     "[]🇲🇴 澳门-Media",
     "[]🇹🇼 台湾-Media",
     "(🇨🇳)",
-    "[]🇯🇵 日本-AWS",
-    "[]🇯🇵 日本-Azure",
-    "[]🇯🇵 日本-CloudN",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
-    "[]🇯🇵 日本-Others",
     "[]🇭🇰 香港-轮询",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 深港专线",
-    "[]🇭🇰 香港-Others",
-    "[]🇭🇰 香港-ZHS",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
     "[]🇹🇼 台湾-轮询",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-ZHS",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
     "[]🇺🇸 美国-轮询",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-Others",
-    "[]🇺🇸 美国-ZHS",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
     "[]🍱 冷门地区",
     "[]🍖 默认代理",
 ]
@@ -964,21 +887,12 @@ rule = [
     "[]🇺🇦 乌克兰-Media",
     "[]🇻🇳 越南-Media",
     "(🇨🇳)",
-    "[]🇭🇰 香港-轮询",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 深港专线",
-    "[]🇭🇰 香港-Others",
-    "[]🇹🇼 台湾-轮询",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-ZHS",
-    "[]🇭🇰 香港-ZHS",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
 ]
 
 [[custom_groups]]
@@ -994,19 +908,20 @@ disable_udp = false
 rule = [
     "[]🎯 直连服务",
     "(🇨🇳)",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇭🇰 香港-Others",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "台TFN",
-    "[]🇹🇼 台湾-ZHS",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
+    "[]🇭🇰 香港-轮询",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
     "[]🍖 默认代理",
 ]
 
@@ -1028,59 +943,36 @@ type = "select"
 disable_udp = false
 rule = [
     "[]🔄 延迟最低",
-    "[]🇺🇸 美国-轮询",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-Others",
-    "[]🇯🇵 日本-轮询",
-    "[]🇯🇵 日本-AWS",
-    "[]🇯🇵 日本-Azure",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
-    "[]🇯🇵 日本-CloudN",
-    "[]🇯🇵 日本-Others",
-    "[]🇬🇧 英国",
     "[]🇭🇰 香港-轮询",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 深港专线",
-    "[]🇭🇰 香港-Others",
     "[]🇹🇼 台湾-轮询",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-ZHS",
-    "[]🍱 冷门地区",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇯🇵 日本-ZHS",
-    "[]🇸🇬 新加坡-ZHS",
-    "[]🥗 ZHS-Others",
-    "[]🇷🇺 俄罗斯-Others",
-    "[]🇷🇺 俄罗斯-轮询",
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
-    "[]🇸🇬 新加坡-Others",
+    "[]🇺🇸 美国-轮询",
+    "[]🇯🇵 日本-轮询",
+    "[]🇬🇧 英国",
     "[]🇸🇬 新加坡-轮询",
+    "[]🇷🇺 俄罗斯-轮询",
     "[]🇰🇷 韩国-轮询",
-    "[]🇰🇷 韩国-Azure",
-    "[]🇩🇪 德国-轮询",
-    "[]🇩🇪 德国-TL",
+    "[]🍱 冷门地区",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
+    "[]🇷🇺 俄罗斯-SUB1",
+    "[]🇷🇺 俄罗斯-SUB2",
+    "[]🇷🇺 俄罗斯-SUB3",
+    "[]🇰🇷 韩国-SUB1",
+    "[]🇰🇷 韩国-SUB2",
+    "[]🇰🇷 韩国-SUB3",
 ]
 
 [[custom_groups]]
@@ -1089,10 +981,13 @@ type = "select"
 disable_udp = false
 rule = [
     "[]🇹🇼 台湾-Media",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "(台.*(?!▷|回|转)|TW|彰化)",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇯🇵 日本-Media",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
 ]
 
 [[custom_groups]]
@@ -1102,42 +997,28 @@ disable_udp = false
 rule = [
     "[]🔄 延迟最低",
     "[]🇺🇸 美国-轮询",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-Others",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇬🇧 英国",
     "[]🇭🇰 香港-轮询",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 深港专线",
-    "[]🇭🇰 香港-Others",
     "[]🇹🇼 台湾-轮询",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-ZHS",
-    "[]🍱 冷门地区",
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
+    "[]🇯🇵 日本-轮询",
     "[]🇸🇬 新加坡-轮询",
     "[]🇰🇷 韩国-轮询",
-    "[]🇰🇷 韩国-Azure",
-    "[]🇩🇪 德国-轮询",
-    "[]🇩🇪 德国-TL",
+    "[]🇬🇧 英国",
+    "[]🍱 冷门地区",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
     "[]🌏 大陆服务",
     "[]🎯 直连服务",
 ]
@@ -1179,46 +1060,25 @@ rule = [
     "[]🇹🇷 土耳其-Media",
     "[]🇺🇦 乌克兰-Media",
     "[]🇻🇳 越南-Media",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-Others",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-HiNet-FB",
-    "[]🇹🇼 台湾-ZHS",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇯🇵 日本-CloudN",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
-    "[]🇯🇵 日本-AWS",
-    "[]🇯🇵 日本-Azure",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
     "[]🇬🇧 英国",
-    "[]🇯🇵 日本-ZHS",
-    "[]🇸🇬 新加坡-ZHS",
-    "[]🇷🇺 俄罗斯-Others",
-    "[]🇷🇺 俄罗斯-轮询",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-Others",
-    "[]🇰🇷 韩国-Azure",
-    "[]🇩🇪 德国-TL",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
+    "[]🇷🇺 俄罗斯-SUB1",
+    "[]🇷🇺 俄罗斯-SUB2",
+    "[]🇷🇺 俄罗斯-SUB3",
     "[]🍖 默认代理",
 ]
 
@@ -1228,33 +1088,25 @@ type = "select"
 disable_udp = false
 rule = [
     "[]🔄 延迟最低",
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
-    "[]🇸🇬 新加坡-Others",
+    "[]🇸🇬 新加坡-SUB1",
+    "[]🇸🇬 新加坡-SUB2",
+    "[]🇸🇬 新加坡-SUB3",
     "[]🇹🇼 台湾-轮询",
     "[]🇭🇰 香港-轮询",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 香港-Others",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "台TFN",
     "[]🇺🇸 美国-轮询",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
     "[]🍱 冷门地区",
     "[]🇯🇵 日本-轮询",
     "[]🇬🇧 英国",
-    "[]🇷🇺 俄罗斯-Others",
+    "[]🇷🇺 俄罗斯-SUB1",
+    "[]🇷🇺 俄罗斯-SUB2",
+    "[]🇷🇺 俄罗斯-SUB3",
     "[]🇷🇺 俄罗斯-轮询",
-    "[]🇰🇷 韩国-Azure",
-    "[]🇩🇪 德国-轮询",
-    "[]🇩🇪 德国-TL",
     "[]🍖 默认代理",
 ]
 
@@ -1265,41 +1117,23 @@ disable_udp = false
 rule = [
     "[]🔄 延迟最低",
     "[]🇺🇸 美国-轮询",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-Others",
+    "[]🇺🇸 美国-SUB1",
+    "[]🇺🇸 美国-SUB2",
+    "[]🇺🇸 美国-SUB3",
     "[]🍱 冷门地区",
     "[]🇯🇵 日本-轮询",
-    "[]🇯🇵 日本-AWS",
-    "[]🇯🇵 日本-Azure",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
-    "[]🇯🇵 日本-CloudN",
-    "[]🇯🇵 日本-Others",
+    "[]🇯🇵 日本-SUB1",
+    "[]🇯🇵 日本-SUB2",
+    "[]🇯🇵 日本-SUB3",
     "[]🇬🇧 英国",
     "[]🇭🇰 香港-轮询",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 深港专线",
-    "[]🇭🇰 香港-Others",
+    "[]🇭🇰 香港-SUB1",
+    "[]🇭🇰 香港-SUB2",
+    "[]🇭🇰 香港-SUB3",
     "[]🇹🇼 台湾-轮询",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-ZHS",
+    "[]🇹🇼 台湾-SUB1",
+    "[]🇹🇼 台湾-SUB2",
+    "[]🇹🇼 台湾-SUB3",
     "[]🍖 默认代理",
 ]
 
@@ -1349,22 +1183,6 @@ type = "select"
 disable_udp = false
 rule = ["[]🎯 直连服务", "(🇨🇳)", "[]🔄 延迟最低", "[]🍖 默认代理"]
 
-# [[custom_groups]]
-# name = "🥩 云霄阁"
-# type = "select"
-# disable_udp = false
-# rule = [
-#     "(云霄阁)"
-# ]
-
-# [[custom_groups]]
-# name = "🍙 云霄阁SR"
-# type = "select"
-# disable_udp = false
-# rule = [
-#     "(云霄阁SR)"
-# ]
-
 [[custom_groups]]
 name = "🚦 DMCA Sensitive"
 type = "select"
@@ -1381,43 +1199,13 @@ rule = ["[]🎯 直连服务", "[]🍖 默认代理"]
 name = "🚀 SpeedTest"
 type = "select"
 disable_udp = false
-rule = ["[]🎯 直连服务", "[]🍖 默认代理", ".*"]
+rule = ["[]🎯 直连服务", "[]🍖 默认代理`.*"]
 
 [[custom_groups]]
-name = "🇹🇼 台湾-HiNet"
+name = "🇹🇼 台湾-延迟最低"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇹🇼.*台.*HiNet.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇹🇼 台湾-Seednet"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇹🇼.*台.*Seednet.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇹🇼 台湾-Others"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇹🇼.*(?!▷|Seednet|HiNet))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇹🇼 台湾-HiNet-FB"
-type = "fallback"
-disable_udp = false
-rule = ["[]🇹🇼 台湾-HiNet", "((?i)^🇹🇼.*台.*HiNet.*(?!▷|回|转))"]
+rule = ["[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇹🇼 台湾-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -1427,166 +1215,36 @@ lazy = true
 name = "🇹🇼 台湾-轮询"
 type = "fallback"
 disable_udp = false
-rule = ["[]🇹🇼 台湾-HiNet", "[]🇹🇼 台湾-Seednet", "[]🇹🇼 台湾-Others", "[]🇹🇼 台湾-ZHS"]
+rule = ["[]🇹🇼 台湾-延迟最低", "[]🇹🇼 台湾-SUB1", "[]🇹🇼 台湾-SUB2", "[]🇹🇼 台湾-SUB3"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+
+[[custom_groups]]
+name = "🇹🇼 台湾-SUB1"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=0!!(^🇹🇼.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
 
 [[custom_groups]]
-name = "🇹🇼 台湾-ZHS"
+name = "🇹🇼 台湾-SUB2"
 type = "url-test"
 disable_udp = false
-rule = ["!!GROUPID=2!!((?i)^🇹🇼.*台.*(?!▷|回|转))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇹🇼.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
 
 [[custom_groups]]
-name = "🇭🇰 香港-AWS"
+name = "🇹🇼 台湾-SUB3"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇭🇰.*港AWS.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 香港-Azure"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇭🇰.*港Azure.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇭🇰 香港-BGP"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇭🇰.*港BGP.*(?!▷|回|转))",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 香港-HGC"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇭🇰.*HGC.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 香港-HKBN"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇭🇰.*HKBN.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 香港-HKT"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇭🇰.*HKT.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇭🇰 香港-M247"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇭🇰.*港M247.*(?!▷|回|转))",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 香港-NTT"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇭🇰.*NTT.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇭🇰 香港-WTT"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇭🇰.*WTT.*(?!▷|回|转))",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇭🇰 香港-LS"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇭🇰.*港LS)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 深港专线"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇭🇰.*不限速|深港临时专线)", "((?i)^🇭🇰.*深港(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 香港-ZHS"
-type = "url-test"
-disable_udp = false
-rule = ["!!GROUPID=2!!((?i)^🇭🇰.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 香港-Others"
-type = "url-test"
-disable_udp = false
-rule = [
-    "((?i)^🇭🇰.*港CI)",
-    "((?i)^🇭🇰.*港icable)",
-    "((?i)^🇭🇰.*阿里云)",
-    "((?i)^🇭🇰.*(?!▷|AWS|Azure|HGC|HKBN|HKT|NTT))",
-    "!!GROUPID=2!!((?i)^🇭🇰.*港(-))",
-    "[]REJECT",
-]
+rule = ["!!GROUPID=2!!(^🇹🇼.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -1596,17 +1254,7 @@ lazy = true
 name = "🇭🇰 香港-延迟最低"
 type = "url-test"
 disable_udp = false
-rule = [
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 香港-Others",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇭🇰 深港专线",
-]
+rule = ["[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇭🇰 香港-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -1616,18 +1264,36 @@ lazy = true
 name = "🇭🇰 香港-轮询"
 type = "fallback"
 disable_udp = false
-rule = [
-    "[]🇭🇰 香港-延迟最低",
-    "[]🇭🇰 香港-AWS",
-    "[]🇭🇰 香港-Azure",
-    "[]🇭🇰 香港-HGC",
-    "[]🇭🇰 香港-HKBN",
-    "[]🇭🇰 香港-HKT",
-    "[]🇭🇰 香港-NTT",
-    "[]🇭🇰 香港-Others",
-    "[]🇭🇰 香港-ZHS",
-    "[]🇭🇰 深港专线",
-]
+rule = ["[]🇭🇰 香港-延迟最低", "[]🇭🇰 香港-SUB1", "[]🇭🇰 香港-SUB2", "[]🇭🇰 香港-SUB3"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+
+[[custom_groups]]
+name = "🇭🇰 香港-SUB1"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=0!!(^🇭🇰.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-SUB2"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=1!!(^🇭🇰.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-SUB3"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=2!!(^🇭🇰.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -1637,383 +1303,7 @@ lazy = true
 name = "🇬🇧 英国"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇬🇧.*伦敦|英.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-AWS"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*AWS)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-Azure"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*Azure)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-BGP"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*BGP)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-CC"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*CC)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-Cera"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*Cera)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-CH"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*CH)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-CN2"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*CN2)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-CT"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*CT)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-DO"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*DO)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-DS"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*DS)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-EN"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*EN)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-GF"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*GF)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-GIA"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*GIA(?!D))",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-GIAD"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*GIAD)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-HE"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*HE)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-INAP"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*INAP)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-JS"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*JS)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-KT"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*KT)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-LN"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*Ln)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-M247"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*M247)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-MC"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*MC)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-NHN"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*NHN)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-QN"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*QN(?!C))",
-#     "((?i)^🇺🇸.*美.*QN[0-9])",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-QNC"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*QNC)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-QP"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*QP)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-RN"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇺🇸.*美.*RN)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-RS"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*RS)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-XS"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*XS)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 美国-ANCH"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇺🇸.*美.*安畅)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-ZHS"
-type = "url-test"
-disable_udp = false
-rule = ["!!GROUPID=2!!((?i)^🇺🇸.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 美国-Others"
-type = "url-test"
-disable_udp = false
-rule = [
-    "((?i)^🇺🇸.*美.*DP)",
-    "((?i)^🇺🇸.*美.*VM)",
-    "((?i)^🇺🇸.*(?!▷|AWS|Azure|Cera|CT|DO|HE|JS|LN|RN))",
-    "[]REJECT",
-]
+rule = ["(^🇬🇧.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -2023,19 +1313,7 @@ lazy = true
 name = "🇺🇸 美国-延迟最低"
 type = "url-test"
 disable_udp = false
-rule = [
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇺🇸 美国-Others",
-]
+rule = ["[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇺🇸 美国-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -2045,153 +1323,36 @@ lazy = true
 name = "🇺🇸 美国-轮询"
 type = "fallback"
 disable_udp = false
-rule = [
-    "[]🇺🇸 美国-延迟最低",
-    "[]🇺🇸 美国-AWS",
-    "[]🇺🇸 美国-Azure",
-    "[]🇺🇸 美国-Cera",
-    "[]🇺🇸 美国-CT",
-    "[]🇺🇸 美国-DO",
-    "[]🇺🇸 美国-HE",
-    "[]🇺🇸 美国-JS",
-    "[]🇺🇸 美国-LN",
-    "[]🇺🇸 美国-RN",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇺🇸 美国-Others",
-]
+rule = ["[]🇺🇸 美国-延迟最低", "[]🇺🇸 美国-SUB1", "[]🇺🇸 美国-SUB2", "[]🇺🇸 美国-SUB3"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+
+[[custom_groups]]
+name = "🇺🇸 美国-SUB1"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=0!!(^🇺🇸.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
 
 [[custom_groups]]
-name = "🇯🇵 日本-AWS"
+name = "🇺🇸 美国-SUB2"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇯🇵.*日.*AWS)", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇺🇸.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
 
 [[custom_groups]]
-name = "🇯🇵 日本-Azure"
+name = "🇺🇸 美国-SUB3"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇯🇵.*日.*Azure)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 日本-CloudN"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇯🇵.*日.*CloudN)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇯🇵 日本-GMO"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇯🇵.*日.*GMO)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇯🇵 日本-IDCF"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇯🇵.*日.*IDCF)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇯🇵 日本-IIJ"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇯🇵.*日.*IIJ.*(?!▷|回|转))",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 日本-M247"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇯🇵.*日.*M247)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 日本-NHN"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇯🇵.*日.*NHN)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 日本-NTT"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇯🇵.*日.*NTT)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 日本-Webarena"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇯🇵.*日.*Webarena)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 日本-ZHS"
-type = "url-test"
-disable_udp = false
-rule = ["!!GROUPID=2!!((?i)^🇯🇵.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 日本-Others"
-type = "url-test"
-disable_udp = false
-rule = [
-    "((?i)^🇯🇵.*日.*阿里云)",
-    "((?i)^🇯🇵.*(?!▷|AWS|Azure|CloudN|M247|NHN|NTT|Webarena))",
-    "[]REJECT",
-]
+rule = ["!!GROUPID=2!!(^🇺🇸.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -2201,17 +1362,7 @@ lazy = true
 name = "🇯🇵 日本-延迟最低"
 type = "url-test"
 disable_udp = false
-rule = [
-    "[]🇯🇵 日本-CloudN",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
-    "[]🇯🇵 日本-AWS",
-    "[]🇯🇵 日本-Azure",
-    "[]🇯🇵 日本-ZHS",
-    "[]🇯🇵 日本-Others",
-]
+rule = ["[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇯🇵 日本-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -2221,56 +1372,46 @@ lazy = true
 name = "🇯🇵 日本-轮询"
 type = "fallback"
 disable_udp = false
-rule = [
-    "[]🇯🇵 日本-延迟最低",
-    "[]🇯🇵 日本-CloudN",
-    "[]🇯🇵 日本-M247",
-    "[]🇯🇵 日本-NHN",
-    "[]🇯🇵 日本-NTT",
-    "[]🇯🇵 日本-Webarena",
-    "[]🇯🇵 日本-AWS",
-    "[]🇯🇵 日本-Azure",
-    "[]🇯🇵 日本-ZHS",
-    "[]🇯🇵 日本-Others",
-]
+rule = ["[]🇯🇵 日本-延迟最低", "[]🇯🇵 日本-SUB1", "[]🇯🇵 日本-SUB2", "[]🇯🇵 日本-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇷🇺 俄罗斯-伯力"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇷🇺.*俄伯力)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
 
 [[custom_groups]]
-name = "🇷🇺 俄罗斯-Others"
+name = "🇯🇵 日本-SUB1"
 type = "url-test"
 disable_udp = false
-rule = [
-    "((?i)^🇷🇺.*新西伯利亚)",
-    "((?i)^🇷🇺.*莫斯科)",
-    "!!GROUPID=2!!((?i)^🇷🇺.*(-))",
-    "[]REJECT",
-]
+rule = ["!!GROUPID=0!!(^🇯🇵.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
-tolerance = 20
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-SUB2"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=1!!(^🇯🇵.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-SUB3"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=2!!(^🇯🇵.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 60
 lazy = true
 
 [[custom_groups]]
 name = "🇷🇺 俄罗斯-延迟最低"
 type = "url-test"
 disable_udp = false
-rule = ["[]🇷🇺 俄罗斯-Others", "((?i)^🇷🇺.*)"]
+rule = ["[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2", "[]🇷🇺 俄罗斯-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -2280,83 +1421,46 @@ lazy = true
 name = "🇷🇺 俄罗斯-轮询"
 type = "fallback"
 disable_udp = false
-rule = ["[]🇷🇺 俄罗斯-延迟最低", "[]🇷🇺 俄罗斯-Others"]
+rule = ["[]🇷🇺 俄罗斯-延迟最低", "[]🇷🇺 俄罗斯-SUB1", "[]🇷🇺 俄罗斯-SUB2", "[]🇷🇺 俄罗斯-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-SUB1"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=0!!(^🇷🇺.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 60
 lazy = true
 
 [[custom_groups]]
-name = "🇸🇬 新加坡-AWS"
+name = "🇷🇺 俄罗斯-SUB2"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇸🇬.*新AWS)", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇷🇺.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
-tolerance = 20
+tolerance = 60
 lazy = true
 
 [[custom_groups]]
-name = "🇸🇬 新加坡-Azure"
+name = "🇷🇺 俄罗斯-SUB3"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇸🇬.*新Azure)", "[]REJECT"]
+rule = ["!!GROUPID=2!!(^🇷🇺.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇸🇬 新加坡-DO"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇸🇬.*新DO)", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇸🇬 新加坡-NTT"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇸🇬.*新NTT(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇸🇬 新加坡-ZHS"
-type = "url-test"
-disable_udp = false
-rule = ["!!GROUPID=2!!((?i)^🇸🇬.*新.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-[[custom_groups]]
-name = "🇸🇬 新加坡-Others"
-type = "url-test"
-disable_udp = false
-rule = ["((?i)^🇸🇬.*(?!▷|Azure|AWS|DO|NTT))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
+tolerance = 60
 lazy = true
 
 [[custom_groups]]
 name = "🇸🇬 新加坡-延迟最低"
 type = "url-test"
 disable_udp = false
-rule = [
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
-    "[]🇸🇬 新加坡-Others",
-]
+rule = ["[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇸🇬 新加坡-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -2366,73 +1470,36 @@ lazy = true
 name = "🇸🇬 新加坡-轮询"
 type = "fallback"
 disable_udp = false
-rule = [
-    "[]🇸🇬 新加坡-延迟最低",
-    "[]🇸🇬 新加坡-AWS",
-    "[]🇸🇬 新加坡-Azure",
-    "[]🇸🇬 新加坡-DO",
-    "[]🇸🇬 新加坡-NTT",
-    "[]🇸🇬 新加坡-Others",
-]
+rule = ["[]🇸🇬 新加坡-延迟最低", "[]🇸🇬 新加坡-SUB1", "[]🇸🇬 新加坡-SUB2", "[]🇸🇬 新加坡-SUB3"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-SUB1"
+type = "url-test"
+disable_udp = false
+rule = ["!!GROUPID=0!!(^🇸🇬.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
 
-# [[custom_groups]]
-# name = "🇰🇷 韩国-AWS"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇰🇷.*韩.*AWS)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
 [[custom_groups]]
-name = "🇰🇷 韩国-Azure"
+name = "🇸🇬 新加坡-SUB2"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇰🇷.*韩.*Azure)", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇸🇬.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
 
-# [[custom_groups]]
-# name = "🇰🇷 韩国-NHN"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇰🇷.*韩.*NHN)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-# [[custom_groups]]
-# name = "🇰🇷 韩国-KT"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇰🇷.*韩KT)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
 [[custom_groups]]
-name = "🇰🇷 韩国-Others"
+name = "🇸🇬 新加坡-SUB3"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇰🇷.*(?!▷|Azure|NHN|KT))", "[]REJECT"]
+rule = ["!!GROUPID=2!!(^🇸🇬.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -2442,7 +1509,7 @@ lazy = true
 name = "🇰🇷 韩国-延迟最低"
 type = "url-test"
 disable_udp = false
-rule = ["[]🇰🇷 韩国-Azure", "[]🇰🇷 韩国-Others"]
+rule = ["[]🇰🇷 韩国-SUB1", "[]🇰🇷 韩国-SUB2", "[]🇰🇷 韩国-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -2452,97 +1519,40 @@ lazy = true
 name = "🇰🇷 韩国-轮询"
 type = "fallback"
 disable_udp = false
-rule = ["[]🇰🇷 韩国-延迟最低", "[]🇰🇷 韩国-Azure", "[]🇰🇷 韩国-Others"]
+rule = ["[]🇰🇷 韩国-延迟最低", "[]🇰🇷 韩国-SUB1", "[]🇰🇷 韩国-SUB2", "[]🇰🇷 韩国-SUB3"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
-lazy = true
 
 [[custom_groups]]
-name = "🇩🇪 德国-TL"
+name = "🇰🇷 韩国-SUB1"
 type = "url-test"
 disable_udp = false
-rule = ["((?i)^🇩🇪.*德.*TL)", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇰🇷.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
 
-# [[custom_groups]]
-# name = "🇩🇪 德国-GIA"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇩🇪.*德.*GIA)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
 [[custom_groups]]
-name = "🇩🇪 德国-延迟最低"
+name = "🇰🇷 韩国-SUB2"
 type = "url-test"
 disable_udp = false
-rule = ["[]🇩🇪 德国-TL"]
+rule = ["!!GROUPID=1!!(^🇰🇷.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
 
 [[custom_groups]]
-name = "🇩🇪 德国-轮询"
-type = "fallback"
-disable_udp = false
-rule = ["[]🇩🇪 德国-延迟最低", "[]🇩🇪 德国-TL"]
-url = "http://connect.rom.miui.com/generate_204"
-interval = 180
-tolerance = 20
-lazy = true
-
-# [[custom_groups]]
-# name = "🇦🇺 澳大利亚-延迟最低"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^🇦🇺.*悉尼AWS)",
-#     "[]REJECT"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
-[[custom_groups]]
-name = "🥗 ZHS-Others"
+name = "🇰🇷 韩国-SUB3"
 type = "url-test"
 disable_udp = false
-rule = [
-    "!!GROUPID=2!!((?i)^🇬🇧.*英.*(?!▷|回|转))",
-    "!!GROUPID=2!!((?i)^🇷🇺.*俄.*(?!▷|回|转))",
-    "!!GROUPID=2!!((?i)^🇰🇷.*韩.*(?!▷|回|转))",
-    "!!GROUPID=2!!((?i)^🇨🇦.*加.*(?!▷|回|转))",
-    "!!GROUPID=2!!((?i)^🇫🇷.*法国.*(?!▷|回|转))",
-    "!!GROUPID=2!!((?i)^🇹🇷.*土.*(?!▷|回|转))",
-    "[]REJECT",
-]
+rule = ["!!GROUPID=2!!(^🇰🇷.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
-
-# [[custom_groups]]
-# name = "🍄 低倍率节点"
-# type = "url-test"
-# disable_udp = false
-# rule = [
-#     "((?i)^\\(×0\\))"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
 
 [[custom_groups]]
 name = "🔄 延迟最低"
@@ -2551,17 +1561,10 @@ disable_udp = false
 rule = [
     "[]🇺🇸 美国-延迟最低",
     "[]🇭🇰 香港-延迟最低",
-    "[]🇹🇼 台湾-HiNet",
-    "[]🇹🇼 台湾-Seednet",
-    "[]🇹🇼 台湾-Others",
-    "[]🇹🇼 台湾-ZHS",
+    "[]🇹🇼 台湾-延迟最低",
     "[]🇯🇵 日本-延迟最低",
     "[]🇷🇺 俄罗斯-延迟最低",
-    "[]🇩🇪 德国-延迟最低",
     "[]🍱 冷门地区",
-    "[]🇺🇸 美国-ZHS",
-    "[]🇯🇵 日本-ZHS",
-    "[]🥗 ZHS-Others",
     "[]🇸🇬 新加坡-延迟最低",
     "[]🇬🇧 英国",
     "[]🇰🇷 韩国-延迟最低",
@@ -2612,8 +1615,8 @@ rule = [
     "(^🇺🇦.*)",
     "(^🇻🇳.*)",
     "(^🇿🇦.*)",
-    "(^🇧🇭.*)",
     "(^🇴🇲.*)",
+    "(^🇧🇭.*)",
     "[]REJECT",
 ]
 url = "http://connect.rom.miui.com/generate_204"
@@ -2941,18 +1944,6 @@ interval = 180
 tolerance = 20
 lazy = true
 
-# [[custom_groups]]
-# name = "🍙 云霄阁-轮询"
-# type = "fallback"
-# disable_udp = false
-# rule = [
-#     "(云霄阁)"
-# ]
-# url = "http://connect.rom.miui.com/generate_204"
-# interval = 180
-# tolerance = 20
-# lazy = true
-
 [[custom_groups]]
 name = "🎯 直连服务"
 type = "select"
@@ -2974,7 +1965,7 @@ rule = ["[]REJECT", "[]🎯 直连服务", "[]🍖 默认代理"]
 [[custom_groups]]
 name = "⛔️ 广告服务"
 type = "select"
-disable_udp = false
+disable_udp = true
 rule = ["[]REJECT", "[]🎯 直连服务"]
 
 [[custom_groups]]
@@ -3040,7 +2031,7 @@ interval = 3600
 
 [[rulesets]]
 group = "🥝 爱奇艺"
-ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iQIYI-Intl.list"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI-Intl.list"
 type = "surge-ruleset"
 interval = 3600
 
