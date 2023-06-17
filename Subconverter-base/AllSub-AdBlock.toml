@@ -1069,6 +1069,12 @@ rule = [
 ]
 
 [[custom_groups]]
+name = "⛔️ 广告服务"
+type = "select"
+disable_udp = true
+rule = ["[]REJECT", "[]🎯 直连服务"]
+
+[[custom_groups]]
 name = "🥥 DNS Improvement"
 type = "select"
 disable_udp = false
@@ -1644,12 +1650,6 @@ name = "☠️ 软件验证"
 type = "select"
 disable_udp = false
 rule = ["[]REJECT", "[]🎯 直连服务", "[]🍖 默认代理"]
-
-[[custom_groups]]
-name = "⛔️ 广告服务"
-type = "select"
-disable_udp = true
-rule = ["[]REJECT", "[]🎯 直连服务"]
 
 [[custom_groups]]
 name = "⏰ 时间校准"
