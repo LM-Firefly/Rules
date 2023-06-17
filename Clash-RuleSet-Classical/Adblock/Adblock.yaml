@@ -567,7 +567,6 @@ payload:
   - DOMAIN-SUFFIX,api.wapa.taobao.com
   - DOMAIN-SUFFIX,api.waptest.taobao.com
   - DOMAIN-SUFFIX,apoll.m.taobao.com
-  - DOMAIN-SUFFIX,click.mz.simba.taobao.com
   - DOMAIN-SUFFIX,dsp.simba.taobao.com
   - DOMAIN-SUFFIX,err.taobao.com
   - DOMAIN-SUFFIX,fav.simba.taobao.com
