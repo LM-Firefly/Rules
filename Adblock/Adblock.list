@@ -1207,7 +1207,6 @@ DOMAIN-SUFFIX,c.bigmir.net
 DOMAIN-SUFFIX,i.bigmir.net
 DOMAIN-SUFFIX,stat.bigmir.net
 ## > 哔哩哔哩-ads
-DOMAIN-SUFFIX,dataflow.biliapi.com
 DOMAIN-SUFFIX,thirdparty.biliapi.com
 DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-SUFFIX,miniapp.bilibili.com
