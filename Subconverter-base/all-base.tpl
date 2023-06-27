@@ -57,7 +57,7 @@ tun:
   stack: system # gvisor / lwip
   device: utun0
   dns-hijack:
-  - any:53
+    - any:53
   auto-detect-interface: true
   auto-route: true
   mtu: 9000
