@@ -13,19 +13,18 @@ DOMAIN,dns.google
 DOMAIN,dns.google.com
 DOMAIN,adblock.mydns.network
 DOMAIN,applied-privacy.net
-DOMAIN,captnemo.in
 DOMAIN,cdn-doh.ssnm.xyz
-DOMAIN,commons.host
-DOMAIN,digitale-gesellschaft.ch
 DOMAIN,dns-family.adguard.com
 DOMAIN,dns-unfiltered.adguard.com
 DOMAIN,dns.adguard.com
+DOMAIN,unfiltered.adguard-dns.com
 DOMAIN,dns-nyc.aaflalo.me
 DOMAIN,dns-tls.qis.io
 DOMAIN,dns.aa.net.uk
 DOMAIN,dns.aaflalo.me
 DOMAIN,dns.alidns.com
 DOMAIN,dns.cfiec.net
+DOMAIN,dns.ipv6dns.com
 DOMAIN,dns.containerpi.com
 DOMAIN,dns.dns-over-https.com
 DOMAIN,dns.dnsoverhttps.net
@@ -38,8 +37,10 @@ DOMAIN,dns9.quad9.net
 DOMAIN,dns10.quad9.net
 DOMAIN,dns11.quad9.net
 DOMAIN,dns.rubyfish.cn
+DOMAIN,rubyfish.cn
 DOMAIN,dns.sb
 DOMAIN,doh.dns.sb
+DOMAIN,doh.sb
 DOMAIN,dns.surfshark.com
 DOMAIN,dns.twnic.tw
 DOMAIN,doh-de.blahdns.com
@@ -59,8 +60,10 @@ DOMAIN,doh.opendns.com
 DOMAIN,doh.ffmuc.net
 DOMAIN,doh.li
 DOMAIN,doh.libredns.gr
+DOMAIN,doh.powerdns.com
 DOMAIN,doh.powerdns.org
 DOMAIN,doh.pub
+DOMAIN,sm2.doh.pub
 DOMAIN,doh.qis.io
 DOMAIN,doh.seby.io
 DOMAIN,doh.securedns.eu
@@ -84,6 +87,7 @@ DOMAIN,private.canadianshield.cira.ca
 DOMAIN,protected.canadianshield.cira.ca
 DOMAIN,rdns.faelix.net
 DOMAIN,security-filter-dns.cleanbrowsing.org
+DOMAIN,doh.mullvad.net
 ## > DNS CIDR
 IP-CIDR,1.1.1.1/32,no-resolve
 IP-CIDR,101.101.101.101/32,no-resolve
