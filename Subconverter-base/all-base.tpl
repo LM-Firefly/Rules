@@ -30,14 +30,15 @@ dns:
 {% endif %}
 {% if request.clash.dns == "win-tun" or request.clash.dns == "linux-tun" %}
 ipv6: true
+#interface-name: WLAN # conflict with `tun.auto-detect-interface`
 tun:
   enable: true
   stack: system # or gvisor
-  auto-route: true # auto set global route
+  auto-route: true # manage `ip route` and `ip rules`
+  auto-redir: true # manage nftable REDIRECT
   auto-detect-interface: true # auto detect interface, conflict with `interface-name`
-#interface-name: WLAN
   dns-hijack:
-    - 22.0.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
+    - 22.0.0.1:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
     - any:53
 auto-redir:
   enable: true
