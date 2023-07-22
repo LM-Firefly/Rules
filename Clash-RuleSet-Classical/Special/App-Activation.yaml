@@ -19,6 +19,7 @@ payload:
   - DOMAIN-SUFFIX,adobe-dns-3.adobe.com
   - DOMAIN-SUFFIX,adobe-dns-4.adobe.com
   - DOMAIN-SUFFIX,adobe-dns.adobe.com
+  - DOMAIN-SUFFIX,adobe.io
   - DOMAIN-SUFFIX,adobeereg.com
   - DOMAIN-SUFFIX,crl.versign.net
   - DOMAIN-SUFFIX,ereg.adobe.com
@@ -139,6 +140,12 @@ payload:
   - DOMAIN-SUFFIX,wwis-dubc1-vip97.adobe.com
   - DOMAIN-SUFFIX,wwis-dubc1-vip98.adobe.com
   - DOMAIN-SUFFIX,wwis-dubc1-vip99.adobe.com
+  # >> Autodesk
+  - DOMAIN,docs.autodesk.com
+  - DOMAIN,genuine-software2.autodesk.com
+  - DOMAIN,help.autodesk.com
+  - DOMAIN,ipm-aem.autodesk.com
+  - DOMAIN,update.delivery.autodesk.com
   # >> Connectify
   - DOMAIN-SUFFIX,updates.connectify.me
   - DOMAIN-SUFFIX,activate.connectify.me
