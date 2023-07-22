@@ -166,18 +166,6 @@ dns:
     - 'xbox.*.*.microsoft.com'
     - 'xbox.*.microsoft.com'
     - 'xnotify.xboxlive.com'
-    ## Nintendo Switch
-    - '*.*.*.srv.nintendo.net'
-    - '+.srv.nintendo.net'
-    ## Sony PlayStation
-    - '*.*.stun.playstation.net'
-    - '+.stun.playstation.net'
-    ## STUN Server
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*'
-    - '+.stun.*.*'
-    - 'stun.*.*.*'
-    - 'stun.*.*'
     # === Music Service ===
     ## 咪咕音乐
     - '*.music.migu.cn'
@@ -217,6 +205,7 @@ dns:
     - 119.29.29.29
     - dhcp://system
     - https://dns.alidns.com/dns-query
+    - https://dns.cfiec.net/dns-query
     - https://doh.pub/dns-query
     - https://sm2.doh.pub/dns-query
     - https://dns.ipv6dns.com/dns-query
@@ -237,18 +226,18 @@ dns:
 #    - tls://dns.google:853
 #    - tls://dns-tls.qis.io:853
   fallback:
-    - https://doh.sb/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - https://doh.dns.sb/dns-query
     - https://dns.twnic.tw/dns-query
     - https://doh.opendns.com/dns-query
     - https://doh.mullvad.net/dns-query
-    - https://dns.google/dns-query
     - https://dns.quad9.net/dns-query
+#    - https://doh.sb/dns-query
 #    - https://doh.qis.io/dns-query
 #    - https://unfiltered.adguard-dns.com/dns-query
-#    - https://cloudflare-dns.com/dns-query
 #    - tcp://1.1.1.1
 #    - https://dns.alidns.com/dns-query
-#    - https://doh.sb/dns-query
 #    - tls://cloudflare-dns.com:853
 #    - tls://dns.google:853
 #    - tls://dns-tls.qis.io:853
