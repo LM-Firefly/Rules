@@ -281,6 +281,8 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,volcdem.com
 DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volcsirius.com
+
 ## >> 掘金
 DOMAIN-SUFFIX,juejin.cn
 DOMAIN-SUFFIX,juejin.im
