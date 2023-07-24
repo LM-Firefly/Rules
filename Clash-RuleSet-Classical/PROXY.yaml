@@ -4345,6 +4345,9 @@ payload:
   - IP-CIDR6,2001:4430:6000::/36,no-resolve
   - IP-CIDR6,2001:4430:f::/48,no-resolve
   - IP-CIDR6,2406:5900::/32,no-resolve
+  ## > LibreOffice
+  - DOMAIN-SUFFIX,documentfoundation.org
+  - DOMAIN-SUFFIX,libreoffice.org
   ## > Lihkg
   - DOMAIN-SUFFIX,lih.kg
   - DOMAIN-SUFFIX,lihkg.com
