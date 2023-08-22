@@ -856,7 +856,6 @@ payload:
   - DOMAIN-SUFFIX,gimg.baidu.com
   - DOMAIN-SUFFIX,guanjia.baidu.com
   - DOMAIN-SUFFIX,hc.baidu.com
-  - DOMAIN-SUFFIX,hm.baidu.com
   - DOMAIN-SUFFIX,hmma.baidu.com
   - DOMAIN-SUFFIX,hpd.baidu.com
   - DOMAIN-SUFFIX,idm.bce.baidu.com
@@ -2571,7 +2570,6 @@ payload:
   - IP-CIDR,140.205.60.46/32
   - IP-CIDR,140.205.135.3/32
   - IP-CIDR,163.181.39.224/29
-  - IP-CIDR,163.181.35.192/26
   - IP-CIDR,183.214.3.24/32
   - IP-CIDR,183.246.206.112/28
   - IP-CIDR,221.130.193.224/32
@@ -4173,7 +4171,6 @@ payload:
   - DOMAIN-SUFFIX,market.m.qq.com
   - DOMAIN-SUFFIX,sngapm.qq.com
   - DOMAIN-SUFFIX,szlong.weixin.qq.com
-  - DOMAIN-SUFFIX,cdn.ark.qq.com
   - DOMAIN-SUFFIX,cm.e.qq.com
   - DOMAIN-SUFFIX,sdk.e.qq.com
   ## >> 腾讯对象云存储-ads
