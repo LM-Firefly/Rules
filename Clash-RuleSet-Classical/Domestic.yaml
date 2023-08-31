@@ -8127,6 +8127,7 @@ payload:
   - IP-CIDR,58.220.58.152/32,no-resolve
   - IP-CIDR,58.220.58.153/32,no-resolve
   - IP-CIDR,58.220.59.2/32,no-resolve
+  - IP-CIDR,120.133.33.222/32,no-resolve
   ## > 小源科技
   - DOMAIN-SUFFIX,10010mx.com
   - DOMAIN-SUFFIX,5gimos.com
