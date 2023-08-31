@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,mgslb.com
   - DOMAIN-SUFFIX,mgslb.net
   - DOMAIN-SUFFIX,mgslb.org
+  - DOMAIN-SUFFIX,mi.中国
   - DOMAIN-SUFFIX,mi.cn
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,mi0.cc
@@ -24,11 +25,13 @@ payload:
   - DOMAIN-SUFFIX,mij.cc
   - DOMAIN-SUFFIX,mipush.com
   - DOMAIN-SUFFIX,miyun.com
+  - DOMAIN-SUFFIX,xiaomiprint.com
   - DOMAIN-SUFFIX,xiaomisa.cn
   - DOMAIN-SUFFIX,xiaomisa.com
   - DOMAIN-SUFFIX,xiaomisa.net
   - DOMAIN-SUFFIX,xiaomisa.org
   - DOMAIN-SUFFIX,zhutidasai.com
+  - DOMAIN-SUFFIX,小米科技有限责任公司.中国
   ## >> MIUI米柚
   - DOMAIN-SUFFIX,miui.cn
   - DOMAIN-SUFFIX,miui.com
