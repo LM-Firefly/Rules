@@ -3778,6 +3778,11 @@ DOMAIN-SUFFIX,hellofontpreview.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,hellowebfonts.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,hanyi.com.cn
 DOMAIN-SUFFIX,fontstar.com.cn
+## > 华米
+DOMAIN-SUFFIX,amazfit.cn
+DOMAIN-SUFFIX,amazfit.com
+DOMAIN-SUFFIX,huami.com
+DOMAIN-SUFFIX,zepp.com
 ## > 华数TV
 DOMAIN-SUFFIX,hzcnc.com
 DOMAIN-SUFFIX,hzdtv.tv
