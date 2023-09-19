@@ -11,8 +11,31 @@ DOMAIN-SUFFIX,anxia.com
 DOMAIN-SUFFIX,sq.cc
 ## > 12306
 DOMAIN-SUFFIX,12306.cn
-DOMAIN-SUFFIX,rails.cn
 DOMAIN-SUFFIX,95306.cn
+DOMAIN-SUFFIX,creip.cn
+## >> 广铁集团
+DOMAIN-SUFFIX,gzrailway.com.cn
+## >> 南宁铁路局
+DOMAIN-SUFFIX,nntlj.com
+## >> 人民铁道网
+DOMAIN-SUFFIX,peoplerail.com
+## >> 中铁财保
+DOMAIN-SUFFIX,china-ric.com
+## >> 中铁出版社
+DOMAIN-SUFFIX,tdpress.com
+## >> 中铁集团
+DOMAIN-SUFFIX,china-railway.com.cn
+## >> 中铁集装箱
+DOMAIN-SUFFIX,crct.com
+## >> 中铁经济规划研究院
+DOMAIN-SUFFIX,crecc.com.cn
+## >> 中铁科研院
+DOMAIN-SUFFIX,rails.cn
+## >> 中铁快运
+DOMAIN-SUFFIX,95572.com
+DOMAIN-SUFFIX,cre.cn
+## >> 中铁特货
+DOMAIN-SUFFIX,crscl.com.cn
 ## > 17173
 DOMAIN-SUFFIX,168kaifu.com
 DOMAIN-SUFFIX,17173.com
@@ -3772,12 +3795,20 @@ DOMAIN-SUFFIX,xingzhiheyi.com
 DOMAIN-SUFFIX,ezhu.cn
 DOMAIN-SUFFIX,ezhu.com
 ## > 汉仪
-DOMAIN-SUFFIX,hellofont.cn
-DOMAIN-SUFFIX,hellowebfont.com
-DOMAIN-SUFFIX,hellofontpreview.oss-cn-beijing.aliyuncs.com
-DOMAIN-SUFFIX,hellowebfonts.oss-cn-beijing.aliyuncs.com
-DOMAIN-SUFFIX,hanyi.com.cn
 DOMAIN-SUFFIX,fontstar.com.cn
+DOMAIN-SUFFIX,fontstudio.cn
+DOMAIN-SUFFIX,hanyi.com
+DOMAIN-SUFFIX,hanyi.com.cn
+DOMAIN-SUFFIX,hellowebfont.com
+DOMAIN-SUFFIX,ifont.cn
+DOMAIN-SUFFIX,joytype.com
+DOMAIN,hellofontpreview.oss-cn-beijing.aliyuncs.com
+DOMAIN,hellowebfonts.oss-cn-beijing.aliyuncs.com
+## > 华米
+DOMAIN-SUFFIX,amazfit.cn
+DOMAIN-SUFFIX,amazfit.com
+DOMAIN-SUFFIX,huami.com
+DOMAIN-SUFFIX,zepp.com
 ## > 华数TV
 DOMAIN-SUFFIX,hzcnc.com
 DOMAIN-SUFFIX,hzdtv.tv
@@ -5733,11 +5764,128 @@ DOMAIN-SUFFIX,manmanbuy.com
 DOMAIN-SUFFIX,maoyun.com
 DOMAIN-SUFFIX,maoyuncloud.cn
 DOMAIN-SUFFIX,maoyuncloud.com
-## > 美图
-DOMAIN-SUFFIX,meitu.com
-DOMAIN-SUFFIX,meitudata.com
-DOMAIN-SUFFIX,meitustat.com
+## > 美图网
+DOMAIN-SUFFIX,52hxw.com
+DOMAIN-SUFFIX,91meitu.com
+DOMAIN-SUFFIX,baishimeipai.com
+DOMAIN-SUFFIX,beautyme.cn
+DOMAIN-SUFFIX,bee3d.cn
+DOMAIN-SUFFIX,bee3d.com
+DOMAIN-SUFFIX,biaoqingwen.com
+DOMAIN-SUFFIX,boxxcam.com
+DOMAIN-SUFFIX,dl-meitu.com
+DOMAIN-SUFFIX,dreamavatar.com
+DOMAIN-SUFFIX,hehecam.com
+DOMAIN-SUFFIX,hehecamera.com
+DOMAIN-SUFFIX,meiba.com
+DOMAIN-SUFFIX,meikeclub.cn
+DOMAIN-SUFFIX,meikehui.cn
+DOMAIN-SUFFIX,meikehui.com.cn
+DOMAIN-SUFFIX,meilaoshi.com
 DOMAIN-SUFFIX,meipai.com
+DOMAIN-SUFFIX,meitie.com
+DOMAIN-SUFFIX,meitu-int.com
+DOMAIN-SUFFIX,meitu-mobile.com
+DOMAIN-SUFFIX,meitu.com
+DOMAIN-SUFFIX,meitu.net
+DOMAIN-SUFFIX,meitubase.com
+DOMAIN-SUFFIX,meitubeauty.com
+DOMAIN-SUFFIX,meitubf.com
+DOMAIN-SUFFIX,meitubox.com
+DOMAIN-SUFFIX,meitucam.com
+DOMAIN-SUFFIX,meitucamera.com
+DOMAIN-SUFFIX,meitucoffee.com
+DOMAIN-SUFFIX,meitudashi.com
+DOMAIN-SUFFIX,meitudata.com
+DOMAIN-SUFFIX,meituduoduo.com
+DOMAIN-SUFFIX,meitufamily.com
+DOMAIN-SUFFIX,meitufans.cn
+DOMAIN-SUFFIX,meitufans.com
+DOMAIN-SUFFIX,meitugif.com
+DOMAIN-SUFFIX,meituhezi.com
+DOMAIN-SUFFIX,meituhuahua.com
+DOMAIN-SUFFIX,meituinside.com
+DOMAIN-SUFFIX,meitumail.com
+DOMAIN-SUFFIX,meitumob.com
+DOMAIN-SUFFIX,meitumv.com
+DOMAIN-SUFFIX,meitupaipai.com
+DOMAIN-SUFFIX,meituphoto.cn
+DOMAIN-SUFFIX,meitupic.com
+DOMAIN-SUFFIX,meitupingzi.com
+DOMAIN-SUFFIX,meituriji.com
+DOMAIN-SUFFIX,meiturom.cn
+DOMAIN-SUFFIX,meiturom.com
+DOMAIN-SUFFIX,meitushop.cn
+DOMAIN-SUFFIX,meitushop.com.cn
+DOMAIN-SUFFIX,meitushouji.com
+DOMAIN-SUFFIX,meitusnap.com
+DOMAIN-SUFFIX,meitustat.com
+DOMAIN-SUFFIX,meitustatic.com
+DOMAIN-SUFFIX,meitustore.com
+DOMAIN-SUFFIX,meitutaotao.com
+DOMAIN-SUFFIX,meitutietie.com
+DOMAIN-SUFFIX,meituxiangji.com
+DOMAIN-SUFFIX,meituxiaopu.com
+DOMAIN-SUFFIX,meituxiu.com
+DOMAIN-SUFFIX,meituyidong.com
+DOMAIN-SUFFIX,meiui.cn
+DOMAIN-SUFFIX,meiui.com.cn
+DOMAIN-SUFFIX,meixinl.com
+DOMAIN-SUFFIX,meiyan.com
+DOMAIN-SUFFIX,meiyanstatic.com
+DOMAIN-SUFFIX,meiyin.cn
+DOMAIN-SUFFIX,miraclevision.com
+DOMAIN-SUFFIX,moonlightcam.com
+DOMAIN-SUFFIX,moonlightcamera.com
+DOMAIN-SUFFIX,mtfamily.cn
+DOMAIN-SUFFIX,o2cam.cn
+DOMAIN-SUFFIX,partynow.com
+DOMAIN-SUFFIX,pepsimeipai.com
+DOMAIN-SUFFIX,pomelocamera.com
+DOMAIN-SUFFIX,ruipai.com
+DOMAIN-SUFFIX,selfiecity.com
+DOMAIN-SUFFIX,shanliaoapp.com
+DOMAIN-SUFFIX,tatstm.com
+DOMAIN-SUFFIX,weicogif.com
+DOMAIN-SUFFIX,weitupian.com
+DOMAIN-SUFFIX,weituya.com
+DOMAIN-SUFFIX,xiuxiustatic.com
+DOMAIN-SUFFIX,xmmtu.com
+## >> Pixocial
+DOMAIN-SUFFIX,airbrush.io
+DOMAIN-SUFFIX,airvidapp.com
+DOMAIN-SUFFIX,appairvid.com
+DOMAIN-SUFFIX,beautyplus.com
+DOMAIN-SUFFIX,pixocial.com
+## >> 海报工厂
+DOMAIN-SUFFIX,posterlabs.cn
+DOMAIN-SUFFIX,posterlabs.com
+## >> 美分享
+DOMAIN-SUFFIX,mshareservices.com
+DOMAIN-SUFFIX,mtshare.cn
+DOMAIN-SUFFIX,slshare.cn
+DOMAIN-SUFFIX,slshareservices.com
+## >> 美广
+DOMAIN-SUFFIX,meitutg.com
+DOMAIN-SUFFIX,mtadvert.com
+## >> 美铺
+DOMAIN-SUFFIX,meipu.cn
+DOMAIN-SUFFIX,meipuapp.com
+## >> 美图Kiss
+DOMAIN-SUFFIX,meitukiss.cn
+DOMAIN-SUFFIX,meitukiss.com
+DOMAIN-SUFFIX,meitukiss.com.cn
+## >> 美图秀秀
+DOMAIN-SUFFIX,meitukankan.com
+DOMAIN-SUFFIX,meituxiuxiu.cn
+DOMAIN-SUFFIX,meituxiuxiu.com
+DOMAIN-SUFFIX,meituxiuxiu.com.cn
+## >> 美图云
+DOMAIN-SUFFIX,meituyun.cn
+DOMAIN-SUFFIX,meituyun.com
+DOMAIN-SUFFIX,meituyun.com.cn
+IP-CIDR,110.80.1.218/32,no-resolve
+IP-CIDR,183.251.100.251/32,no-resolve
 ## > 美团
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,maoyan.com
@@ -5750,6 +5898,9 @@ DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,flyme.cn
 DOMAIN-SUFFIX,flyme.com
 DOMAIN-SUFFIX,flyme.net
+DOMAIN-SUFFIX,flymeauto.com
+DOMAIN-SUFFIX,lipro.com
+DOMAIN-SUFFIX,lipro.net
 DOMAIN-SUFFIX,mblu.com
 DOMAIN-SUFFIX,meiklife.cn
 DOMAIN-SUFFIX,meizu.cn
@@ -8009,6 +8160,7 @@ DOMAIN-SUFFIX,mgslb.cn
 DOMAIN-SUFFIX,mgslb.com
 DOMAIN-SUFFIX,mgslb.net
 DOMAIN-SUFFIX,mgslb.org
+DOMAIN-SUFFIX,mi.中国
 DOMAIN-SUFFIX,mi.cn
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,mi0.cc
@@ -8017,11 +8169,13 @@ DOMAIN-SUFFIX,mifile.cn
 DOMAIN-SUFFIX,mij.cc
 DOMAIN-SUFFIX,mipush.com
 DOMAIN-SUFFIX,miyun.com
+DOMAIN-SUFFIX,xiaomiprint.com
 DOMAIN-SUFFIX,xiaomisa.cn
 DOMAIN-SUFFIX,xiaomisa.com
 DOMAIN-SUFFIX,xiaomisa.net
 DOMAIN-SUFFIX,xiaomisa.org
 DOMAIN-SUFFIX,zhutidasai.com
+DOMAIN-SUFFIX,小米科技有限责任公司.中国
 ## >> MIUI米柚
 DOMAIN-SUFFIX,miui.cn
 DOMAIN-SUFFIX,miui.com
@@ -8135,6 +8289,7 @@ IP-CIDR,47.241.176.221/32,no-resolve
 IP-CIDR,58.220.58.152/32,no-resolve
 IP-CIDR,58.220.58.153/32,no-resolve
 IP-CIDR,58.220.59.2/32,no-resolve
+IP-CIDR,120.133.33.222/32,no-resolve
 ## > 小源科技
 DOMAIN-SUFFIX,10010mx.com
 DOMAIN-SUFFIX,5gimos.com
@@ -8453,6 +8608,10 @@ DOMAIN-SUFFIX,yccdn.com
 DOMAIN-SUFFIX,youzan.com
 DOMAIN-SUFFIX,yzcdn.cn
 DOMAIN-SUFFIX,youzanyun.com
+## > 源仓库
+DOMAIN-SUFFIX,yckceo.com
+DOMAIN-SUFFIX,yckceo.vip
+DOMAIN-SUFFIX,yckceo1.com
 ## > 猿辅导
 DOMAIN-SUFFIX,banmaaike.com
 DOMAIN-SUFFIX,banmasiwei.com
@@ -9021,6 +9180,8 @@ DOMAIN-SUFFIX,zjcdn.com
 USER-AGENT,TikTok*
 PROCESS-NAME,com.zhiliaoapp.musically
 DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,muscdn.com
@@ -9450,7 +9611,6 @@ DOMAIN-SUFFIX,52bqg.com
 DOMAIN-SUFFIX,52dus.com
 DOMAIN-SUFFIX,52dzxy.com
 DOMAIN-SUFFIX,52ggd.com
-DOMAIN-SUFFIX,52hxw.com
 DOMAIN-SUFFIX,52kshu.com
 DOMAIN-SUFFIX,52kshu.info
 DOMAIN-SUFFIX,52miji.com

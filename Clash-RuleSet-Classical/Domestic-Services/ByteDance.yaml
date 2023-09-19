@@ -153,6 +153,8 @@ payload:
   ## >> TikTok
   - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN-KEYWORD,-tiktokcdn-com
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,muscdn.com
