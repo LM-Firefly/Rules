@@ -6479,7 +6479,9 @@ payload:
   - DOMAIN-SUFFIX,xiaog.xyz
   ## >> 阿里云盘
   - DOMAIN-SUFFIX,alicloudccp.com
+  - DOMAIN-SUFFIX,alipan.com
   - DOMAIN-SUFFIX,aliyundrive.com
+  - DOMAIN-SUFFIX,aliyundrive.net
   - DOMAIN-SUFFIX,aliyunpds.com
   ## >> 红马传媒(大麦网)
   - DOMAIN-SUFFIX,baotoo.com
