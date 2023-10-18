@@ -35,7 +35,7 @@ tun:
   enable: true
   stack: system # or gvisor
   auto-route: true # manage `ip route` and `ip rules`
-  auto-redir: true # manage nftable REDIRECT
+#  auto-redir: true # manage nftable REDIRECT
   auto-detect-interface: true # auto detect interface, conflict with `interface-name`
   dns-hijack:
     - 22.0.0.1:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
@@ -207,11 +207,11 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://dns.cfiec.net/dns-query
     - https://doh.pub/dns-query
-    - https://sm2.doh.pub/dns-query
     - https://dns.ipv6dns.com/dns-query
     - https://rubyfish.cn/dns-query
-    - https://doh.mullvad.net/dns-query
+    - https://all.dns.mullvad.net/dns-query
     - https://unfiltered.adguard-dns.com/dns-query
+#    - https://sm2.doh.pub/dns-query
 #    - https://dns.twnic.tw/dns-query
 #    - https://doh.opendns.com/dns-query
 #    - https://cloudflare-dns.com/dns-query
@@ -231,7 +231,7 @@ dns:
     - https://doh.dns.sb/dns-query
     - https://dns.twnic.tw/dns-query
     - https://doh.opendns.com/dns-query
-    - https://doh.mullvad.net/dns-query
+    - https://all.dns.mullvad.net/dns-query
     - https://dns.quad9.net/dns-query
 #    - https://doh.sb/dns-query
 #    - https://doh.qis.io/dns-query
@@ -263,12 +263,12 @@ ipv6 = true
 ipv6-vif = auto
 loglevel = notify
 bypass-system = true
-bypass-tun = 22.0.0.0/8,10.0.0.0/8,172.16.0.0/12
+bypass-tun = 22.0.0.0/8
 dns-server = system, 119.29.29.29, 223.5.5.5, 1.1.1.1, 1.0.0.1, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
-doh-server = https://dns.alidns.com/dns-query, https://dns.cfiec.net/dns-query, https://doh.pub/dns-query, https://sm2.doh.pub/dns-query, https://dns.ipv6dns.com/dns-query, https://rubyfish.cn/dns-query, https://doh.mullvad.net/dns-query, https://unfiltered.adguard-dns.com/dns-query, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query, https://doh.dns.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.quad9.net/dns-query
+doh-server = https://dns.alidns.com/dns-query, https://dns.cfiec.net/dns-query, https://doh.pub/dns-query, https://dns.ipv6dns.com/dns-query, https://rubyfish.cn/dns-query, https://all.dns.mullvad.net/dns-query, https://unfiltered.adguard-dns.com/dns-query, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query, https://doh.dns.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.quad9.net/dns-query
 doh-follow-outbound-mode = true
 hijack-dns = *:53, 192.168.1.12:53, 8.8.8.8:53
-tun-excluded-routes = 22.0.0.0/8, 10.0.0.0/8, 172.16.0.0/12
+tun-excluded-routes = 22.0.0.0/8
 always-real-ip = *.example, *.home.arpa, *.invalid, *.lan, *.local, *.localdomain, *.localhost, *.test, mesu.apple.com, swscan.apple.com, *.router.asus.com, lens.l.google.com, stun.l.google.com, proxy.golang.org, *.linksys.com, *.linksyssmartwifi.com, *.ipv6.microsoft.com, *.msftconnecttest.com, *.msftncsi.com, msftconnecttest.com, msftncsi.com, ntp.*.com, ntp1.*.com, ntp2.*.com, ntp3.*.com, ntp4.*.com, ntp5.*.com, ntp6.*.com, ntp7.*.com, time.*.apple.com, time.*.com, time.*.gov, time1.*.com, time2.*.com, time3.*.com, time4.*.com, time5.*.com, time6.*.com, time7.*.com, time.*.edu.cn, *.time.edu.cn, *.ntp.org.cn, +.pool.ntp.org, time1.cloud.tencent.com, speedtest.cros.wr.pvp.net, *.*.xboxlive.com, xbox.*.*.microsoft.com, xbox.*.microsoft.com, xnotify.xboxlive.com, *.*.*.srv.nintendo.net, +.srv.nintendo.net, *.*.stun.playstation.net, +.stun.playstation.net, +.stun.*.*.*.*, +.stun.*.*.*, +.stun.*.*, stun.*.*.*, stun.*.*, *.music.migu.cn, music.migu.cn, music.taihe.com, musicapi.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, *.kuwo.cn, api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, *.y.qq.com, amobile.music.tc.qq.com, aqqmusic.tc.qq.com, mobileoc.music.tc.qq.com, streamoc.music.tc.qq.com, dl.stream.qqmusic.qq.com, isure.stream.qqmusic.qq.com, music.163.com, *.music.163.com, *.126.net, *.xiami.com, localhost.ptlogin2.qq.com, localhost.sec.qq.com, *.mcdn.bilivideo.cn
 http-listen = 0.0.0.0:8829
 socks5-listen = 0.0.0.0:8828
@@ -279,7 +279,7 @@ http-api-web-dashboard = true
 exclude-simple-hostnames = true
 external-controller-access = 6170@0.0.0.0:6155
 tls-provider = openssl
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+skip-proxy =127.0.0.1/32, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 force-http-engine-hosts = 122.14.246.33, 175.102.178.52, mobile-api2011.elong.com
 internet-test-url = http://connect.rom.miui.com/generate_204
 proxy-test-url = http://connect.rom.miui.com/generate_204
@@ -328,9 +328,9 @@ allow-wifi-access = true
 wifi-access-http-port = 18888
 wifi-access-socks5-port = 18889
 allow-udp-proxy = true
-bypass-tun = 22.0.0.0/8, 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.18.0.0/15, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32
+bypass-tun = 22.0.0.0/8
 dns-server = system, 119.29.29.29, 223.5.5.5, 1.1.1.1, 1.0.0.1, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
-doh-server = https://dns.alidns.com/dns-query, https://dns.cfiec.net/dns-query, https://doh.pub/dns-query, https://sm2.doh.pub/dns-query, https://dns.ipv6dns.com/dns-query, https://rubyfish.cn/dns-query, https://doh.mullvad.net/dns-query, https://unfiltered.adguard-dns.com/dns-query, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query, https://doh.dns.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.quad9.net/dns-query
+doh-server = https://dns.alidns.com/dns-query, https://dns.cfiec.net/dns-query, https://doh.pub/dns-query, https://dns.ipv6dns.com/dns-query, https://rubyfish.cn/dns-query, https://all.dns.mullvad.net/dns-query, https://unfiltered.adguard-dns.com/dns-query, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query, https://doh.dns.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.quad9.net/dns-query
 host = 127.0.0.1
 proxy-test-url = http://connect.rom.miui.com/generate_204
 skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com, e.crashlynatics.com
@@ -508,7 +508,7 @@ ipv6 = true
 loglevel = notify
 collapse-policy-group-items = true
 dns-server = system, 119.29.29.29, 223.5.5.5, 1.1.1.1, 1.0.0.1, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
-doh-server = https://9.9.9.9/dns-query, https://dns.alidns.com/dns-query, https://i.233py.com/dns-query, https://doh.pub/dns-query, https://sm2.doh.pub/dns-query, https://dns.ipv6dns.com/dns-query, https://rubyfish.cn/dns-query, https://doh.mullvad.net/dns-query, https://doh.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.233py.com/dns-query, https://public.dns.iij.jp/dns-query, https://doh.mullvad.net/dns-query
+doh-server = https://9.9.9.9/dns-query, https://dns.alidns.com/dns-query, https://i.233py.com/dns-query, https://doh.pub/dns-query, https://dns.ipv6dns.com/dns-query, https://rubyfish.cn/dns-query, https://all.dns.mullvad.net/dns-query, https://doh.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.233py.com/dns-query, https://public.dns.iij.jp/dns-query, https://all.dns.mullvad.net/dns-query
 always-real-ip = *.example, *.home.arpa, *.invalid, *.lan, *.local, *.localdomain, *.localhost, *.test, mesu.apple.com, swscan.apple.com, *.router.asus.com, lens.l.google.com, stun.l.google.com, proxy.golang.org, *.linksys.com, *.linksyssmartwifi.com, *.ipv6.microsoft.com, *.msftconnecttest.com, *.msftncsi.com, msftconnecttest.com, msftncsi.com, ntp.*.com, ntp1.*.com, ntp2.*.com, ntp3.*.com, ntp4.*.com, ntp5.*.com, ntp6.*.com, ntp7.*.com, time.*.apple.com, time.*.com, time.*.gov, time1.*.com, time2.*.com, time3.*.com, time4.*.com, time5.*.com, time6.*.com, time7.*.com, time.*.edu.cn, *.time.edu.cn, *.ntp.org.cn, +.pool.ntp.org, time1.cloud.tencent.com, speedtest.cros.wr.pvp.net, *.*.xboxlive.com, xbox.*.*.microsoft.com, xbox.*.microsoft.com, xnotify.xboxlive.com, *.*.*.srv.nintendo.net, +.srv.nintendo.net, *.*.stun.playstation.net, +.stun.playstation.net, +.stun.*.*.*.*, +.stun.*.*.*, +.stun.*.*, stun.*.*.*, stun.*.*, *.music.migu.cn, music.migu.cn, music.taihe.com, musicapi.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, *.kuwo.cn, api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, *.y.qq.com, amobile.music.tc.qq.com, aqqmusic.tc.qq.com, mobileoc.music.tc.qq.com, streamoc.music.tc.qq.com, dl.stream.qqmusic.qq.com, isure.stream.qqmusic.qq.com, music.163.com, *.music.163.com, *.126.net, *.xiami.com, localhost.ptlogin2.qq.com, localhost.sec.qq.com, *.mcdn.bilivideo.cn
 enhanced-mode-by-rule = true
 http-listen = 0.0.0.0:8829
