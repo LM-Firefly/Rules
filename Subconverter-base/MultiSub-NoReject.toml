@@ -11,6 +11,7 @@ quan_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subc
 quanx_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
 loon_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
 sssub_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+singbox_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
 
 exclude_remarks = [
     "((到期)|(剩余流量)|(时间)|(官网)|(产品)|(先购买套餐)|(流量消耗)|(更新订阅)|(套餐到期)|(.*流量.*剩.*天)|(■等级警报■)|(\\(限速\\))|(\\[限速\\])|(\\[游戏\\])|(\\[游戏专用\\])|(\\[将下线\\])|(.*耗尽.*)|(近期下线)|(游戏专线)|(维护)|(测试节点)|(防失联地址)|(官方地址)|(官方网站)|(群组))",
@@ -1199,7 +1200,7 @@ rule = ["[]🎯 直连服务", "[]🍖 默认代理"]
 name = "🚀 SpeedTest"
 type = "select"
 disable_udp = false
-rule = ["[]🎯 直连服务", "[]🍖 默认代理`.*"]
+rule = ["[]🎯 直连服务", "[]🍖 默认代理", ".*"]
 
 [[custom_groups]]
 name = "🇹🇼 台湾-延迟最低"
