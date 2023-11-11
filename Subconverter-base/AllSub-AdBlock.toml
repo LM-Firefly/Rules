@@ -1913,6 +1913,10 @@ key = "clash.routing_mark"
 value = "16666"
 
 [[template.globals]]
+key = "singbox.ipv6"
+value = "true"
+
+[[template.globals]]
 key = "singbox.allow_lan"
 value = "true"
 

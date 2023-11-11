@@ -49,10 +49,11 @@ dns:
   ipv6: true
 {% endif %}
 {% if request.clash.dns == "meta-tun" %}
-find-process-mode: strict
-global-client-fingerprint: chrome
+find-process-mode: always
 ipv6: true
 tcp-concurrent: true
+global-client-fingerprint: chrome
+keep-alive-interval: 15
 tun:
   enable: true
   stack: system # gvisor / lwip
@@ -69,6 +70,7 @@ tun:
   inet6_route_address:
     - "::/1"
     - "8000::/1"
+  endpoint-independent-nat: false
 #interface-name: WLAN
 sniffer:
   enable: true
@@ -76,6 +78,8 @@ sniffer:
   parse-pure-ip: true
   override-destination: true
   sniff:
+    QUIC:
+      ports: [ 443 ]
     TLS:
       ports: [443, 8443]
     HTTP:
@@ -553,6 +557,86 @@ test-timeout = 5
     ]
   },
   "udpdns": false
+}
+
+{% endif %}
+{% if request.target == "singbox" %}
+
+{
+  "log": { "disabled": false, "level": "info", "timestamp": true },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "tls://1.1.1.1",
+        "address_resolver": "dns_resolver"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "h3://dns.alidns.com/dns-query",
+        "address_resolver": "dns_resolver",
+        "detour": "DIRECT"
+      },
+      { "tag": "dns_fakeip", "address": "fakeip" },
+      { "tag": "dns_resolver", "address": "223.5.5.5", "detour": "DIRECT" },
+      { "tag": "block", "address": "rcode://success" }
+    ],
+    "rules": [
+      { "outbound": ["any"], "server": "dns_resolver" },
+      {
+        "geosite": ["geolocation-!cn"],
+        "query_type": ["A", "AAAA"],
+        "server": "dns_fakeip"
+      },
+      { "geosite": ["geolocation-!cn"], "server": "dns_proxy" }
+    ],
+    "final": "dns_direct",
+    "independent_cache": true,
+    "fakeip": {
+      "enabled": true,
+      {% if default(request.singbox.ipv6, "") == "1" %}
+      "inet6_range": "fc00::\/18",
+      {% endif %}
+      "inet4_range": "198.18.0.0/15"
+    }
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "DIRECT"
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      {% if bool(default(global.singbox.allow_lan, "")) %}
+      "listen": "0.0.0.0",
+      {% else %}
+      "listen": "127.0.0.1",
+      {% endif %}
+      "listen_port": {{ default(global.singbox.mixed_port, "2080") }}
+      },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "inet4_address": "22.0.0.1/30",
+      {% if default(request.singbox.ipv6, "") == "1" %}
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      {% endif %}
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "mixed",
+      "sniff": true
+    }
+  ],
+  "outbounds": [],
+  "route": {
+    "rules": [],
+    "auto_detect_interface": true
+  },
+  "experimental": {}
 }
 
 {% endif %}
