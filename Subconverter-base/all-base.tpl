@@ -560,7 +560,7 @@ test-timeout = 5
 
 {
   "log": {
-    "disabled": false,
+    "disabled": true,
     "level": "info",
     "output": "box.log",
     "timestamp": true
