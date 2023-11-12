@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,116cd.net
   - DOMAIN-SUFFIX,anxia.com
   - DOMAIN-SUFFIX,sq.cc
+  - DOMAIN,fhnfile.oss-cn-shenzhen.aliyuncs.com
   ## > 12306
   - DOMAIN-SUFFIX,12306.cn
   - DOMAIN-SUFFIX,95306.cn
