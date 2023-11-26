@@ -567,37 +567,50 @@ test-timeout = 5
   "dns": {
     "servers": [
       {
-        "tag": "dns_proxy",
-        "address": "tls://1.1.1.1",
-        "address_resolver": "dns_resolver"
-      },
-      {
-        "tag": "dns_direct",
-        "address": "h3://dns.alidns.com/dns-query",
+        "tag": "local",
+        "address": "https://dns.alidns.com/dns-query",
         "address_resolver": "dns_resolver",
+        "address_strategy": "prefer_ipv4",
+        "strategy": "prefer_ipv4",
         "detour": "DIRECT"
       },
-      { "tag": "dns_fakeip", "address": "fakeip" },
+      {
+        "tag": "remote",
+        "address": "tls://1.1.1.1",
+        "address_strategy": "prefer_ipv4",
+        "strategy": "prefer_ipv4"
+      },
+      { "tag": "fakeip", "address": "fakeip" },
       { "tag": "dns_resolver", "address": "223.5.5.5", "detour": "DIRECT" },
       { "tag": "block", "address": "rcode://success" }
     ],
     "rules": [
       { "outbound": ["any"], "server": "dns_resolver" },
+      { "geosite": ["geolocation-!cn"], "server": "remote" },
       {
-        "geosite": ["geolocation-!cn"],
+        "inbound": ["tun-in"],
         "query_type": ["A", "AAAA"],
-        "server": "dns_fakeip"
+        "network": "tcp",
+        "protocol": ["tls", "http", "quic"],
+        "port": [80, 443],
+        "clash_mode": "Rule",
+        "invert": false,
+        "outbound": ["any"],
+        "server": "fakeip",
+        "disable_cache": false,
+        "rewrite_ttl": 100
       },
-      { "geosite": ["geolocation-!cn"], "server": "dns_proxy" }
+      { "clash_mode": "Global", "server": "remote" },
+      { "clash_mode": "Direct", "server": "local" }
     ],
-    "final": "dns_direct",
+    "strategy": "prefer_ipv4",
     "independent_cache": true,
     "fakeip": {
       "enabled": true,
       {% if default(request.singbox.ipv6, "") == "1" %}
       "inet6_range": "fc00::\/18",
       {% endif %}
-      "inet4_range": "198.18.0.0/15"
+      "inet4_range": "28.0.0.0\/8"
     }
   },
   "ntp": {
@@ -609,34 +622,51 @@ test-timeout = 5
   },
   "inbounds": [
     {
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "tun0",
+      "inet4_address": "22.0.0.1/30",
+      {% if default(request.singbox.ipv6, "") == "1" %}
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      {% endif %}
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "domain_strategy": "prefer_ipv4",
+      "endpoint_independent_nat": false,
+      "stack": "mixed",
+      "sniff": true,
+      "sniff_override_destination": true,
+      "sniff_timeout": "300ms"
+    },
+    {
       "type": "mixed",
       "tag": "mixed-in",
+      "domain_strategy": "prefer_ipv4",
       {% if bool(default(global.singbox.allow_lan, "")) %}
       "listen": "0.0.0.0",
       {% else %}
       "listen": "127.0.0.1",
       {% endif %}
       "listen_port": {{ default(global.singbox.mixed_port, "2080") }}
-      },
-    {
-      "type": "tun",
-      "tag": "tun-in",
-      "inet4_address": "22.0.0.1/30",
-      {% if default(request.singbox.ipv6, "") == "1" %}
-      "inet6_address": "fdfe:dcba:9876::1/126",
-      {% endif %}
-      "auto_route": true,
-      "strict_route": true,
-      "stack": "mixed",
-      "sniff": true
     }
   ],
   "outbounds": [],
   "route": {
     "rules": [],
-    "auto_detect_interface": true
+    "auto_detect_interface": true,
+    "override_android_vpn": true
   },
-  "experimental": {}
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:19090",
+      "secret": "",
+      "default_mode": "Rule",
+      "store_mode": true,
+      "store_selected": true,
+      "store_fakeip": true
+    }
+  }
 }
 
 {% endif %}
