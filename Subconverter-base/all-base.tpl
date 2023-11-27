@@ -577,7 +577,6 @@ test-timeout = 5
       {
         "tag": "remote",
         "address": "tls://1.1.1.1",
-        "address_resolver": "dns_resolver",
         "address_strategy": "prefer_ipv4",
         "strategy": "prefer_ipv4"
       },
@@ -588,7 +587,19 @@ test-timeout = 5
     "rules": [
       { "outbound": ["any"], "server": "dns_resolver" },
       { "geosite": ["geolocation-!cn"], "server": "remote" },
-      { "query_type": ["A", "AAAA"], "server": "fakeip" },
+      {
+        "inbound": ["tun-in"],
+        "query_type": ["A", "AAAA"],
+        "network": "tcp",
+        "protocol": ["tls", "http", "quic"],
+        "port": [80, 443],
+        "clash_mode": "Rule",
+        "invert": false,
+        "outbound": ["any"],
+        "server": "fakeip",
+        "disable_cache": false,
+        "rewrite_ttl": 100
+      },
       { "clash_mode": "Global", "server": "remote" },
       { "clash_mode": "Direct", "server": "local" }
     ],
