@@ -125,11 +125,6 @@ dns:
     - 'swscan.apple.com'
     # === ASUS Router ===
     - '*.router.asus.com'
-    # === Google ===
-    - 'lens.l.google.com'
-    - 'stun.l.google.com'
-    ## Golang
-    - 'proxy.golang.org'
     # === Linksys Wireless Router ===
     - '*.linksys.com'
     - '*.linksyssmartwifi.com'
@@ -163,47 +158,9 @@ dns:
     - '*.ntp.org.cn'
     - '+.pool.ntp.org'
     - 'time1.cloud.tencent.com'
-    # === Game Service ===
-    ## Microsoft Xbox
-    - 'speedtest.cros.wr.pvp.net'
-    - '*.*.xboxlive.com'
-    - 'xbox.*.*.microsoft.com'
-    - 'xbox.*.microsoft.com'
-    - 'xnotify.xboxlive.com'
-    # === Music Service ===
-    ## 咪咕音乐
-    - '*.music.migu.cn'
-    - 'music.migu.cn'
-    ## 太和音乐
-    - 'music.taihe.com'
-    - 'musicapi.taihe.com'
-    ## 腾讯音乐
-    - 'songsearch.kugou.com'
-    - 'trackercdn.kugou.com'
-    - '*.kuwo.cn'
-    - 'api-jooxtt.sanook.com'
-    - 'api.joox.com'
-    - 'joox.com'
-    - 'y.qq.com'
-    - '*.y.qq.com'
-    - 'amobile.music.tc.qq.com'
-    - 'aqqmusic.tc.qq.com'
-    - 'mobileoc.music.tc.qq.com'
-    - 'streamoc.music.tc.qq.com'
-    - 'dl.stream.qqmusic.qq.com'
-    - 'isure.stream.qqmusic.qq.com'
-    ## 网易云音乐
-    - 'music.163.com'
-    - '*.music.163.com'
-    - '*.126.net'
-    ## 虾米音乐
-    - '*.xiami.com'
-    # === Other ===
     ## QQ Quick Login
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
-    ## BiliBili P2P
-    - '*.mcdn.bilivideo.cn'
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
