@@ -56,7 +56,7 @@ global-client-fingerprint: chrome
 keep-alive-interval: 15
 tun:
   enable: true
-  stack: system # gvisor / lwip
+  stack: mixed # system / gvisor / lwip
   device: utun0
   dns-hijack:
     - any:53
@@ -79,7 +79,7 @@ sniffer:
   override-destination: true
   sniff:
     QUIC:
-      ports: [ 443 ]
+      ports: [443, 8443]
     TLS:
       ports: [443, 8443]
     HTTP:
@@ -88,7 +88,7 @@ sniffer:
 #  force-domain:
 #    - +.v2ex.com
   skip-domain:
-     - Mijia Cloud
+    - "Mijia Cloud"
 dns:
   enable: true
   prefer-h3: true
