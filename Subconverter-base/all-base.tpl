@@ -240,7 +240,7 @@ http-api-web-dashboard = true
 exclude-simple-hostnames = true
 external-controller-access = 6170@0.0.0.0:6155
 tls-provider = openssl
-skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+# skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 force-http-engine-hosts = 122.14.246.33, 175.102.178.52, mobile-api2011.elong.com
 internet-test-url = http://connect.rom.miui.com/generate_204
 proxy-test-url = http://connect.rom.miui.com/generate_204
@@ -294,7 +294,7 @@ dns-server = system, 119.29.29.29, 223.5.5.5, 1.1.1.1, 1.0.0.1, 8.8.8.8, 8.8.4.4
 doh-server = https://dns.alidns.com/dns-query, https://dns.cfiec.net/dns-query, https://doh.pub/dns-query, https://dns.ipv6dns.com/dns-query, https://rubyfish.cn/dns-query, https://all.dns.mullvad.net/dns-query, https://unfiltered.adguard-dns.com/dns-query, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query, https://doh.dns.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.quad9.net/dns-query
 host = 127.0.0.1
 proxy-test-url = http://connect.rom.miui.com/generate_204
-skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+# skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 test-timeout = 2
 interface-mode = auto
 sni-sniffing = true
@@ -478,7 +478,7 @@ wifi-access-http-port=8838
 wifi-access-socks5-port=8839
 exclude-simple-hostnames = true
 external-controller-access = surfboard@0.0.0.0:6170
-skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+# skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 udp-policy-not-supported-behaviour = REJECT
 hide-crashlytics-request = false
 internet-test-url = http://connect.rom.miui.com/generate_204
@@ -535,7 +535,8 @@ test-timeout = 5
         "tag": "remote",
         "address": "tls://1.1.1.1",
         "address_strategy": "prefer_ipv4",
-        "strategy": "prefer_ipv4"
+        "strategy": "prefer_ipv4",
+        "detour": "select"
       },
       { "tag": "fakeip", "address": "fakeip" },
       { "tag": "dns_resolver", "address": "223.5.5.5", "detour": "DIRECT" },
@@ -598,7 +599,14 @@ test-timeout = 5
       "stack": "mixed",
       "sniff": true,
       "sniff_override_destination": true,
-      "sniff_timeout": "300ms"
+      "sniff_timeout": "300ms",
+      "platform": {
+          "http_proxy": {
+              "enabled": true,
+              "server": "127.0.0.1",
+              "server_port": 2334
+          }
+       }
     },
     {
       "type": "mixed",
@@ -614,7 +622,24 @@ test-timeout = 5
   ],
   "outbounds": [],
   "route": {
-    "rules": [],
+    "rules": [
+        {
+            "port": 53,
+            "outbound": "dns-out"
+        },
+        {
+            "clash_mode": "Direct",
+            "outbound": "DIRECT"
+        },
+        {
+            "clash_mode": "Global",
+            "outbound": "select"
+        },
+        {
+            "ip_is_private": true,
+            "outbound": "DIRECT"
+        }
+    ],
     "auto_detect_interface": true,
     "override_android_vpn": true
   },
