@@ -1,5 +1,5 @@
 ## > BMW
-DOMAIN-SUFFIX,.bmw
+DOMAIN-SUFFIX,bmw
 DOMAIN-SUFFIX,approvedusedbmw.com
 DOMAIN-SUFFIX,baltimorebmw.com
 DOMAIN-SUFFIX,bayareabmw.com
@@ -511,7 +511,7 @@ DOMAIN-SUFFIX,alphabet.uk
 DOMAIN-SUFFIX,alphabet.us
 DOMAIN-SUFFIX,alphabetfinance.net
 ## >> MINI
-DOMAIN-SUFFIX,.mini
+DOMAIN-SUFFIX,mini
 DOMAIN-SUFFIX,4myminicard.com
 DOMAIN-SUFFIX,aboutyourmini.com
 DOMAIN-SUFFIX,atlantaminidealers.com

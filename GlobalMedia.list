@@ -488,7 +488,7 @@ DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,hentaiverse.org
 ## > Fox
-DOMAIN-SUFFIX,.fox
+DOMAIN-SUFFIX,fox
 DOMAIN-SUFFIX,cdn-fox-networks-group-green.akamaized.net
 DOMAIN-SUFFIX,d3cv4a9a9wh0bt.cloudfront.net
 DOMAIN-SUFFIX,dashasiafox.akamaized.net
@@ -1841,7 +1841,7 @@ DOMAIN-SUFFIX,voxfieldguide.com
 DOMAIN-SUFFIX,voxmedia.com
 DOMAIN-SUFFIX,voxops.net
 ## > YouTube
-DOMAIN-SUFFIX,.youtube
+DOMAIN-SUFFIX,youtube
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com

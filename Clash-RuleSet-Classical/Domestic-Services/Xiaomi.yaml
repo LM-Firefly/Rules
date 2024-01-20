@@ -46,6 +46,8 @@ payload:
   - DOMAIN-SUFFIX,duokanbox.com
   ## >> 小米路由器
   - DOMAIN-SUFFIX,miwifi.com
+  ## >> 小米汽车
+  - DOMAIN-SUFFIX,xiaomiev.com
   ## >> 小米生态云
   - DOMAIN-SUFFIX,mi-ae.cn
   - DOMAIN-SUFFIX,mi-ae.com

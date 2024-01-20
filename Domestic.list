@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,116cd.com
 DOMAIN-SUFFIX,116cd.net
 DOMAIN-SUFFIX,anxia.com
 DOMAIN-SUFFIX,sq.cc
+DOMAIN,fhnfile.oss-cn-shenzhen.aliyuncs.com
 ## > 12306
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,95306.cn
@@ -6203,6 +6204,7 @@ DOMAIN-SUFFIX,qiniurs.com
 DOMAIN-SUFFIX,qiniutek.com
 DOMAIN-SUFFIX,qnfcdn.com
 DOMAIN-SUFFIX,qnlinking.com
+DOMAIN-SUFFIX,qnqcdn.net
 DOMAIN-SUFFIX,qnsdk.com
 DOMAIN-SUFFIX,qnssl.com
 DOMAIN-SUFFIX,qnydns.com
@@ -6482,7 +6484,9 @@ DOMAIN-SUFFIX,guoguo-app.com
 DOMAIN-SUFFIX,xiaog.xyz
 ## >> 阿里云盘
 DOMAIN-SUFFIX,alicloudccp.com
+DOMAIN-SUFFIX,alipan.com
 DOMAIN-SUFFIX,aliyundrive.com
+DOMAIN-SUFFIX,aliyundrive.net
 DOMAIN-SUFFIX,aliyunpds.com
 ## >> 红马传媒(大麦网)
 DOMAIN-SUFFIX,baotoo.com
@@ -8190,6 +8194,8 @@ DOMAIN-SUFFIX,mitvos.net
 DOMAIN-SUFFIX,duokanbox.com
 ## >> 小米路由器
 DOMAIN-SUFFIX,miwifi.com
+## >> 小米汽车
+DOMAIN-SUFFIX,xiaomiev.com
 ## >> 小米生态云
 DOMAIN-SUFFIX,mi-ae.cn
 DOMAIN-SUFFIX,mi-ae.com
@@ -9013,8 +9019,19 @@ DOMAIN-SUFFIX,ztedevices.com
 DOMAIN-SUFFIX,ztehotel.com
 DOMAIN-SUFFIX,ztehotel.com.cn
 DOMAIN-SUFFIX,ztehotel.net
+DOMAIN-SUFFIX,ztemall.com
 DOMAIN-SUFFIX,ztems.com
 DOMAIN-SUFFIX,zxingyun.com
+## >> 努比亚
+DOMAIN-SUFFIX,3gcare.cn
+DOMAIN-SUFFIX,nubia.cc
+DOMAIN-SUFFIX,nubia.cn
+DOMAIN-SUFFIX,nubia.com
+DOMAIN-SUFFIX,nubia.com.cn
+DOMAIN-SUFFIX,nubia.mobi
+DOMAIN-SUFFIX,nubia.net.cn
+DOMAIN-SUFFIX,redmagic.com
+DOMAIN-SUFFIX,shouhubao.com.cn
 ## > 中元易尚
 DOMAIN-SUFFIX,bjesound.com
 DOMAIN-SUFFIX,earlymen.com.cn
