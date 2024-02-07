@@ -5571,6 +5571,7 @@ payload:
   - DOMAIN-SUFFIX,wsoso.com
   ## > 蓝奏云
   - DOMAIN-SUFFIX,baidupan.com
+  - DOMAIN-SUFFIX,lanrar.com
   - DOMAIN-SUFFIX,lanzou.com
   - DOMAIN-SUFFIX,lanzoub.com
   - DOMAIN-SUFFIX,lanzouc.com
@@ -5594,6 +5595,7 @@ payload:
   - DOMAIN-SUFFIX,lanzoux.com
   - DOMAIN-SUFFIX,lanzouy.com
   - DOMAIN-SUFFIX,woozooo.com
+  - DOMAIN-SUFFIX,wwentua.com
   ## > 乐播投屏
   - DOMAIN-SUFFIX,hpplay.cn
   - DOMAIN-SUFFIX,hpplay.com.cn
