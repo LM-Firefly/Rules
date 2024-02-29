@@ -2559,9 +2559,9 @@ payload:
   - IP-CIDR,112.13.173.96/28
   - IP-CIDR,112.15.1.225/28
   - IP-CIDR,112.15.36.248/32
-  - IP-CIDR,112.15.103.0/25
+  #  - IP-CIDR,112.15.103.0/25 灵羊命中，bili网页端资源加载部分失效
   - IP-CIDR,117.149.237.240/32
-  #IP-CIDR,120.53.247.185/32 维持基础ad服务，启用会导致功能无法正常使用
+  #  - IP-CIDR,120.53.247.185/32 维持基础ad服务，启用会导致功能无法正常使用
   - IP-CIDR,120.226.11.240/28
   - IP-CIDR,123.56.194.11/32
   - IP-CIDR,123.57.16.151/32
@@ -3633,10 +3633,10 @@ payload:
   - DOMAIN-SUFFIX,ads.heytapmobi.com
   #浏览器简洁模式下屏蔽界面资讯加载
   #如异常，请注释此条注释之下类目
-  #DOMAIN,static-cpc.heytapimage.com
   #DOMAIN-SUFFIX,heytapimage.com
+  #DOMAIN,static-cpc.heytapimage.com
   - DOMAIN,activity-cpc.heytapimage.com
-  - DOMAIN,static-cpc.heytapimage.com
+  - DOMAIN,ibrowser.feeds.heytapmobi.com
   - DOMAIN,u.cpc.heytapmobi.com
   #DOMAIN-SUFFIX,heytapmobi.com
   ## > PeanutWiFiMpass-ads
