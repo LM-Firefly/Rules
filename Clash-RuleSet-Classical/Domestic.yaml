@@ -2063,6 +2063,7 @@ payload:
   - DOMAIN-SUFFIX,edgefn.net
   - DOMAIN-SUFFIX,fnedge.net
   - DOMAIN-SUFFIX,ldgslb.com
+  - DOMAIN-SUFFIX,saxysec.com
   - DOMAIN-SUFFIX,scdncloud.com
   - DOMAIN-SUFFIX,scdntop.com
   - DOMAIN-SUFFIX,solocdn.cn
@@ -9332,6 +9333,7 @@ payload:
   - DOMAIN-SUFFIX,volcdem.com
   - DOMAIN-SUFFIX,volceapplog.com
   - DOMAIN-SUFFIX,volcengine.com
+  - DOMAIN-SUFFIX,volces.com
   - DOMAIN-SUFFIX,volcsirius.com
   ## >> 掘金
   - DOMAIN-SUFFIX,juejin.cn
