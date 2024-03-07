@@ -107,7 +107,9 @@ DOMAIN-SUFFIX,dcdapp.com
 DOMAIN-SUFFIX,dongchedi.com
 DOMAIN-SUFFIX,dongchediapp.com
 ## >> 抖音
+DOMAIN-SUFFIX,bdxiguavod.com
 DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytecdntp.com
 DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedance.net
@@ -144,6 +146,7 @@ DOMAIN-SUFFIX,idouyinstatic.com
 DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,iesdouyin.net
+DOMAIN-SUFFIX,ndcpp.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,zijiecdn.com
@@ -175,6 +178,10 @@ DOMAIN-SUFFIX,fqnovel.com
 DOMAIN-SUFFIX,fqnovelpic.com
 DOMAIN-SUFFIX,fqnovelvod.com
 DOMAIN-SUFFIX,muyewx.com
+DOMAIN-SUFFIX,novelfm.com
+DOMAIN-SUFFIX,novelfmpic.com
+DOMAIN-SUFFIX,novelfmvod.com
+DOMAIN-SUFFIX,qznovelvod.com
 ## >> 飞聊
 DOMAIN-SUFFIX,feiliao.com
 ## >> 飞书
@@ -279,6 +286,7 @@ DOMAIN-SUFFIX,pangolin-dsp-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-dsp-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,panplayable-toutiao-b.com
 DOMAIN-SUFFIX,panplayable-toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao-b.com
@@ -287,6 +295,7 @@ DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,volcdem.com
 DOMAIN-SUFFIX,volceapplog.com
 DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volcsirius.com
 ## >> 掘金
 DOMAIN-SUFFIX,juejin.cn
