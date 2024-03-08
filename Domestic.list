@@ -2062,6 +2062,7 @@ DOMAIN-SUFFIX,eccdnx.com
 DOMAIN-SUFFIX,edgefn.net
 DOMAIN-SUFFIX,fnedge.net
 DOMAIN-SUFFIX,ldgslb.com
+DOMAIN-SUFFIX,saxysec.com
 DOMAIN-SUFFIX,scdncloud.com
 DOMAIN-SUFFIX,scdntop.com
 DOMAIN-SUFFIX,solocdn.cn
@@ -8922,14 +8923,22 @@ DOMAIN-SUFFIX,miguvideo.com.cn
 DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,12530.com
 # >> 中移互联
+DOMAIN-SUFFIX,10086kuaixiu.com
+DOMAIN-SUFFIX,117.161.2.5
 DOMAIN-SUFFIX,andfx.cn
 DOMAIN-SUFFIX,andfx.net
+DOMAIN-SUFFIX,chinamobiledevice.com
+DOMAIN-SUFFIX,cmdcl.cn
+DOMAIN-SUFFIX,cmdcxls.com
 DOMAIN-SUFFIX,cmicrwx.cn
 DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,cxzx10086.cn
 DOMAIN-SUFFIX,fetion-portal.com
 DOMAIN-SUFFIX,fetionpic.com
+DOMAIN-SUFFIX,fxltsbl.com
 DOMAIN-SUFFIX,mmarket.com
 DOMAIN-SUFFIX,mmarket6.com
+DOMAIN-SUFFIX,zdsdp.com
 ## > 中国互联网络信息中心
 DOMAIN-SUFFIX,cfid-lab.cn
 DOMAIN-SUFFIX,cfidlab.cn
@@ -9333,6 +9342,7 @@ DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,volcdem.com
 DOMAIN-SUFFIX,volceapplog.com
 DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volcsirius.com
 ## >> 掘金
 DOMAIN-SUFFIX,juejin.cn
