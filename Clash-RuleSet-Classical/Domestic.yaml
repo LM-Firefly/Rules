@@ -9154,7 +9154,9 @@ payload:
   - DOMAIN-SUFFIX,dongchedi.com
   - DOMAIN-SUFFIX,dongchediapp.com
   ## >> 抖音
+  - DOMAIN-SUFFIX,bdxiguavod.com
   - DOMAIN-SUFFIX,bytecdn.cn
+  - DOMAIN-SUFFIX,bytecdntp.com
   - DOMAIN-SUFFIX,byted-static.com
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytedance.net
@@ -9221,6 +9223,10 @@ payload:
   - DOMAIN-SUFFIX,fqnovelpic.com
   - DOMAIN-SUFFIX,fqnovelvod.com
   - DOMAIN-SUFFIX,muyewx.com
+  - DOMAIN-SUFFIX,novelfm.com
+  - DOMAIN-SUFFIX,novelfmpic.com
+  - DOMAIN-SUFFIX,novelfmvod.com
+  - DOMAIN-SUFFIX,qznovelvod.com
   ## >> 飞聊
   - DOMAIN-SUFFIX,feiliao.com
   ## >> 飞书
@@ -9325,6 +9331,7 @@ payload:
   - DOMAIN-SUFFIX,pangolin-dsp-toutiao.com
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
   - DOMAIN-SUFFIX,panplayable-toutiao-b.com
   - DOMAIN-SUFFIX,panplayable-toutiao.com
   - DOMAIN-SUFFIX,pglstatp-toutiao-b.com
