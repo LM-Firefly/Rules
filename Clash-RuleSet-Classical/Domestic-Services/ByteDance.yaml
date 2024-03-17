@@ -62,6 +62,21 @@
   - DOMAIN-SUFFIX,dongchediapp.com
   - DOMAIN-SUFFIX,doubao.cn
   - DOMAIN-SUFFIX,doubao.com
+  ## >> 抖音
+  - DOMAIN-SUFFIX,bdxiguavod.com
+  - DOMAIN-SUFFIX,bytecdn.cn
+  - DOMAIN-SUFFIX,bytecdntp.com
+  - DOMAIN-SUFFIX,byted-static.com
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,bytedance.net
+  - DOMAIN-SUFFIX,bytedns.net
+  - DOMAIN-SUFFIX,bytednsdoc.com
+  - DOMAIN-SUFFIX,byteeffecttos.com
+  - DOMAIN-SUFFIX,bytegecko.com
+  - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,bytetcc.com
+  - DOMAIN-SUFFIX,bytexservice.com
   - DOMAIN-SUFFIX,douyin.com
   - DOMAIN-SUFFIX,douyinact.com
   - DOMAIN-SUFFIX,douyinact.net
@@ -80,6 +95,62 @@
   - DOMAIN-SUFFIX,dymusicvideo.com
   - DOMAIN-SUFFIX,dyshortvideo.com
   - DOMAIN-SUFFIX,dyvideotape.com
+  - DOMAIN-SUFFIX,huaxiong.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ibyteimg.com
+  - DOMAIN-SUFFIX,idouyinpic.com
+  - DOMAIN-SUFFIX,idouyinstatic.com
+  - DOMAIN-SUFFIX,idouyinvod.com
+  - DOMAIN-SUFFIX,iesdouyin.com
+  - DOMAIN-SUFFIX,iesdouyin.net
+  - DOMAIN-SUFFIX,ndcpp.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,zijiecdn.com
+  - DOMAIN-SUFFIX,zijiecdn.net
+  - DOMAIN-SUFFIX,zjcdn.com
+  ## >> TikTok
+  - PROCESS-NAME,com.zhiliaoapp.musically
+  - DOMAIN-KEYWORD,-tiktokcdn-com
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,sgpstatp.com
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  ## >> 抖音火山版
+  - DOMAIN-SUFFIX,huoshan.com
+  - DOMAIN-SUFFIX,huoshanstatic.com
+  - DOMAIN-SUFFIX,huoshanzhibo.com
+  ## >> 番茄小说
+  - DOMAIN-SUFFIX,changdunovel.com
+  - DOMAIN-SUFFIX,fqnovel.com
+  - DOMAIN-SUFFIX,fqnovelpic.com
+  - DOMAIN-SUFFIX,fqnovelvod.com
+  - DOMAIN-SUFFIX,muyewx.com
+  - DOMAIN-SUFFIX,novelfm.com
+  - DOMAIN-SUFFIX,novelfmpic.com
+  - DOMAIN-SUFFIX,novelfmvod.com
+  - DOMAIN-SUFFIX,qznovelvod.com
+  ## >> 飞聊
+  - DOMAIN-SUFFIX,feiliao.com
+  ## >> 飞书
+  - DOMAIN-SUFFIX,feishu.cn
+  - DOMAIN-SUFFIX,feishucdn.com
+  ## >> GoGoKid
+  - DOMAIN-SUFFIX,gogokid.com
+  - DOMAIN-SUFFIX,gogokid.com.cn
+  ## >> 格物致品网络科技
+  - DOMAIN-SUFFIX,buydouke.com
+  - DOMAIN-SUFFIX,doubao.cn
+  - DOMAIN-SUFFIX,doubao.com
+  - DOMAIN-SUFFIX,douyinec.com
   - DOMAIN-SUFFIX,ecom-lightapp.com
   - DOMAIN-SUFFIX,ecombdapi.com
   - DOMAIN-SUFFIX,ecombdimg.com
@@ -197,6 +268,26 @@
   - DOMAIN-SUFFIX,oceanengine.cn
   - DOMAIN-SUFFIX,oceanengine.com
   - DOMAIN-SUFFIX,oortgslb.com
+  - DOMAIN-SUFFIX,pangle.cn
+  - DOMAIN-SUFFIX,pangolin-dsp-toutiao-b.com
+  - DOMAIN-SUFFIX,pangolin-dsp-toutiao.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+  - DOMAIN-SUFFIX,panplayable-toutiao-b.com
+  - DOMAIN-SUFFIX,panplayable-toutiao.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao-b.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
+  - DOMAIN-SUFFIX,volccdn.com
+  - DOMAIN-SUFFIX,volcdem.com
+  - DOMAIN-SUFFIX,volceapplog.com
+  - DOMAIN-SUFFIX,volcengine.com
+  - DOMAIN-SUFFIX,volces.com
+  - DOMAIN-SUFFIX,volcsirius.com
+  ## >> 掘金
+  - DOMAIN-SUFFIX,juejin.cn
+  - DOMAIN-SUFFIX,juejin.im
+  - DOMAIN-SUFFIX,xitu.io
   - DOMAIN-SUFFIX,p1-juejin.byteimg.com
   - DOMAIN-SUFFIX,p2-juejin.byteimg.com
   - DOMAIN-SUFFIX,p3-juejin.byteimg.com
