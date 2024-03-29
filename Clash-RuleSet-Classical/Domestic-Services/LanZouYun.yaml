@@ -1,6 +1,8 @@
 payload:
   ## > 蓝奏云
   - DOMAIN-SUFFIX,baidupan.com
+  - DOMAIN-SUFFIX,ilanzou.com
+  - DOMAIN-SUFFIX,lanosso.com
   - DOMAIN-SUFFIX,lanrar.com
   - DOMAIN-SUFFIX,lanzou.com
   - DOMAIN-SUFFIX,lanzoub.com
@@ -24,5 +26,6 @@ payload:
   - DOMAIN-SUFFIX,lanzouw.com
   - DOMAIN-SUFFIX,lanzoux.com
   - DOMAIN-SUFFIX,lanzouy.com
+  - DOMAIN-SUFFIX,lanzov.com
   - DOMAIN-SUFFIX,woozooo.com
   - DOMAIN-SUFFIX,wwentua.com

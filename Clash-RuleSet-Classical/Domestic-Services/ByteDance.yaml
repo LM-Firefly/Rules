@@ -119,6 +119,7 @@ payload:
   - DOMAIN-SUFFIX,byteeffecttos.com
   - DOMAIN-SUFFIX,bytegecko.com
   - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,bytemaimg.com
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,bytetcc.com
   - DOMAIN-SUFFIX,bytexservice.com
@@ -127,6 +128,7 @@ payload:
   - DOMAIN-SUFFIX,douyinact.net
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinclips.com
+  - DOMAIN-SUFFIX,douyinhanyu.com
   - DOMAIN-SUFFIX,douyinliving.com
   - DOMAIN-SUFFIX,douyinmusicclips.com
   - DOMAIN-SUFFIX,douyinmusicvideo.com
@@ -168,19 +170,37 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn-us.com
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,tiktokv.us
   ## >> 抖音火山版
   - DOMAIN-SUFFIX,huoshan.com
   - DOMAIN-SUFFIX,huoshanstatic.com
   - DOMAIN-SUFFIX,huoshanzhibo.com
   ## >> 番茄小说
+  - DOMAIN-SUFFIX,activity-zhendingtech.com
   - DOMAIN-SUFFIX,changdunovel.com
+  - DOMAIN-SUFFIX,fanqieopen.com
+  - DOMAIN-SUFFIX,fanqieopenpic.com
+  - DOMAIN-SUFFIX,fanqieopenstatic.com
+  - DOMAIN-SUFFIX,fanqieopenvod.com
+  - DOMAIN-SUFFIX,fanqiesdk.com
+  - DOMAIN-SUFFIX,fanqiesdkpic.com
+  - DOMAIN-SUFFIX,fanqiesdkstatic.com
+  - DOMAIN-SUFFIX,fanqiesdkvod.com
+  - DOMAIN-SUFFIX,fqnovel-op.com
   - DOMAIN-SUFFIX,fqnovel.com
+  - DOMAIN-SUFFIX,fqnovelim.com
+  - DOMAIN-SUFFIX,fqnovelop.com
   - DOMAIN-SUFFIX,fqnovelpic.com
+  - DOMAIN-SUFFIX,fqnovelstatic.com
   - DOMAIN-SUFFIX,fqnovelvod.com
+  - DOMAIN-SUFFIX,ihaohaoxuexi.com
   - DOMAIN-SUFFIX,muyewx.com
   - DOMAIN-SUFFIX,novelfm.com
   - DOMAIN-SUFFIX,novelfmpic.com
+  - DOMAIN-SUFFIX,novelfmstatic.com
   - DOMAIN-SUFFIX,novelfmvod.com
+  - DOMAIN-SUFFIX,qznovelpic.com
+  - DOMAIN-SUFFIX,qznovelstatic.com
   - DOMAIN-SUFFIX,qznovelvod.com
   ## >> 飞聊
   - DOMAIN-SUFFIX,feiliao.com
