@@ -328,6 +328,10 @@ match = "(波黑共和国|波士尼亚与赫塞哥维纳|Bosnia|Herzegovina)"
 emoji = "🇧🇦"
 
 [[emojis.emoji]]
+match = "(梵蒂冈|Vatican)"
+emoji = "🇻🇦"
+
+[[emojis.emoji]]
 match = "(格鲁吉亚|Georgia)"
 emoji = "🇬🇪"
 
@@ -372,8 +376,16 @@ match = "(秘鲁|Peru)"
 emoji = "🇵🇪"
 
 [[emojis.emoji]]
+match = "(缅甸|Myanmar)"
+emoji = "🇲🇲"
+
+[[emojis.emoji]]
 match = "(墨西哥|Mexico)"
 emoji = "🇲🇽"
+
+[[emojis.emoji]]
+match = "(南极|Antarctica)"
+emoji = "🇦🇶"
 
 [[emojis.emoji]]
 match = "(尼日利亚|Nigeria)"
