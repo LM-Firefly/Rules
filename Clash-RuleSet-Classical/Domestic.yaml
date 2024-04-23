@@ -2650,6 +2650,13 @@ payload:
   - IP-CIDR,120.92.113.99/32,no-resolve
   - IP-CIDR,120.92.153.217/32,no-resolve
   - IP-CIDR,134.175.207.130/32,no-resolve
+  ## > 布里奇信息科技
+  - DOMAIN-SUFFIX,anyrtb.com
+  - DOMAIN-SUFFIX,anythinktech.com
+  - DOMAIN-SUFFIX,birdgesdk.com
+  - DOMAIN-SUFFIX,bridgeoos.com
+  - DOMAIN-SUFFIX,combocn.com
+  - DOMAIN-SUFFIX,toponadss.com
   ## > 财新传媒
   - DOMAIN-SUFFIX,caing.cn
   - DOMAIN-SUFFIX,caing.com
@@ -5012,6 +5019,7 @@ payload:
   - DOMAIN-SUFFIX,a1t2w1lzfr.com
   - DOMAIN-SUFFIX,aatcmdvi.com
   - DOMAIN-SUFFIX,adkwai.com
+  - DOMAIN-SUFFIX,adukwai.com
   - DOMAIN-SUFFIX,aiwvegax.com
   - DOMAIN-SUFFIX,ao3yiqag7zc8za.com
   - DOMAIN-SUFFIX,aqawzxeg.com

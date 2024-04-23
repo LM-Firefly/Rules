@@ -60,17 +60,21 @@ tun:
   device: utun0
   dns-hijack:
     - any:53
-  auto-detect-interface: true
+    - tcp://any:53
   auto-route: true
+  auto-detect-interface: true
   mtu: 9000
-  strict_route: true
-  inet4_route_address:
-    - 0.0.0.0/1
-    - 128.0.0.0/1
-  inet6_route_address:
-    - "::/1"
-    - "8000::/1"
+  strict-route: true
+  gso: true
+  gso-max-size: 65536
+  udp-timeout: 300
   endpoint-independent-nat: false
+  inet4-route-address:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  inet6-route-address:
+  - "::/1"
+  - "8000::/1"
 #interface-name: WLAN
 sniffer:
   enable: true
