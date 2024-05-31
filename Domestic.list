@@ -8199,6 +8199,7 @@ DOMAIN-SUFFIX,xiaomisa.cn
 DOMAIN-SUFFIX,xiaomisa.com
 DOMAIN-SUFFIX,xiaomisa.net
 DOMAIN-SUFFIX,xiaomisa.org
+DOMAIN-SUFFIX,xiaomixiaoai.com
 DOMAIN-SUFFIX,zhutidasai.com
 DOMAIN-SUFFIX,小米科技有限责任公司.中国
 ## >> MIUI米柚
@@ -8316,6 +8317,7 @@ IP-CIDR,47.241.176.221/32,no-resolve
 IP-CIDR,58.220.58.152/32,no-resolve
 IP-CIDR,58.220.58.153/32,no-resolve
 IP-CIDR,58.220.59.2/32,no-resolve
+IP-CIDR,110.43.63.242/32,no-resolve
 IP-CIDR,120.133.33.222/32,no-resolve
 ## > 小源科技
 DOMAIN-SUFFIX,10010mx.com
