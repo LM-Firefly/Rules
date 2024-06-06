@@ -35,7 +35,7 @@ match = "^CordCloud - "
 replace = ""
 
 [[node_pref.rename_node]]
-match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V[0-9]-)|(IEPL专线 )|(IPV6)"
+match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V[0-9]-)|(IEPL专线 )|(IPV6)|(\\(海外\\|新疆专用\\))"
 replace = ""
 
 [[node_pref.rename_node]]

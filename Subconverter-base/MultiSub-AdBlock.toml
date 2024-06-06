@@ -35,7 +35,7 @@ match = "^CordCloud - "
 replace = ""
 
 [[node_pref.rename_node]]
-match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V[0-9]-)|(IEPL专线 )|(IPV6)"
+match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V[0-9]-)|(IEPL专线 )|(IPV6)|(\\(海外\\|新疆专用\\))"
 replace = ""
 
 [[node_pref.rename_node]]
@@ -2044,7 +2044,7 @@ interval = 3600
 
 [[rulesets]]
 group = "🥝 爱奇艺"
-ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI-Intl.list"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iQIYI-Intl.list"
 type = "surge-ruleset"
 interval = 3600
 
