@@ -49,32 +49,32 @@ dns:
   ipv6: true
 {% endif %}
 {% if request.clash.dns == "meta-tun" %}
-find-process-mode: always
+find-process-mode: strict
 ipv6: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 keep-alive-interval: 15
 tun:
   enable: true
-  stack: mixed # system / gvisor / lwip
+  stack: mixed # system/gvisor/mixed
   device: utun0
   dns-hijack:
     - any:53
     - tcp://any:53
-  auto-route: true
   auto-detect-interface: true
+  auto-route: true
   mtu: 9000
   strict-route: true
   gso: true
   gso-max-size: 65536
+  auto-redirect: true
   udp-timeout: 300
+  route-address: # 启用 auto-route 时使用自定义路由而不是默认路由
+    - 0.0.0.0/1
+    - 128.0.0.0/1
+    - "::/1"
+    - "8000::/1"
   endpoint-independent-nat: false
-  inet4-route-address:
-  - 0.0.0.0/1
-  - 128.0.0.0/1
-  inet6-route-address:
-  - "::/1"
-  - "8000::/1"
 #interface-name: WLAN
 sniffer:
   enable: true
@@ -93,12 +93,14 @@ sniffer:
 #    - +.v2ex.com
   skip-domain:
     - "Mijia Cloud"
+    - +.mijia.tech
 dns:
+  cache-algorithm: arc
   enable: true
   prefer-h3: true
+  listen: 0.0.0.0:5053
   ipv6: true
   ipv6-timeout: 150
-  listen: 0.0.0.0:5053
 {% endif %}
 {% else %}
 ipv6: true
@@ -112,6 +114,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
     - 1.1.1.1
+    - system
   enhanced-mode: fake-ip # or redir-host (not recommended)
   fake-ip-range: 22.0.0.0/8
   fake-ip-filter:
@@ -170,8 +173,8 @@ dns:
     - 119.29.29.29
     - dhcp://system
     - https://dns.alidns.com/dns-query
-    - https://dns.ipv6dns.com/dns-query
     - https://doh.pub/dns-query
+    - https://dns.ipv6dns.com/dns-query
     - https://rubyfish.cn/dns-query
     - https://all.dns.mullvad.net/dns-query
     - https://unfiltered.adguard-dns.com/dns-query

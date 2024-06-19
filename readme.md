@@ -30,7 +30,7 @@
 
 ### 灵活转换:
 
-如果有特殊格式需要，可以尝试使用 [Subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md#%E8%A7%84%E5%88%99%E8%BD%AC%E6%8D%A2) 自行转换，有很多公共的免费服务可以白嫖。这里提供一个我的后端 [firefly-sub.up.railway.app](https://firefly-sub.up.railway.app/) 。
+如果有特殊格式需要，可以尝试使用 [Subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md#%E8%A7%84%E5%88%99%E8%BD%AC%E6%8D%A2) 自行转换，有很多公共的免费服务可以白嫖。这里提供一个我的后端 [firefly-sub.up.railway.app](https://firefly-sub.up.railway.app/)。[Docker-Subconverter 懒人搭建模板](https://github.com/LM-Firefly/Firefly-sub)
 
 ### 相关引用:
 
