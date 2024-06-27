@@ -613,46 +613,52 @@ DOMAIN-SUFFIX,assoc-amazon.de
 DOMAIN-SUFFIX,assoc-amazon.es
 DOMAIN-SUFFIX,assoc-amazon.fr
 DOMAIN-SUFFIX,assoc-amazon.it
-DOMAIN-SUFFIX,aan.amazon.com
-DOMAIN-SUFFIX,mads.amazon.com
 DOMAIN-SUFFIX,amazon-adsystem.com
-DOMAIN-SUFFIX,aax-us-iad.amazon.com
+DOMAIN-SUFFIX,aan.amazon.com
 DOMAIN-SUFFIX,aax-eu-dub.amazon.com
+DOMAIN-SUFFIX,aax-us-iad.amazon.com
 DOMAIN-SUFFIX,device-messaging-na.amazon.com
-DOMAIN-SUFFIX,sdb.amazonaws.com
-DOMAIN-SUFFIX,gtrk.s3.amazonaws.com
+DOMAIN-SUFFIX,mads.amazon.com
 DOMAIN-SUFFIX,checkip.amazonaws.com
-DOMAIN-SUFFIX,inpref.s3.amazonaws.com
-DOMAIN-SUFFIX,smblock.s3.amazonaws.com
-DOMAIN-SUFFIX,cadreon.s3.amazonaws.com
-DOMAIN-SUFFIX,gateways.s3.amazonaws.com
-DOMAIN-SUFFIX,admarvel.s3.amazonaws.com
-DOMAIN-SUFFIX,entrecard.s3.amazonaws.com
-DOMAIN-SUFFIX,bo-videos.s3.amazonaws.com
-DOMAIN-SUFFIX,immassets.s3.amazonaws.com
-DOMAIN-SUFFIX,rich-agent.s3.amazonaws.com
-DOMAIN-SUFFIX,whistleout.s3.amazonaws.com
-DOMAIN-SUFFIX,mailmunch.s3.amazonaws.com
-DOMAIN-SUFFIX,ltassrv.com.s3.amazonaws.com
-DOMAIN-SUFFIX,affiliationjs.s3.amazonaws.com
-DOMAIN-SUFFIX,ecommstats.s3.amazonaws.com
-DOMAIN-SUFFIX,strikeadcdn.s3.amazonaws.com
-DOMAIN-SUFFIX,kbnetworkz.s3.amazonaws.com
-DOMAIN-SUFFIX,filamentapp.s3.amazonaws.com
-DOMAIN-SUFFIX,secretmedia.s3.amazonaws.com
 DOMAIN-SUFFIX,cloudfront-labs.amazonaws.com
-DOMAIN-SUFFIX,gfaf-banners.s3.amazonaws.com
+DOMAIN-SUFFIX,sdb.amazonaws.com
+DOMAIN-SUFFIX,admarvel.s3.amazonaws.com
+DOMAIN-SUFFIX,adtago.s3.amazonaws.com
+DOMAIN-SUFFIX,adtechvideo.s3.amazonaws.com
+DOMAIN-SUFFIX,advice-ads.s3.amazonaws.com
+DOMAIN-SUFFIX,affiliationjs.s3.amazonaws.com
+DOMAIN-SUFFIX,airpushmarketing.s3.amazonaws.com
+DOMAIN-SUFFIX,analytics.s3.amazonaws.com
+DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com
+DOMAIN-SUFFIX,babes-mansion.s3.amazonaws.com
+DOMAIN-SUFFIX,blamads-assets.s3.amazonaws.com
+DOMAIN-SUFFIX,bo-videos.s3.amazonaws.com
+DOMAIN-SUFFIX,cadreon.s3.amazonaws.com
+DOMAIN-SUFFIX,campaign-tapad.s3.amazonaws.com
 DOMAIN-SUFFIX,chartaca.com.s3.amazonaws.com
-DOMAIN-SUFFIX,iacpromotion.s3.amazonaws.com
 DOMAIN-SUFFIX,demandmedia.s3.amazonaws.com
+DOMAIN-SUFFIX,ecommstats.s3.amazonaws.com
+DOMAIN-SUFFIX,entrecard.s3.amazonaws.com
+DOMAIN-SUFFIX,filamentapp.s3.amazonaws.com
+DOMAIN-SUFFIX,gateways.s3.amazonaws.com
+DOMAIN-SUFFIX,gfaf-banners.s3.amazonaws.com
+DOMAIN-SUFFIX,gtrk.s3.amazonaws.com
+DOMAIN-SUFFIX,iacpromotion.s3.amazonaws.com
+DOMAIN-SUFFIX,immassets.s3.amazonaws.com
+DOMAIN-SUFFIX,inpref.s3.amazonaws.com
+DOMAIN-SUFFIX,kbnetworkz.s3.amazonaws.com
+DOMAIN-SUFFIX,magnify360-cdn.s3.amazonaws.com
+DOMAIN-SUFFIX,mailmunch.s3.amazonaws.com
+DOMAIN-SUFFIX,news-whistleout.s3.amazonaws.com
+DOMAIN-SUFFIX,pacontainer.s3.amazonaws.com
+DOMAIN-SUFFIX,rich-agent.s3.amazonaws.com
+DOMAIN-SUFFIX,secretmedia.s3.amazonaws.com
+DOMAIN-SUFFIX,smblock.s3.amazonaws.com
+DOMAIN-SUFFIX,strikeadcdn.s3.amazonaws.com
 DOMAIN-SUFFIX,tree-pixel-log.s3.amazonaws.com
 DOMAIN-SUFFIX,twitter-badges.s3.amazonaws.com
-DOMAIN-SUFFIX,blamads-assets.s3.amazonaws.com
-DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com
-DOMAIN-SUFFIX,news-whistleout.s3.amazonaws.com
-DOMAIN-SUFFIX,campaign-tapad.s3.amazonaws.com
-DOMAIN-SUFFIX,magnify360-cdn.s3.amazonaws.com
-DOMAIN-SUFFIX,airpushmarketing.s3.amazonaws.com
+DOMAIN-SUFFIX,whistleout.s3.amazonaws.com
+DOMAIN-SUFFIX,ltassrv.com.s3.amazonaws.com
 DOMAIN-SUFFIX,sana.newsinc.com.s3.amazonaws.com
 DOMAIN-SUFFIX,inneractive-assets.s3.amazonaws.com
 DOMAIN-SUFFIX,stuff-nzwhistleout.s3.amazonaws.com
@@ -664,20 +670,26 @@ DOMAIN-SUFFIX,filamentapp-assets.s3.amazonaws.com
 DOMAIN-SUFFIX,cdn-alliancegravity.s3.amazonaws.com
 DOMAIN-SUFFIX,leaddyno-client-images.s3.amazonaws.com
 DOMAIN-SUFFIX,s3-tracking.synthasite.net.s3.amazonaws.com
-DOMAIN-SUFFIX,trafficfuelpixel.s3-us-west-2.amazonaws.com
 DOMAIN-SUFFIX,epowernetworktrackerimages.s3.amazonaws.com
-DOMAIN-SUFFIX,ec2-13-58-215-234.us-east-2.compute.amazonaws.com
 DOMAIN-SUFFIX,d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
+DOMAIN-SUFFIX,trafficfuelpixel.s3-us-west-2.amazonaws.com
+DOMAIN-SUFFIX,ec2-13-58-215-234.us-east-2.compute.amazonaws.com
 DOMAIN-SUFFIX,dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com
 DOMAIN-SUFFIX,hawkeye-data-production.sciencemag.org.s3-website-us-east-1.amazonaws.com
 ## > Apple-ads
-DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,api-adservices.apple.com
+DOMAIN-SUFFIX,books-analytics-events.apple.com
 DOMAIN-SUFFIX,iad.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,notes-analytics-events.apple.com
+DOMAIN-SUFFIX,searchads.apple.com
+DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,autolinkmaker.itunes.apple.com
 DOMAIN-SUFFIX,widgets.itunes.apple.com
 DOMAIN-SUFFIX,banners.itunes.apple.com
-DOMAIN-SUFFIX,searchads.apple.com
 DOMAIN-SUFFIX,stats.gc.apple.com
+DOMAIN-SUFFIX,metrics.icloud.com
+DOMAIN-SUFFIX,metrics.mzstatic.com
 DOMAIN-SUFFIX,iadc.qwapi.com
 DOMAIN-SUFFIX,iadctest.qwapi.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
@@ -1273,9 +1285,12 @@ DOMAIN-SUFFIX,xlog.snssdk.com
 DOMAIN-SUFFIX,log-va.tiktokv.com
 DOMAIN-SUFFIX,log.tiktokv.com
 DOMAIN-SUFFIX,mcs-va.tiktokv.com
+DOMAIN-SUFFIX,ads-api.tiktok.com
 DOMAIN-SUFFIX,ads-sg.tiktok.com
+DOMAIN-SUFFIX,ads.tiktok.com
 DOMAIN-SUFFIX,analytics-sg.tiktok.com
 DOMAIN-SUFFIX,analytics.tiktok.com
+DOMAIN-SUFFIX,business-api.tiktok.com
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,adshare.toutiao.com
 DOMAIN-SUFFIX,d.toutiao.com
@@ -2212,12 +2227,15 @@ DOMAIN-KEYWORD,googleads
 DOMAIN-SUFFIX,a.admob.com
 DOMAIN-SUFFIX,ads.gmodules.com
 DOMAIN-SUFFIX,ads.google.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,afs.googlesyndication.com
+DOMAIN-SUFFIX,pagead2.googlesyndication.com
+DOMAIN-SUFFIX,pagead2.googleadservices.com
 DOMAIN-SUFFIX,ads.youtube.com
 DOMAIN-SUFFIX,adscaspion.appspot.com
 DOMAIN-SUFFIX,adsense.com
 DOMAIN-SUFFIX,adsensecustomsearchads.com
 DOMAIN-SUFFIX,adsenseformobileapps.com
-DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,adservice.google.com.hk
 DOMAIN-SUFFIX,advancedtracker.appspot.com
 DOMAIN-SUFFIX,advertisercommunity.com
@@ -2245,9 +2263,14 @@ DOMAIN-SUFFIX,couchcoaster.jp
 DOMAIN-SUFFIX,csi.gstatic.com
 DOMAIN-SUFFIX,csp-collector.appspot.com
 DOMAIN-SUFFIX,delivery.dmkt-sp.jp
-DOMAIN-SUFFIX,doubleclick-net.com
 DOMAIN-SUFFIX,doubleclick.com
 DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,ad.doubleclick.net
+DOMAIN-SUFFIX,doubleclick-net.com
+DOMAIN-SUFFIX,m.doubleclick.net
+DOMAIN-SUFFIX,mediavisor.doubleclick.net
+DOMAIN-SUFFIX,static.doubleclick.net
+DOMAIN-SUFFIX,stats.g.doubleclick.net
 DOMAIN-SUFFIX,doubleclick1.xyz
 DOMAIN-SUFFIX,doubleclick2.xyz
 DOMAIN-SUFFIX,doubleclick3.xyz
@@ -2358,6 +2381,12 @@ DOMAIN-SUFFIX,bdasd.chinabig.com.cn
 DOMAIN-SUFFIX,bdjsfl.chinabig.com.cn
 ## > 华为-ads
 DOMAIN-SUFFIX,cs02-pps-drcn.dbankcdn.com
+DOMAIN-SUFFIX,grs.hicloud.com
+DOMAIN-SUFFIX,logbak.hicloud.com
+DOMAIN-SUFFIX,logservice.hicloud.com
+DOMAIN-SUFFIX,logservice1.hicloud.com
+DOMAIN-SUFFIX,metrics.data.hicloud.com
+DOMAIN-SUFFIX,metrics2.data.hicloud.com
 DOMAIN-SUFFIX,libfre.obs.cn-east-3.myhuaweicloud.com
 DOMAIN-SUFFIX,teslaamg.obs.cn-east-3.myhuaweicloud.com
 DOMAIN-SUFFIX,hiad.vmall.com
@@ -3005,6 +3034,10 @@ DOMAIN-SUFFIX,mediator.mail.ru
 DOMAIN-SUFFIX,r.mail.ru
 DOMAIN-SUFFIX,rs.mail.ru
 DOMAIN-SUFFIX,top-fwz1.mail.ru
+## > Media.net-ads
+DOMAIN-SUFFIX,media.net
+DOMAIN-SUFFIX,adservetx.media.net
+DOMAIN-SUFFIX,static.media.net
 ## > Mopub-ads
 DOMAIN-SUFFIX,ads.mopub.com
 DOMAIN-SUFFIX,analytics.mopub.com
@@ -3838,11 +3871,16 @@ DOMAIN-SUFFIX,i.stat.nearme.com.cn
 DOMAIN-SUFFIX,kv.stat.nearme.com.cn
 DOMAIN-SUFFIX,stat.browser.nearme.com.cn
 DOMAIN-SUFFIX,ads.oppomobile.com
+DOMAIN-SUFFIX,adx.ads.oppomobile.com
+DOMAIN-SUFFIX,ck.ads.oppomobile.com
+DOMAIN-SUFFIX,data.ads.oppomobile.com
 DOMAIN-SUFFIX,adsfs.oppomobile.com
 DOMAIN-SUFFIX,httpdns.push.oppomobile.com
 DOMAIN-SUFFIX,i.flow.browser.oppomobile.com
 DOMAIN-SUFFIX,imagzine.oppomobile.com
 DOMAIN-SUFFIX,u.oppomobile.com
+DOMAIN-SUFFIX,click.oneplus.cn
+DOMAIN-SUFFIX,open.oneplus.net
 ## >> OPPO browser [简洁模式下/15日天气跳转]
 #DOMAIN,new.heytapdownload.com
 #DOMAIN,news.heytapdownload.com
@@ -3879,6 +3917,11 @@ DOMAIN-SUFFIX,pcgamer-gb.pcgamer.com
 ## > 琵琶网-ads
 DOMAIN-SUFFIX,bd1.pipaw.com
 DOMAIN-SUFFIX,bd2.pipaw.com
+## > Pinterest-ads
+DOMAIN-SUFFIX,ads.pinterest.com
+DOMAIN-SUFFIX,analytics.pinterest.com
+DOMAIN-SUFFIX,log.pinterest.com
+DOMAIN-SUFFIX,trk.pinterest.com
 ## > PPTV-ads
 DOMAIN-SUFFIX,ads.aplus.pptv.com
 DOMAIN-SUFFIX,ads.aplusapi.pptv.com
@@ -3921,6 +3964,11 @@ DOMAIN-SUFFIX,event.notifier.rakuten.co.jp
 DOMAIN-SUFFIX,rat.rakuten.co.jp
 DOMAIN-SUFFIX,rd.rakuten.co.jp
 DOMAIN-SUFFIX,tag.rmp.rakuten.com
+## > Realme-ads
+DOMAIN-SUFFIX,iot-eu-logser.realme.com
+DOMAIN-SUFFIX,iot-logser.realme.com 
+DOMAIN-SUFFIX,bdapi-ads.realmemobile.com
+DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com
 ## > Reddit-ads
 DOMAIN-SUFFIX,alb.reddit.com
 DOMAIN-SUFFIX,pixel.reddit.com
@@ -3938,6 +3986,13 @@ DOMAIN-SUFFIX,jebe.xnimg.cn
 DOMAIN-SUFFIX,d.ruiwen.com
 DOMAIN-SUFFIX,js.ruiwen.com
 DOMAIN-SUFFIX,abc.ruiwen.com
+## > samsung-ads
+DOMAIN-SUFFIX,ads.samsung.com
+DOMAIN-SUFFIX,samsungads.com
+DOMAIN-SUFFIX,nmetrics.samsung.com
+DOMAIN-SUFFIX,smetrics.samsung.com
+DOMAIN-SUFFIX,samsung-com.112.207.net
+DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com
 ## > 上海荟萃网络-ads
 DOMAIN-SUFFIX,a-sta-cn.upltv.com
 DOMAIN-SUFFIX,ads-sdk-cn.upltv.com
@@ -4555,6 +4610,7 @@ DOMAIN-SUFFIX,spade.twitch.tv
 DOMAIN-SUFFIX,trowel.twitch.tv
 ## > Twitter-ads
 DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,static.ads-twitter.com
 DOMAIN-SUFFIX,ads.twitter.com
 DOMAIN-SUFFIX,analytics.twitter.com
 DOMAIN-SUFFIX,p.twitter.com
@@ -4563,6 +4619,7 @@ DOMAIN-SUFFIX,syndication-o.twitter.com
 DOMAIN-SUFFIX,syndication.twitter.com
 DOMAIN-SUFFIX,urls.api.twitter.com
 DOMAIN-SUFFIX,search.twitter.com
+DOMAIN-SUFFIX,ads-apitwitter.com
 ## > 澎湃新闻-ads
 DOMAIN-SUFFIX,imgadpai.thepaper.cn
 DOMAIN-SUFFIX,admonitor.thepaper.cn
@@ -4875,6 +4932,9 @@ DOMAIN-SUFFIX,data.mail.yahoo.com
 DOMAIN-SUFFIX,na.ads.yahoo.com
 DOMAIN-SUFFIX,opus.analytics.yahoo.com
 DOMAIN-SUFFIX,sp.analytics.yahoo.com
+DOMAIN-SUFFIX,udc.yahoo.com
+DOMAIN-SUFFIX,udcm.yahoo.com
+DOMAIN-SUFFIX,log.fc.yahoo.com
 DOMAIN-SUFFIX,yads.yahoo.co.jp
 DOMAIN-SUFFIX,ard.yahoo.co.jp
 DOMAIN-SUFFIX,bc.geocities.yahoo.co.jp
@@ -4889,6 +4949,8 @@ DOMAIN-SUFFIX,logql.yahoo.co.jp
 DOMAIN-SUFFIX,w.homes.yahoo.net
 DOMAIN-SUFFIX,edgecast-vod.yahoo.net
 DOMAIN-SUFFIX,wc.yahoodns.net
+DOMAIN-SUFFIX,geo.yanoo.com
+DOMAIN-SUFFIX,adtech.yahooinc.com
 DOMAIN-SUFFIX,ad.wretch.cc
 DOMAIN-SUFFIX,ad.flurry.com
 DOMAIN-SUFFIX,adlog.flurry.com
@@ -4952,6 +5014,11 @@ DOMAIN-SUFFIX,shoes.app-xae.xiaomi.com
 DOMAIN-SUFFIX,ssp.xiaomi.com
 DOMAIN-SUFFIX,wtradv.market.xiaomi.com
 DOMAIN-SUFFIX,zx.game.xiaomi.com
+DOMAIN-SUFFIX,data.mistat.xiaomi.com
+DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
+DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com
+DOMAIN-SUFFIX,sdkconfig.ad.int.xiaomi.com
+DOMAIN-SUFFIX,tracking.rus.miui.com
 DOMAIN-SUFFIX,miui.hdfdm.com
 DOMAIN-SUFFIX,tf.hdfdm.com
 DOMAIN-SUFFIX,miui.hftaili.com
@@ -5244,6 +5311,13 @@ DOMAIN-SUFFIX,apm-track.xiaohongshu.com
 DOMAIN-SUFFIX,t-ads.xiaohongshu.com
 DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
 DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
+## > Yandex-ads
+DOMAIN-SUFFIX,extmaps-api.yandex.net
+DOMAIN-SUFFIX,offerwall.yandex.net 
+DOMAIN-SUFFIX,adfox.yandex.ru
+DOMAIN-SUFFIX,adfstat.yandex.ru
+DOMAIN-SUFFIX,appmetrica.yandex.ru
+DOMAIN-SUFFIX,metrika.yandex.ru
 ## > 优酷 & 土豆 - ads
 DOMAIN-SUFFIX,a-dxk.play.api.3g.youku.com
 DOMAIN-SUFFIX,actives.youku.com
@@ -7912,7 +7986,6 @@ DOMAIN-SUFFIX,ads.audio.thisisdax.com
 DOMAIN-SUFFIX,ads.betfair.com
 DOMAIN-SUFFIX,ads.lemmatechnologies.com
 DOMAIN-SUFFIX,ads.rd.linksynergy.com
-DOMAIN-SUFFIX,ads.samsung.com
 DOMAIN-SUFFIX,ads.saymedia.com
 DOMAIN-SUFFIX,ads.servebom.com
 DOMAIN-SUFFIX,ads.sportradar.com
@@ -8038,12 +8111,10 @@ DOMAIN-SUFFIX,adt567.net
 DOMAIN-SUFFIX,adt574.com
 DOMAIN-SUFFIX,adt598.com
 DOMAIN-SUFFIX,adtag.cc
-DOMAIN-SUFFIX,adtago.s3.amazonaws.com
 DOMAIN-SUFFIX,adtags.mobi
 DOMAIN-SUFFIX,adtaily.com
 DOMAIN-SUFFIX,adtaily.pl
 DOMAIN-SUFFIX,adtclickwhite.com
-DOMAIN-SUFFIX,adtechvideo.s3.amazonaws.com
 DOMAIN-SUFFIX,adtelligent.com
 DOMAIN-SUFFIX,adthereis.buzz
 DOMAIN-SUFFIX,adtival.com
@@ -10587,7 +10658,6 @@ DOMAIN-SUFFIX,baannre.com
 DOMAIN-SUFFIX,baaomenaltho.com
 DOMAIN-SUFFIX,babbnrs.com
 DOMAIN-SUFFIX,babbyfriar.space
-DOMAIN-SUFFIX,babes-mansion.s3.amazonaws.com
 DOMAIN-SUFFIX,babfdicktnodx.xyz
 DOMAIN-SUFFIX,babhanananym.top
 DOMAIN-SUFFIX,babinjectbother.com
@@ -35386,7 +35456,6 @@ DOMAIN-SUFFIX,pacix.xyz
 DOMAIN-SUFFIX,packageeyeball.com
 DOMAIN-SUFFIX,packmenappui.top
 DOMAIN-SUFFIX,pacoaniy.net
-DOMAIN-SUFFIX,pacontainer.s3.amazonaws.com
 DOMAIN-SUFFIX,paddlediscovery.com
 DOMAIN-SUFFIX,paddleniecehandicraft.com
 DOMAIN-SUFFIX,padfungusunless.com
@@ -41010,7 +41079,6 @@ DOMAIN-SUFFIX,samplerpouch.com
 DOMAIN-SUFFIX,sampoang.xyz
 DOMAIN-SUFFIX,samsienshrivel.com
 DOMAIN-SUFFIX,samsungacr.com
-DOMAIN-SUFFIX,samsungads.com
 DOMAIN-SUFFIX,samvaulter.com
 DOMAIN-SUFFIX,samvinva.info
 DOMAIN-SUFFIX,sanableschuss.top
