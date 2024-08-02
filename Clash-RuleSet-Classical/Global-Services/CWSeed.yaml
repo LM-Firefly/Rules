@@ -1,0 +1,9 @@
+payload:
+  ## > CW Seed
+  - PROCESS-NAME,com.cw.fullepisodes.android
+  - PROCESS-NAME,com.cw.seed.android
+  - DOMAIN-SUFFIX,cwseed.com
+  - DOMAIN-SUFFIX,cwtv.com
+  - DOMAIN-SUFFIX,thecwvideo.com
+  - DOMAIN,cwtv-amd-akamai.akamaized.net
+  - DOMAIN,edge.cwtv-vod-ext.top.comcast.net

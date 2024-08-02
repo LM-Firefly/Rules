@@ -1,0 +1,12 @@
+payload:
+  ## > 点测网科
+  - DOMAIN-SUFFIX,tracup.com
+  - DOMAIN-SUFFIX,xcxwo.com
+  ## >> 蒲公英
+  - DOMAIN-SUFFIX,pgyer.cc
+  - DOMAIN-SUFFIX,pgyer.com
+  - DOMAIN-SUFFIX,pgyer.im
+  - DOMAIN-SUFFIX,testin.im
+  ## >> 钱橙网
+  - DOMAIN-SUFFIX,qcers.com
+  - DOMAIN-SUFFIX,qcers.net
