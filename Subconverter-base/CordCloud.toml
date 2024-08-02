@@ -1,0 +1,3065 @@
+version = 1
+[custom]
+enable_rule_generator = true
+overwrite_original_rules = true
+
+clash_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+surge_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+surfboard_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+mellow_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+quan_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+quanx_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+loon_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+sssub_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+singbox_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
+
+exclude_remarks = [
+    "((到期)|(剩余流量)|(时间)|(官网)|(产品)|(先购买套餐)|(流量消耗)|(更新订阅)|(套餐到期)|(.*流量.*剩.*天)|(■等级警报■)|(\\(限速\\))|(\\[限速\\])|(\\[游戏\\])|(\\[游戏专用\\])|(\\[将下线\\])|(.*耗尽.*)|(近期下线)|(游戏专线)|(维护)|(测试节点)|(防失联地址)|(官方地址)|(官方网站)|(群组))",
+]
+
+
+[node_pref]
+udp_flag = true
+clash_proxies_style = "block"
+clash_proxy_groups_style = "block"
+
+[[node_pref.rename_node]]
+match = "(解锁|)(\\|)(x.*)(\\|V2ray)"
+replace = "$[$3]"
+
+[[node_pref.rename_node]]
+match = "(..|...)([0-9][0-9][0-9][0-9]|[0-9][0-9][0-9])(\\|)(Azure|HKT|CN2GIA)"
+replace = "$1$4$2"
+
+[[node_pref.rename_node]]
+match = "^CordCloud - "
+replace = ""
+
+[[node_pref.rename_node]]
+match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V[0-9]-)|(IEPL专线 )|(IPV6)"
+replace = ""
+
+[[node_pref.rename_node]]
+match = "(.*)( )(.*[0-9])( \\| )(.*)"
+replace = "$1$3$5"
+
+[[node_pref.rename_node]]
+match = "(流媒体)|(-M)|(原生IP)"
+replace = "[M]"
+
+[[node_pref.rename_node]]
+match = "(.*)([0-9].*[0-9])(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生)"
+replace = "$1$2[M]"
+
+[[node_pref.rename_node]]
+match = "(.*)(\b[0-9][0-9]\b)(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生)"
+replace = "$1$2[M]"
+
+[[node_pref.rename_node]]
+match = "(.*)([0-9].*[0-9])(\\|[\\w].*[0-9])"
+replace = "$1$2"
+
+[[node_pref.rename_node]]
+match = "((❖CN[0-9]❖)|^)(⓪|❶|❷|❸|❻)(TJ\\.|gR\\.|V2\\.|H2\\.|SS\\.)"
+replace = ""
+
+# [[node_pref.rename_node]]
+# match = "^(.*)(HK(?!(B|T|G)))([\u4e00-\u9fa5])"
+# replace = "香港 $3"
+
+[[node_pref.rename_node]]
+match = "^(.*)(HK(?!B|G|T))([\u4e00-\u9fa5].*)"
+replace = "香港 $3"
+
+[[node_pref.rename_node]]
+match = "^(HKBN)(.*)"
+replace = "香港HKBN $2"
+
+[[node_pref.rename_node]]
+match = "^(HKG)(.*)"
+replace = "香港HKG $2"
+
+[[node_pref.rename_node]]
+match = "^(HKT)(.*)"
+replace = "香港HKT $2"
+
+[[node_pref.rename_node]]
+match = "^(HGC)(.*)"
+replace = "香港HGC $2"
+
+[[node_pref.rename_node]]
+match = "^(WTT)(.*)"
+replace = "香港WTT $2"
+
+[[node_pref.rename_node]]
+match = "^(US)(.*)"
+replace = "美国 $2"
+
+[[node_pref.rename_node]]
+match = "^(JP)(.*)"
+replace = "日本 $2"
+
+[[node_pref.rename_node]]
+match = "^(TW)(.*)"
+replace = "台湾 $2"
+
+[[node_pref.rename_node]]
+match = "^(SG)(.*)"
+replace = "新加坡 $2"
+
+[[node_pref.rename_node]]
+match = "^(RU)(.*)"
+replace = "俄罗斯 $2"
+
+[[node_pref.rename_node]]
+match = "^(TR)(.*)"
+replace = "土耳其 $2"
+
+[[node_pref.rename_node]]
+match = "^(UK)(.*)"
+replace = "英国 $2"
+
+[[node_pref.rename_node]]
+match = "^(KR)(.*)"
+replace = "韩国 $2"
+
+[[node_pref.rename_node]]
+match = "^(FR)(.*)"
+replace = "法国 $2"
+
+[[node_pref.rename_node]]
+match = "^(CA)(.*)"
+replace = "加拿大 $2"
+
+[[node_pref.rename_node]]
+match = "^(CN)(.*)"
+replace = "中国 $2"
+
+[[node_pref.rename_node]]
+match = "^(RO)(.*)"
+replace = "罗马尼亚 $2"
+
+[[node_pref.rename_node]]
+match = "^(BR)(.*)"
+replace = "巴西 $2"
+
+[[node_pref.rename_node]]
+match = "商宽"
+replace = ""
+
+[[node_pref.rename_node]]
+match = "移动"
+replace = "CM"
+
+[[node_pref.rename_node]]
+match = "电信"
+replace = "CT"
+
+[[node_pref.rename_node]]
+match = "联通"
+replace = "CU"
+
+[[node_pref.rename_node]]
+match = "深港专线"
+replace = "深港"
+
+[[node_pref.rename_node]]
+match = "(转)"
+replace = "▷"
+
+[[node_pref.rename_node]]
+match = "[0-9]组"
+replace = ""
+
+[[node_pref.rename_node]]
+match = "(--)"
+replace = ""
+
+[[node_pref.rename_node]]
+match = "(◆)"
+replace = ""
+
+[[node_pref.rename_node]]
+match = "(\\[?\\[NF\\]|\\[NF\\*\\]|\\[BBC\\]|\\[abema\\]|\\[动画疯\\]|Netflix|動畫瘋|\\[Hulu\\]|\\[注册Netflix\\]|\\[HBO\\]|\\[TVB\\]|\\[D\\+\\]|\\[Yp\\]|Y2B P\\]|解锁流媒体|原生IP)"
+replace = "[M]"
+
+[[node_pref.rename_node]]
+match = "\\[M\\].*\\[M\\]"
+replace = "[M]"
+
+[[node_pref.rename_node]]
+match = "\\[CM\\]|\\[CU\\]|\\[BT\\/PT专用\\]|\\[荐\\]|\\[Beta\\]|\\[移动\\]|\\[联通\\]|\\[综合\\]|\\[备用\\]|\\[阿里云\\]|\\[测试\\]|\\[v6\\]|高速|100m限速|CDN加速|Game|PPCW|Sakura"
+replace = ""
+
+[[node_pref.rename_node]]
+match = "\\[0\\.2\\]"
+replace = "[x0.2]"
+
+[[node_pref.rename_node]]
+match = "\\[0\\.5\\]"
+replace = "[x0.5]"
+
+[[node_pref.rename_node]]
+match = "\\[0\\.7\\]"
+replace = "[x0.7]"
+
+[[node_pref.rename_node]]
+match = "\\[0\\.8\\]"
+replace = "[x0.8]"
+
+[[node_pref.rename_node]]
+match = "\\[0\\.9\\]"
+replace = "[x0.9]"
+
+[[node_pref.rename_node]]
+match = "\\[1\\]"
+replace = "[x1]"
+
+[[node_pref.rename_node]]
+match = "\\[1\\.2\\]"
+replace = "[x1.2]"
+
+[[node_pref.rename_node]]
+match = "(\\[1\\.5\\])(-1.5x)"
+replace = "[x1.5]"
+
+[[node_pref.rename_node]]
+match = "(\\[2\\])|(-2x)"
+replace = "[x2]"
+
+[[node_pref.rename_node]]
+match = "(\\[3\\])|(-3x)"
+replace = "[x3]"
+
+[[node_pref.rename_node]]
+match = "\\[5\\]"
+replace = "[x5]"
+
+[[node_pref.rename_node]]
+match = "\\[8\\]"
+replace = "[x8]"
+
+[[node_pref.rename_node]]
+match = "\\[10\\]"
+replace = "[x10]"
+
+# [[node_pref.rename_node]]
+# match = "(?!<=[\\]|\\)])$"
+# replace = "[x1]"
+
+[[node_pref.rename_node]]
+match = "(.*)(\\[)(倍率:)(.*[0-9])(\\])"
+replace = "$1[x$4]"
+
+[[node_pref.rename_node]]
+match = "(\\[x.*[0-9]\\])(.*)"
+replace = "$2$1"
+
+[[node_pref.rename_node]]
+match = "(.*)( )(.*[0-9])(倍率)"
+replace = "$1[x$3]"
+
+[[node_pref.rename_node]]
+match = "(.*)(\\|)(x.*[0-9])(倍率)"
+replace = "$1[$3]"
+
+[[node_pref.rename_node]]
+match = "(.*)( )(x.*[0-9])"
+replace = "$1[$3]"
+
+[[node_pref.rename_node]]
+match = "\\[\\]"
+replace = ""
+
+[[node_pref.rename_node]]
+match = "\\(?((x|X)?(\\d+)(\\.?\\d+)?)((\\s?倍率?)|(x|X))\\)?"
+replace = "[x$1]"
+
+
+[emojis]
+add_emoji = true
+remove_old_emoji = true
+
+[[emojis.emoji]]
+match = "(?i:Bandwidth|expire|流量|时间|应急|过期)"
+emoji = "🏳️‍🌈"
+
+[[emojis.emoji]]
+match = "(NetEaseMusic|网易云音乐|网易云解锁)"
+emoji = "🎶"
+
+[[emojis.emoji]]
+match = "(阿尔巴尼亚|Albania)"
+emoji = "🇦🇱"
+
+[[emojis.emoji]]
+match = "(阿曼苏丹|马斯喀特|Muscat)"
+emoji = "🇴🇲"
+
+[[emojis.emoji]]
+match = "(阿塞拜疆|Azerbaijan)"
+emoji = "🇦🇿"
+
+[[emojis.emoji]]
+match = "(埃及|Egypt)"
+emoji = "🇪🇬"
+
+[[emojis.emoji]]
+match = "(爱沙尼亚|Estonia)"
+emoji = "🇪🇪"
+
+[[emojis.emoji]]
+match = "(巴林|Bahrain)"
+emoji = "🇧🇭"
+
+[[emojis.emoji]]
+match = "(巴拿马|Panama)"
+emoji = "🇵🇦"
+
+[[emojis.emoji]]
+match = "(保加利亚|Bulgaria)"
+emoji = "🇧🇬"
+
+[[emojis.emoji]]
+match = "(北马其顿|Macedonia)"
+emoji = "🇲🇰"
+
+[[emojis.emoji]]
+match = "(波黑共和国|波士尼亚与赫塞哥维纳|Bosnia|Herzegovina)"
+emoji = "🇧🇦"
+
+[[emojis.emoji]]
+match = "(梵蒂冈|Vatican)"
+emoji = "🇻🇦"
+
+[[emojis.emoji]]
+match = "(格鲁吉亚|Georgia)"
+emoji = "🇬🇪"
+
+[[emojis.emoji]]
+match = "(哈萨克斯坦|Kazakhstan)"
+emoji = "🇰🇿"
+
+[[emojis.emoji]]
+match = "(吉尔吉斯斯坦|Kyrgyzstan)"
+emoji = "🇰🇬"
+
+[[emojis.emoji]]
+match = "(柬埔寨|Cambodia)"
+emoji = "🇰🇭"
+
+[[emojis.emoji]]
+match = "(克罗地亚|Croatia)"
+emoji = "🇭🇷"
+
+[[emojis.emoji]]
+match = "(肯尼亚|Kenya)"
+emoji = "🇰🇪"
+
+[[emojis.emoji]]
+match = "(拉脱维亚|Latvia)"
+emoji = "🇱🇻"
+
+[[emojis.emoji]]
+match = "(立陶宛|Lietuvos)"
+emoji = "🇱🇹"
+
+[[emojis.emoji]]
+match = "(卢森堡|Luxemburg|Luxembourg)"
+emoji = "🇱🇺"
+
+[[emojis.emoji]]
+match = "(蒙古|Монголулс|Mongolia)"
+emoji = "🇲🇳"
+
+[[emojis.emoji]]
+match = "(秘鲁|Peru)"
+emoji = "🇵🇪"
+
+[[emojis.emoji]]
+match = "(缅甸|Myanmar)"
+emoji = "🇲🇲"
+
+[[emojis.emoji]]
+match = "(墨西哥|Mexico)"
+emoji = "🇲🇽"
+
+[[emojis.emoji]]
+match = "(南极|Antarctica)"
+emoji = "🇦🇶"
+
+[[emojis.emoji]]
+match = "(尼日利亚|Nigeria)"
+emoji = "🇳🇬"
+
+[[emojis.emoji]]
+match = "(葡萄牙|Portugal)"
+emoji = "🇵🇹"
+
+[[emojis.emoji]]
+match = "(塞尔维亚|Serbia)"
+emoji = "🇷🇸"
+
+[[emojis.emoji]]
+match = "(塞浦路斯|Cyprus)"
+emoji = "🇨🇾"
+
+[[emojis.emoji]]
+match = "(斯洛伐克|Slovensko)"
+emoji = "🇸🇰"
+
+[[emojis.emoji]]
+match = "(斯洛文尼亚|Slovenia)"
+emoji = "🇸🇮"
+
+[[emojis.emoji]]
+match = "(突尼斯|Tunisia)"
+emoji = "🇹🇳"
+
+[[emojis.emoji]]
+match = "(乌拉圭|Uruguay)"
+emoji = "🇺🇾"
+
+[[emojis.emoji]]
+match = "(希腊|Greece)"
+emoji = "🇬🇷"
+
+[[emojis.emoji]]
+match = "(新西兰|纽西兰|New Zealand)"
+emoji = "🇳🇿"
+
+[[emojis.emoji]]
+match = "(伊朗|Iran)"
+emoji = "🇮🇷"
+
+[[emojis.emoji]]
+match = "(约旦|Jordan)"
+emoji = "🇯🇴"
+
+[[emojis.emoji]]
+match = "(智利|智力|Chile)"
+emoji = "🇨🇱"
+
+[[emojis.emoji]]
+match = "(Ascension|阿森松)"
+emoji = "🇦🇨"
+
+[[emojis.emoji]]
+match = "(Austria|Vienna|奥地利|维也纳)"
+emoji = "🇦🇹"
+
+[[emojis.emoji]]
+match = "(Bengal|Bangladesh|孟加拉)"
+emoji = "🇧🇩"
+
+[[emojis.emoji]]
+match = "(Colombia|哥伦比亚)"
+emoji = "🇨🇴"
+
+[[emojis.emoji]]
+match = "(Costa Rica|哥斯达黎加)"
+emoji = "🇨🇷"
+
+[[emojis.emoji]]
+match = "(Czech|捷克)"
+emoji = "🇨🇿"
+
+[[emojis.emoji]]
+match = "(Ecuador|厄瓜多尔)"
+emoji = "🇪🇨"
+
+[[emojis.emoji]]
+match = "(Europe|欧洲)"
+emoji = "🇪🇺"
+
+[[emojis.emoji]]
+match = "(Finland|Helsinki|芬兰|赫尔辛基)"
+emoji = "🇫🇮"
+
+[[emojis.emoji]]
+match = "(Hungary|匈牙利)"
+emoji = "🇭🇺"
+
+[[emojis.emoji]]
+match = "(IMAN|马恩岛|Mann)"
+emoji = "🇮🇲"
+
+[[emojis.emoji]]
+match = "(Indonesia|Jakarta|印尼|印度尼西亚|雅加达)"
+emoji = "🇮🇩"
+
+[[emojis.emoji]]
+match = "(Ireland|Dublin|爱尔兰|都柏林)"
+emoji = "🇮🇪"
+
+[[emojis.emoji]]
+match = "(Israel|以色列)"
+emoji = "🇮🇱"
+
+[[emojis.emoji]]
+match = "(Italy|Milan|意大利|米兰)"
+emoji = "🇮🇹"
+
+[[emojis.emoji]]
+match = "(Moldova|摩尔多瓦)"
+emoji = "🇲🇩"
+
+[[emojis.emoji]]
+match = "(Morocco|摩洛哥)"
+emoji = "🇲🇦"
+
+[[emojis.emoji]]
+match = "(Nepal|尼泊尔)"
+emoji = "🇳🇵"
+
+[[emojis.emoji]]
+match = "(Norway|挪威)"
+emoji = "🇳🇴"
+
+[[emojis.emoji]]
+match = "(Pakistan|巴基斯坦)"
+emoji = "🇵🇰"
+
+[[emojis.emoji]]
+match = "(Puerto.*?Rico|波多黎各)"
+emoji = "🇵🇷"
+
+[[emojis.emoji]]
+match = "(Switzerland|Zurich|瑞士|苏黎世)"
+emoji = "🇨🇭"
+
+[[emojis.emoji]]
+match = "(Venezuela|委内瑞拉)"
+emoji = "🇻🇪"
+
+[[emojis.emoji]]
+match = "(\\bAR\\b|阿根廷|Argentina)"
+emoji = "🇦🇷"
+
+[[emojis.emoji]]
+match = "(\\bBE\\b|Belgium|比利时)"
+emoji = "🇧🇪"
+
+[[emojis.emoji]]
+match = "(\\bBR\\b|Brazil|Paulo|巴西|圣保罗)"
+emoji = "🇧🇷"
+
+[[emojis.emoji]]
+match = "(\\bMY\\b|Malaysia|马来西亚)"
+emoji = "🇲🇾"
+
+[[emojis.emoji]]
+match = "(\\bPH\\b|Philippines|菲律宾|马尼拉)"
+emoji = "🇵🇭"
+
+[[emojis.emoji]]
+match = "(\\bRO\\b|Romania|罗马尼亚)"
+emoji = "🇷🇴"
+
+[[emojis.emoji]]
+match = "(\\bSA\\b|Arabia|沙特)"
+emoji = "🇸🇦"
+
+[[emojis.emoji]]
+match = "(\\bSE\\b|Sweden|瑞典)"
+emoji = "🇸🇪"
+
+[[emojis.emoji]]
+match = "(\\bTH[A]\\b|Thailand|泰国|泰國|曼谷)"
+emoji = "🇹🇭"
+
+[[emojis.emoji]]
+match = "(\\bT[U]R\\b|Turkey|土耳其|土.*(?!▷|回|转)|伊斯坦布尔)"
+emoji = "🇹🇷"
+
+[[emojis.emoji]]
+match = "(\\bUA\\b|Ukraine|乌克兰)"
+emoji = "🇺🇦"
+
+[[emojis.emoji]]
+match = "(\\bVN\\b|Vietnam|越南)"
+emoji = "🇻🇳"
+
+[[emojis.emoji]]
+match = "(\\bZA\\b|Africa|南非)"
+emoji = "🇿🇦"
+
+[[emojis.emoji]]
+match = "(?i:\\bAU[S]?\\b|Australia|Sydney|澳大利亚|澳洲|悉尼)"
+emoji = "🇦🇺"
+
+[[emojis.emoji]]
+match = "(?i:\\bD[N]?K\\b|Denmark|丹麦)"
+emoji = "🇩🇰"
+
+[[emojis.emoji]]
+match = "(?i:\\bDE[U]?\\b|Germany|法兰克福|德(国|意志)|中德|^德$|德.*(?!▷|回|转))"
+emoji = "🇩🇪"
+
+[[emojis.emoji]]
+match = "(?i:\\bES[P]?\\b|Spain|西班牙)"
+emoji = "🇪🇸"
+
+[[emojis.emoji]]
+match = "(?i:\\bFR[A]?\\b|France|Paris|法国|巴黎|法国.*(?!▷|回|转))"
+emoji = "🇫🇷"
+
+[[emojis.emoji]]
+match = "(?i:\\bIN[D]?\\b|India|Mumbai|印度|孟买|加尔各答|贾坎德|泰米尔纳德)"
+emoji = "🇮🇳"
+
+[[emojis.emoji]]
+match = "(?i:\\bIS[L]?\\b|Iceland|冰岛)"
+emoji = "🇮🇸"
+
+[[emojis.emoji]]
+match = "(?i:\\bKP\\b|North.*?Korea|朝鲜)"
+emoji = "🇰🇵"
+
+[[emojis.emoji]]
+match = "(?i:\\bNL[D]?\\b|Netherlands|荷兰|阿姆斯特丹)"
+emoji = "🇳🇱"
+
+[[emojis.emoji]]
+match = "(?i:\\bP[O]?L\\b|Poland|波兰)"
+emoji = "🇵🇱"
+
+[[emojis.emoji]]
+match = "(?i:\\bUAE\\b|Dubai|阿联酋|迪拜)"
+emoji = "🇦🇪"
+
+[[emojis.emoji]]
+match = "(?i:\\bCA[N]?\\b|Canada|Toronto|Montreal|Vancouver|加拿大|蒙特利尔|温哥华|楓葉|枫叶|加(?!州|坡|拉).*(?!▷|回|转))"
+emoji = "🇨🇦"
+
+[[emojis.emoji]]
+match = "(?i:\\bJP[N]?\\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日|日.*(?!▷|回|转)|沪日|穗日|川日|中日|泉日|杭日)"
+emoji = "🇯🇵"
+
+[[emojis.emoji]]
+match = "(?i:\\bK[O]?R\\b|Korea|首尔|韩|韓)"
+emoji = "🇰🇷"
+
+[[emojis.emoji]]
+match = "(?i:\\bRU[S]?\\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄|俄.*(?!▷|回|转)|京俄|杭俄)"
+emoji = "🇷🇺"
+
+[[emojis.emoji]]
+match = "(?i:\\bSG[P]?\\b|Singapore|新加坡|狮城|獅城|[^-]新|新(?!▷|西)|沪新|京新|泉新|穗新|深新|杭新)"
+emoji = "🇸🇬"
+
+[[emojis.emoji]]
+match = "(?i:\\bUK\\b|\\bGB[R]?\\b|England|United.*?Kingdom|London|英国|[^-]英|伦敦|英.*(?!▷|回|转))"
+emoji = "🇬🇧"
+
+[[emojis.emoji]]
+match = "(?i:\\bUS[A]?\\b|America|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|美.*(?!▷|回|转)|沪美|京美)"
+emoji = "🇺🇸"
+
+[[emojis.emoji]]
+match = "(?i:\\bHK[G]?\\b|Hong.*?Kong|\\bHKT\\b|\\bHKBN\\b|\\bHGC\\b|\\bWTT\\b|\\bCMI\\b|[^-]港|港(?!▷|回|转))"
+emoji = "🇭🇰"
+
+[[emojis.emoji]]
+match = "(?i:\\bMO\\b|Macao|澳门|\\bCTM\\b|澳(?!大利亚).*(?!▷|回|转))"
+emoji = "🇲🇴"
+
+[[emojis.emoji]]
+match = "(?i:\\bTW[N]?\\b|Taiwan|新北|彰化|\\bCHT\\b|台湾|[^-]台|\\bHINET\\b|台.*(?!▷|回|转)|台北|台中)"
+emoji = "🇹🇼"
+
+[[emojis.emoji]]
+match = "(?i:\\bC[H]?N\\b|China|back|回国|中国[^-]|江苏[^-]|北京[^-]|上海[^-]|广州[^-]|深圳[^-]|杭州[^-]|常州[^-]|徐州[^-]|青岛[^-]|宁波[^-]|镇江[^-]|成都[^-]|河北[^-]|山西[^-]|辽宁[^-]|吉林[^-]|黑龙江[^-]|江苏[^-]|浙江[^-]|安徽[^-]|福建[^-]|江西[^-]|山东[^-]|河南[^-]|湖北[^-]|湖南[^-]|广东[^-]|海南[^-]|四川[^-]|贵州[^-]|云南[^-]|陕西[^-]|甘肃[^-]|青海[^-]|内蒙古[^-]|广西[^-]|西藏[^-]|宁夏[^-]|新疆[^-]|中.*(?!▷|回|转)|苏.*(?!▷|回|转)|京.*(?!▷|回|转)|沪.*(?!▷|回|转)|穗.*(?!▷|回|转)|深(?!▷|港)|杭.*(?!▷|回|转)|徐.*(?!▷|回|转)|青.*(?!▷|回|转)|甬.*(?!▷|回|转)|镇.*(?!▷|回|转)|禅.*(?!▷|回|转)|蓉.*(?!▷|回|转))"
+emoji = "🇨🇳"
+
+
+[[custom_groups]]
+name = "🌮 手动选择"
+type = "select"
+disable_udp = false
+rule = [".*"]
+
+[[custom_groups]]
+name = "🍖 默认代理"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🔄 延迟最低",
+    "[]🌮 手动选择",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🇩🇪 德国-轮询",
+    "[]🇩🇪 德国-TL",
+    "[]🍱 冷门地区",
+    "[]🇺🇸 美国-轮询",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-Others",
+    "[]🇯🇵 日本-轮询",
+    "[]🇯🇵 日本-AWS",
+    "[]🇯🇵 日本-Azure",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇯🇵 日本-CloudN",
+    "[]🇬🇧 英国-延迟最低",
+    "[]🇭🇰 香港-轮询",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 深港专线",
+    "[]🇭🇰 香港-Others",
+    "[]🇷🇺 俄罗斯-Others",
+    "[]🇷🇺 俄罗斯-轮询",
+    "[]🇸🇬 新加坡-AWS",
+    "[]🇸🇬 新加坡-Azure",
+    "[]🇸🇬 新加坡-DO",
+    "[]🇸🇬 新加坡-NTT",
+    "[]🇰🇷 韩国-轮询",
+    "[]🇰🇷 韩国-Azure",
+    "[]🇩🇪 德国-轮询",
+    "[]🇩🇪 德国-TL",
+]
+
+[[custom_groups]]
+name = "🌍 国外媒体"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🌮 手动选择",
+    "[]🇭🇰 香港-Media",
+    "[]🇲🇴 澳门-Media",
+    "[]🇹🇼 台湾-Media",
+    "[]🇬🇧 英国-Media",
+    "[]🇺🇸 美国-Media",
+    "[]🇯🇵 日本-Media",
+    "[]🇸🇬 新加坡-Media",
+    "[]🇰🇷 韩国-Media",
+    "[]🇷🇺 俄罗斯-Media",
+    "[]🇮🇳 印度-Media",
+    "[]🇦🇷 阿根廷-Media",
+    "[]🇦🇹 奥地利-Media",
+    "[]🇦🇿 阿塞拜疆-Media",
+    "[]🇧🇬 保加利亚-Media",
+    "[]🇧🇷 巴西-Media",
+    "[]🇨🇭 瑞士-Media",
+    "[]🇨🇱 智利-Media",
+    "[]🇨🇴 哥伦比亚-Media",
+    "[]🇨🇿 捷克-Media",
+    "[]🇪🇬 埃及-Media",
+    "[]🇪🇸 西班牙-Media",
+    "[]🇫🇮 芬兰-Media",
+    "[]🇮🇱 以色列-Media",
+    "[]🇱🇻 拉脱维亚-Media",
+    "[]🇲🇾 马来西亚-Media",
+    "[]🇳🇱 荷兰-Media",
+    "[]🇵🇰 巴基斯坦-Media",
+    "[]🇵🇱 波兰-Media",
+    "[]🇹🇭 泰国-Media",
+    "[]🇹🇷 土耳其-Media",
+    "[]🇺🇦 乌克兰-Media",
+    "[]🇻🇳 越南-Media",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-Others",
+    "[]🇯🇵 日本-CloudN",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇬🇧 英国-延迟最低",
+    "[]🇸🇬 新加坡-DO",
+    "[]🇸🇬 新加坡-NTT",
+    "[]🇸🇬 新加坡-AWS",
+    "[]🇸🇬 新加坡-Azure",
+    "[]🇰🇷 韩国-轮询",
+    "[]🇰🇷 韩国-Azure",
+    "[]🇩🇪 德国-TL",
+]
+
+[[custom_groups]]
+name = "🎮 游戏服务"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🌮 手动选择",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 深港专线",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇯🇵 日本-CloudN",
+    "[]🇬🇧 英国-延迟最低",
+    "[]🇸🇬 新加坡-AWS",
+    "[]🇸🇬 新加坡-Azure",
+    "[]🇸🇬 新加坡-DO",
+    "[]🇸🇬 新加坡-NTT",
+    "[]🇰🇷 韩国-Azure",
+    "[]🇩🇪 德国-TL",
+    "[]🍖 默认代理",
+]
+
+[[custom_groups]]
+name = "🌏 大陆服务"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🎯 直连服务",
+    "(🇨🇳)",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🍖 默认代理",
+]
+
+[[custom_groups]]
+name = "🚧 终末策略"
+type = "select"
+disable_udp = false
+rule = ["[]🔄 延迟最低", "[]🎯 直连服务", "[]🌏 大陆服务", "[]🍖 默认代理"]
+
+[[custom_groups]]
+name = "📡 视频解析"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务", "[]🔄 延迟最低", "[]🌏 大陆服务", "[]🍖 默认代理"]
+
+[[custom_groups]]
+name = "🎥 奈飞影视"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🇭🇰 香港-Media",
+    "[]🇲🇴 澳门-Media",
+    "[]🇹🇼 台湾-Media",
+    "[]🇬🇧 英国-Media",
+    "[]🇺🇸 美国-Media",
+    "[]🇯🇵 日本-Media",
+    "[]🇸🇬 新加坡-Media",
+    "[]🇰🇷 韩国-Media",
+    "[]🇷🇺 俄罗斯-Media",
+    "[]🇮🇳 印度-Media",
+    "[]🇦🇷 阿根廷-Media",
+    "[]🇦🇹 奥地利-Media",
+    "[]🇦🇿 阿塞拜疆-Media",
+    "[]🇧🇬 保加利亚-Media",
+    "[]🇧🇷 巴西-Media",
+    "[]🇨🇭 瑞士-Media",
+    "[]🇨🇱 智利-Media",
+    "[]🇨🇴 哥伦比亚-Media",
+    "[]🇨🇿 捷克-Media",
+    "[]🇪🇬 埃及-Media",
+    "[]🇪🇸 西班牙-Media",
+    "[]🇫🇮 芬兰-Media",
+    "[]🇮🇱 以色列-Media",
+    "[]🇱🇻 拉脱维亚-Media",
+    "[]🇲🇾 马来西亚-Media",
+    "[]🇳🇱 荷兰-Media",
+    "[]🇵🇰 巴基斯坦-Media",
+    "[]🇵🇱 波兰-Media",
+    "[]🇹🇭 泰国-Media",
+    "[]🇹🇷 土耳其-Media",
+    "[]🇺🇦 乌克兰-Media",
+    "[]🇻🇳 越南-Media",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-HiNet-FB",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-Others",
+    "[]🇯🇵 日本-CloudN",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇯🇵 日本-AWS",
+    "[]🇯🇵 日本-Azure",
+    "[]🇬🇧 英国-延迟最低",
+    "[]🇷🇺 俄罗斯-Others",
+    "[]🇷🇺 俄罗斯-轮询",
+    "[]🇸🇬 新加坡-DO",
+    "[]🇸🇬 新加坡-NTT",
+    "[]🇸🇬 新加坡-AWS",
+    "[]🇸🇬 新加坡-Azure",
+    "[]🇰🇷 韩国-Azure",
+    "[]🇩🇪 德国-TL",
+]
+
+[[custom_groups]]
+name = "🐷 网易音乐"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务", "(网易云)", "(UnblockNetEaseMusic)", "(🇨🇳)", "[]🌏 大陆服务"]
+
+[[custom_groups]]
+name = "🍎 苹果服务"
+type = "select"
+disable_udp = false
+rule = ["[]🍖 默认代理", "[]🔄 延迟最低", "[]🎯 直连服务"]
+
+[[custom_groups]]
+name = "📺 哔哩哔哩"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🎯 直连服务",
+    "(🇨🇳)",
+    "[]🌮 手动选择",
+    "[]🇭🇰 香港-Media",
+    "[]🇲🇴 澳门-Media",
+    "[]🇹🇼 台湾-Media",
+    "[]🇯🇵 日本-AWS",
+    "[]🇯🇵 日本-Azure",
+    "[]🇯🇵 日本-CloudN",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇭🇰 香港-轮询",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 深港专线",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🇺🇸 美国-轮询",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-Others",
+    "[]🍱 冷门地区",
+]
+
+[[custom_groups]]
+name = "🙈 谷歌服务"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🔄 延迟最低",
+    "[]🌮 手动选择",
+    "[]🇺🇸 美国-轮询",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-Others",
+    "[]🇯🇵 日本-轮询",
+    "[]🇯🇵 日本-AWS",
+    "[]🇯🇵 日本-Azure",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇯🇵 日本-CloudN",
+    "[]🇬🇧 英国-延迟最低",
+    "[]🇭🇰 香港-轮询",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 深港专线",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🍱 冷门地区",
+    "[]🇷🇺 俄罗斯-Others",
+    "[]🇷🇺 俄罗斯-轮询",
+    "[]🇸🇬 新加坡-AWS",
+    "[]🇸🇬 新加坡-Azure",
+    "[]🇸🇬 新加坡-DO",
+    "[]🇸🇬 新加坡-NTT",
+    "[]🇰🇷 韩国-轮询",
+    "[]🇰🇷 韩国-Azure",
+    "[]🇩🇪 德国-轮询",
+    "[]🇩🇪 德国-TL",
+]
+
+[[custom_groups]]
+name = "🥝 爱奇艺"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🎯 直连服务",
+    "[]🌮 手动选择",
+    "[]🇭🇰 香港-Media",
+    "[]🇲🇴 澳门-Media",
+    "[]🇹🇼 台湾-Media",
+    "[]🇬🇧 英国-Media",
+    "[]🇺🇸 美国-Media",
+    "[]🇯🇵 日本-Media",
+    "[]🇸🇬 新加坡-Media",
+    "[]🇰🇷 韩国-Media",
+    "[]🇷🇺 俄罗斯-Media",
+    "[]🇮🇳 印度-Media",
+    "[]🇦🇷 阿根廷-Media",
+    "[]🇦🇹 奥地利-Media",
+    "[]🇦🇿 阿塞拜疆-Media",
+    "[]🇧🇬 保加利亚-Media",
+    "[]🇧🇷 巴西-Media",
+    "[]🇨🇭 瑞士-Media",
+    "[]🇨🇱 智利-Media",
+    "[]🇨🇴 哥伦比亚-Media",
+    "[]🇨🇿 捷克-Media",
+    "[]🇪🇬 埃及-Media",
+    "[]🇪🇸 西班牙-Media",
+    "[]🇫🇮 芬兰-Media",
+    "[]🇮🇱 以色列-Media",
+    "[]🇱🇻 拉脱维亚-Media",
+    "[]🇲🇾 马来西亚-Media",
+    "[]🇳🇱 荷兰-Media",
+    "[]🇵🇰 巴基斯坦-Media",
+    "[]🇵🇱 波兰-Media",
+    "[]🇹🇭 泰国-Media",
+    "[]🇹🇷 土耳其-Media",
+    "[]🇺🇦 乌克兰-Media",
+    "[]🇻🇳 越南-Media",
+    "(🇨🇳)",
+    "[]🇭🇰 香港-轮询",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 深港专线",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+]
+
+[[custom_groups]]
+name = "🐻 LineTV"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🇹🇼 台湾-Media",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🍖 默认代理",
+    "(台.*(?!▷|回|转)|TW|彰化)",
+]
+
+[[custom_groups]]
+name = "🐼 微软服务"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🔄 延迟最低",
+    "[]🌮 手动选择",
+    "[]🇺🇸 美国-轮询",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-Others",
+    "[]🇬🇧 英国-延迟最低",
+    "[]🇭🇰 香港-轮询",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 深港专线",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🍱 冷门地区",
+    "[]🇸🇬 新加坡-AWS",
+    "[]🇸🇬 新加坡-Azure",
+    "[]🇸🇬 新加坡-DO",
+    "[]🇸🇬 新加坡-NTT",
+    "[]🇰🇷 韩国-轮询",
+    "[]🇰🇷 韩国-Azure",
+    "[]🇩🇪 德国-轮询",
+    "[]🇩🇪 德国-TL",
+    "[]🌏 大陆服务",
+    "[]🎯 直连服务",
+]
+
+[[custom_groups]]
+name = "📲 电报消息"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🔄 延迟最低",
+    "[]🌮 手动选择",
+    "[]🇸🇬 新加坡-AWS",
+    "[]🇸🇬 新加坡-Azure",
+    "[]🇸🇬 新加坡-DO",
+    "[]🇸🇬 新加坡-NTT",
+    "[]🇰🇷 韩国-轮询",
+    "[]🇰🇷 韩国-Azure",
+    "[]🇩🇪 德国-轮询",
+    "[]🇩🇪 德国-TL",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇭🇰 香港-轮询",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🇺🇸 美国-轮询",
+    "[]🍱 冷门地区",
+    "[]🇯🇵 日本-轮询",
+    "[]🇬🇧 英国-延迟最低",
+    "[]🇷🇺 俄罗斯-Others",
+    "[]🇷🇺 俄罗斯-轮询",
+]
+
+[[custom_groups]]
+name = "🎬 推趣影音"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🔄 延迟最低",
+    "[]🌮 手动选择",
+    "[]🇺🇸 美国-轮询",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-Others",
+    "[]🍱 冷门地区",
+    "[]🇯🇵 日本-轮询",
+    "[]🇯🇵 日本-AWS",
+    "[]🇯🇵 日本-Azure",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇯🇵 日本-CloudN",
+    "[]🇬🇧 英国-延迟最低",
+    "[]🇭🇰 香港-轮询",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 深港专线",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-轮询",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+]
+
+[[custom_groups]]
+name = "🤖 OpenAi"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🍖 默认代理",
+    "[]🇺🇸 美国-Media",
+    "[]🇭🇰 香港-Media",
+    "[]🇲🇴 澳门-Media",
+    "[]🇹🇼 台湾-Media",
+    "[]🇬🇧 英国-Media",
+    "[]🇯🇵 日本-Media",
+    "[]🇸🇬 新加坡-Media",
+    "[]🇰🇷 韩国-Media",
+    "[]🇷🇺 俄罗斯-Media",
+    "[]🇮🇳 印度-Media",
+    "[]🇦🇷 阿根廷-Media",
+    "[]🇦🇹 奥地利-Media",
+    "[]🇦🇿 阿塞拜疆-Media",
+    "[]🇧🇬 保加利亚-Media",
+    "[]🇧🇷 巴西-Media",
+    "[]🇨🇭 瑞士-Media",
+    "[]🇨🇱 智利-Media",
+    "[]🇨🇴 哥伦比亚-Media",
+    "[]🇨🇿 捷克-Media",
+    "[]🇪🇬 埃及-Media",
+    "[]🇪🇸 西班牙-Media",
+    "[]🇫🇮 芬兰-Media",
+    "[]🇮🇱 以色列-Media",
+    "[]🇱🇻 拉脱维亚-Media",
+    "[]🇲🇾 马来西亚-Media",
+    "[]🇳🇱 荷兰-Media",
+    "[]🇵🇰 巴基斯坦-Media",
+    "[]🇵🇱 波兰-Media",
+    "[]🇹🇭 泰国-Media",
+    "[]🇹🇷 土耳其-Media",
+    "[]🇺🇦 乌克兰-Media",
+    "[]🇻🇳 越南-Media",
+]
+
+[[custom_groups]]
+name = "💊 小米服务"
+type = "select"
+disable_udp = false
+rule = [
+    "[]🎯 直连服务",
+    "(🇨🇳)",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 香港-Others",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🌏 大陆服务",
+    "[]🍖 默认代理",
+]
+
+[[custom_groups]]
+name = "🐱 阿里巴巴"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务", "(🇨🇳)", "[]🌏 大陆服务"]
+
+[[custom_groups]]
+name = "🚦 DMCA Sensitive"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务", "[]🌏 大陆服务", "[]🍖 默认代理"]
+
+[[custom_groups]]
+name = "🥥 DNS Improvement"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务", "(🇨🇳)", "[]🔄 延迟最低", "[]🍖 默认代理"]
+
+[[custom_groups]]
+name = "🕸️ 局域网服务"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务", "[]🍖 默认代理"]
+
+[[custom_groups]]
+name = "🚀 SpeedTest"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务", "[]🌮 手动选择"]
+
+[[custom_groups]]
+name = "🇹🇼 台湾-HiNet"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇹🇼.*台HiNet(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇼 台湾-Seednet"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇹🇼.*台Seednet(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇼 台湾-HiNet-FB"
+type = "fallback"
+disable_udp = false
+rule = ["[]🇹🇼 台湾-HiNet", "((?i)^🇹🇼.*台HiNet(?!▷|回|转))"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇼 台湾-轮询"
+type = "fallback"
+disable_udp = false
+rule = ["[]🇹🇼 台湾-HiNet", "[]🇹🇼 台湾-Seednet", "((?i)^🇹🇼.*台TFN(?!▷|回|转))"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-AWS"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇭🇰.*港AWS.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-Azure"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇭🇰.*港Azure.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇭🇰 香港-BGP"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇭🇰.*港BGP.*(?!▷|回|转))",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-HGC"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇭🇰.*HGC.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-HKBN"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇭🇰.*HKBN.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-HKT"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇭🇰.*HKT.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇭🇰 香港-M247"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇭🇰.*港M247.*(?!▷|回|转))",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-NTT"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇭🇰.*NTT.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇭🇰 香港-WTT"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇭🇰.*WTT.*(?!▷|回|转))",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇭🇰 香港-LS"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇭🇰.*港LS)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 深港专线"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇭🇰.*不限速|深港临时专线)", "((?i)^🇭🇰.*深港(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-Others"
+type = "url-test"
+disable_udp = false
+rule = [
+    "((?i)^🇭🇰.*港CI)",
+    "((?i)^🇭🇰.*港icable)",
+    "((?i)^🇭🇰.*港阿里云)",
+    "((?i)^🇭🇰.*港(?!▷|AWS|Azure|HGC|HKBN|HKT|NTT))",
+    "[]REJECT",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-延迟最低"
+type = "url-test"
+disable_udp = false
+rule = [
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 香港-Others",
+    "[]🇭🇰 深港专线",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-轮询"
+type = "fallback"
+disable_udp = false
+rule = [
+    "[]🇭🇰 香港-延迟最低",
+    "[]🇭🇰 香港-AWS",
+    "[]🇭🇰 香港-Azure",
+    "[]🇭🇰 香港-HGC",
+    "[]🇭🇰 香港-HKBN",
+    "[]🇭🇰 香港-HKT",
+    "[]🇭🇰 香港-NTT",
+    "[]🇭🇰 香港-Others",
+    "[]🇭🇰 深港专线",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇬🇧 英国-延迟最低"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇬🇧.*伦敦|英.*(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-AWS"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*AWS)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-Azure"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*Azure)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-BGP"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*BGP)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-CC"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*CC)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-Cera"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*Cera)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-CH"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*CH)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-CN2"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*CN2)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-CT"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*CT)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-DO"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*DO)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-DS"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*DS)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-EN"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*EN)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-GF"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*GF)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-GIA"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*GIA(?!D))",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-GIAD"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*GIAD)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-HE"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*HE)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-INAP"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*INAP)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-JS"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*JS)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-KT"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*KT)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-LN"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*Ln)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-M247"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*M247)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-MC"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*MC)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-NHN"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*NHN)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-QN"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*QN(?!C))",
+#     "((?i)^🇺🇸.*美.*QN[0-9])",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-QNC"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*QNC)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-QP"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*QP)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-RN"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇺🇸.*美.*RN)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-RS"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*RS)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-XS"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*XS)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇺🇸 美国-ANCH"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇺🇸.*美.*安畅)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-Others"
+type = "url-test"
+disable_udp = false
+rule = [
+    "((?i)^🇺🇸.*美.*DP)",
+    "((?i)^🇺🇸.*美.*VM)",
+    "((?i)^🇺🇸.*美(?!▷|AWS|Azure|Cera|CT|DO|HE|JS|LN|RN))",
+    "[]REJECT",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-延迟最低"
+type = "url-test"
+disable_udp = false
+rule = [
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-Others",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-轮询"
+type = "fallback"
+disable_udp = false
+rule = [
+    "[]🇺🇸 美国-延迟最低",
+    "[]🇺🇸 美国-AWS",
+    "[]🇺🇸 美国-Azure",
+    "[]🇺🇸 美国-Cera",
+    "[]🇺🇸 美国-CT",
+    "[]🇺🇸 美国-DO",
+    "[]🇺🇸 美国-HE",
+    "[]🇺🇸 美国-JS",
+    "[]🇺🇸 美国-LN",
+    "[]🇺🇸 美国-RN",
+    "[]🇺🇸 美国-Others",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-AWS"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇯🇵.*日.*AWS)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-Azure"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇯🇵.*日.*Azure)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-CloudN"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇯🇵.*日.*CloudN)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇯🇵 日本-GMO"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇯🇵.*日.*GMO)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇯🇵 日本-IDCF"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇯🇵.*日.*IDCF)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇯🇵 日本-IIJ"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇯🇵.*日.*IIJ.*(?!▷|回|转))",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-M247"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇯🇵.*日.*M247)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-NHN"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇯🇵.*日.*NHN)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-NTT"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇯🇵.*日.*NTT)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-Webarena"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇯🇵.*日.*Webarena)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇯🇵 日本-Others"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇯🇵.*日.*阿里云)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-延迟最低"
+type = "url-test"
+disable_udp = false
+rule = [
+    "[]🇯🇵 日本-CloudN",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇯🇵 日本-AWS",
+    "[]🇯🇵 日本-Azure",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-轮询"
+type = "fallback"
+disable_udp = false
+rule = [
+    "[]🇯🇵 日本-延迟最低",
+    "[]🇯🇵 日本-CloudN",
+    "[]🇯🇵 日本-M247",
+    "[]🇯🇵 日本-NHN",
+    "[]🇯🇵 日本-NTT",
+    "[]🇯🇵 日本-Webarena",
+    "[]🇯🇵 日本-AWS",
+    "[]🇯🇵 日本-Azure",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇷🇺 俄罗斯-伯力"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇷🇺.*俄伯力)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-Others"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇷🇺.*新西伯利亚)", "((?i)^🇷🇺.*莫斯科)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-延迟最低"
+type = "url-test"
+disable_udp = false
+rule = ["[]🇷🇺 俄罗斯-Others", "((?i)^🇷🇺.*)"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-轮询"
+type = "fallback"
+disable_udp = false
+rule = ["[]🇷🇺 俄罗斯-延迟最低", "[]🇷🇺 俄罗斯-Others"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-AWS"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇸🇬.*新AWS)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-Azure"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇸🇬.*新Azure)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-DO"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇸🇬.*新DO)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-NTT"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇸🇬.*新NTT(?!▷|回|转))", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇸🇬 新加坡-Others"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇸🇬.*新(?!▷|Azure|AWS|DO|NTT))",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-延迟最低"
+type = "url-test"
+disable_udp = false
+rule = ["[]🇸🇬 新加坡-AWS", "[]🇸🇬 新加坡-Azure", "[]🇸🇬 新加坡-DO", "[]🇸🇬 新加坡-NTT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-轮询"
+type = "fallback"
+disable_udp = false
+rule = [
+    "[]🇸🇬 新加坡-延迟最低",
+    "[]🇸🇬 新加坡-AWS",
+    "[]🇸🇬 新加坡-Azure",
+    "[]🇸🇬 新加坡-DO",
+    "[]🇸🇬 新加坡-NTT",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇰🇷 韩国-AWS"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇰🇷.*韩.*AWS)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇰🇷 韩国-Azure"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇰🇷.*韩.*Azure)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇰🇷 韩国-NHN"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇰🇷.*韩.*NHN)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇰🇷 韩国-KT"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇰🇷.*韩KT)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🇰🇷 韩国-Others"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇰🇷 韩国-延迟最低"
+type = "url-test"
+disable_udp = false
+rule = ["[]🇰🇷 韩国-Azure"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇰🇷 韩国-轮询"
+type = "fallback"
+disable_udp = false
+rule = ["[]🇰🇷 韩国-延迟最低", "[]🇰🇷 韩国-Azure"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇩🇪 德国-TL"
+type = "url-test"
+disable_udp = false
+rule = ["((?i)^🇩🇪.*德.*TL)", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇩🇪 德国-GIA"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇩🇪.*德.*GIA)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🇩🇪 德国-延迟最低"
+type = "url-test"
+disable_udp = false
+rule = ["[]🇩🇪 德国-TL"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇩🇪 德国-轮询"
+type = "fallback"
+disable_udp = false
+rule = ["[]🇩🇪 德国-延迟最低", "[]🇩🇪 德国-TL"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+# [[custom_groups]]
+# name = "🇦🇺 澳大利亚-延迟最低"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^🇦🇺.*悉尼AWS)",
+#     "[]REJECT",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+# [[custom_groups]]
+# name = "🍄 低倍率节点"
+# type = "url-test"
+# disable_udp = false
+# rule = [
+#     "((?i)^\\(x0\\))",
+# ]
+# url = "http://connect.rom.miui.com/generate_204"
+# interval = 180
+# tolerance = 20
+# lazy = true
+
+[[custom_groups]]
+name = "🔄 延迟最低"
+type = "url-test"
+disable_udp = false
+rule = [
+    "[]🇺🇸 美国-延迟最低",
+    "[]🇭🇰 香港-延迟最低",
+    "[]🇹🇼 台湾-HiNet",
+    "[]🇹🇼 台湾-Seednet",
+    "[]🇯🇵 日本-延迟最低",
+    "[]🇷🇺 俄罗斯-延迟最低",
+    "[]🇩🇪 德国-延迟最低",
+    "[]🍱 冷门地区",
+    "[]🇸🇬 新加坡-延迟最低",
+    "[]🇰🇷 韩国-延迟最低",
+    "[]🇬🇧 英国-延迟最低",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🍱 冷门地区"
+type = "url-test"
+disable_udp = false
+rule = [
+    "(^🇦🇪.*)",
+    "(^🇦🇷.*)",
+    "(^🇦🇹.*)",
+    "(^🇦🇺.*)",
+    "(^🇦🇿.*)",
+    "(^🇧🇩.*)",
+    "(^🇧🇬.*)",
+    "(^🇧🇷.*)",
+    "(^🇨🇦.*)",
+    "(^🇨🇭.*)",
+    "(^🇨🇱.*)",
+    "(^🇨🇴.*)",
+    "(^🇨🇿.*)",
+    "(^🇩🇪.*)",
+    "(^🇪🇬.*)",
+    "(^🇪🇸.*)",
+    "(^🇫🇮.*)",
+    "(^🇫🇷.*)",
+    "(^🇬🇧.*)",
+    "(^🇮🇪.*)",
+    "(^🇮🇱.*)",
+    "(^🇮🇳.*)",
+    "(^🇰🇭.*)",
+    "(^🇱🇻.*)",
+    "(^🇲🇾.*)",
+    "(^🇳🇱.*)",
+    "(^🇵🇭.*)",
+    "(^🇵🇰.*)",
+    "(^🇵🇱.*)",
+    "(^🇸🇦.*)",
+    "(^🇹🇭.*)",
+    "(^🇹🇷.*)",
+    "(^🇺🇦.*)",
+    "(^🇻🇳.*)",
+    "(^🇿🇦.*)",
+    "(^🇴🇲.*)",
+    "(^🇧🇭.*)",
+    "[]REJECT",
+]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 香港-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇭🇰.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇲🇴 澳门-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇲🇴.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇼 台湾-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇹🇼.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇬🇧 英国-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇬🇧.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 美国-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇺🇸.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 日本-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇯🇵.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇸🇬.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇰🇷 韩国-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇰🇷.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇷🇺 俄罗斯-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇷🇺.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇮🇳 印度-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇮🇳.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇦🇷 阿根廷-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇦🇷.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇦🇹 奥地利-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇦🇹.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇦🇿 阿塞拜疆-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇦🇿.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇧🇬 保加利亚-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇧🇬.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇧🇷 巴西-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇧🇷.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇨🇭 瑞士-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇨🇭.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇨🇱 智利-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇨🇱.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇨🇴 哥伦比亚-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇨🇴.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇨🇿 捷克-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇨🇿.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇪🇬 埃及-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇪🇬.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇪🇸 西班牙-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇪🇸.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇫🇮 芬兰-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇫🇮.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇮🇱 以色列-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇮🇱.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇱🇻 拉脱维亚-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇱🇻.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇲🇾 马来西亚-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇲🇾.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇳🇱 荷兰-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇳🇱.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇵🇰 巴基斯坦-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇵🇰.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇵🇱 波兰-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇵🇱.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇭 泰国-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇹🇭.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇹🇷 土耳其-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇹🇷.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇦 乌克兰-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇺🇦.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🇻🇳 越南-Media"
+type = "url-test"
+disable_udp = false
+rule = ["(^🇻🇳.*\\[M\\])", "[]REJECT"]
+url = "http://connect.rom.miui.com/generate_204"
+interval = 180
+tolerance = 20
+lazy = true
+
+[[custom_groups]]
+name = "🎯 直连服务"
+type = "select"
+disable_udp = false
+rule = ["[]DIRECT"]
+
+[[custom_groups]]
+name = "🍥 政府网站"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务", "[]🌏 大陆服务"]
+
+[[custom_groups]]
+name = "☠️ 软件验证"
+type = "select"
+disable_udp = false
+rule = ["[]REJECT", "[]🎯 直连服务", "[]🍖 默认代理"]
+
+[[custom_groups]]
+name = "⛔️ 广告服务"
+type = "select"
+disable_udp = false
+rule = ["[]REJECT", "[]🎯 直连服务"]
+
+[[custom_groups]]
+name = "⏰ 时间校准"
+type = "select"
+disable_udp = false
+rule = ["[]🎯 直连服务"]
+
+
+[[rulesets]]
+group = "🥥 DNS Improvement"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DNS.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "☠️ 软件验证"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/App-Activation.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "⛔️ 广告服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "⏰ 时间校准"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/NTP-Service.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BiliBiliHMT.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🙈 谷歌服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🍥 政府网站"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Government-CN.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🥝 爱奇艺"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iQIYI-Intl.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🥝 爱奇艺"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🐻 LineTV"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LineTV.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🐼 微软服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🐷 网易音乐"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎥 奈飞影视"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🤖 OpenAi"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/OpenAi.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "📲 电报消息"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎬 推趣影音"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitch.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "📡 视频解析"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Video-Crack.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "💊 小米服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🚦 DMCA Sensitive"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎯 直连服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🕸️ 局域网服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/LAN-Special-Apps.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎮 游戏服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌍 国外媒体"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/GlobalMedia.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🍖 默认代理"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🐱 阿里巴巴"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌏 大陆服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌏 大陆服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🍖 默认代理"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🚀 SpeedTest"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/SpeedTest.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🎯 直连服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Local-LAN.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌏 大陆服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CN-IP.list"
+type = "surge-ruleset"
+interval = 3600
+
+[[rulesets]]
+group = "🌏 大陆服务"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🚧 终末策略"
+ruleset = "[]MATCH"
+
+
+[[template.globals]]
+key = "clash.mixed_port"
+value = "18888"
+
+# [[template_args]]
+# key = "clash.redir_port"
+# value = "18890"
+
+[[template.globals]]
+key = "clash.allow_lan"
+value = "true"
+
+[[template.globals]]
+key = "clash.log_level"
+value = "info"
+
+[[template.globals]]
+key = "clash.api_port"
+value = "0.0.0.0:19090"
+
+[[template.globals]]
+key = "clash.routing_mark"
+value = "16666"
+
+[[template.globals]]
+key = "singbox.ipv6"
+value = "true"
+
+[[template.globals]]
+key = "singbox.allow_lan"
+value = "true"
+
+[[template.globals]]
+key = "singbox.mixed_port"
+value = "2080"
