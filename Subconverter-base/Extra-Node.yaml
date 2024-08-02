@@ -1,0 +1,64 @@
+proxies:
+  - name: 本地网易云解锁
+    type: http
+    server: 192.168.43.215
+    port: '26266'
+    username: ''
+    password: ''
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: 106网易云解锁
+    type: http
+    server: 106.52.127.72
+    port: 19951
+    username: ''
+    password: ''
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: LolicoLi网易云解锁
+    type: http
+    server: music.lolico.me
+    port: 39000
+    username: ''
+    password: ''
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: pcysanji网易云解锁
+    type: http
+    server: 106.15.250.108
+    port: '30000'
+    username:
+    password:
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: taron.top网易云解锁
+    type: http
+    server: taron.top
+    port: 100
+    username: ''
+    password: ''
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: 如风博客网易云解锁
+    type: ss
+    server: music.desperadoj.com
+    port: '30001'
+    cipher: aes-128-gcm
+    password: desperadoj.com_free_proxy_emx2
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: 樱花互联网易云解锁
+    type: http
+    server: music.aoao.me
+    port: '80'
+    username:
+    password:
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true

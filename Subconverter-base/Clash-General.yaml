@@ -1,0 +1,164 @@
+mixed-port: 8888
+redir-port: 8890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:8080
+secret: ''
+routing-mark: 6666
+profile:
+  store-selected: true
+  tracing: true
+  store-fake-ip: true
+ipv6: true
+tun:
+  enable: true
+  stack: system # or gvisor
+  dns-hijack:
+    - 198.18.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
+  auto-route: true # auto set global route for Windows
+  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+#interface-name: WLAN
+hosts: ~
+dns:
+  enable: true
+  listen: 127.0.0.1:1053
+  ipv6: true
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: fake-ip # redir-host #fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    # === LAN ===
+    - '*.example'
+    - '*.home.arpa'
+    - '*.invalid'
+    - '*.lan'
+    - '*.local'
+    - '*.localdomain'
+    - '*.localhost'
+    - '*.test'
+    # === Apple Software Update Service ===
+    - 'mesu.apple.com'
+    - 'swscan.apple.com'
+    # === ASUS Router ===
+    - '*.router.asus.com'
+    # === Google ===
+    - 'lens.l.google.com'
+    - 'stun.l.google.com'
+    ## Golang
+    - 'proxy.golang.org'
+    # === Linksys Wireless Router ===
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    # === Windows 10 Connnect Detection ===
+    - '*.ipv6.microsoft.com'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'msftconnecttest.com'
+    - 'msftncsi.com'
+    # === NTP Service ===
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - 'time.*.apple.com'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'time.*.edu.cn'
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - '+.pool.ntp.org'
+    - 'time1.cloud.tencent.com'
+    # === Game Service ===
+    ## Microsoft Xbox
+    - 'speedtest.cros.wr.pvp.net'
+    - '*.*.xboxlive.com'
+    - 'xbox.*.*.microsoft.com'
+    - 'xbox.*.microsoft.com'
+    - 'xnotify.xboxlive.com'
+    ## Nintendo Switch
+    - '*.*.*.srv.nintendo.net'
+    - '+.srv.nintendo.net'
+    ## Sony PlayStation
+    - '*.*.stun.playstation.net'
+    - '+.stun.playstation.net'
+    ## STUN Server
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*'
+    - 'stun.*.*.*'
+    - 'stun.*.*'
+    # === Music Service ===
+    ## 咪咕音乐
+    - '*.music.migu.cn'
+    - 'music.migu.cn'
+    ## 太和音乐
+    - 'music.taihe.com'
+    - 'musicapi.taihe.com'
+    ## 腾讯音乐
+    - 'songsearch.kugou.com'
+    - 'trackercdn.kugou.com'
+    - '*.kuwo.cn'
+    - 'api-jooxtt.sanook.com'
+    - 'api.joox.com'
+    - 'joox.com'
+    - 'y.qq.com'
+    - '*.y.qq.com'
+    - 'amobile.music.tc.qq.com'
+    - 'aqqmusic.tc.qq.com'
+    - 'mobileoc.music.tc.qq.com'
+    - 'streamoc.music.tc.qq.com'
+    - 'dl.stream.qqmusic.qq.com'
+    - 'isure.stream.qqmusic.qq.com'
+    ## 网易云音乐
+    - 'music.163.com'
+    - '*.music.163.com'
+    - '*.126.net'
+    ## 虾米音乐
+    - '*.xiami.com'
+    # === Other ===
+    ## QQ Quick Login
+    - 'localhost.ptlogin2.qq.com'
+    - 'localhost.sec.qq.com'
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - https://dns.alidns.com/dns-query
+    - https://i.233py.com/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.pub/dns-query
+    - https://dns.cfiec.net/dns-query
+    - https://dns.rubyfish.cn/dns-query
+    - https://doh.mullvad.net/dns-query
+    - https://dns-unfiltered.adguard.com/dns-query
+  fallback:
+    - https://doh.dns.sb/dns-query
+    - https://dns.twnic.tw/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://dns.233py.com/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://doh.mullvad.net/dns-query
+    - https://dns.google/dns-query
+    - https://dns.rubyfish.cn/dns-query
+  fallback-filter:
+    geoip: true # default
+    ipcidr: # ips in these subnets will be considered polluted
+      - 0.0.0.0/32
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 240.0.0.0/4
+      - 255.255.255.255/32
