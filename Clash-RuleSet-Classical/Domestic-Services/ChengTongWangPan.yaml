@@ -1,0 +1,6 @@
+payload:
+  ## > 城通网盘
+  - DOMAIN-SUFFIX,ctfile.com
+  - DOMAIN-SUFFIX,ctfile.net
+  - DOMAIN-SUFFIX,n802.com
+  - DOMAIN-SUFFIX,tv002.com

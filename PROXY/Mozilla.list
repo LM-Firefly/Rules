@@ -1,0 +1,32 @@
+## > Mozilla
+## >> Bugzilla
+DOMAIN-SUFFIX,bugzilla.org
+## >> firefox
+DOMAIN-SUFFIX,extensionworkshop.com
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,firefox.com.cn
+DOMAIN-SUFFIX,firefoxusercontent.com
+## >> mdn
+DOMAIN-SUFFIX,developer.mozilla.org
+DOMAIN-SUFFIX,interactive-examples.mdn.mozilla.net
+DOMAIN-SUFFIX,mdn.mozillademos.org
+DOMAIN-SUFFIX,media.prod.mdn.mozit.cloud
+## >> Pocket
+DOMAIN-SUFFIX,getpocket.com
+DOMAIN-SUFFIX,pocket-image-cache.com
+## >> SeaMonkey
+DOMAIN-SUFFIX,seamonkey-project.org
+## >> Thunderbird
+DOMAIN-SUFFIX,thunderbird.net
+# >> Rust
+DOMAIN-SUFFIX,rustup.rs
+DOMAIN-SUFFIX,rust-lang.org
+DOMAIN-SUFFIX,sentry.prod.mozaws.net
+DOMAIN-SUFFIX,crates.io
+DOMAIN-SUFFIX,docs.rs
+## >> Mozilla-Crop
+DOMAIN-SUFFIX,mofoprod.net
+DOMAIN-SUFFIX,mozilla.com
+DOMAIN-SUFFIX,mozilla.community
+DOMAIN-SUFFIX,mozilla.net
+DOMAIN-SUFFIX,mozilla.org

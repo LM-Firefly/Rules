@@ -1,0 +1,5 @@
+payload:
+  ## > Identrust
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,identrust.co.uk
+  - DOMAIN-SUFFIX,identrust.net

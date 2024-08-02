@@ -1,0 +1,12 @@
+payload:
+  ## > WeTV
+  - PROCESS-NAME,com.tencent.qqlivei18n
+  - PROCESS-NAME,com.tencent.qqlivei18n.us
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,v.smtcdns.net
+  - DOMAIN-SUFFIX,vv.video.qq.com
+  ## >> iflix
+  - DOMAIN-SUFFIX,iflix.com
+  - DOMAIN-SUFFIX,iflix-images.akamaized.net

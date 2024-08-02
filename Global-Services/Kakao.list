@@ -1,0 +1,17 @@
+## > Kakao
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,kakao.co.kr
+DOMAIN-SUFFIX,kakaocdn.net
+DOMAIN-SUFFIX,kakaocorp.com
+DOMAIN-SUFFIX,daum.net
+DOMAIN-SUFFIX,daumcdn.net
+DOMAIN-SUFFIX,daumkakao.io
+IP-CIDR,1.201.0.0/24,no-resolve
+IP-CIDR,103.246.56.0/22,no-resolve
+IP-CIDR,103.27.148.0/22,no-resolve
+IP-CIDR,110.76.140.0/22,no-resolve
+IP-CIDR,113.61.104.0/22,no-resolve
+IP-CIDR,27.0.236.0/22,no-resolve
+# >> Potplayer
+DOMAIN-SUFFIX,daumpotplayer.com
+DOMAIN-SUFFIX,potplayer.tv

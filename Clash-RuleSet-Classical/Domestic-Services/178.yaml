@@ -1,0 +1,26 @@
+payload:
+  ## > 178游戏网
+  - DOMAIN-SUFFIX,178.com
+  - DOMAIN-SUFFIX,178.net
+  - DOMAIN-SUFFIX,a9vg.com
+  - DOMAIN-SUFFIX,bigccq.cn
+  - DOMAIN-SUFFIX,bjyueshenzj.com
+  - DOMAIN-SUFFIX,carry6.cn
+  - DOMAIN-SUFFIX,carry6.com
+  - DOMAIN-SUFFIX,carry6.net
+  - DOMAIN-SUFFIX,dospy.com
+  - DOMAIN-SUFFIX,nga.wiki
+  - DOMAIN-SUFFIX,psnine.com
+  - DOMAIN-SUFFIX,stargame.com
+  - DOMAIN-SUFFIX,tgbus.com
+  - DOMAIN-SUFFIX,tgbusdata.cn
+  - DOMAIN-SUFFIX,xyous.com
+  ## >> 766游戏
+  - DOMAIN-SUFFIX,766.com
+  - DOMAIN-SUFFIX,766app.com
+  - DOMAIN-SUFFIX,766er.com
+  - DOMAIN-SUFFIX,766test.com
+  ## >> NGA玩家论坛
+  - DOMAIN-SUFFIX,nga.cn
+  - DOMAIN-SUFFIX,ngabbs.com
+  - DOMAIN-SUFFIX,ngacn.cc

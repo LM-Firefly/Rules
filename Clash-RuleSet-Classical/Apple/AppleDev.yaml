@@ -1,0 +1,52 @@
+payload:
+  ## >Apple Dev
+  ## >> Calendar and Contact Server
+  - DOMAIN-SUFFIX,calendarserver.org
+  ## >> CloudKit
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  ## >> CUPS
+  - DOMAIN-SUFFIX,cups.org
+  ## >> Developer
+  - DOMAIN-SUFFIX,developer.apple.com
+  - DOMAIN-SUFFIX,devimages-cdn.apple.com
+  - DOMAIN-SUFFIX,devstreaming-cdn.apple.com
+  ## >> FoundationDB
+  - DOMAIN-SUFFIX,foundationdb.org
+  ## >> macOS forge
+  - DOMAIN-SUFFIX,macosforge.org
+  ## >> MacRuby
+  - DOMAIN-SUFFIX,macruby.com
+  - DOMAIN-SUFFIX,macruby.net
+  - DOMAIN-SUFFIX,macruby.org
+  ## >> MapKit
+  - DOMAIN-SUFFIX,apple-mapkit.com
+  ## >> Playgrounds
+  - DOMAIN-SUFFIX,playgrounds-cdn.apple.com
+  ## >> Research & Care
+  - DOMAIN-SUFFIX,carekit.org
+  - DOMAIN-SUFFIX,researchandcare.org
+  - DOMAIN-SUFFIX,researchkit.cn
+  - DOMAIN-SUFFIX,researchkit.com.cn
+  - DOMAIN-SUFFIX,researchkit.hk
+  - DOMAIN-SUFFIX,researchkit.net
+  - DOMAIN-SUFFIX,researchkit.org
+  - DOMAIN-SUFFIX,researchkit.tv
+  ## >> ServiceTalk
+  - DOMAIN-SUFFIX,servicetalk.io
+  ## >> Swift
+  - DOMAIN-SUFFIX,appleswift.com
+  - DOMAIN-SUFFIX,swift.org
+  - DOMAIN-SUFFIX,swiftui.cn
+  - DOMAIN-SUFFIX,swiftui.com.cn
+  ## >> WebKit
+  - DOMAIN-SUFFIX,webkit.org
+  - DOMAIN-SUFFIX,webkitgtk.org
+  - DOMAIN-SUFFIX,wpewebkit.org
+  ## >> Other
+  - DOMAIN-SUFFIX,webobjects.com
+  - DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net
+  - DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net
+  - DOMAIN-SUFFIX,p-events-delivery.akamaized.net
+  - DOMAIN-SUFFIX,apple.com.akadns.net
+  - DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
+  - DOMAIN-SUFFIX,push-apple.com.akadns.net
