@@ -1,0 +1,39 @@
+## > 优酷 & 土豆
+USER-AGENT,Youku*
+USER-AGENT,%E4%BC%98%E9%85%B7*
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,ukoo.com.cn
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,yodou.com
+DOMAIN-SUFFIX,yoku.net.cn
+DOMAIN-SUFFIX,yoqoo.com
+DOMAIN-SUFFIX,yoqoo.net
+DOMAIN-SUFFIX,yoqoo.net.cn
+DOMAIN-SUFFIX,yoqoo.tv
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,youku.com.cn
+DOMAIN-SUFFIX,youku.org
+DOMAIN-SUFFIX,youqoo.net
+DOMAIN-SUFFIX,wwc.alicdn.com
+DOMAIN-SUFFIX,e8h2ty.tdum.alibaba.com
+DOMAIN-SUFFIX,gamenow.club
+DOMAIN-SUFFIX,wenyupages.com
+## >> 酷喵
+DOMAIN-SUFFIX,kumiao.com
+DOMAIN-SUFFIX,kumiao.tv
+DOMAIN-SUFFIX,kuxiaomiao.cn
+DOMAIN-SUFFIX,kuxiaomiao.com
+DOMAIN-SUFFIX,kuxiaomiao.com.cn
+DOMAIN-SUFFIX,kuxiaomiao.net
+## >> 土豆
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,wingsmobiletek.cn
+DOMAIN-SUFFIX,0co3geye.cn
+DOMAIN-SUFFIX,2isbbess.cn
+DOMAIN-SUFFIX,sogoodtech1.cn
+DOMAIN-SUFFIX,33lwhaoinc.cn
+DOMAIN-SUFFIX,9xsecndns.cn
+DOMAIN-SUFFIX,b82yxres.cn
+DOMAIN-SUFFIX,ns6mitkxo.cn
+DOMAIN-SUFFIX,52mtkvideo.cn
+DOMAIN-SUFFIX,sk2cdsnw.cn

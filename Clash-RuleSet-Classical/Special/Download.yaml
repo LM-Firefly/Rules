@@ -1,0 +1,16 @@
+payload:
+  ## > Download
+  - PROCESS-NAME,aria2c
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,Folx
+  - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,Transmission
+  - PROCESS-NAME,uTorrent
+  - PROCESS-NAME,uTorrent.exe
+  - PROCESS-NAME,WebTorrent
+  - PROCESS-NAME,WebTorrent.exe
+  - PROCESS-NAME,WebTorrent Helper
+  ## >> qbittorrent
+  - DOMAIN-SUFFIX,qbittorrent.org
+  - PROCESS-NAME,qbittorrent.exe

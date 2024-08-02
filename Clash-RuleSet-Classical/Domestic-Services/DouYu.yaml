@@ -1,0 +1,13 @@
+payload:
+  ## >> 斗鱼
+  - DOMAIN-SUFFIX,douyu.com
+  - DOMAIN-SUFFIX,douyu.tv
+  - DOMAIN-SUFFIX,douyucdn.cn
+  - DOMAIN-SUFFIX,douyucdn2.cn
+  - DOMAIN-SUFFIX,douyutv.com
+  # >> 瓯越网视
+  - DOMAIN-SUFFIX,douyuba.cn
+  - DOMAIN-SUFFIX,douyupcdn.cn
+  - DOMAIN-SUFFIX,douyuscdn.com
+  - DOMAIN-SUFFIX,doyonoc.com
+  - DOMAIN-SUFFIX,oywtv.com

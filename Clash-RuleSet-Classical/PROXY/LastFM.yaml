@@ -1,0 +1,33 @@
+payload:
+  ## > Last.fm
+  - DOMAIN-SUFFIX,audioscrobbler.com
+  - DOMAIN-SUFFIX,last.fm
+  - DOMAIN-SUFFIX,lastfm.es
+  - DOMAIN-SUFFIX,lastfm.freetls.fastly.net
+  - DOMAIN-SUFFIX,lastfm.de
+  - DOMAIN-SUFFIX,lastfm.ru
+  - DOMAIN-SUFFIX,lastfm.pl
+  - DOMAIN-SUFFIX,pqqx2.tk
+  - DOMAIN-SUFFIX,bbfc1.tk
+  - DOMAIN-SUFFIX,oilofhaemony.com
+  - DOMAIN-SUFFIX,ouchmonkey.com
+  - DOMAIN-SUFFIX,cqyos.tk
+  - DOMAIN-SUFFIX,itnnl.tk
+  - DOMAIN-SUFFIX,bc9oa.tk
+  - DOMAIN-SUFFIX,tnjqk.tk
+  - DOMAIN-SUFFIX,rmohl.tk
+  - DOMAIN-SUFFIX,mwrel.tk
+  - DOMAIN-SUFFIX,kn5ak.tk
+  - DOMAIN-SUFFIX,halkz.tk
+  - DOMAIN-SUFFIX,kwcnn.tk
+  - DOMAIN-SUFFIX,jdw1v.tk
+  - DOMAIN-SUFFIX,lastfm.eu
+  - DOMAIN-SUFFIX,rfnva.tk
+  - DOMAIN-SUFFIX,lastfm.ph
+  - DOMAIN-SUFFIX,fuckyeahtfx.com
+  - DOMAIN-SUFFIX,wznka.tk
+  - DOMAIN-SUFFIX,lastfm.cn
+  - DOMAIN-SUFFIX,bvuno.tk
+  - DOMAIN-SUFFIX,lastfmpresents.com
+  - DOMAIN,last.us11.list-manage.com
+  - DOMAIN,lastfm-img2.akamaized.net

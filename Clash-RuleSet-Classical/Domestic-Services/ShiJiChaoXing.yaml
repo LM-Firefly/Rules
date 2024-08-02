@@ -1,0 +1,40 @@
+payload:
+  ## > 世纪超星
+  - DOMAIN-SUFFIX,16q.cn
+  - DOMAIN-SUFFIX,aichaoxing.com
+  - DOMAIN-SUFFIX,chaoxing.com
+  - DOMAIN-SUFFIX,cxbiji.com
+  - DOMAIN-SUFFIX,jikeiot.cloud
+  - DOMAIN-SUFFIX,nihaoafrica.org
+  - DOMAIN-SUFFIX,nihaorwanda.cn
+  - DOMAIN-SUFFIX,sslawy.com
+  - DOMAIN-SUFFIX,sslibrary.com
+  - DOMAIN-SUFFIX,xxtmail.com
+  ## >> 超星发现
+  - DOMAIN-SUFFIX,study360.com.cn
+  - DOMAIN-SUFFIX,xuexi365.com
+  - DOMAIN-SUFFIX,xuexi365.com.cn
+  - DOMAIN-SUFFIX,xuexi365.net
+  ## >> 超星图书馆
+  - DOMAIN-SUFFIX,5read.com
+  - DOMAIN-SUFFIX,hongbo100.com
+  - DOMAIN-SUFFIX,lnlib.net
+  - DOMAIN-SUFFIX,mndqlib.net
+  - DOMAIN-SUFFIX,ylike.net
+  - DOMAIN-SUFFIX,zaifan.com
+  - DOMAIN-SUFFIX,zaifan.com.cn
+  - DOMAIN-SUFFIX,zhihang100.com
+  ## >> 超星学术视频
+  - DOMAIN-SUFFIX,chaoxing.cc
+  - DOMAIN-SUFFIX,ssvideo.cn
+  - DOMAIN-SUFFIX,ssvideo.com.cn
+  ## >> 超星云图书馆
+  - DOMAIN-SUFFIX,ssreader.cn
+  - DOMAIN-SUFFIX,superlib.com
+  - DOMAIN-SUFFIX,superlib.net
+  ## >> 超星智慧教育
+  - DOMAIN-SUFFIX,chaoxingv.com
+  - DOMAIN-SUFFIX,mti100.com
+  - DOMAIN-SUFFIX,ssreader.com.cn
+  - DOMAIN-SUFFIX,uonline-sh.com
+  - DOMAIN-SUFFIX,uonline-sh.net

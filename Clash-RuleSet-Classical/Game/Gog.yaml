@@ -1,0 +1,10 @@
+payload:
+  ## > Gog
+  - DOMAIN-SUFFIX,gog.com
+  - DOMAIN-SUFFIX,gog-statics.com
+  - DOMAIN-SUFFIX,gog.qtlglb.com
+  - DOMAIN-SUFFIX,gogalaxy.gog-statics.com
+  - DOMAIN-SUFFIX,menu-static.gog-statics.com
+  - DOMAIN-SUFFIX,productcard.gog-statics.com
+  - DOMAIN-SUFFIX,static-login.gog-statics.com
+  - DOMAIN-SUFFIX,www4-static.gog-statics.com

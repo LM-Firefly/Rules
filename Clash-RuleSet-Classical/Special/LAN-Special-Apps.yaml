@@ -1,0 +1,16 @@
+payload:
+  ## 🕸️ 局域网特殊应用
+  ## > mDNS CIDR
+  - IP-CIDR,224.0.0.251/24,no-resolve
+  ## > 小米互联
+  - PROCESS-NAME,com.milink.service
+  - PROCESS-NAME,com.xiaomi.mi_connect_service
+  - PROCESS-NAME,com.xiaomi.mis
+  - PROCESS-NAME,dist_service.exe
+  - PROCESS-NAME,distfile.exe
+  - PROCESS-NAME,DistributedService.exe
+  - PROCESS-NAME,micont_service.exe
+  - PROCESS-NAME,MiPCAudio.exe
+  - PROCESS-NAME,MiPlayCastService.exe
+  - PROCESS-NAME,MiScreenShare.exe
+  - PROCESS-NAME,MiSmartShareHandoff.exe

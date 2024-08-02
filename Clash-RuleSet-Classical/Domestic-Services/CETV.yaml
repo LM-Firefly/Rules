@@ -1,0 +1,5 @@
+payload:
+  ## > CETV (中国教育电视台)
+  - DOMAIN-SUFFIX,centv.cn
+  - DOMAIN-SUFFIX,centv.net.cn
+  - DOMAIN-SUFFIX,cetv.cn

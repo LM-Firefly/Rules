@@ -1,0 +1,10 @@
+payload:
+  ## > DynDNS
+  - DOMAIN-SUFFIX,blogdns.org
+  - DOMAIN-SUFFIX,dyn.com
+  - DOMAIN-SUFFIX,dyndns.org
+  - DOMAIN-SUFFIX,dyndns-ip.com
+  - DOMAIN-SUFFIX,dyndns-pics.com
+  - DOMAIN-SUFFIX,from-sd.com
+  - DOMAIN-SUFFIX,from-pr.com
+  - DOMAIN-SUFFIX,is-a-hunter.com

@@ -1,0 +1,13 @@
+payload:
+  ## >> 钉钉
+  - DOMAIN-SUFFIX,dingtalk.cn
+  - DOMAIN-SUFFIX,dingtalk.com
+  - DOMAIN-SUFFIX,dingtalk.com.cn
+  - DOMAIN-SUFFIX,dingtalk.net
+  - DOMAIN-SUFFIX,dingding.xin
+  - DOMAIN-SUFFIX,dingtalkapps.com
+  - DOMAIN-SUFFIX,ddurl.to
+  - DOMAIN-SUFFIX,lwurl.to
+  - DOMAIN-SUFFIX,realapp.xin
+  - DOMAIN-SUFFIX,dg-work.cn
+  - DOMAIN-SUFFIX,laiwang.com
