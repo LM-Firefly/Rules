@@ -1,0 +1,8 @@
+payload:
+  ## > Atlassian
+  - DOMAIN-SUFFIX,atlassian.com
+  - DOMAIN-SUFFIX,bitbucket.org
+  - DOMAIN-SUFFIX,statuspage.io
+  # >> Trello
+  - DOMAIN-SUFFIX,trello.com
+  - DOMAIN-SUFFIX,trellocdn.com

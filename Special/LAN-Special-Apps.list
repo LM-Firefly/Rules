@@ -1,0 +1,23 @@
+## 🕸️ 局域网特殊应用
+## > mDNS CIDR
+IP-CIDR,224.0.0.251/24,no-resolve
+## > 小米互联
+PROCESS-NAME,com.milink.service
+PROCESS-NAME,com.xiaomi.mi_connect_service
+PROCESS-NAME,com.xiaomi.mis
+PROCESS-NAME,devcon.exe
+PROCESS-NAME,dist_service.exe
+PROCESS-NAME,distfile.exe
+PROCESS-NAME,DistributedService.exe
+PROCESS-NAME,MAFSvr.exe
+PROCESS-NAME,micont_service.exe
+PROCESS-NAME,MiDistributedCameraBroker.exe
+PROCESS-NAME,MiDistributedCameraBroker32.exe
+PROCESS-NAME,MiHygieneBroker.exe
+PROCESS-NAME,MiPCAudio.exe
+PROCESS-NAME,MiPlayCastService.exe
+PROCESS-NAME,MiScreenShare.exe
+PROCESS-NAME,MiSmartShareDevice.exe
+PROCESS-NAME,MiSmartShareHandoff.exe
+PROCESS-NAME,PcClipboard.exe
+PROCESS-NAME,ScreenShareLauncher.exe

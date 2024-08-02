@@ -1,0 +1,44 @@
+payload:
+  ## > 中国联通
+  - DOMAIN-SUFFIX,chinaunicom.com.cn
+  - DOMAIN-SUFFIX,chinaunicom.com.hk
+  - DOMAIN-SUFFIX,chinaunicomglobal.com
+  - DOMAIN-SUFFIX,cuecp.cn
+  - DOMAIN-SUFFIX,gnoc.com.cn
+  - DOMAIN-SUFFIX,mychinaunicom.com
+  ## >> 沃门户
+  - DOMAIN-SUFFIX,wo.cn
+  - DOMAIN-SUFFIX,wo.com.cn
+  ## >> 沃支付
+  - DOMAIN-SUFFIX,unicompayment.cn
+  - DOMAIN-SUFFIX,unicompayment.com
+  - DOMAIN-SUFFIX,unicompayment.net
+  - DOMAIN-SUFFIX,unicompayment.org
+  - DOMAIN-SUFFIX,wobaif.com
+  ## >> 中国联通5G应用创新联盟生态社区
+  - DOMAIN-SUFFIX,cu5gaia.cn
+  - DOMAIN-SUFFIX,cu5gaia.com
+  ## >> 中国联通采购与招标网
+  - DOMAIN-SUFFIX,chinaunicombidding.cn
+  - DOMAIN-SUFFIX,cupb.cn
+  ## >> 中国联通企业门户
+  - DOMAIN-SUFFIX,chinaunicom.cn
+  - DOMAIN-SUFFIX,chinaunicom.com
+  ## >> 中国联通网上营业厅
+  - DOMAIN-SUFFIX,10010.cn
+  - DOMAIN-SUFFIX,10010.com
+  - DOMAIN-SUFFIX,10010.com.cn
+  - DOMAIN-SUFFIX,10010.net
+  ## >> 中国联通广东分公司
+  - DOMAIN-SUFFIX,17wo.cn
+  - DOMAIN-SUFFIX,e-engine.com.cn
+  - DOMAIN-SUFFIX,gd10010.cn
+  - DOMAIN-SUFFIX,gd116114.net.cn
+  - DOMAIN-SUFFIX,gd165.com
+  - DOMAIN-SUFFIX,unicomgd.com
+  - DOMAIN-SUFFIX,unimip.cn
+  - DOMAIN-SUFFIX,wo-link.tech
+  - DOMAIN-SUFFIX,wom186.com
+  ## >> 招联金融
+  - DOMAIN-SUFFIX,mucfc.com
+  - IP-CIDR,113.200.56.63/32,no-resolve

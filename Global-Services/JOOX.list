@@ -1,0 +1,6 @@
+## > JOOX
+USER-AGENT,WeMusic*
+USER-AGENT,JOOX*
+PROCESS-NAME,com.tencent.ibg.joox
+DOMAIN-SUFFIX,joox.com
+DOMAIN-KEYWORD,jooxweb-api

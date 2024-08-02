@@ -1,0 +1,198 @@
+## > EA
+## >> Origin
+DOMAIN-SUFFIX,origin.com
+DOMAIN-SUFFIX,cloudsync-prod.s3.amazonaws.com
+DOMAIN-SUFFIX,origin-a.akamaihd.net
+DOMAIN-SUFFIX,rtm.tnt-ea.com
+DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
+DOMAIN-SUFFIX,dawngate.com
+DOMAIN-SUFFIX,eastore.com
+DOMAIN-SUFFIX,lordofultima.com
+DOMAIN-SUFFIX,origin.tv
+DOMAIN,cloudsync-prod.s3.amazonaws.com
+DOMAIN,eaasserts-a.akamaihd.net
+DOMAIN,originasserts.akamaized.net
+## >> Anthem
+DOMAIN-SUFFIX,anthemgame.com
+DOMAIN-SUFFIX,anthemthegame.com
+## >> Apex Legends
+DOMAIN-SUFFIX,apexlegends.com
+DOMAIN-SUFFIX,projectapex.com
+## >> Battle Log / Battlefield
+DOMAIN-SUFFIX,battlefield.com
+DOMAIN-SUFFIX,battlefield1943.com
+DOMAIN-SUFFIX,battlefield3.com
+DOMAIN-SUFFIX,battlefield4.com
+DOMAIN-SUFFIX,battlefield5.com
+DOMAIN-SUFFIX,battlefieldheroes.com
+DOMAIN-SUFFIX,battlefieldv.com
+DOMAIN-SUFFIX,battlelog.com
+## >> Bioware
+DOMAIN-SUFFIX,bioware.com
+DOMAIN-SUFFIX,biowarestore.com
+## >> Broadsword
+DOMAIN-SUFFIX,eamythic.com
+DOMAIN-SUFFIX,eamythic.net
+## >> Command and Conquer
+DOMAIN-SUFFIX,cncrivals.com
+DOMAIN-SUFFIX,commandandconquer.com
+DOMAIN-SUFFIX,tiberiumalliances.com
+## >> Dark Age of Camelot
+DOMAIN-SUFFIX,camelot-europe.com
+DOMAIN-SUFFIX,camelotherald.com
+DOMAIN-SUFFIX,camelotherald.net
+DOMAIN-SUFFIX,daoc.net
+DOMAIN-SUFFIX,darkageofcamelot.com
+DOMAIN-SUFFIX,darkness-risen.com
+## >> Dead Space
+DOMAIN-SUFFIX,deadspacegame.com
+## >> DICE
+DOMAIN-SUFFIX,dice.se
+## >> Dragon Age
+DOMAIN-SUFFIX,dragonage.com
+DOMAIN-SUFFIX,dragonagekeep.com
+DOMAIN-SUFFIX,dragonagemovie.com
+DOMAIN-SUFFIX,thedreadwolfrises.com
+## >> dungeonkeeper
+DOMAIN-SUFFIX,dungeonkeeper.cn
+DOMAIN-SUFFIX,dungeonkeeper.com
+DOMAIN-SUFFIX,dungeonkeeper.com.cn
+## >> FIFA
+DOMAIN-SUFFIX,eafootballworld.com
+DOMAIN-SUFFIX,fifastreet.com
+DOMAIN-SUFFIX,fifastreet3.com
+## >> Frost Bite
+DOMAIN-SUFFIX,frostbite.com
+## >> Industrial Toys
+DOMAIN-SUFFIX,industrialtoys.com
+## >> Mass Effect
+DOMAIN-SUFFIX,masseffect.com
+DOMAIN-SUFFIX,masseffectarchives.com
+## >> Mirror's Edge
+DOMAIN-SUFFIX,eamirrorsedge.com
+DOMAIN-SUFFIX,mirrorsedge.com
+DOMAIN-SUFFIX,mirrorsedge.jp
+DOMAIN-SUFFIX,mirrorsedge.net
+DOMAIN-SUFFIX,mirrorsedge2.com
+DOMAIN-SUFFIX,mirrorsedge2d.com
+## >> Need For Speed
+DOMAIN-SUFFIX,blackboxgames.com
+DOMAIN-SUFFIX,eablackbox.com
+DOMAIN-SUFFIX,needforspeed.com
+DOMAIN-SUFFIX,needforspeedboost.com
+DOMAIN-SUFFIX,needforspeeddriftkings.com
+DOMAIN-SUFFIX,needforspeedeliminator.com
+DOMAIN-SUFFIX,needforspeedlightning.com
+DOMAIN-SUFFIX,needforspeedoverdrive.com
+DOMAIN-SUFFIX,needforspeedproven.com
+DOMAIN-SUFFIX,needforspeedredline.com
+DOMAIN-SUFFIX,needforspeedshowdown.com
+DOMAIN-SUFFIX,needforspeedstreetkings.com
+DOMAIN-SUFFIX,needforspeedtakedown.com
+DOMAIN-SUFFIX,needforspeedtherun.com
+DOMAIN-SUFFIX,needforspeedtimeattack.com
+DOMAIN-SUFFIX,needforspeedundergroundeast.com
+DOMAIN-SUFFIX,nfsworld.com
+DOMAIN-SUFFIX,teamneedforspeed.com
+## >> Plants VS Zombies
+DOMAIN-SUFFIX,plantsvszombies2.com
+DOMAIN-SUFFIX,pvzgw2.com
+DOMAIN-SUFFIX,pvzheroes.com
+## >> Sea of Solitude
+DOMAIN-SUFFIX,seaofsolitude.com
+## >> Simcity
+DOMAIN-SUFFIX,simcity-buildit.com
+DOMAIN-SUFFIX,simcity.com
+## >> Skate
+DOMAIN-SUFFIX,skate2.com
+## >> SPEARHEAD
+DOMAIN-SUFFIX,spearhead.kr
+## >> Star Wars
+DOMAIN-SUFFIX,starwarsfallenorder.com
+DOMAIN-SUFFIX,starwarsjedifallenorder.com
+DOMAIN-SUFFIX,starwarstheoldrepublic.com
+DOMAIN-SUFFIX,swjedifallenorder.com
+DOMAIN-SUFFIX,swjfo.com
+DOMAIN-SUFFIX,swtor.com
+DOMAIN-SUFFIX,swtor.net
+## >> The Sims
+DOMAIN-SUFFIX,mysims.com
+DOMAIN-SUFFIX,thesims.com
+DOMAIN-SUFFIX,thesims3.com
+DOMAIN-SUFFIX,thesims4.com
+DOMAIN-SUFFIX,thesimssocial.com
+## >> Titan Fall
+DOMAIN-SUFFIX,titanfall.com
+## >> Ultima Online
+DOMAIN-SUFFIX,mythicentertainment.com
+DOMAIN-SUFFIX,mythicentertainment.net
+DOMAIN-SUFFIX,mythicgames.com
+DOMAIN-SUFFIX,ultimaonline.com
+DOMAIN-SUFFIX,uo.com
+DOMAIN-SUFFIX,uoherald.com
+## >> XDS
+DOMAIN-SUFFIX,xdsummit.com
+## > EA-Others
+DOMAIN-SUFFIX,awayoutgame.com
+DOMAIN-SUFFIX,battlefront2.com
+DOMAIN-SUFFIX,battlefrontii.com
+DOMAIN-SUFFIX,bejewled-stars.com
+DOMAIN-SUFFIX,bejeweledstars.com
+DOMAIN-SUFFIX,chillingo.com
+DOMAIN-SUFFIX,conquerwithcharacter.com
+DOMAIN-SUFFIX,crysis.jp
+DOMAIN-SUFFIX,ea.com
+DOMAIN-SUFFIX,eacashcard.com
+DOMAIN-SUFFIX,easports.com
+DOMAIN-SUFFIX,easports.jp
+DOMAIN-SUFFIX,electronicarts.com
+DOMAIN-SUFFIX,electronicarts.fr
+DOMAIN-SUFFIX,futpromos.com
+DOMAIN-SUFFIX,hutpromos.com
+DOMAIN-SUFFIX,maddenchampionship.com
+DOMAIN-SUFFIX,maddenseason.info
+DOMAIN-SUFFIX,maddenseason.net
+DOMAIN-SUFFIX,maddenseason.org
+DOMAIN-SUFFIX,playapex.com
+DOMAIN-SUFFIX,pogo.com
+DOMAIN-SUFFIX,pogobeta.com
+DOMAIN-SUFFIX,popcap.com
+DOMAIN-SUFFIX,starwarsbattlefront.com
+DOMAIN-SUFFIX,starwarsbattlefront2.com
+DOMAIN-SUFFIX,tnt-ea.com
+DOMAIN-SUFFIX,visceralgames.com
+DOMAIN-SUFFIX,battlefieldbadcompany2.com
+DOMAIN-SUFFIX,capitalgames.com
+DOMAIN-SUFFIX,dawngatechronicles.com
+DOMAIN-SUFFIX,dicela.com
+DOMAIN-SUFFIX,dicela.net
+DOMAIN-SUFFIX,ea-anz-press.com
+DOMAIN-SUFFIX,eaaccess.com
+DOMAIN-SUFFIX,eacodigos.com
+DOMAIN-SUFFIX,eakorea.co.kr
+DOMAIN-SUFFIX,eamobile.com
+DOMAIN-SUFFIX,eanordic.com
+DOMAIN-SUFFIX,eaplay.com
+DOMAIN-SUFFIX,easportsactive.com
+DOMAIN-SUFFIX,easportsactiveonline.com
+DOMAIN-SUFFIX,easportsfootball.com
+DOMAIN-SUFFIX,easportsfootballclub.com
+DOMAIN-SUFFIX,easportsmma.com
+DOMAIN-SUFFIX,easportsworld.com
+DOMAIN-SUFFIX,futunited.com
+DOMAIN-SUFFIX,ghostgames.com
+DOMAIN-SUFFIX,heroesofdragonage.com
+DOMAIN-SUFFIX,maddenrewards.com
+DOMAIN-SUFFIX,maxis.com
+DOMAIN-SUFFIX,mysimsracing.com
+DOMAIN-SUFFIX,play4free.com
+DOMAIN-SUFFIX,speedhunters.com
+DOMAIN-SUFFIX,spore.com
+DOMAIN-SUFFIX,ssx3.com
+DOMAIN-SUFFIX,tiburon.com
+DOMAIN-SUFFIX,ultimaforever.com
+DOMAIN-SUFFIX,unravel2.com
+DOMAIN-SUFFIX,unraveltwo.com
+DOMAIN-SUFFIX,yogify.com
+DOMAIN-SUFFIX,ea.tt.omtrdc.net
+DOMAIN-SUFFIX,eaassets-a.akamaihd.net
