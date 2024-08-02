@@ -1,0 +1,10 @@
+payload:
+  ## > 晋江文学城
+  - PROCESS-NAME,com.jjwxc.reader
+  - DOMAIN-SUFFIX,chaba123.com
+  - DOMAIN-SUFFIX,jjwxc.cn
+  - DOMAIN-SUFFIX,jjwxc.com
+  - DOMAIN-SUFFIX,jjwxc.net
+  - DOMAIN-SUFFIX,jjwxc.org
+  - DOMAIN-SUFFIX,jjycw.net
+  - DOMAIN-SUFFIX,robook.com

@@ -1,0 +1,45 @@
+payload:
+  ## > UCloud
+  - DOMAIN-SUFFIX,ecloud-gdu.com
+  - DOMAIN-SUFFIX,fshark.cn
+  - DOMAIN-SUFFIX,ibusre.cn
+  - DOMAIN-SUFFIX,ipbaohe.com
+  - DOMAIN-SUFFIX,ipssh.net
+  - DOMAIN-SUFFIX,u-cdn.net
+  - DOMAIN-SUFFIX,ucloudadmin.com
+  - DOMAIN-SUFFIX,ucloudapi.com
+  - DOMAIN-SUFFIX,ufileos.com
+  - DOMAIN-SUFFIX,uhasadmin.com
+  - DOMAIN-SUFFIX,urome.cn
+  - DOMAIN-SUFFIX,urtc.com.cn
+  ## >> UCloudStack专有云
+  - DOMAIN-SUFFIX,ucloudstack.cn
+  - DOMAIN-SUFFIX,ucloudstack.com
+  - DOMAIN-SUFFIX,ucloudstack.net
+  ## >> UCloud专业基础云计算服务
+  - DOMAIN-SUFFIX,ucloud.cn
+  - DOMAIN-SUFFIX,ucloud.com.cn
+  - DOMAIN-SUFFIX,ucloud365.com
+  ## >> Web安全防护
+  - DOMAIN-SUFFIX,uclouduewaf.com
+  - DOMAIN-SUFFIX,uewaf.com
+  ## >> 对象存储
+  - DOMAIN-SUFFIX,ucloudoss.com
+  - DOMAIN-SUFFIX,ucloudufile.com
+  ## >> 优刻得CDN
+  - DOMAIN-SUFFIX,cdndo.com
+  - DOMAIN-SUFFIX,u-cdn.com
+  - DOMAIN-SUFFIX,ucloudgda.com
+  ## >> 优刻得云分发
+  - DOMAIN-SUFFIX,ucgslb.cn
+  - DOMAIN-SUFFIX,ucgslb.com
+  - DOMAIN-SUFFIX,ucgslb.info
+  - DOMAIN-SUFFIX,ucgslb.net
+  - DOMAIN-SUFFIX,ucgslb.top
+  - DOMAIN-SUFFIX,ugslb.cn
+  - DOMAIN-SUFFIX,ugslb.com
+  - DOMAIN-SUFFIX,ugslb.info
+  - DOMAIN-SUFFIX,ugslb.net
+  - DOMAIN-SUFFIX,ugslb.top
+  - DOMAIN-SUFFIX,ugslb2.net
+  - DOMAIN-SUFFIX,unaming.net

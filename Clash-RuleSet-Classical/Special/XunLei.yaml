@@ -1,0 +1,38 @@
+payload:
+  ## > 迅雷
+  - DOMAIN-SUFFIX,155.com
+  - DOMAIN-SUFFIX,2sonar.com
+  - DOMAIN-SUFFIX,8uri.cn
+  - DOMAIN-SUFFIX,falconalliance.cn
+  - DOMAIN-SUFFIX,gigaget.com
+  - DOMAIN-SUFFIX,kanimg.com
+  - DOMAIN-SUFFIX,kankan.com
+  - DOMAIN-SUFFIX,kuaipan.cn
+  - DOMAIN-SUFFIX,n0808.com
+  - DOMAIN-SUFFIX,neoimaging.cn
+  - DOMAIN-SUFFIX,newvr.com
+  - DOMAIN-SUFFIX,sandai.net
+  - DOMAIN-SUFFIX,sjzhushou.com
+  - DOMAIN-SUFFIX,szxlxzb.com
+  - DOMAIN-SUFFIX,thunderurl.com
+  - DOMAIN-SUFFIX,xlpan.com
+  - DOMAIN-SUFFIX,xlyouxi.net
+  - DOMAIN-SUFFIX,xunlei.cn
+  - DOMAIN-SUFFIX,xunlei.com
+  - DOMAIN-SUFFIX,xunlei.net
+  - PROCESS-NAME,Thunder
+  - PROCESS-NAME,Thunder.exe
+  ## >> 烽动CDN
+  - DOMAIN-SUFFIX,00cdn.com
+  - DOMAIN-SUFFIX,88cdn.com
+  - DOMAIN-SUFFIX,fontong.com
+  - DOMAIN-SUFFIX,p2cdn.com
+  - DOMAIN-SUFFIX,thundercdn.com
+  - DOMAIN-SUFFIX,xlisp.net
+  ## >> 手机加速
+  - DOMAIN-SUFFIX,geilijiasu.com
+  - DOMAIN-SUFFIX,geilijiasu.net
+  ## >> 迅雷云库服务
+  - DOMAIN-SUFFIX,xbase.cloud
+  - DOMAIN-SUFFIX,xbase.xyz
+  - DOMAIN-SUFFIX,xcloudbase.com

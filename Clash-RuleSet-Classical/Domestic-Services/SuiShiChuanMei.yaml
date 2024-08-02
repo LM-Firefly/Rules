@@ -1,0 +1,19 @@
+payload:
+  ## > 随视传媒
+  - DOMAIN-SUFFIX,91friend.com
+  - DOMAIN-SUFFIX,adsit.cn
+  - DOMAIN-SUFFIX,aojiamarly.com
+  - DOMAIN-SUFFIX,ebaidutv.com
+  - DOMAIN-SUFFIX,smartsocial.cn
+  - DOMAIN-SUFFIX,socialjia.com
+  - DOMAIN-SUFFIX,weibopie.com
+  ## >> 汇则成
+  - DOMAIN-SUFFIX,mobhui.cn
+  - DOMAIN-SUFFIX,quyaoya.cn
+  - DOMAIN-SUFFIX,quyaoya.com
+  ## >> 米铺家
+  - DOMAIN-SUFFIX,mipujia.cn
+  - DOMAIN-SUFFIX,mipujia.com
+  ## >> 趣摇
+  - DOMAIN-SUFFIX,mobhui.com
+  - DOMAIN-SUFFIX,socialpls.com

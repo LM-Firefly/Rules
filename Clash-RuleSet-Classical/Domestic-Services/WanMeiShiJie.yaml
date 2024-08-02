@@ -1,0 +1,15 @@
+payload:
+  ## > 完美世界
+  - DOMAIN-SUFFIX,pwrdoverseagame.com
+  - DOMAIN-SUFFIX,pwrdoverseas.com
+  - DOMAIN-SUFFIX,wanmei.com
+  - DOMAIN-SUFFIX,wanmei.net
+  - DOMAIN-SUFFIX,wmupd.com
+  - DOMAIN-SUFFIX,wmupd.com.cn
+  - DOMAIN-SUFFIX,wmwm.com
+  ## >> 老虎网
+  - DOMAIN-SUFFIX,laohu.com
+  ## >> 反恐精英：全球攻势
+  - DOMAIN-SUFFIX,counter-strike.cn
+  - DOMAIN-SUFFIX,counter-strike.com.cn
+  - DOMAIN-SUFFIX,csgo.com.cn
