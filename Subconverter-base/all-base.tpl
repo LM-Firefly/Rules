@@ -8,7 +8,9 @@ bind-address: '*'
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: {{ default(global.clash.api_port, "0.0.0.0:19090")}}
-#external-ui: folder
+external-ui: /ui/
+external-ui-name: xd
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 secret: ''
 routing-mark: {{ default(global.clash.routing_mark, "16666")}}
 experimental:
@@ -53,7 +55,7 @@ ipv6: true
 tun:
   enable: true
   stack: mixed # system/gvisor/mixed
-  device: utun0
+  device: mihomo
   dns-hijack:
     - any:53
     - tcp://any:53
@@ -92,7 +94,6 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
     - 1.1.1.1
-    - system
   enhanced-mode: fake-ip # or redir-host (not recommended)
   fake-ip-range: 22.0.0.0/8
   fake-ip-filter:
@@ -149,6 +150,7 @@ dns:
     # === MiJia ===
     - 'Mijia Cloud'
     - '+.mijia.tech'
+  fake-ip-filter-mode: blacklist
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -222,7 +224,8 @@ sniffer:
 find-process-mode: strict
 tcp-concurrent: true
 global-client-fingerprint: chrome
-keep-alive-interval: 15
+keep-alive-interval: 30
+unified-delay: true
 
 {% endif %}
 {% if request.target == "surge" %}
@@ -252,8 +255,8 @@ external-controller-access = 6170@0.0.0.0:6155
 tls-provider = openssl
 # skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 force-http-engine-hosts = 122.14.246.33, 175.102.178.52, mobile-api2011.elong.com
-internet-test-url = http://connect.rom.miui.com/generate_204
-proxy-test-url = http://connect.rom.miui.com/generate_204
+internet-test-url = https://www.google-analytics.com/generate_204
+proxy-test-url = https://www.google-analytics.com/generate_204
 test-timeout = 5
 hide-vpn-icon = true
 read-etc-hosts = true
@@ -303,7 +306,7 @@ bypass-tun = 22.0.0.0/8
 dns-server = system, 119.29.29.29, 223.5.5.5, 1.1.1.1, 1.0.0.1, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
 doh-server = https://dns.alidns.com/dns-query, https://dns.ipv6dns.com/dns-query, https://doh.pub/dns-query, https://rubyfish.cn/dns-query, https://all.dns.mullvad.net/dns-query, https://unfiltered.adguard-dns.com/dns-query, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query, https://doh.dns.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.quad9.net/dns-query
 host = 127.0.0.1
-proxy-test-url = http://connect.rom.miui.com/generate_204
+proxy-test-url = https://www.google-analytics.com/generate_204
 # skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 test-timeout = 2
 interface-mode = auto
@@ -402,8 +405,8 @@ STATE,AUTO
 dns_exclusion_list = *.cmbchina.com, *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, id6.me
 excluded_routes=10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, 192.0.2.0/24, 192.168.0.0/16, 198.51.100.0/24, 224.0.0.0/4
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
-network_check_url=http://connect.rom.miui.com/generate_204
-server_check_url=http://connect.rom.miui.com/generate_204
+network_check_url=https://www.google-analytics.com/generate_204
+server_check_url=https://www.google-analytics.com/generate_204
 
 [dns]
 server=119.29.29.29
@@ -491,8 +494,8 @@ external-controller-access = surfboard@0.0.0.0:6170
 # skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 udp-policy-not-supported-behaviour = REJECT
 hide-crashlytics-request = false
-internet-test-url = http://connect.rom.miui.com/generate_204
-proxy-test-url = http://connect.rom.miui.com/generate_204
+internet-test-url = https://www.google-analytics.com/generate_204
+proxy-test-url = https://www.google-analytics.com/generate_204
 test-timeout = 5
 
 [Host]
