@@ -8,7 +8,9 @@ bind-address: '*'
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: {{ default(global.clash.api_port, "0.0.0.0:19090")}}
-#external-ui: folder
+external-ui: ui
+#external-ui-name: zash
+external-ui-url: 'https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip'
 secret: ''
 routing-mark: {{ default(global.clash.routing_mark, "16666")}}
 experimental:
@@ -53,7 +55,7 @@ ipv6: true
 tun:
   enable: true
   stack: mixed # system/gvisor/mixed
-  device: utun0
+  device: mihomo
   dns-hijack:
     - any:53
     - tcp://any:53
@@ -92,7 +94,6 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
     - 1.1.1.1
-    - system
   enhanced-mode: fake-ip # or redir-host (not recommended)
   fake-ip-range: 22.0.0.0/8
   fake-ip-filter:
@@ -149,6 +150,7 @@ dns:
     # === MiJia ===
     - 'Mijia Cloud'
     - '+.mijia.tech'
+  fake-ip-filter-mode: blacklist
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -222,7 +224,11 @@ sniffer:
 find-process-mode: strict
 tcp-concurrent: true
 global-client-fingerprint: chrome
-keep-alive-interval: 15
+keep-alive-interval: 30
+unified-delay: true
+# Clash for Android
+clash-for-android:
+  ui-subtitle-pattern: '[\u4e00-\u9fa5]{2,4}'
 
 {% endif %}
 {% if request.target == "surge" %}
@@ -252,8 +258,8 @@ external-controller-access = 6170@0.0.0.0:6155
 tls-provider = openssl
 # skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 force-http-engine-hosts = 122.14.246.33, 175.102.178.52, mobile-api2011.elong.com
-internet-test-url = http://connect.rom.miui.com/generate_204
-proxy-test-url = http://connect.rom.miui.com/generate_204
+internet-test-url = https://connectivitycheck.gstatic.com/generate_204
+proxy-test-url = https://connectivitycheck.gstatic.com/generate_204
 test-timeout = 5
 hide-vpn-icon = true
 read-etc-hosts = true
@@ -303,7 +309,7 @@ bypass-tun = 22.0.0.0/8
 dns-server = system, 119.29.29.29, 223.5.5.5, 1.1.1.1, 1.0.0.1, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
 doh-server = https://dns.alidns.com/dns-query, https://dns.ipv6dns.com/dns-query, https://doh.pub/dns-query, https://rubyfish.cn/dns-query, https://all.dns.mullvad.net/dns-query, https://unfiltered.adguard-dns.com/dns-query, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query, https://doh.dns.sb/dns-query, https://dns.twnic.tw/dns-query, https://doh.opendns.com/dns-query, https://dns.quad9.net/dns-query
 host = 127.0.0.1
-proxy-test-url = http://connect.rom.miui.com/generate_204
+proxy-test-url = https://connectivitycheck.gstatic.com/generate_204
 # skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 test-timeout = 2
 interface-mode = auto
@@ -402,8 +408,8 @@ STATE,AUTO
 dns_exclusion_list = *.cmbchina.com, *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, id6.me
 excluded_routes=10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, 192.0.2.0/24, 192.168.0.0/16, 198.51.100.0/24, 224.0.0.0/4
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
-network_check_url=http://connect.rom.miui.com/generate_204
-server_check_url=http://connect.rom.miui.com/generate_204
+network_check_url=https://connectivitycheck.gstatic.com/generate_204
+server_check_url=https://connectivitycheck.gstatic.com/generate_204
 
 [dns]
 server=119.29.29.29
@@ -491,8 +497,8 @@ external-controller-access = surfboard@0.0.0.0:6170
 # skip-proxy = 127.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 udp-policy-not-supported-behaviour = REJECT
 hide-crashlytics-request = false
-internet-test-url = http://connect.rom.miui.com/generate_204
-proxy-test-url = http://connect.rom.miui.com/generate_204
+internet-test-url = https://connectivitycheck.gstatic.com/generate_204
+proxy-test-url = https://connectivitycheck.gstatic.com/generate_204
 test-timeout = 5
 
 [Host]
@@ -530,143 +536,135 @@ test-timeout = 5
 {% if request.target == "singbox" %}
 
 {
-  "log": { "disabled": false, "level": "info", "timestamp": true },
+  "log": { "disabled": false, "level": "info", "output": "box.log", "timestamp": true },
   "dns": {
     "servers": [
       {
+        "type": "fakeip",
+        "tag": "fakeip",
+        "inet4_range": "28.0.0.0/8",
+        "inet6_range": "fc00::/18"
+      },
+      {
+        "type": "tls",
         "tag": "local",
-        "address": "tls://223.5.5.5",
-        "address_resolver": "dns_resolver",
-        "address_strategy": "prefer_ipv4",
-        "strategy": "prefer_ipv4",
+        "server": "tls://223.5.5.5",
+        "server_port": 853,
         "detour": "DIRECT"
       },
       {
-        "tag": "remote",
-        "address": "tls://1.1.1.1",
-        "address_resolver": "dns_resolver",
-        "address_strategy": "prefer_ipv4",
-        "strategy": "prefer_ipv4",
-        "detour": "select"
-      },
-      { "tag": "fakeip", "address": "fakeip" },
-      { "tag": "dns_resolver", "address": "tls://223.5.5.5", "detour": "DIRECT" },
-      { "tag": "block", "address": "rcode://success" }
+        "type": "tls",
+        "tag": "proxy",
+        "server": "tls://1.1.1.1",
+        "server_port": 853,
+        "detour": "proxy"
+      }
     ],
     "rules": [
-      { "outbound": ["any"], "server": "dns_resolver" },
       {
-        "inbound": ["tun-in"],
-        "query_type": ["A", "AAAA", "HTTPS"],
-        "network": ["tcp", "udp"],
-        "protocol": ["tls", "http", "quic"],
-        "port": [80, 443],
-        "port_range": ["1000:2000", ":3000", "4000:"],
-        "clash_mode": "Rule",
-        "invert": false,
-        "outbound": ["any"],
-        "server": "fakeip",
-        "disable_cache": false,
-        "rewrite_ttl": 100
+        "query_type": ["A", "AAAA"],
+        "server": "fakeip"
       },
-      { "clash_mode": "Global", "server": "remote" },
-      { "clash_mode": "Direct", "server": "local" }
+      {
+        "rule_set": "geoip-cn",
+        "clash_mode": "rule",
+        "action": "route",
+        "server": "local"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "invert": true,
+        "clash_mode": "rule",
+        "action": "route",
+        "server": "proxy"
+      }
     ],
     "final": "",
-    "strategy": "prefer_ipv4",
-    "disable_cache": false,
-    "disable_expire": false,
-    "independent_cache": true,
-    "reverse_mapping": true,
-    "fakeip": {
-      "enabled": true,
-      {% if default(request.singbox.ipv6, "") == "1" %}
-      "inet6_range": "fc00::\/18",
-      {% endif %}
-      "inet4_range": "28.0.0.0\/8"
-    }
+    "strategy": "prefer_ipv4"
   },
   "ntp": {
     "enabled": true,
     "server": "time.apple.com",
     "server_port": 123,
     "interval": "30m",
-    "detour": "DIRECT"
+    "detour": "local"
   },
+  "certificate": {},
+  "endpoints": [],
   "inbounds": [
     {
       "type": "tun",
       "tag": "tun-in",
-      "interface_name": "tun0",
-      "inet4_address": "22.0.0.1/30",
-      {% if default(request.singbox.ipv6, "") == "1" %}
-      "inet6_address": "fdfe:dcba:9876::1/126",
-      {% endif %}
+      "interface_name": "singtun",
+      "address": ["28.0.0.1/30", "fdfe:dcba:9876::1/126"],
       "mtu": 9000,
       "auto_route": true,
+      "iproute2_table_index": 2022,
+      "iproute2_rule_index": 9000,
+      "auto_redirect": false,
+      "auto_redirect_input_mark": "0x2023",
+      "auto_redirect_output_mark": "0x2024",
       "strict_route": true,
-      "domain_strategy": "prefer_ipv4",
+      "route_address": ["0.0.0.0/1", "128.0.0.0/1", "::/1", "8000::/1"],
       "endpoint_independent_nat": false,
-      "stack": "mixed",
-      "sniff": true,
-      "sniff_override_destination": true,
-      "sniff_timeout": "300ms",
+      "udp_timeout": "5m",
+      "stack": "system",
       "platform": {
-          "http_proxy": {
-              "enabled": true,
-              "server": "127.0.0.1",
-              "server_port": 2334
-          }
-       }
-    },
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "domain_strategy": "prefer_ipv4",
-      {% if bool(default(global.singbox.allow_lan, "")) %}
-      "listen": "0.0.0.0",
-      {% else %}
-      "listen": "127.0.0.1",
-      {% endif %}
-      "listen_port": {{ default(global.singbox.mixed_port, "2080") }}
+        "http_proxy": {
+          "enabled": false,
+          "server": "127.0.0.1",
+          "server_port": 18888
+        }
+      },
+      "listen": "::",
+      "listen_port": 18888,
+      "tcp_fast_open": true,
+      "tcp_multi_path": false,
+      "udp_fragment": false
     }
   ],
   "outbounds": [],
   "route": {
     "rules": [
-        {
-            "port": 53,
-            "outbound": "dns-out"
-        },
-        {
-            "clash_mode": "Direct",
-            "outbound": "DIRECT"
-        },
-        {
-            "clash_mode": "Global",
-            "outbound": "select"
-        },
-        {
-            "ip_is_private": true,
-            "outbound": "DIRECT"
-        }
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "outbound": "direct"
+      }
     ],
-    "auto_detect_interface": true,
-    "override_android_vpn": true,
-    "find_process": true
+    "rule_set": [
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "download_detour": "proxy"
+      }
+    ]
   },
   "experimental": {
-    "clash_api": {
-      "external_controller": "0.0.0.0:19090",
-      "secret": "",
-      "default_mode": "Rule"
-    },
     "cache_file": {
       "enabled": true,
-      "path": "",
+      "path": "cache.db",
       "cache_id": "",
-      "store_fakeip": false
-    }
+      "store_fakeip": true,
+      "store_rdrc": true,
+      "rdrc_timeout": ""
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:19090",
+      "external_ui": "",
+      "external_ui_download_url": "",
+      "external_ui_download_detour": "proxy",
+      "secret": "",
+      "default_mode": "rule",
+      "access_control_allow_origin": [],
+      "access_control_allow_private_network": false
+    },
+    "v2ray_api": {}
   }
 }
 

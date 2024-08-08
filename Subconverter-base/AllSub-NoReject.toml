@@ -28,124 +28,116 @@ match = "(解锁|)(\\|)(x.*)(\\|V2ray)"
 replace = "$[$3]"
 
 [[node_pref.rename_node]]
-match = "(..|...)([0-9][0-9][0-9][0-9]|[0-9][0-9][0-9])(\\|)(Azure|HKT|CN2GIA)"
+match = "(..|...)(\\d\\d\\d\\d|\\d\\d\\d)(\\|)(Azure|HKT|CN2GIA)"
 replace = "$1$4$2"
 
 [[node_pref.rename_node]]
-match = "^CordCloud - "
+match = "((^CordCloud - )|(关注TG@txwl666)|(一元机场:ssrsub.de)|(机场推荐:dafei.de)|(机场推荐:)|(FIBERSTATE LLC))"
 replace = ""
 
 [[node_pref.rename_node]]
-match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V[0-9]-)|(IEPL专线 )|(IPV6)|(\\(海外\\|新疆专用\\))"
+match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V\\d-)|((IEPL)|(IEPL专线)|(IPLC)|(IPLC专线))|(IPV6)|((海外\\|新疆专用))|((\u6d77\u5916\\|\u65b0\u7586\u4e13\u7528))"
 replace = ""
 
 [[node_pref.rename_node]]
-match = "(.*)( )(.*[0-9])( \\| )(.*)"
+match = "(.*)( )(.*\\d)( \\| )(.*)"
 replace = "$1$3$5"
 
 [[node_pref.rename_node]]
-match = "(流媒体)|(-M)|(原生IP)"
-replace = "[M]"
-
-[[node_pref.rename_node]]
-match = "(.*)([0-9].*[0-9])(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生)"
+match = "(.*)(\\b\\d.*\\d\\b)(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生)"
 replace = "$1$2[M]"
 
 [[node_pref.rename_node]]
-match = "(.*)(\b[0-9][0-9]\b)(静态解锁|动态解锁|原生解锁|解锁|动态原生|静态原生|原生)"
-replace = "$1$2[M]"
-
-[[node_pref.rename_node]]
-match = "(.*)([0-9].*[0-9])(\\|[\\w].*[0-9])"
+match = "(.*)(\\d.*\\d)(\\|[\\w].*\\d)"
 replace = "$1$2"
 
 [[node_pref.rename_node]]
-match = "((❖CN[0-9]❖)|^)(⓪|❶|❷|❸|❻)(TJ\\.|gR\\.|V2\\.|H2\\.|SS\\.)"
-replace = ""
+match = "(.*)(NO)(.?\\d?\\d?\\d)$"
+replace = "$1 $3"
 
 # [[node_pref.rename_node]]
-# match = "^(.*)(HK(?!(B|T|G)))([\u4e00-\u9fa5])"
-# replace = "香港 $3"
+# match = "(「|\u300c)(\\p{RI}\\p{RI})(」|\u300d)"
+# replace = "$2 "
 
 [[node_pref.rename_node]]
-match = "^(.*)(HK(?!B|G|T))([\u4e00-\u9fa5].*)"
-replace = "香港 $3"
+match = "((CN\\d•)|^)(⓪|❶|❷|❸|❻)(TJ\\.|gR\\.|V2\\.|H2\\.|SS\\.)"
+replace = ""
 
 [[node_pref.rename_node]]
-match = "^(HKBN)(.*)"
-replace = "香港HKBN $2"
+match = "(商宽)|(\\d组)|(--)|(◆)"
+replace = ""
 
 [[node_pref.rename_node]]
-match = "^(HKG)(.*)"
-replace = "香港HKG $2"
+match = "^(.*)(?i:\\bHK[G]?\\d*\\b|Hong.*?Kong|\\bHKT\\d*\\b|\\bHKBN\\d*\\b|\\bHGC\\d*\\b|\\bWTT\\d*\\b|\\bCMI\\d*\\b|\\bHK\\d*\\b)([\u4e00-\u9fa5].*|\\d*)"
+replace = "香港 $2"
 
 [[node_pref.rename_node]]
-match = "^(HKT)(.*)"
-replace = "香港HKT $2"
+match = "^((「|\u300c)(🇭🇰)(」|\u300d))(.*)"
+replace = "香港 $5"
 
 [[node_pref.rename_node]]
-match = "^(HGC)(.*)"
-replace = "香港HGC $2"
+match = "^((?i:\\bUS[A]?\\d*\\b)|((「|\u300c)(🇺🇸)(」|\u300d)))(.*)"
+replace = "美国 $6"
 
 [[node_pref.rename_node]]
-match = "^(WTT)(.*)"
-replace = "香港WTT $2"
+match = "^((?i:\\bJP[N]?\\d*\\b)|((「|\u300c)(🇯🇵)(」|\u300d)))(.*)"
+replace = "日本 $6"
 
 [[node_pref.rename_node]]
-match = "^(US)(.*)"
-replace = "美国 $2"
+match = "^((?i:\\bTW[N]?\\d*\\b)|((「|\u300c)(🇹🇼)(」|\u300d)))(.*)"
+replace = "台湾 $6"
 
 [[node_pref.rename_node]]
-match = "^(JP)(.*)"
-replace = "日本 $2"
+match = "^((?i:\\bMO\\d*\\b)|((「|\u300c)(🇲🇴)(」|\u300d)))(.*)"
+replace = "澳门 $6"
 
 [[node_pref.rename_node]]
-match = "^(TW)(.*)"
-replace = "台湾 $2"
+match = "^((?i:\\bSG[P]?\\d*\\b)|((「|\u300c)(🇸🇬)(」|\u300d)))(.*)"
+replace = "新加坡 $6"
 
 [[node_pref.rename_node]]
-match = "^(SG)(.*)"
-replace = "新加坡 $2"
-
-[[node_pref.rename_node]]
-match = "^(RU)(.*)"
+match = "^(?i:\\bRU[S]?\\d*\\b)(.*)"
 replace = "俄罗斯 $2"
 
 [[node_pref.rename_node]]
-match = "^(TR)(.*)"
+match = "^(\\bT[U]R\\b)(.*)"
 replace = "土耳其 $2"
 
 [[node_pref.rename_node]]
-match = "^(UK)(.*)"
-replace = "英国 $2"
+match = "^((?i:\\bUK\\d*\\b|\\bGB[R]?\\d*\\b)|((「|\u300c)(🇬🇧)(」|\u300d)))(.*)"
+replace = "英国 $6"
 
 [[node_pref.rename_node]]
-match = "^(KR)(.*)"
-replace = "韩国 $2"
+match = "^((?i:(?<!North\\s)(\\bK[O]?R\\d*\\b))|((「|\u300c)(🇰🇷)(」|\u300d)))(.*)"
+replace = "韩国 $7"
 
 [[node_pref.rename_node]]
-match = "^(FR)(.*)"
-replace = "法国 $2"
+match = "^((?i:\\bFR[A]?\\d*\\b)|((「|\u300c)(🇫🇷)(」|\u300d)))(.*)"
+replace = "法国 $6"
 
 [[node_pref.rename_node]]
-match = "^(CA)(.*)"
-replace = "加拿大 $2"
+match = "^((?i:\\bCA[N]?\\d*\\b)|((「|\u300c)(🇨🇦)(」|\u300d)))(.*)"
+replace = "加拿大 $6"
 
 [[node_pref.rename_node]]
-match = "^(CN)(.*)"
-replace = "中国 $2"
+match = "^((?i:\\bAU[S]?\\d*\\b)|((「|\u300c)(🇦🇺)(」|\u300d)))(.*)"
+replace = "澳大利亚 $6"
 
 [[node_pref.rename_node]]
-match = "^(RO)(.*)"
+match = "^((?i:\\bC[H]?N\\b)|((「|\u300c)(🇨🇳)(」|\u300d)))(.*)"
+replace = "中国 $6"
+
+[[node_pref.rename_node]]
+match = "^(\\bRO\\d*\\b)(.*)"
 replace = "罗马尼亚 $2"
 
 [[node_pref.rename_node]]
-match = "^(BR)(.*)"
+match = "^(\\bBR\\d*\\b)(.*)"
 replace = "巴西 $2"
 
 [[node_pref.rename_node]]
-match = "商宽"
-replace = ""
+match = "^((?i:\\bES[P]?\\d*\\b)|((「|\u300c)(🇪🇸)(」|\u300d)))(.*)"
+replace = "西班牙 $6"
 
 [[node_pref.rename_node]]
 match = "移动"
@@ -168,19 +160,7 @@ match = "(转)"
 replace = "▷"
 
 [[node_pref.rename_node]]
-match = "[0-9]组"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "(--)"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "(◆)"
-replace = ""
-
-[[node_pref.rename_node]]
-match = "(\\[?\\[NF\\]|\\[NF\\*\\]|\\[BBC\\]|\\[abema\\]|\\[动画疯\\]|Netflix|動畫瘋|\\[Hulu\\]|\\[注册Netflix\\]|\\[HBO\\]|\\[TVB\\]|\\[D\\+\\]|\\[Yp\\]|Y2B P\\]|解锁流媒体|原生IP)"
+match = "((NF)|(NF\\*)|(BBC)|(abema)|(动画疯)|(Netflix)|(動畫瘋)|(Hulu)|(\\[注册Netflix\\])|(HBO)|(TVB)|(D\\+)|(Disney)|(Yp)|(Youtube)|(Y2B P)|(AI)|(解锁流媒体)|(原生IP)|(原生)|( NF )|( D\\+ )|(流媒体)|(-M)|(解锁))"
 replace = "[M]"
 
 [[node_pref.rename_node]]
@@ -188,83 +168,39 @@ match = "\\[M\\].*\\[M\\]"
 replace = "[M]"
 
 [[node_pref.rename_node]]
+match = "(\\w+|[\u4e00-\u9fa5]+)\\s\\1"
+replace = "$1 "
+
+[[node_pref.rename_node]]
 match = "\\[CM\\]|\\[CU\\]|\\[BT\\/PT专用\\]|\\[荐\\]|\\[Beta\\]|\\[移动\\]|\\[联通\\]|\\[综合\\]|\\[备用\\]|\\[阿里云\\]|\\[测试\\]|\\[v6\\]|高速|100m限速|CDN加速|Game|PPCW|Sakura"
 replace = ""
-
-[[node_pref.rename_node]]
-match = "\\[0\\.2\\]"
-replace = "[x0.2]"
-
-[[node_pref.rename_node]]
-match = "\\[0\\.5\\]"
-replace = "[x0.5]"
-
-[[node_pref.rename_node]]
-match = "\\[0\\.7\\]"
-replace = "[x0.7]"
-
-[[node_pref.rename_node]]
-match = "\\[0\\.8\\]"
-replace = "[x0.8]"
-
-[[node_pref.rename_node]]
-match = "\\[0\\.9\\]"
-replace = "[x0.9]"
-
-[[node_pref.rename_node]]
-match = "(\\[1\\]|倍率1)"
-replace = "[x1]"
-
-[[node_pref.rename_node]]
-match = "\\[1\\.2\\]"
-replace = "[x1.2]"
-
-[[node_pref.rename_node]]
-match = "(\\[1\\.5\\])(-1.5x)"
-replace = "[x1.5]"
-
-[[node_pref.rename_node]]
-match = "(\\[2\\])|(-2x)"
-replace = "[x2]"
-
-[[node_pref.rename_node]]
-match = "(\\[3\\])|(-3x)"
-replace = "[x3]"
-
-[[node_pref.rename_node]]
-match = "(\\[5\\]|倍率5)"
-replace = "[x5]"
-
-[[node_pref.rename_node]]
-match = "\\[8\\]"
-replace = "[x8]"
-
-[[node_pref.rename_node]]
-match = "\\[10\\]"
-replace = "[x10]"
 
 # [[node_pref.rename_node]]
 # match = "(?!<=[\\]|\\)])$"
 # replace = "[x1]"
 
 [[node_pref.rename_node]]
-match = "(.*)(\\[)(倍率:)(.*[0-9])(\\])"
+match = "(x|X)(\\d*.?\\d*\\d)"
+replace = "[x$2]"
+
+[[node_pref.rename_node]]
+match = "(.*)(\\[)(倍率:)(.*\\d)(\\])"
 replace = "$1[x$4]"
 
 [[node_pref.rename_node]]
-match = "(\\[x.*[0-9]\\])(.*)"
+match = "(\\[x.*\\d\\])(.*)"
 replace = "$2$1"
 
 [[node_pref.rename_node]]
-match = "(.*)( )(.*[0-9])(倍率)"
+match = "(.*)( )(.*\\d)(倍率)"
 replace = "$1[x$3]"
 
 [[node_pref.rename_node]]
-match = "(.*)(\\|)(x.*[0-9])(倍率)"
+match = "(.*)(\\|)(x.*\\d)(倍率)"
 replace = "$1[$3]"
 
 [[node_pref.rename_node]]
-match = "(.*)( )(x.*[0-9])"
+match = "(.*)( )(x.*\\d)"
 replace = "$1[$3]"
 
 [[node_pref.rename_node]]
@@ -281,396 +217,416 @@ add_emoji = true
 remove_old_emoji = true
 
 [[emojis.emoji]]
-match = "(?i:Bandwidth|expire|流量|时间|应急|过期)"
-emoji = "🏳️‍🌈"
+match = "(?i:Bandwidth|expire|流量|时间|应急|过期|^☠️)"
+emoji = "☠️"
 
 [[emojis.emoji]]
-match = "(NetEaseMusic|网易云音乐|网易云解锁)"
+match = "(NetEaseMusic|网易云音乐|网易云解锁|^🎶)"
 emoji = "🎶"
 
 [[emojis.emoji]]
-match = "(阿尔巴尼亚|Albania)"
+match = "(\\bAL\\d*|AL_\\b|阿尔巴尼亚|Albania|^🇦🇱)"
 emoji = "🇦🇱"
 
 [[emojis.emoji]]
-match = "(阿曼苏丹|马斯喀特|Muscat)"
+match = "(\\bOM\\d*|OM_\\b|阿曼苏丹|马斯喀特|Muscat|^🇴🇲)"
 emoji = "🇴🇲"
 
 [[emojis.emoji]]
-match = "(阿塞拜疆|Azerbaijan)"
+match = "(\\bAZ\\d*|AZ_\\b|阿塞拜疆|Azerbaijan|^🇦🇿)"
 emoji = "🇦🇿"
 
 [[emojis.emoji]]
-match = "(埃及|Egypt)"
+match = "(\\bEG\\d*|EG_\\b|埃及|Egypt|^🇪🇬)"
 emoji = "🇪🇬"
 
 [[emojis.emoji]]
-match = "(爱沙尼亚|Estonia)"
+match = "(\\bEE\\d*|EE_\\b|爱沙尼亚|Estonia|^🇪🇪)"
 emoji = "🇪🇪"
 
 [[emojis.emoji]]
-match = "(巴林|Bahrain)"
+match = "(\\bBH\\d*|BH_\\b|巴林|Bahrain|^🇧🇭)"
 emoji = "🇧🇭"
 
 [[emojis.emoji]]
-match = "(巴拿马|Panama)"
+match = "(\\bBT\\d*|BT_\\b|不丹|Bhutan|^🇧🇹)"
+emoji = "🇧🇹"
+
+[[emojis.emoji]]
+match = "(\\bPA\\d*|PA_\\b|巴拿马|Panama|^🇵🇦)"
 emoji = "🇵🇦"
 
 [[emojis.emoji]]
-match = "(保加利亚|Bulgaria)"
+match = "(\\bBG(?!P)\\d*|BG_\\b|保加利亚|Bulgaria|^🇧🇬)"
 emoji = "🇧🇬"
 
 [[emojis.emoji]]
-match = "(北马其顿|Macedonia)"
+match = "(\\bMK\\d*|MK_\\b|北马其顿|Macedonia|^🇲🇰)"
 emoji = "🇲🇰"
 
 [[emojis.emoji]]
-match = "(波黑共和国|波士尼亚与赫塞哥维纳|Bosnia|Herzegovina)"
+match = "(\\bBA\\d*|BA_\\b|波黑共和国|波士尼亚与赫塞哥维纳|Bosnia|Herzegovina|^🇧🇦)"
 emoji = "🇧🇦"
 
 [[emojis.emoji]]
-match = "(梵蒂冈|Vatican)"
+match = "(\\bVA\\d*|VA_\\b|梵蒂冈|Vatican|^🇻🇦)"
 emoji = "🇻🇦"
 
 [[emojis.emoji]]
-match = "(格鲁吉亚|Georgia)"
+match = "(\\bGE\\d*|GE_\\b|格鲁吉亚|Georgia|^🇬🇪)"
 emoji = "🇬🇪"
 
 [[emojis.emoji]]
-match = "(哈萨克斯坦|Kazakhstan)"
+match = "(\\bKZ\\d*|KZ_\\b|哈萨克斯坦|Kazakhstan|^🇰🇿)"
 emoji = "🇰🇿"
 
 [[emojis.emoji]]
-match = "(吉尔吉斯斯坦|Kyrgyzstan)"
+match = "(\\bKG\\d*|KG_\\b|吉尔吉斯斯坦|Kyrgyzstan|^🇰🇬)"
 emoji = "🇰🇬"
 
 [[emojis.emoji]]
-match = "(柬埔寨|Cambodia)"
+match = "(\\bKH\\d*|KH_\\b|柬埔寨|Cambodia|^🇰🇭)"
 emoji = "🇰🇭"
 
 [[emojis.emoji]]
-match = "(克罗地亚|Croatia)"
+match = "(\\bHR\\d*|HR_\\b|克罗地亚|Croatia|^🇭🇷)"
 emoji = "🇭🇷"
 
 [[emojis.emoji]]
-match = "(肯尼亚|Kenya)"
+match = "(\\bKE\\d*|KE_\\b|肯尼亚|Kenya|^🇰🇪)"
 emoji = "🇰🇪"
 
 [[emojis.emoji]]
-match = "(拉脱维亚|Latvia)"
+match = "(\\bLA\\d*|LA_\\b|老挝|Vientiane|Laos|^🇱🇦)"
+emoji = "🇱🇦"
+
+[[emojis.emoji]]
+match = "(\\bLV\\d*|LV_\\b|拉脱维亚|Latvia|^🇱🇻)"
 emoji = "🇱🇻"
 
 [[emojis.emoji]]
-match = "(立陶宛|Lietuvos)"
+match = "(\\bLT(?!D)\\d*|LT_\\b|立陶宛|Lietuvos|^🇱🇹)"
 emoji = "🇱🇹"
 
 [[emojis.emoji]]
-match = "(卢森堡|Luxemburg|Luxembourg)"
+match = "(\\bLU\\d*|LU_\\b|卢森堡|Luxemburg|Luxembourg|^🇱🇺)"
 emoji = "🇱🇺"
 
 [[emojis.emoji]]
-match = "(蒙古|Монголулс|Mongolia)"
+match = "(\\bMN\\d*|MN_\\b|蒙古|Монголулс|Mongolia|^🇲🇳)"
 emoji = "🇲🇳"
 
 [[emojis.emoji]]
-match = "(秘鲁|Peru)"
+match = "(\\bPE\\d*|PE_\\b|秘鲁|Peru|^🇵🇪)"
 emoji = "🇵🇪"
 
 [[emojis.emoji]]
-match = "(缅甸|Myanmar)"
+match = "(\\bMM\\d*|MM_\\b|缅甸|Myanmar|^🇲🇲)"
 emoji = "🇲🇲"
 
 [[emojis.emoji]]
-match = "(墨西哥|Mexico)"
+match = "(\\bMX\\d*|MX_\\b|墨西哥|Mexico|^🇲🇽)"
 emoji = "🇲🇽"
 
 [[emojis.emoji]]
-match = "(南极|Antarctica)"
+match = "(\\bAQ\\d*|AQ_\\b|南极|Antarctica|^🇦🇶)"
 emoji = "🇦🇶"
 
 [[emojis.emoji]]
-match = "(尼日利亚|Nigeria)"
+match = "(\\bNG\\d*|NG_\\b|尼日利亚|Nigeria|^🇳🇬)"
 emoji = "🇳🇬"
 
 [[emojis.emoji]]
-match = "(葡萄牙|Portugal)"
+match = "(\\bPT\\d*|PT_\\b|葡萄牙|Portugal|^🇵🇹)"
 emoji = "🇵🇹"
 
 [[emojis.emoji]]
-match = "(塞尔维亚|Serbia)"
+match = "(\\bQA\\d*|QA_\\b|卡塔尔|Qatar|^🇶🇦)"
+emoji = "🇶🇦"
+
+[[emojis.emoji]]
+match = "(\\bRS\\d*|RS_\\b|塞尔维亚|Serbia|^🇷🇸)"
 emoji = "🇷🇸"
 
 [[emojis.emoji]]
-match = "(塞浦路斯|Cyprus)"
+match = "(\\bCY\\d*|CY_\\b|塞浦路斯|Cyprus|^🇨🇾)"
 emoji = "🇨🇾"
 
 [[emojis.emoji]]
-match = "(斯洛伐克|Slovensko)"
+match = "(\\bSK\\d*|SK_\\b|斯洛伐克|Slovensko|^🇸🇰)"
 emoji = "🇸🇰"
 
 [[emojis.emoji]]
-match = "(斯洛文尼亚|Slovenia)"
+match = "(\\bSI\\d*|SI_\\b|斯洛文尼亚|Slovenia|^🇸🇮)"
 emoji = "🇸🇮"
 
 [[emojis.emoji]]
-match = "(突尼斯|Tunisia)"
+match = "(\\bTG\\d*|TG_\\b|多哥|Togo|^🇹🇬)"
+emoji = "🇹🇬"
+
+[[emojis.emoji]]
+match = "(\\bTN\\d*|TN_\\b|突尼斯|Tunisia|^🇹🇳)"
 emoji = "🇹🇳"
 
 [[emojis.emoji]]
-match = "(乌拉圭|Uruguay)"
+match = "(\\bUY\\d*|UY_\\b|乌拉圭|Uruguay|^🇺🇾)"
 emoji = "🇺🇾"
 
 [[emojis.emoji]]
-match = "(希腊|Greece)"
+match = "(\\bGR\\d*|GR_\\b|希腊|Greece|^🇬🇷)"
 emoji = "🇬🇷"
 
 [[emojis.emoji]]
-match = "(新西兰|纽西兰|New Zealand)"
+match = "(\\bNZ\\d*|NZ_\\b|新西兰|纽西兰|New Zealand|^🇳🇿)"
 emoji = "🇳🇿"
 
 [[emojis.emoji]]
-match = "(伊朗|Iran)"
+match = "(\\bIR\\d*|IR_\\b|伊朗|Iran|^🇮🇷)"
 emoji = "🇮🇷"
 
 [[emojis.emoji]]
-match = "(约旦|Jordan)"
+match = "(\\bJO\\d*|JO_\\b|约旦|Jordan|^🇯🇴)"
 emoji = "🇯🇴"
 
 [[emojis.emoji]]
-match = "(智利|智力|Chile)"
+match = "(\\bCL\\d*|CL_\\b|智利|智力|Chile|^🇨🇱)"
 emoji = "🇨🇱"
 
 [[emojis.emoji]]
-match = "(Ascension|阿森松)"
+match = "(\\bAC\\d*|AC_\\b|Ascension|阿森松|^🇦🇨)"
 emoji = "🇦🇨"
 
 [[emojis.emoji]]
-match = "(Austria|Vienna|奥地利|维也纳)"
+match = "(\\bAT\\d*|AT_\\b|Austria|Vienna|奥地利|维也纳|^🇦🇹)"
 emoji = "🇦🇹"
 
 [[emojis.emoji]]
-match = "(Bengal|Bangladesh|孟加拉)"
+match = "(\\bBD\\d*|BD_\\b|Bengal|Bangladesh|孟加拉|^🇧🇩)"
 emoji = "🇧🇩"
 
 [[emojis.emoji]]
-match = "(Colombia|哥伦比亚)"
+match = "(\\bCO(?!G|L)\\d*|CO_\\b|Colombia|哥伦比亚|^🇨🇴)"
 emoji = "🇨🇴"
 
 [[emojis.emoji]]
-match = "(Costa Rica|哥斯达黎加)"
+match = "(\\bCR\\d*|CR_\\b|Costa Rica|哥斯达黎加|^🇨🇷)"
 emoji = "🇨🇷"
 
 [[emojis.emoji]]
-match = "(Czech|捷克)"
+match = "(\\bCZ\\d*|CZ_\\b|Czech|捷克|^🇨🇿)"
 emoji = "🇨🇿"
 
 [[emojis.emoji]]
-match = "(Ecuador|厄瓜多尔)"
+match = "(\\bEC\\d*|EC_\\b|Ecuador|厄瓜多尔|^🇪🇨)"
 emoji = "🇪🇨"
 
 [[emojis.emoji]]
-match = "(Europe|欧洲)"
-emoji = "🇪🇺"
-
-[[emojis.emoji]]
-match = "(Finland|Helsinki|芬兰|赫尔辛基)"
+match = "(\\bFI\\d*|FI_\\b|Finland|Helsinki|芬兰|赫尔辛基|^🇫🇮)"
 emoji = "🇫🇮"
 
 [[emojis.emoji]]
-match = "(Hungary|匈牙利)"
+match = "(\\bHU\\d*|HU_\\b|Hungary|匈牙利|^🇭🇺)"
 emoji = "🇭🇺"
 
 [[emojis.emoji]]
-match = "(IMAN|马恩岛|Mann)"
+match = "(\\bIM\\d*|IM_\\b|IMAN|马恩岛|Mann|^🇮🇲)"
 emoji = "🇮🇲"
 
 [[emojis.emoji]]
-match = "(Indonesia|Jakarta|印尼|印度尼西亚|雅加达)"
+match = "(\\bID\\d*|ID_\\b|Indonesia|Jakarta|印尼|印度尼西亚|雅加达|^🇮🇩)"
 emoji = "🇮🇩"
 
 [[emojis.emoji]]
-match = "(Ireland|Dublin|爱尔兰|都柏林)"
+match = "(\\bIE\\d*|IE_\\b|Ireland|Dublin|爱尔兰|都柏林|^🇮🇪)"
 emoji = "🇮🇪"
 
 [[emojis.emoji]]
-match = "(Israel|以色列)"
+match = "(\\bIL\\d*|IL_\\b|Israel|以色列|^🇮🇱)"
 emoji = "🇮🇱"
 
 [[emojis.emoji]]
-match = "(Italy|Milan|意大利|米兰)"
+match = "(\\bIQ\\d*|IQ_\\b|Iraq|伊拉克|^🇮🇶)"
+emoji = "🇮🇶"
+
+[[emojis.emoji]]
+match = "(\\bIT\\d*|IT_\\b|Italy|Milan|意大利|米兰|^🇮🇹)"
 emoji = "🇮🇹"
 
 [[emojis.emoji]]
-match = "(Moldova|摩尔多瓦)"
+match = "(\\bMD\\d*|MD_\\b|Moldova|摩尔多瓦|^🇲🇩)"
 emoji = "🇲🇩"
 
 [[emojis.emoji]]
-match = "(Morocco|摩洛哥)"
+match = "(\\bMA\\d*|MA_\\b|Morocco|摩洛哥|^🇲🇦)"
 emoji = "🇲🇦"
 
 [[emojis.emoji]]
-match = "(Nepal|尼泊尔)"
+match = "(\\bNP\\d*|NP_\\b|Nepal|尼泊尔|^🇳🇵)"
 emoji = "🇳🇵"
 
 [[emojis.emoji]]
-match = "(Norway|挪威)"
+match = "(\\bNO\\d*|NO_\\b|Norway|挪威|^🇳🇴)"
 emoji = "🇳🇴"
 
 [[emojis.emoji]]
-match = "(Pakistan|巴基斯坦)"
+match = "(\\bPK\\d*|PK_\\b|Pakistan|巴基斯坦|^🇵🇰)"
 emoji = "🇵🇰"
 
 [[emojis.emoji]]
-match = "(Puerto.*?Rico|波多黎各)"
+match = "(\\bPR\\d*|PR_\\b|Puerto.*?Rico|波多黎各|^🇵🇷)"
 emoji = "🇵🇷"
 
 [[emojis.emoji]]
-match = "(Switzerland|Zurich|瑞士|苏黎世)"
+match = "(\\bCH\\d*|CH_\\b|Switzerland|Zurich|瑞士|苏黎世|^🇨🇭)"
 emoji = "🇨🇭"
 
 [[emojis.emoji]]
-match = "(Venezuela|委内瑞拉)"
+match = "(\\bVE\\d*|VE_\\b|Venezuela|委内瑞拉|^🇻🇪)"
 emoji = "🇻🇪"
 
 [[emojis.emoji]]
-match = "(\\bAR\\b|阿根廷|Argentina)"
+match = "(\\bAR\\d*|AR_\\b|阿根廷|Argentina|^🇦🇷)"
 emoji = "🇦🇷"
 
 [[emojis.emoji]]
-match = "(\\bBE\\b|Belgium|比利时)"
+match = "(\\bBE\\d*|BE_\\b|Belgium|比利时|^🇧🇪)"
 emoji = "🇧🇪"
 
 [[emojis.emoji]]
-match = "(\\bBR\\b|Brazil|Paulo|巴西|圣保罗)"
+match = "(\\bBR\\d*|BR_\\b|Brazil|Paulo|巴西|圣保罗|^🇧🇷)"
 emoji = "🇧🇷"
 
 [[emojis.emoji]]
-match = "(\\bMY\\b|Malaysia|马来西亚)"
+match = "(\\bMY\\d*|MY_\\b|Malaysia|马来西亚|马来|^🇲🇾)"
 emoji = "🇲🇾"
 
 [[emojis.emoji]]
-match = "(\\bPH\\b|Philippines|菲律宾|马尼拉)"
-emoji = "🇵🇭"
-
-[[emojis.emoji]]
-match = "(\\bRO\\b|Romania|罗马尼亚)"
+match = "(\\bRO\\d*|RO_\\b|Romania|罗马尼亚|^🇷🇴)"
 emoji = "🇷🇴"
 
 [[emojis.emoji]]
-match = "(\\bSA\\b|Arabia|沙特)"
+match = "(\\bSA\\d*|SA_\\b|Arabia|沙特|^🇸🇦)"
 emoji = "🇸🇦"
 
 [[emojis.emoji]]
-match = "(\\bSE\\b|Sweden|瑞典)"
+match = "(\\bSE\\d*|SE_\\b|Sweden|瑞典|^🇸🇪)"
 emoji = "🇸🇪"
 
 [[emojis.emoji]]
-match = "(\\bTH[A]\\b|Thailand|泰国|泰國|曼谷)"
+match = "(\\bTH[A]|TH_\\b|Thailand|泰国|泰國|曼谷|^🇹🇭)"
 emoji = "🇹🇭"
 
 [[emojis.emoji]]
-match = "(\\bT[U]R\\b|Turkey|土耳其|土.*(?!▷|回|转)|伊斯坦布尔)"
+match = "(\\bT[U]R|TR_\\b|Turkey|Türkiye|土耳其|伊斯坦布尔|土.*(?!▷|回|转)|^🇹🇷)"
 emoji = "🇹🇷"
 
 [[emojis.emoji]]
-match = "(\\bUA\\b|Ukraine|乌克兰)"
+match = "(\\bUA\\d*|UA_\\b|Ukraine|乌克兰|^🇺🇦)"
 emoji = "🇺🇦"
 
 [[emojis.emoji]]
-match = "(\\bVN\\b|Vietnam|越南)"
+match = "(\\bVN\\d*|VN_\\b|Vietnam|越南|^🇻🇳)"
 emoji = "🇻🇳"
 
 [[emojis.emoji]]
-match = "(\\bZA\\b|Africa|南非)"
+match = "(\\bZA\\d*|ZA_\\b|Africa|南非|^🇿🇦)"
 emoji = "🇿🇦"
 
 [[emojis.emoji]]
-match = "(?i:\\bAU[S]?\\b|Australia|Sydney|澳大利亚|澳洲|悉尼)"
+match = "(?i:\\bAU[S]?\\d*|AU_\\b|Australia|Sydney|澳大利亚|澳洲|悉尼|^🇦🇺)"
 emoji = "🇦🇺"
 
 [[emojis.emoji]]
-match = "(?i:\\bD[N]?K\\b|Denmark|丹麦)"
+match = "(?i:\\bD[N]?K|DK_\\b|Denmark|丹麦|^🇩🇰)"
 emoji = "🇩🇰"
 
 [[emojis.emoji]]
-match = "(?i:\\bDE[U]?\\b|Germany|法兰克福|德(国|意志)|中德|^德$|德.*(?!▷|回|转))"
+match = "(?i:\\bDE[U]?\\d*|DE_\\b|Germany|法兰克福|德(国|意志)|中德|^德$|德.*(?!▷|回|转)|^🇩🇪)"
 emoji = "🇩🇪"
 
 [[emojis.emoji]]
-match = "(?i:\\bES[P]?\\b|Spain|西班牙)"
+match = "(?i:\\bES[P]?\\d*|ES_\\b|Spain|西班牙|^🇪🇸)"
 emoji = "🇪🇸"
 
 [[emojis.emoji]]
-match = "(?i:\\bFR[A]?\\b|France|Paris|法国|巴黎|法国.*(?!▷|回|转))"
+match = "(?i:\\bFR[A]?\\d*|FR_\\b|France|Paris|法国|巴黎|法国.*(?!▷|回|转)|^🇫🇷)"
 emoji = "🇫🇷"
 
 [[emojis.emoji]]
-match = "(?i:\\bIN[D]?\\b|India|Mumbai|印度|孟买|加尔各答|贾坎德|泰米尔纳德)"
+match = "(?i:\\bIN[D]?\\d*|IN_\\b|India|Mumbai|印度|孟买|加尔各答|贾坎德|泰米尔纳德|^🇮🇳)"
 emoji = "🇮🇳"
 
 [[emojis.emoji]]
-match = "(?i:\\bIS[L]?\\b|Iceland|冰岛)"
+match = "(?i:\\bIS[L]?\\d*|IS_\\b|Iceland|冰岛|^🇮🇸)"
 emoji = "🇮🇸"
 
 [[emojis.emoji]]
-match = "(?i:\\bKP\\b|North.*?Korea|朝鲜)"
+match = "(?i:\\bKP\\d*|KP_\\b|North.*?Korea|朝鲜|^🇰🇵)"
 emoji = "🇰🇵"
 
 [[emojis.emoji]]
-match = "(?i:\\bNL[D]?\\b|Netherlands|荷兰|阿姆斯特丹)"
+match = "(?i:\\bNL[D]?\\d*|NL_\\b|Netherlands|荷兰|阿姆斯特丹|^🇳🇱)"
 emoji = "🇳🇱"
 
 [[emojis.emoji]]
-match = "(?i:\\bP[O]?L\\b|Poland|波兰)"
+match = "(?i:\\bP[O]?H\\d*|PH_\\b|Philippines|菲律宾|马尼拉|^🇵🇭)"
+emoji = "🇵🇭"
+
+[[emojis.emoji]]
+match = "(?i:\\bP[O]?L|PL_\\b|Poland|波兰|^🇵🇱)"
 emoji = "🇵🇱"
 
 [[emojis.emoji]]
-match = "(?i:\\bUAE\\b|Dubai|阿联酋|迪拜)"
+match = "(?i:\\bUAE|UAE_\\b|Dubai|阿联酋|迪拜|^🇦🇪)"
 emoji = "🇦🇪"
 
 [[emojis.emoji]]
-match = "(?i:\\bCA[N]?\\b|Canada|Toronto|Montreal|Vancouver|加拿大|蒙特利尔|温哥华|楓葉|枫叶|加(?!州|坡|拉).*(?!▷|回|转))"
+match = "(?i:\\bCA[N]?\\d*|CA_\\b|Canada|Toronto|Montreal|Vancouver|加拿大|蒙特利尔|温哥华|楓葉|枫叶|加(?!州|坡|拉|哥|利).*(?!▷|回|转)|^🇨🇦)"
 emoji = "🇨🇦"
 
 [[emojis.emoji]]
-match = "(?i:\\bJP[N]?\\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日|日.*(?!▷|回|转)|沪日|穗日|川日|中日|泉日|杭日)"
+match = "(?i:\\bJP[N]?\\d*|JP_\\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日|日.*(?!▷|回|转)|沪日|穗日|川日|中日|泉日|杭日|^🇯🇵)"
 emoji = "🇯🇵"
 
 [[emojis.emoji]]
-match = "(?i:\\bK[O]?R\\b|Korea|首尔|韩|韓)"
+match = "(?i:(?<!North\\s)(\\bK[O]?R\\d*|KR_\\b|Korea|首尔|韩|韓)|^🇰🇷)"
 emoji = "🇰🇷"
 
 [[emojis.emoji]]
-match = "(?i:\\bRU[S]?\\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄|俄.*(?!▷|回|转)|京俄|杭俄)"
+match = "(?i:\\bRU[S]?\\d*|RU_\\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄|俄.*(?!▷|回|转)|京俄|杭俄|^🇷🇺)"
 emoji = "🇷🇺"
 
 [[emojis.emoji]]
-match = "(?i:\\bSG[P]?\\b|Singapore|新加坡|狮城|獅城|[^-]新|新(?!▷|西)|沪新|京新|泉新|穗新|深新|杭新)"
+match = "(?i:\\bSG[P]?\\d*|SG_\\b|Singapore|新加坡|狮城|獅城|[^-]新|新(?!▷|西)|沪新|京新|泉新|穗新|深新|杭新|^🇸🇬)"
 emoji = "🇸🇬"
 
 [[emojis.emoji]]
-match = "(?i:\\bUK\\b|\\bGB[R]?\\b|England|United.*?Kingdom|London|英国|[^-]英|伦敦|英.*(?!▷|回|转))"
+match = "(?i:\\bUK\\d*|UK_\\b|\\bGB[R]?\\d*|GB_\\b|England|United.*?Kingdom|London|英国|[^-]英|伦敦|英.*(?!▷|回|转)|^🇬🇧)"
 emoji = "🇬🇧"
 
 [[emojis.emoji]]
-match = "(?i:\\bUS[A]?\\b|America|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|美.*(?!▷|回|转)|沪美|京美)"
+match = "(?i:\\bUS[A]?\\d*|US_\\b|America|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|盐湖城|水牛城|美.*(?!▷|回|转)|沪美|京美|^🇺🇸)"
 emoji = "🇺🇸"
 
 [[emojis.emoji]]
-match = "(?i:\\bHK[G]?\\b|Hong.*?Kong|\\bHKT\\b|\\bHKBN\\b|\\bHGC\\b|\\bWTT\\b|\\bCMI\\b|[^-]港|港(?!▷|回|转))"
+match = "(?i:\\bHK[G]?\\d*|HK_\\b|Hong.*?Kong|\\bHKT\\d*\\b|\\bHKBN\\d*\\b|\\bHGC\\d*\\b|\\bWTT\\d*\\b|\\bCMI\\d*\\b|\\bHK\\d*\\b|[^-]港|港(?!▷|回|转)|^🇭🇰)"
 emoji = "🇭🇰"
 
 [[emojis.emoji]]
-match = "(?i:\\bMO\\b|Macao|澳门|\\bCTM\\b|澳(?!大利亚).*(?!▷|回|转))"
+match = "(?i:\\bMO\\d*|MO_\\b|Macao|澳门|\\bCTM\\b|澳(?!大利亚).*(?!▷|回|转)|^🇲🇴)"
 emoji = "🇲🇴"
 
 [[emojis.emoji]]
-match = "(?i:\\bTW[N]?\\b|Taiwan|新北|彰化|\\bCHT\\b|台湾|[^-]台|\\bHINET\\b|台.*(?!▷|回|转)|台北|台中)"
+match = "(?i:\\bTW[N]?\\d*|TW_\\b|Taiwan|新北|彰化|\\bCHT\\b|台湾|[^-]台|\\bHINET\\b|台.*(?!▷|回|转)|台北|台中|^🇹🇼)"
 emoji = "🇹🇼"
 
 [[emojis.emoji]]
-match = "(?i:\\bC[H]?N\\b|China|back|回国|中国[^-]|江苏[^-]|北京[^-]|上海[^-]|广州[^-]|深圳[^-]|杭州[^-]|常州[^-]|徐州[^-]|青岛[^-]|宁波[^-]|镇江[^-]|成都[^-]|河北[^-]|山西[^-]|辽宁[^-]|吉林[^-]|黑龙江[^-]|江苏[^-]|浙江[^-]|安徽[^-]|福建[^-]|江西[^-]|山东[^-]|河南[^-]|湖北[^-]|湖南[^-]|广东[^-]|海南[^-]|四川[^-]|贵州[^-]|云南[^-]|陕西[^-]|甘肃[^-]|青海[^-]|内蒙古[^-]|广西[^-]|西藏[^-]|宁夏[^-]|新疆[^-]|中.*(?!▷|回|转)|苏.*(?!▷|回|转)|京.*(?!▷|回|转)|沪.*(?!▷|回|转)|穗.*(?!▷|回|转)|深(?!▷|港)|杭.*(?!▷|回|转)|徐.*(?!▷|回|转)|青.*(?!▷|回|转)|甬.*(?!▷|回|转)|镇.*(?!▷|回|转)|禅.*(?!▷|回|转)|蓉.*(?!▷|回|转))"
+match = "(?i:\\bC[H]?N|CN_\\b|China|back|回国|中国[^-]|江苏[^-]|北京[^-]|上海[^-]|广州[^-]|深圳[^-]|杭州[^-]|常州[^-]|徐州[^-]|青岛[^-]|宁波[^-]|镇江[^-]|成都[^-]|河北[^-]|山西[^-]|辽宁[^-]|吉林[^-]|黑龙江[^-]|江苏[^-]|浙江[^-]|安徽[^-]|福建[^-]|江西[^-]|山东[^-]|河南[^-]|湖北[^-]|湖南[^-]|广东[^-]|海南[^-]|四川[^-]|贵州[^-]|云南[^-]|陕西[^-]|甘肃[^-]|青海[^-]|内蒙古[^-]|广西[^-]|西藏[^-]|宁夏[^-]|新疆[^-]|中.*(?!▷|回|转)|苏.*(?!▷|回|转)|京.*(?!▷|回|转)|沪.*(?!▷|回|转)|穗.*(?!▷|回|转)|深(?!▷|港)|杭.*(?!▷|回|转)|徐.*(?!▷|回|转)|青.*(?!▷|回|转)|甬.*(?!▷|回|转)|镇.*(?!▷|回|转)|禅.*(?!▷|回|转)|蓉.*(?!▷|回|转)|^🇨🇳)"
 emoji = "🇨🇳"
+
+[[emojis.emoji]]
+match = "(\\bEU\\d*|EU_\\b|Europe|欧洲|^🇪🇺)"
+emoji = "🇪🇺"
 
 
 [[custom_groups]]
@@ -1076,7 +1032,7 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "🤖 OpenAi"
+name = "🤖 OpenAI"
 type = "select"
 disable_udp = false
 rule = [
@@ -1144,7 +1100,7 @@ name = "🇭🇰 香港-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇭🇰.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1160,7 +1116,7 @@ name = "🇲🇴 澳门-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇲🇴.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1176,7 +1132,7 @@ name = "🇹🇼 台湾-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇹🇼.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1192,7 +1148,7 @@ name = "🇺🇸 美国-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇺🇸.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1208,7 +1164,7 @@ name = "🇯🇵 日本-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇯🇵.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1224,7 +1180,7 @@ name = "🇰🇷 韩国-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇰🇷.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1240,7 +1196,7 @@ name = "🇸🇬 新加坡-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇸🇬.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1256,7 +1212,7 @@ name = "🇷🇺 俄罗斯-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇷🇺.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1272,7 +1228,7 @@ name = "🇬🇧 英国-延迟最低"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇬🇧.*(?!▷|回|转))", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1299,7 +1255,7 @@ rule = [
     "[]🇰🇷 韩国-延迟最低",
     "[]🍱 冷门地区",
 ]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1308,47 +1264,8 @@ lazy = true
 name = "🍱 冷门地区"
 type = "url-test"
 disable_udp = false
-rule = [
-    "(^🇦🇪.*)",
-    "(^🇦🇷.*)",
-    "(^🇦🇹.*)",
-    "(^🇦🇺.*)",
-    "(^🇦🇿.*)",
-    "(^🇧🇩.*)",
-    "(^🇧🇬.*)",
-    "(^🇧🇷.*)",
-    "(^🇨🇦.*)",
-    "(^🇨🇭.*)",
-    "(^🇨🇱.*)",
-    "(^🇨🇴.*)",
-    "(^🇨🇿.*)",
-    "(^🇩🇪.*)",
-    "(^🇪🇬.*)",
-    "(^🇪🇸.*)",
-    "(^🇫🇮.*)",
-    "(^🇫🇷.*)",
-    "(^🇬🇧.*)",
-    "(^🇮🇪.*)",
-    "(^🇮🇱.*)",
-    "(^🇮🇳.*)",
-    "(^🇰🇭.*)",
-    "(^🇱🇻.*)",
-    "(^🇲🇾.*)",
-    "(^🇳🇱.*)",
-    "(^🇵🇭.*)",
-    "(^🇵🇰.*)",
-    "(^🇵🇱.*)",
-    "(^🇸🇦.*)",
-    "(^🇹🇭.*)",
-    "(^🇹🇷.*)",
-    "(^🇺🇦.*)",
-    "(^🇻🇳.*)",
-    "(^🇿🇦.*)",
-    "(^🇴🇲.*)",
-    "(^🇧🇭.*)",
-    "[]REJECT",
-]
-url = "http://connect.rom.miui.com/generate_204"
+rule = ["(^(?!🇨🇳|🇺🇸|🇭🇰|🇲🇴|🇹🇼|🇯🇵|🇷🇺|🇸🇬|🇬🇧|🇰🇷|距离).*)", "[]REJECT"]
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1358,7 +1275,7 @@ name = "🇭🇰 香港-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇭🇰.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1368,7 +1285,7 @@ name = "🇲🇴 澳门-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇲🇴.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1378,7 +1295,7 @@ name = "🇹🇼 台湾-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇹🇼.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1388,7 +1305,7 @@ name = "🇬🇧 英国-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇬🇧.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1398,7 +1315,7 @@ name = "🇺🇸 美国-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇺🇸.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1408,7 +1325,7 @@ name = "🇯🇵 日本-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇯🇵.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1418,7 +1335,7 @@ name = "🇸🇬 新加坡-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇸🇬.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1428,7 +1345,7 @@ name = "🇰🇷 韩国-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇰🇷.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1438,7 +1355,7 @@ name = "🇷🇺 俄罗斯-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇷🇺.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1448,7 +1365,7 @@ name = "🇮🇳 印度-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇮🇳.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1458,7 +1375,7 @@ name = "🇦🇷 阿根廷-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇦🇷.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1468,7 +1385,7 @@ name = "🇦🇹 奥地利-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇦🇹.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1478,7 +1395,7 @@ name = "🇦🇿 阿塞拜疆-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇦🇿.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1488,7 +1405,7 @@ name = "🇧🇬 保加利亚-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇧🇬.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1498,7 +1415,7 @@ name = "🇧🇷 巴西-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇧🇷.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1508,7 +1425,7 @@ name = "🇨🇭 瑞士-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇨🇭.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1518,7 +1435,7 @@ name = "🇨🇱 智利-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇨🇱.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1528,7 +1445,7 @@ name = "🇨🇴 哥伦比亚-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇨🇴.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1538,7 +1455,7 @@ name = "🇨🇿 捷克-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇨🇿.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1548,7 +1465,7 @@ name = "🇪🇬 埃及-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇪🇬.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1558,7 +1475,7 @@ name = "🇪🇸 西班牙-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇪🇸.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1568,7 +1485,7 @@ name = "🇫🇮 芬兰-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇫🇮.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1578,7 +1495,7 @@ name = "🇮🇱 以色列-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇮🇱.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1588,7 +1505,7 @@ name = "🇱🇻 拉脱维亚-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇱🇻.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1598,7 +1515,7 @@ name = "🇲🇾 马来西亚-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇲🇾.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1608,7 +1525,7 @@ name = "🇳🇱 荷兰-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇳🇱.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1618,7 +1535,7 @@ name = "🇵🇰 巴基斯坦-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇵🇰.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1628,7 +1545,7 @@ name = "🇵🇱 波兰-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇵🇱.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1638,7 +1555,7 @@ name = "🇹🇭 泰国-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇹🇭.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1648,7 +1565,7 @@ name = "🇹🇷 土耳其-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇹🇷.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1658,7 +1575,7 @@ name = "🇺🇦 乌克兰-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇺🇦.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1668,7 +1585,7 @@ name = "🇻🇳 越南-Media"
 type = "url-test"
 disable_udp = false
 rule = ["(^🇻🇳.*\\[M\\])", "[]REJECT"]
-url = "http://connect.rom.miui.com/generate_204"
+url = "https://connectivitycheck.gstatic.com/generate_204"
 interval = 180
 tolerance = 20
 lazy = true
@@ -1798,8 +1715,8 @@ type = "surge-ruleset"
 interval = 3600
 
 [[rulesets]]
-group = "🤖 OpenAi"
-ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/OpenAi.list"
+group = "🤖 OpenAI"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/OpenAI.list"
 type = "surge-ruleset"
 interval = 3600
 
