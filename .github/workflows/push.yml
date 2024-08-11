@@ -1,0 +1,28 @@
+name: Push to subconverter
+on:
+  push:
+  workflow_dispatch:
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  # 自动取消其他运行中的workflow
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GIT_TOKEN: ${{secrets.REPO_TOKEN}}
+    steps:
+      - uses: actions/checkout@v4.1.7
+      - name: Push update to subconverter
+        if: ${{ github.ref == 'refs/heads/master' }}
+        uses: actions/github-script@v7.0.1
+        with:
+          github-token: ${{env.GIT_TOKEN}}
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: 'subconverter',
+              workflow_id: 'submodule.yml',
+              ref: 'simpleweb',
+            });
