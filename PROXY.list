@@ -5318,8 +5318,6 @@ DOMAIN-SUFFIX,brewmp.com
 ## > Quora
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
-## > Railway Corp
-DOMAIN-SUFFIX,railway.app
 ## > Rakuten (乐天)
 DOMAIN-SUFFIX,ebates.com
 DOMAIN-SUFFIX,infoseek.co.jp
@@ -5383,9 +5381,6 @@ DOMAIN-SUFFIX,jboss.org
 DOMAIN-SUFFIX,noobaa.io
 DOMAIN-SUFFIX,redhat.com
 DOMAIN-SUFFIX,stackrox.io
-## > Render
-DOMAIN-SUFFIX,onrender.com
-DOMAIN-SUFFIX,render.com
 ## > Ruleoflaw
 DOMAIN-SUFFIX,rolfoundation.org
 DOMAIN-SUFFIX,rolsociety.org
@@ -6826,14 +6821,29 @@ DOMAIN-SUFFIX,xubuntu.org
 DOMAIN-SUFFIX,zorin.com
 DOMAIN-SUFFIX,zorincdn.com
 ## > Developer
-DOMAIN-SUFFIX,apache.org
+# >> back4app
 DOMAIN-SUFFIX,b4a.run
 DOMAIN-SUFFIX,back4app.com
+# >> Fly.io
+DOMAIN-SUFFIX,fly-metrics.net
+DOMAIN-SUFFIX,fly.dev
+DOMAIN-SUFFIX,fly.io
+# >> Koyeb
+DOMAIN-SUFFIX,koyeb.app
+DOMAIN-SUFFIX,koyeb.com
+# >> Netlify
+DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,netlify.com
+# >> Railway
+DOMAIN-SUFFIX,railway.app
+# >> Render
+DOMAIN-SUFFIX,onrender.com
+DOMAIN-SUFFIX,render.com
+# >> &more
+DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,elastic.co
 DOMAIN-SUFFIX,elastic.com
 DOMAIN-SUFFIX,jitpack.io
-DOMAIN-SUFFIX,koyeb.app
-DOMAIN-SUFFIX,koyeb.com
 DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mvnrepository.com
