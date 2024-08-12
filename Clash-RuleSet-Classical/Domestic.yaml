@@ -2424,6 +2424,9 @@ payload:
   - DOMAIN-SUFFIX,ynet.com.cn
   - DOMAIN-SUFFIX,ynet.com
   - DOMAIN-SUFFIX,ynet.cn
+  ## > 贝锐信息
+  - DOMAIN-SUFFIX,oray.com
+  - DOMAIN-SUFFIX,oray.net
   ## > 边锋网络
   - DOMAIN-SUFFIX,17et.com
   - DOMAIN-SUFFIX,5158wan.com
@@ -10903,7 +10906,6 @@ payload:
   - DOMAIN-SUFFIX,onlinedown.net
   - DOMAIN-SUFFIX,onlinesjtu.com
   - DOMAIN-SUFFIX,opdown.com
-  - DOMAIN-SUFFIX,oray.com
   - DOMAIN-SUFFIX,ottcn.com
   - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,p2peye.com
