@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,bytedns1.com
   - DOMAIN-SUFFIX,bytedns2.com
   - DOMAIN-SUFFIX,bytefcdn.com
+  - DOMAIN-SUFFIX,bytefcdnrd.com
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,bytegslb.com
   - DOMAIN-SUFFIX,bytelb.net
@@ -389,3 +390,7 @@ payload:
   # >> 沐瞳科技
   - DOMAIN-SUFFIX,mobilelegends.com
   - DOMAIN-SUFFIX,moonton.com
+  ## >> TRAE
+  - DOMAIN-SUFFIX,marscode.cn
+  - DOMAIN-SUFFIX,trae.cn
+  - DOMAIN-SUFFIX,trae.com.cn

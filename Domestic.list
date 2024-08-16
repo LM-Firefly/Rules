@@ -7374,7 +7374,7 @@ DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,qqmusic.qq.com
 DOMAIN-SUFFIX,y.qq.com
 DOMAIN-SUFFIX,aqqmusic.tc.qq.com
-## >> 斗鱼
+## > 斗鱼
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyucdn.cn
@@ -7385,6 +7385,8 @@ DOMAIN-SUFFIX,douyuba.cn
 DOMAIN-SUFFIX,douyupcdn.cn
 DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,doyonoc.com
+DOMAIN-SUFFIX,edgesrv.com
+DOMAIN-SUFFIX,guguyuyin.com
 DOMAIN-SUFFIX,oywtv.com
 ## >> 虎牙
 DOMAIN-SUFFIX,huya.com
@@ -8237,6 +8239,7 @@ DOMAIN-SUFFIX,alinotes.cn
 DOMAIN-SUFFIX,facephoto.com
 DOMAIN-SUFFIX,heihei.com
 DOMAIN-SUFFIX,hongmi.cn
+DOMAIN-SUFFIX,i3ciebwk6ixfb.com
 DOMAIN-SUFFIX,kewucool.com
 DOMAIN-SUFFIX,m3-cloud.com
 DOMAIN-SUFFIX,mgslb.cn
@@ -8251,14 +8254,15 @@ DOMAIN-SUFFIX,micoce.com.cn
 DOMAIN-SUFFIX,mifile.cn
 DOMAIN-SUFFIX,mij.cc
 DOMAIN-SUFFIX,mijia.tech
+DOMAIN-SUFFIX,miot-spec.org
 DOMAIN-SUFFIX,mipush.com
 DOMAIN-SUFFIX,miyun.com
+DOMAIN-SUFFIX,xiaomimobile.com
 DOMAIN-SUFFIX,xiaomiprint.com
 DOMAIN-SUFFIX,xiaomisa.cn
 DOMAIN-SUFFIX,xiaomisa.com
 DOMAIN-SUFFIX,xiaomisa.net
 DOMAIN-SUFFIX,xiaomisa.org
-DOMAIN-SUFFIX,xiaomixiaoai.com
 DOMAIN-SUFFIX,zhutidasai.com
 DOMAIN-SUFFIX,小米科技有限责任公司.中国
 ## >> MIUI米柚
@@ -8271,6 +8275,11 @@ DOMAIN-SUFFIX,mitalk.com
 ## >> 小米TV
 DOMAIN-SUFFIX,mitvos.com
 DOMAIN-SUFFIX,mitvos.net
+## >> 小爱同学
+DOMAIN-SUFFIX,xiaoaiassist.com
+DOMAIN-SUFFIX,xiaoaiscan.net
+DOMAIN-SUFFIX,xiaoaisound.com
+DOMAIN-SUFFIX,xiaomixiaoai.com
 ## >> 小米盒子
 DOMAIN-SUFFIX,duokanbox.com
 ## >> 小米路由器
@@ -8298,9 +8307,11 @@ DOMAIN-SUFFIX,mi-img3.com
 DOMAIN-SUFFIX,mi-img4.com
 DOMAIN-SUFFIX,mi-img5.com
 DOMAIN-SUFFIX,mi-static.com
+DOMAIN-SUFFIX,mi.com.cn
 DOMAIN-SUFFIX,micode.cn
 DOMAIN-SUFFIX,micode.com.cn
 DOMAIN-SUFFIX,micode.net
+DOMAIN-SUFFIX,mieco.net
 DOMAIN-SUFFIX,mikge.com
 DOMAIN-SUFFIX,milliant.com
 DOMAIN-SUFFIX,mioffice.cn
@@ -8327,6 +8338,8 @@ DOMAIN-SUFFIX,xiaomiinc.cn
 DOMAIN-SUFFIX,xiaomiinc.com
 DOMAIN-SUFFIX,xiaomiinc.com.cn
 DOMAIN-SUFFIX,xiaomiinc.net
+DOMAIN-SUFFIX,xiaominr.com
+DOMAIN-SUFFIX,xiaomiwear.com
 DOMAIN-SUFFIX,xlaomi.net
 ## >> 天星数科
 DOMAIN-SUFFIX,airstar.com
@@ -8340,6 +8353,7 @@ DOMAIN-SUFFIX,duokan.com
 ## >> 田米
 DOMAIN-SUFFIX,timipc.com
 ## >> 瓦力
+DOMAIN-SUFFIX,migames.com
 DOMAIN-SUFFIX,wali.com
 ## >> 小米有品
 DOMAIN-SUFFIX,xiaomiyoupin.com
@@ -9148,6 +9162,7 @@ DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytedns1.com
 DOMAIN-SUFFIX,bytedns2.com
 DOMAIN-SUFFIX,bytefcdn.com
+DOMAIN-SUFFIX,bytefcdnrd.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bytegslb.com
 DOMAIN-SUFFIX,bytelb.net
@@ -9524,6 +9539,10 @@ DOMAIN-SUFFIX,nvsgames.cn
 # >> 沐瞳科技
 DOMAIN-SUFFIX,mobilelegends.com
 DOMAIN-SUFFIX,moonton.com
+## >> TRAE
+DOMAIN-SUFFIX,marscode.cn
+DOMAIN-SUFFIX,trae.cn
+DOMAIN-SUFFIX,trae.com.cn
 ## > 自如
 DOMAIN-SUFFIX,ziroom.com
 DOMAIN-SUFFIX,ziroomapartment.com
