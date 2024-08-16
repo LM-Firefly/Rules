@@ -232,6 +232,7 @@ payload:
   - DOMAIN-SUFFIX,pplusstatic.com
   ## >> Pluto TV
   - DOMAIN-SUFFIX,pluto.tv
+  - DOMAIN-SUFFIX,plutotv.net
   ## >> ShowTime
   - PROCESS-NAME,com.showtime.standalone
   - DOMAIN-SUFFIX,showtime.com
@@ -1664,10 +1665,13 @@ payload:
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN,trae-api-sg.mchost.guru
+  - DOMAIN-SUFFIX,byteintlapi.com
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,ibyteimg.com
   - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,marscode.com
   - DOMAIN-SUFFIX,muscdn.com
   - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,sgpstatp.com
@@ -1678,6 +1682,7 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,tiktokv.us
+  - DOMAIN-SUFFIX,trae.ai
   - DOMAIN-SUFFIX,ttwebview.com
   ## > TVB
   - DOMAIN-SUFFIX,bigbigchannel.com.hk
