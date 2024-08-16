@@ -28,8 +28,6 @@ DOMAIN-SUFFIX,acer.com
 DOMAIN-SUFFIX,acer.com.cn
 DOMAIN-SUFFIX,founderpc.cn
 DOMAIN-SUFFIX,founderpc.com
-## > ACM
-DOMAIN-SUFFIX,acm.org
 ## > Adblockplus
 DOMAIN-SUFFIX,adblockplus.org
 ## > Adidas
@@ -454,8 +452,6 @@ DOMAIN-SUFFIX,ao3.org
 DOMAIN-SUFFIX,archiveofourown.org
 DOMAIN-SUFFIX,archiveofourown.com
 DOMAIN-SUFFIX,archiveofourown.net
-## > Arxiv
-DOMAIN-SUFFIX,arxiv.org
 ## > Atlassian
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,bitbucket.org
@@ -1623,8 +1619,6 @@ DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,comodoca2.com
 DOMAIN-SUFFIX,comodoca3.com
 DOMAIN-SUFFIX,comodoca4.com
-## > Computingreviews
-DOMAIN-SUFFIX,computingreviews.com
 ## > CordCloud
 DOMAIN-SUFFIX,cordcloud.online
 DOMAIN-SUFFIX,cordcloud.site
@@ -4183,9 +4177,16 @@ DOMAIN-SUFFIX,intellij.net
 DOMAIN-SUFFIX,intellij.org
 DOMAIN-SUFFIX,jetbrains.com
 DOMAIN-SUFFIX,jetbrains.net
+DOMAIN-SUFFIX,jetbrains.org
 DOMAIN-SUFFIX,jetbrains.space
 DOMAIN-SUFFIX,jetbrains.team
+DOMAIN-SUFFIX,kotlinconf.com
 DOMAIN-SUFFIX,kotlinlang.org
+# >> JetBrains AI
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,jetbrains.io
 ## > Jfrog
 DOMAIN-SUFFIX,jfrog.com
 DOMAIN-SUFFIX,jfrog.org
@@ -5641,8 +5642,6 @@ DOMAIN-SUFFIX,sf.net
 DOMAIN-SUFFIX,fsdn.com
 ## > Spark
 DOMAIN-SUFFIX,smartmailcloud.com
-## > Springer
-DOMAIN-SUFFIX,springerlink.com
 ## > Stackexchange
 DOMAIN-SUFFIX,askubuntu.com
 DOMAIN-SUFFIX,blogoverflow.com
@@ -5975,8 +5974,6 @@ DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,udn.com.tw
 DOMAIN-SUFFIX,udndata.com
 DOMAIN-SUFFIX,udnfunlife.com
-## > Un
-DOMAIN-SUFFIX,un.org
 ## > Unpkg
 DOMAIN-SUFFIX,unpkg.com
 ## > Unsplash
@@ -6851,9 +6848,13 @@ DOMAIN-SUFFIX,quay.io
 DOMAIN-SUFFIX,sonatype.org
 DOMAIN-SUFFIX,sourcegraph.com
 ## > Scholar 国内外学术网站
+# >> ACM
+DOMAIN-SUFFIX,acm.org
 # >> Apa
 DOMAIN-SUFFIX,apa.org
 DOMAIN-SUFFIX,psyccareers.com
+# >> Arxiv
+DOMAIN-SUFFIX,arxiv.org
 # >> Cambridge
 DOMAIN-SUFFIX,cambridge.org
 DOMAIN-SUFFIX,cambridgedigital.net
@@ -6865,6 +6866,8 @@ DOMAIN-SUFFIX,isiknowledge.com
 DOMAIN-SUFFIX,newisiknowledge.com
 DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,webofscience.com
+# >> Computingreviews
+DOMAIN-SUFFIX,computingreviews.com
 # >> Doi
 DOMAIN-SUFFIX,doi.info
 DOMAIN-SUFFIX,doi.org
@@ -6877,7 +6880,10 @@ DOMAIN-SUFFIX,engineeringvillage.com
 DOMAIN-SUFFIX,evise.com
 DOMAIN-SUFFIX,scopus.com
 # >> Ieee
+DOMAIN-SUFFIX,computer.org
 DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,ieeecomputer.org
+DOMAIN-SUFFIX,ieeecomputersociety.org
 # >> Imperialcollege
 DOMAIN-SUFFIX,ic.ac.uk
 DOMAIN-SUFFIX,imperial.ac.uk
@@ -6931,6 +6937,7 @@ DOMAIN-SUFFIX,sciencedirectassets.com
 # >> Springer
 DOMAIN-SUFFIX,apress.com
 DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,springerlink.com
 DOMAIN-SUFFIX,springernature.com
 DOMAIN-SUFFIX,wkap.nl
 # >> Taylorfrancis
@@ -6938,6 +6945,8 @@ DOMAIN-SUFFIX,tandf.co.uk
 DOMAIN-SUFFIX,tandfonline.com
 DOMAIN-SUFFIX,taylorandfrancis.com
 DOMAIN-SUFFIX,taylorfrancis.com
+# >> Un
+DOMAIN-SUFFIX,un.org
 # >> Z-Library
 DOMAIN-SUFFIX,1lib.cloud
 DOMAIN-SUFFIX,1lib.domains
@@ -6980,6 +6989,7 @@ DOMAIN-SUFFIX,zlibcdn2.com
 # >> Others
 DOMAIN-SUFFIX,aclweb.org
 DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,aiaa.org
 DOMAIN-SUFFIX,aip.org
 DOMAIN-SUFFIX,altmetric.com
 DOMAIN-SUFFIX,ams.org
@@ -7002,6 +7012,7 @@ DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,cell.com
 DOMAIN-SUFFIX,cnki.net
 DOMAIN-SUFFIX,cqvip.com
+DOMAIN-SUFFIX,crossref.org
 DOMAIN-SUFFIX,csiro.au
 DOMAIN-SUFFIX,deepdyve.com
 DOMAIN-SUFFIX,degruyter.com
@@ -7014,6 +7025,7 @@ DOMAIN-SUFFIX,europepmc.org
 DOMAIN-SUFFIX,frontiersin.org
 DOMAIN-SUFFIX,gale.com
 DOMAIN-SUFFIX,galegroup.com
+DOMAIN-SUFFIX,geoscienceworld.org
 DOMAIN-SUFFIX,ggsrv.com
 DOMAIN-SUFFIX,hindawi.com
 DOMAIN-SUFFIX,icevirtuallibrary.com
@@ -7034,6 +7046,7 @@ DOMAIN-SUFFIX,kuke.com
 DOMAIN-SUFFIX,lawdata.com.tw
 DOMAIN-SUFFIX,libguides.com
 DOMAIN-SUFFIX,literatumonline.com
+DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,mdpi.com
 DOMAIN-SUFFIX,mpg.de
 DOMAIN-SUFFIX,myilibrary.com
@@ -7057,10 +7070,12 @@ DOMAIN-SUFFIX,rsc.org
 DOMAIN-SUFFIX,sagepub.com
 DOMAIN-SUFFIX,scholarpedia.org
 DOMAIN-SUFFIX,sci-hub.tw
+DOMAIN-SUFFIX,science.org
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,sciencenets.com
 DOMAIN-SUFFIX,scientificamerican.com
 DOMAIN-SUFFIX,scitation.org
+DOMAIN-SUFFIX,semanticscholar.org
 DOMAIN-SUFFIX,siam.org
 DOMAIN-SUFFIX,silverchair-cdn.com
 DOMAIN-SUFFIX,spiedigitallibrary.org
@@ -7077,6 +7092,7 @@ DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
 DOMAIN-SUFFIX,yale.edu
+DOMAIN-SUFFIX,zotero.org
 ## > Porn
 ## >> 18comic
 DOMAIN-SUFFIX,18comic.cc

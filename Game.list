@@ -285,20 +285,25 @@ DOMAIN-SUFFIX,menu-static.gog-statics.com
 DOMAIN-SUFFIX,productcard.gog-statics.com
 DOMAIN-SUFFIX,static-login.gog-statics.com
 DOMAIN-SUFFIX,www4-static.gog-statics.com
-## > HoYoverse
+## >> HoYoverse
 DOMAIN-SUFFIX,hoyoverse.com
-## >> 原神
-DOMAIN-SUFFIX,genshinimpact.com
-## >> 崩壞3
+# >> 崩壞3
 DOMAIN-SUFFIX,honkaiimpact3.com
-## >> 星穹鐵道
-DOMAIN-SUFFIX,honkaistarrail.com
-## >> 短网址
+# >> 短网址
 DOMAIN-SUFFIX,hoyo.link
-## >> HoYoLab
+# >> HoYoLab
 DOMAIN-SUFFIX,hoyolab.com
-## >> n0va
+# >> 绝区零
+DOMAIN-SUFFIX,juequling.com
+# >> n0va
 DOMAIN-SUFFIX,n0vadesktop.com
+# >> 未定事件簿
+DOMAIN-SUFFIX,themisweeps.com
+# >> 星穹鐵道
+DOMAIN-SUFFIX,honkaistarrail.com
+DOMAIN-SUFFIX,starrails.com
+# >> 原神
+DOMAIN-SUFFIX,genshinimpact.com
 ## >Nintendo
 DOMAIN-SUFFIX,100classicbooks.com
 DOMAIN-SUFFIX,amiibo.com
