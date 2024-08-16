@@ -2,6 +2,7 @@
 PROCESS-NAME,com.xiaomi.mibrain.speech
 PROCESS-NAME,小米云服务.exe
 ## > 小米
+DOMAIN-SUFFIX,addatachain.cn
 DOMAIN-SUFFIX,aleenote.cn
 DOMAIN-SUFFIX,aleenote.com
 DOMAIN-SUFFIX,alibiji.cn
@@ -9,12 +10,14 @@ DOMAIN-SUFFIX,alinotes.cn
 DOMAIN-SUFFIX,facephoto.com
 DOMAIN-SUFFIX,heihei.com
 DOMAIN-SUFFIX,hongmi.cn
+DOMAIN-SUFFIX,i3ciebwk6ixfb.com
 DOMAIN-SUFFIX,kewucool.com
 DOMAIN-SUFFIX,m3-cloud.com
 DOMAIN-SUFFIX,mgslb.cn
 DOMAIN-SUFFIX,mgslb.com
 DOMAIN-SUFFIX,mgslb.net
 DOMAIN-SUFFIX,mgslb.org
+DOMAIN-SUFFIX,mi-dun.com
 DOMAIN-SUFFIX,mi.中国
 DOMAIN-SUFFIX,mi.cn
 DOMAIN-SUFFIX,mi.com
@@ -23,14 +26,24 @@ DOMAIN-SUFFIX,micoce.com.cn
 DOMAIN-SUFFIX,mifile.cn
 DOMAIN-SUFFIX,mij.cc
 DOMAIN-SUFFIX,mijia.tech
+DOMAIN-SUFFIX,mijiayoupin.com
+DOMAIN-SUFFIX,miot-spec.org
 DOMAIN-SUFFIX,mipush.com
+DOMAIN-SUFFIX,misrm.cn
+DOMAIN-SUFFIX,misrm.com
+DOMAIN-SUFFIX,misrm.com.cn
+DOMAIN-SUFFIX,misrm.net
 DOMAIN-SUFFIX,miyun.com
+DOMAIN-SUFFIX,openvela.com
+DOMAIN-SUFFIX,qinghedaxue.com
+DOMAIN-SUFFIX,sodajs.org
+DOMAIN-SUFFIX,xiaomimimo.com
+DOMAIN-SUFFIX,xiaomimobile.com
 DOMAIN-SUFFIX,xiaomiprint.com
 DOMAIN-SUFFIX,xiaomisa.cn
 DOMAIN-SUFFIX,xiaomisa.com
 DOMAIN-SUFFIX,xiaomisa.net
 DOMAIN-SUFFIX,xiaomisa.org
-DOMAIN-SUFFIX,xiaomixiaoai.com
 DOMAIN-SUFFIX,zhutidasai.com
 DOMAIN-SUFFIX,小米科技有限责任公司.中国
 ## >> MIUI米柚
@@ -43,6 +56,11 @@ DOMAIN-SUFFIX,mitalk.com
 ## >> 小米TV
 DOMAIN-SUFFIX,mitvos.com
 DOMAIN-SUFFIX,mitvos.net
+## >> 小爱同学
+DOMAIN-SUFFIX,xiaoaiassist.com
+DOMAIN-SUFFIX,xiaoaiscan.net
+DOMAIN-SUFFIX,xiaoaisound.com
+DOMAIN-SUFFIX,xiaomixiaoai.com
 ## >> 小米盒子
 DOMAIN-SUFFIX,duokanbox.com
 ## >> 小米路由器
@@ -70,9 +88,11 @@ DOMAIN-SUFFIX,mi-img3.com
 DOMAIN-SUFFIX,mi-img4.com
 DOMAIN-SUFFIX,mi-img5.com
 DOMAIN-SUFFIX,mi-static.com
+DOMAIN-SUFFIX,mi.com.cn
 DOMAIN-SUFFIX,micode.cn
 DOMAIN-SUFFIX,micode.com.cn
 DOMAIN-SUFFIX,micode.net
+DOMAIN-SUFFIX,mieco.net
 DOMAIN-SUFFIX,mikge.com
 DOMAIN-SUFFIX,milliant.com
 DOMAIN-SUFFIX,mioffice.cn
@@ -99,6 +119,8 @@ DOMAIN-SUFFIX,xiaomiinc.cn
 DOMAIN-SUFFIX,xiaomiinc.com
 DOMAIN-SUFFIX,xiaomiinc.com.cn
 DOMAIN-SUFFIX,xiaomiinc.net
+DOMAIN-SUFFIX,xiaominr.com
+DOMAIN-SUFFIX,xiaomiwear.com
 DOMAIN-SUFFIX,xlaomi.net
 ## >> 天星数科
 DOMAIN-SUFFIX,airstar.com
@@ -112,6 +134,7 @@ DOMAIN-SUFFIX,duokan.com
 ## >> 田米
 DOMAIN-SUFFIX,timipc.com
 ## >> 瓦力
+DOMAIN-SUFFIX,migames.com
 DOMAIN-SUFFIX,wali.com
 ## >> 小米有品
 DOMAIN-SUFFIX,xiaomiyoupin.com
