@@ -25,7 +25,10 @@ DOMAIN-SUFFIX,engineeringvillage.com
 DOMAIN-SUFFIX,evise.com
 DOMAIN-SUFFIX,scopus.com
 # >> Ieee
+DOMAIN-SUFFIX,computer.org
 DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,ieeecomputer.org
+DOMAIN-SUFFIX,ieeecomputersociety.org
 # >> Imperialcollege
 DOMAIN-SUFFIX,ic.ac.uk
 DOMAIN-SUFFIX,imperial.ac.uk
