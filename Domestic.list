@@ -7337,7 +7337,7 @@ DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,qqmusic.qq.com
 DOMAIN-SUFFIX,y.qq.com
 DOMAIN-SUFFIX,aqqmusic.tc.qq.com
-## >> 斗鱼
+## > 斗鱼
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyucdn.cn
@@ -7348,6 +7348,8 @@ DOMAIN-SUFFIX,douyuba.cn
 DOMAIN-SUFFIX,douyupcdn.cn
 DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,doyonoc.com
+DOMAIN-SUFFIX,edgesrv.com
+DOMAIN-SUFFIX,guguyuyin.com
 DOMAIN-SUFFIX,oywtv.com
 ## >> 虎牙
 DOMAIN-SUFFIX,huya.com
@@ -9123,6 +9125,7 @@ DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytedns1.com
 DOMAIN-SUFFIX,bytedns2.com
 DOMAIN-SUFFIX,bytefcdn.com
+DOMAIN-SUFFIX,bytefcdnrd.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bytegslb.com
 DOMAIN-SUFFIX,bytelb.net
@@ -9499,6 +9502,10 @@ DOMAIN-SUFFIX,nvsgames.cn
 # >> 沐瞳科技
 DOMAIN-SUFFIX,mobilelegends.com
 DOMAIN-SUFFIX,moonton.com
+## >> TRAE
+DOMAIN-SUFFIX,marscode.cn
+DOMAIN-SUFFIX,trae.cn
+DOMAIN-SUFFIX,trae.com.cn
 ## > 自如
 DOMAIN-SUFFIX,ziroom.com
 DOMAIN-SUFFIX,ziroomapartment.com
