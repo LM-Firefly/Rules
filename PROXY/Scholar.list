@@ -1,7 +1,11 @@
 ## > Scholar 国内外学术网站
+# >> ACM
+DOMAIN-SUFFIX,acm.org
 # >> Apa
 DOMAIN-SUFFIX,apa.org
 DOMAIN-SUFFIX,psyccareers.com
+# >> Arxiv
+DOMAIN-SUFFIX,arxiv.org
 # >> Cambridge
 DOMAIN-SUFFIX,cambridge.org
 DOMAIN-SUFFIX,cambridgedigital.net
@@ -13,6 +17,8 @@ DOMAIN-SUFFIX,isiknowledge.com
 DOMAIN-SUFFIX,newisiknowledge.com
 DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,webofscience.com
+# >> Computingreviews
+DOMAIN-SUFFIX,computingreviews.com
 # >> Doi
 DOMAIN-SUFFIX,doi.info
 DOMAIN-SUFFIX,doi.org
@@ -90,6 +96,8 @@ DOMAIN-SUFFIX,tandf.co.uk
 DOMAIN-SUFFIX,tandfonline.com
 DOMAIN-SUFFIX,taylorandfrancis.com
 DOMAIN-SUFFIX,taylorfrancis.com
+# >> Un
+DOMAIN-SUFFIX,un.org
 # >> Z-Library
 DOMAIN-SUFFIX,1lib.cloud
 DOMAIN-SUFFIX,1lib.domains
@@ -131,15 +139,14 @@ DOMAIN-SUFFIX,zlibcdn.com
 DOMAIN-SUFFIX,zlibcdn2.com
 # >> Others
 DOMAIN-SUFFIX,aclweb.org
-DOMAIN-SUFFIX,acm.org
 DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,aiaa.org
 DOMAIN-SUFFIX,aip.org
 DOMAIN-SUFFIX,altmetric.com
 DOMAIN-SUFFIX,ams.org
 DOMAIN-SUFFIX,analytictech.com
 DOMAIN-SUFFIX,annualreviews.org
 DOMAIN-SUFFIX,aps.org
-DOMAIN-SUFFIX,arxiv.org
 DOMAIN-SUFFIX,ascelibrary.org
 DOMAIN-SUFFIX,asha.org
 DOMAIN-SUFFIX,asm.org
@@ -155,8 +162,8 @@ DOMAIN-SUFFIX,cabdirect.org
 DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,cell.com
 DOMAIN-SUFFIX,cnki.net
-DOMAIN-SUFFIX,computingreviews.com
 DOMAIN-SUFFIX,cqvip.com
+DOMAIN-SUFFIX,crossref.org
 DOMAIN-SUFFIX,csiro.au
 DOMAIN-SUFFIX,deepdyve.com
 DOMAIN-SUFFIX,degruyter.com
@@ -189,6 +196,7 @@ DOMAIN-SUFFIX,kuke.com
 DOMAIN-SUFFIX,lawdata.com.tw
 DOMAIN-SUFFIX,libguides.com
 DOMAIN-SUFFIX,literatumonline.com
+DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,mdpi.com
 DOMAIN-SUFFIX,mpg.de
 DOMAIN-SUFFIX,myilibrary.com
@@ -212,10 +220,12 @@ DOMAIN-SUFFIX,rsc.org
 DOMAIN-SUFFIX,sagepub.com
 DOMAIN-SUFFIX,scholarpedia.org
 DOMAIN-SUFFIX,sci-hub.tw
+DOMAIN-SUFFIX,science.org
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,sciencenets.com
 DOMAIN-SUFFIX,scientificamerican.com
 DOMAIN-SUFFIX,scitation.org
+DOMAIN-SUFFIX,semanticscholar.org
 DOMAIN-SUFFIX,siam.org
 DOMAIN-SUFFIX,silverchair-cdn.com
 DOMAIN-SUFFIX,spiedigitallibrary.org
@@ -232,3 +242,4 @@ DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
 DOMAIN-SUFFIX,yale.edu
+DOMAIN-SUFFIX,zotero.org
