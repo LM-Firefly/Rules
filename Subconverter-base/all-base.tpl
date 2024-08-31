@@ -53,7 +53,7 @@ ipv6: true
 tun:
   enable: true
   stack: mixed # system/gvisor/mixed
-  device: utun0
+  device: mihomo
   dns-hijack:
     - any:53
     - tcp://any:53
@@ -92,7 +92,6 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
     - 1.1.1.1
-    - system
   enhanced-mode: fake-ip # or redir-host (not recommended)
   fake-ip-range: 22.0.0.0/8
   fake-ip-filter:
@@ -149,6 +148,7 @@ dns:
     # === MiJia ===
     - 'Mijia Cloud'
     - '+.mijia.tech'
+  fake-ip-filter-mode: blacklist
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -222,7 +222,8 @@ sniffer:
 find-process-mode: strict
 tcp-concurrent: true
 global-client-fingerprint: chrome
-keep-alive-interval: 15
+keep-alive-interval: 30
+unified-delay: true
 
 {% endif %}
 {% if request.target == "surge" %}
