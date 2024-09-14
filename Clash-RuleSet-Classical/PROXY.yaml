@@ -4184,6 +4184,8 @@ payload:
   # >> JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
+  - DOMAIN-SUFFIX,jetbrains.ai
+  - DOMAIN-SUFFIX,jetbrains.io
   ## > Jfrog
   - DOMAIN-SUFFIX,jfrog.com
   - DOMAIN-SUFFIX,jfrog.org
