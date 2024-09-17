@@ -2447,9 +2447,23 @@ payload:
   - DOMAIN-SUFFIX,bestvcdn.com.cn
   - DOMAIN-SUFFIX,bestvcdn.net
   - DOMAIN-SUFFIX,smgbb.cn
-  ## > 保利威
-  - DOMAIN-SUFFIX,polyv.net
+  ## > 易方信息科技
+  - DOMAIN-SUFFIX,dewx.net
+  - DOMAIN-SUFFIX,easefun.info
+  - DOMAIN-SUFFIX,freeovp.com
+  - DOMAIN-SUFFIX,nhzb.com
+  - DOMAIN-SUFFIX,spbao.com
+  - DOMAIN-SUFFIX,vclass.com
   - DOMAIN-SUFFIX,videocc.net
+  - DOMAIN-SUFFIX,vlms.cn
+  ## >> 酷播云
+  - DOMAIN-SUFFIX,cuplayer.com
+  - DOMAIN-SUFFIX,cuplayer.net
+  ## >> 保利威
+  - DOMAIN-SUFFIX,plvideo.cn
+  - DOMAIN-SUFFIX,plvideo.net
+  - DOMAIN-SUFFIX,polyv.cn
+  - DOMAIN-SUFFIX,polyv.net
   ## > 暴风影音
   - DOMAIN-SUFFIX,baofeng.com
   - DOMAIN-SUFFIX,baofeng.mobi
@@ -5639,9 +5653,13 @@ payload:
   - DOMAIN-SUFFIX,wsoso.com
   ## > 蓝奏云
   - DOMAIN-SUFFIX,baidupan.com
+  - DOMAIN-SUFFIX,bakstotre.com
   - DOMAIN-SUFFIX,ilanzou.com
   - DOMAIN-SUFFIX,lanosso.com
+  - DOMAIN-SUFFIX,lanpv.com
+  - DOMAIN-SUFFIX,lanpw.com
   - DOMAIN-SUFFIX,lanrar.com
+  - DOMAIN-SUFFIX,lanzn.com
   - DOMAIN-SUFFIX,lanzou.com
   - DOMAIN-SUFFIX,lanzoub.com
   - DOMAIN-SUFFIX,lanzouc.com
@@ -5665,6 +5683,9 @@ payload:
   - DOMAIN-SUFFIX,lanzoux.com
   - DOMAIN-SUFFIX,lanzouy.com
   - DOMAIN-SUFFIX,lanzov.com
+  - DOMAIN-SUFFIX,lanzv.com
+  - DOMAIN-SUFFIX,ulanzou.com
+  - DOMAIN-SUFFIX,webgetstore.com
   - DOMAIN-SUFFIX,woozooo.com
   - DOMAIN-SUFFIX,wwentua.com
   ## > 乐播投屏
@@ -7339,6 +7360,7 @@ payload:
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,wechatlegal.net
+  - DOMAIN-SUFFIX,wechatpay.cn
   - DOMAIN-SUFFIX,wechatpay.com
   - DOMAIN-SUFFIX,wechatpay.com.hk
   - DOMAIN-SUFFIX,weixin.com
