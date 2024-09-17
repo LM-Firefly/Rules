@@ -411,6 +411,7 @@ payload:
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,wechatlegal.net
+  - DOMAIN-SUFFIX,wechatpay.cn
   - DOMAIN-SUFFIX,wechatpay.com
   - DOMAIN-SUFFIX,wechatpay.com.hk
   - DOMAIN-SUFFIX,weixin.com
