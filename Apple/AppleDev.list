@@ -7,8 +7,12 @@ DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,cups.org
 ## >> Developer
 DOMAIN-SUFFIX,developer.apple.com
+DOMAIN-SUFFIX,developerservices2.apple.com
 DOMAIN-SUFFIX,devimages-cdn.apple.com
 DOMAIN-SUFFIX,devstreaming-cdn.apple.com
+DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
+DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com
+DOMAIN-SUFFIX,timestamp.apple.com
 ## >> FoundationDB
 DOMAIN-SUFFIX,foundationdb.org
 ## >> macOS forge
