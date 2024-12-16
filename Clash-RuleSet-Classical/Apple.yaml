@@ -9,8 +9,12 @@ payload:
   - DOMAIN-SUFFIX,cups.org
   ## >> Developer
   - DOMAIN-SUFFIX,developer.apple.com
+  - DOMAIN-SUFFIX,developerservices2.apple.com
   - DOMAIN-SUFFIX,devimages-cdn.apple.com
   - DOMAIN-SUFFIX,devstreaming-cdn.apple.com
+  - DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
+  - DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,timestamp.apple.com
   ## >> FoundationDB
   - DOMAIN-SUFFIX,foundationdb.org
   ## >> macOS forge
@@ -136,6 +140,7 @@ payload:
   - DOMAIN-SUFFIX,icloud-apple.cn
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-isupport.com
+  - DOMAIN-SUFFIX,icloud-sandbox.com
   - DOMAIN-SUFFIX,icloud.ch
   - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud.com.akadns.net
@@ -179,7 +184,11 @@ payload:
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,myicloud.net
   - DOMAIN-SUFFIX,mylcloud.net
+  - DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net
   - DOMAIN-SUFFIX,wwwicloud.com
+  # >> iCloud Private Relay
+  - DOMAIN-SUFFIX,mask-h2.icloud.com
+  - DOMAIN-SUFFIX,mask.icloud.com
   ## >> iTunes
   - DOMAIN-SUFFIX,12diasdepresentesdeitunes.com
   - DOMAIN-SUFFIX,12diasderegalosdeitunes.cl
