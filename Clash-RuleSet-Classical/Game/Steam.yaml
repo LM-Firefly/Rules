@@ -6,9 +6,11 @@ payload:
   - DOMAIN-SUFFIX,s.team
   - DOMAIN-SUFFIX,steam-api.com
   - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steam.tv
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
+  - DOMAIN-SUFFIX,steamdeck.com
   - DOMAIN-SUFFIX,steamgames.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamserver.net
@@ -22,6 +24,9 @@ payload:
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+  - DOMAIN-SUFFIX,steammobile.akamaized.net
+  - DOMAIN-SUFFIX,steampipe-kr.akamaized.net
+  - DOMAIN-SUFFIX,steampipe-partner.akamaized.net
   - DOMAIN-SUFFIX,steampipe.akamaized.net
   - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
   - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
@@ -33,11 +38,20 @@ payload:
   - DOMAIN-SUFFIX,st.dl.bscstorage.net
   - DOMAIN-SUFFIX,st.dl.eccdnx.com
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+  ## >>  edgecast Download CDN
+  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+  ## >> HIGHWINDS Download CDN
+  - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net
   ## >> 华为云 Download CDN
   - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
+  ## >> internode Download CDN
+  - DOMAIN-SUFFIX,steam.cdn.on.net
   ## >> 金山云 Download CDN
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
   - DOMAIN-SUFFIX,dl.steam.ksyna.com
+  ## >> orcon Download CDN
+  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
   ## >> 腾讯云 Download CDN
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
   ## >> 完美 Download CDN
@@ -46,8 +60,14 @@ payload:
   - DOMAIN-SUFFIX,wmsjsteam.com
   ## >> 网宿 Download CDN
   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+  - DOMAIN-SUFFIX,steam.apac.qtlglb.com
+  - DOMAIN-SUFFIX,steam.eca.qtlglb.com
+  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
+  - DOMAIN-SUFFIX,steam.ru.qtlglb.com
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  ## >> webra Download CDN
+  - DOMAIN-SUFFIX,steam.cdn.webra.ru
   - DOMAIN-KEYWORD,steamstore
   - DOMAIN-KEYWORD,steamuserimages
   - DOMAIN-KEYWORD,steambroadcast
