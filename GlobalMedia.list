@@ -1,5 +1,6 @@
 ## 🌍 GlobalMedia
 ## > AbemaTV
+USER-AGENT,AbemaTV*
 DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
@@ -27,10 +28,13 @@ DOMAIN-SUFFIX,vod-abematv.akamaized.net
 DOMAIN-SUFFIX,afp.com
 DOMAIN-SUFFIX,afpforum.com
 ## > All4
+USER-AGENT,All4*
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
 ## > Amazon Prime Video
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonprimevideo.cn
@@ -117,7 +121,7 @@ DOMAIN-SUFFIX,iphoto.wang
 DOMAIN-SUFFIX,imovie.eu
 DOMAIN-SUFFIX,imoviegallery.com
 DOMAIN-SUFFIX,imoviestage.com
-## > ATTWatchTV
+## > AT&TWatchTV
 DOMAIN-SUFFIX,att.tv
 DOMAIN-SUFFIX,atttvnow.com
 DOMAIN-SUFFIX,attwatchtv.com
@@ -125,6 +129,7 @@ DOMAIN-SUFFIX,directv.com
 DOMAIN-SUFFIX,dtvce.com
 DOMAIN-SUFFIX,nettyinternet.com
 ## > Bahamut
+USER-AGENT,Anime*
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN,bahamut.akamaized.net
@@ -490,6 +495,7 @@ DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,hentaiverse.org
 ## > Fox
+USER-AGENT,FOX%20NOW*
 DOMAIN-SUFFIX,fox
 DOMAIN-SUFFIX,cdn-fox-networks-group-green.akamaized.net
 DOMAIN-SUFFIX,d3cv4a9a9wh0bt.cloudfront.net
@@ -773,7 +779,9 @@ DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbogo.eu
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,maxgo.com
+DOMAIN-SUFFIX,warnermediacdn.com
 DOMAIN-SUFFIX,youboranqs01.com
 DOMAIN-SUFFIX,hbo.com.c.footprint.net
 DOMAIN-SUFFIX,hbo.com.edgesuite.net
@@ -782,6 +790,7 @@ DOMAIN-SUFFIX,hbogeo.cust.footprint.net
 DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
 DOMAIN-SUFFIX,manifest.prod.boltdns.net
 DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 ## >> HBO Asia
 DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
@@ -809,6 +818,7 @@ DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,now-ashare.com
 DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,now.com.hk
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowe.hk
