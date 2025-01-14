@@ -118,7 +118,7 @@ payload:
   - DOMAIN-SUFFIX,imovie.eu
   - DOMAIN-SUFFIX,imoviegallery.com
   - DOMAIN-SUFFIX,imoviestage.com
-  ## > ATTWatchTV
+  ## > AT&TWatchTV
   - DOMAIN-SUFFIX,att.tv
   - DOMAIN-SUFFIX,atttvnow.com
   - DOMAIN-SUFFIX,attwatchtv.com
@@ -767,7 +767,9 @@ payload:
   - DOMAIN-SUFFIX,hbogo.eu
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,max.com
   - DOMAIN-SUFFIX,maxgo.com
+  - DOMAIN-SUFFIX,warnermediacdn.com
   - DOMAIN-SUFFIX,youboranqs01.com
   - DOMAIN-SUFFIX,hbo.com.c.footprint.net
   - DOMAIN-SUFFIX,hbo.com.edgesuite.net
@@ -776,6 +778,7 @@ payload:
   - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
   - DOMAIN-SUFFIX,manifest.prod.boltdns.net
   - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
   ## >> HBO Asia
   - DOMAIN-SUFFIX,hboasia.com
   - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
@@ -803,6 +806,7 @@ payload:
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,now-ashare.com
   - DOMAIN-SUFFIX,now-tv.com
+  - DOMAIN-SUFFIX,now.com
   - DOMAIN-SUFFIX,now.com.hk
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,nowe.hk
