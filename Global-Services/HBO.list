@@ -2,6 +2,8 @@
 PROCESS-NAME,com.hbo.hbonow
 USER-AGENT,HBO%20NOW*
 USER-AGENT,HBOMAX*
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,warnermediacdn.com
 DOMAIN-SUFFIX,cinemax.com
 DOMAIN-SUFFIX,forthethrone.com
 DOMAIN-SUFFIX,hbo.com
