@@ -8,6 +8,7 @@ payload:
   - DOMAIN,family.cloudflare-dns.com
   - DOMAIN,mozilla.cloudflare-dns.com
   - DOMAIN,one.one.one.one
+  - DOMAIN,opera.cloudflare-dns.com
   - DOMAIN,security.cloudflare-dns.com
   - DOMAIN,8888.google
   - DOMAIN,dns.google
@@ -33,6 +34,10 @@ payload:
   - DOMAIN,dns.hostux.net
   - DOMAIN,dns.keweon.center
   - DOMAIN,dns.nextdns.io
+  - DOMAIN,doh-pure.onedns.net
+  - DOMAIN,doh.onedns.net
+  - DOMAIN,dot-pure.onedns.net
+  - DOMAIN,dot.onedns.net
   - DOMAIN,dns.quad9.net
   - DOMAIN,dns9.quad9.net
   - DOMAIN,dns10.quad9.net
@@ -90,9 +95,14 @@ payload:
   - DOMAIN,security-filter-dns.cleanbrowsing.org
   - DOMAIN,doh.mullvad.net
   ## > DNS CIDR
+  - IP-CIDR,1.0.0.2/32,no-resolve
+  - IP-CIDR,1.0.0.3/32,no-resolve
   - IP-CIDR,1.1.1.1/32,no-resolve
+  - IP-CIDR,1.1.1.2/32,no-resolve
+  - IP-CIDR,1.1.1.3/32,no-resolve
   - IP-CIDR,101.101.101.101/32,no-resolve
   - IP-CIDR,114.114.114.114/32,no-resolve
+  - IP-CIDR,117.50.22.22/32,no-resolve
   - IP-CIDR,118.89.110.78/32,no-resolve
   - IP-CIDR,119.29.107.85/32,no-resolve
   - IP-CIDR,119.29.29.29/32,no-resolve
@@ -107,6 +117,7 @@ payload:
   - IP-CIDR,223.5.5.5/32,no-resolve
   - IP-CIDR,223.6.6.6/32,no-resolve
   - IP-CIDR,47.96.179.163/32,no-resolve
+  - IP-CIDR,52.80.66.66/32,no-resolve
   - IP-CIDR,58.20.127.170/32,no-resolve
   - IP-CIDR,58.20.127.238/32,no-resolve
   - IP-CIDR,8.8.4.4/32,no-resolve
