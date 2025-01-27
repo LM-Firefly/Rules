@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,s2h.time.edu.cn
 ## > CERNET桂林主节点提供的NTP服务
 DOMAIN-SUFFIX,s2k.time.edu.cn
 ## > 腾讯云提供的ntp服务
+DOMAIN-SUFFIX,ntp.tencent.com
 DOMAIN-SUFFIX,time1.tencentyun.com
 DOMAIN-SUFFIX,time2.tencentyun.com
 DOMAIN-SUFFIX,time3.tencentyun.com
