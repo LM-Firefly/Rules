@@ -33,6 +33,8 @@ IP-CIDR,240.0.0.0/4,no-resolve
 DOMAIN-SUFFIX,local
 ## >> RFC8375
 DOMAIN-SUFFIX,home.arpa
+## >> IETF draft-davies-internal-tld-01
+DOMAIN-SUFFIX,internal
 ## >> RFC6303
 DOMAIN-SUFFIX,10.in-addr.arpa
 DOMAIN-SUFFIX,16.172.in-addr.arpa
