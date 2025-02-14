@@ -1,0 +1,13 @@
+payload:
+  ## > 月之暗面
+  - DOMAIN-SUFFIX,kimi-bot.com
+  - DOMAIN-SUFFIX,kimi-chat.com
+  - DOMAIN-SUFFIX,kimi.cn
+  - DOMAIN-SUFFIX,kimi.com
+  - DOMAIN-SUFFIX,kimi.com.cn
+  - DOMAIN-SUFFIX,kimistatus.cn
+  - DOMAIN-SUFFIX,moonshot.cn
+  - DOMAIN-SUFFIX,moonshotstatus.cn
+  - DOMAIN-SUFFIX,moonshotstatus.com
+  - DOMAIN-SUFFIX,msdev.cc
+  - DOMAIN-SUFFIX,msh.team
