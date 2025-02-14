@@ -3313,6 +3313,30 @@ payload:
   - DOMAIN-SUFFIX,gamersky.com
   ## > Geekpark
   - DOMAIN-SUFFIX,geekpark.net
+  ## > 个推
+  - DOMAIN-SUFFIX,12322app.com
+  - DOMAIN-SUFFIX,abeacon.cn
+  - DOMAIN-SUFFIX,abeacon.com
+  - DOMAIN-SUFFIX,acloud.com
+  - DOMAIN-SUFFIX,applk.cn
+  - DOMAIN-SUFFIX,baywest.ac
+  - DOMAIN-SUFFIX,cooltui.com
+  - DOMAIN-SUFFIX,fangyi.cn
+  - DOMAIN-SUFFIX,ge.cn
+  - DOMAIN-SUFFIX,geatmap.com
+  - DOMAIN-SUFFIX,geindex.com
+  - DOMAIN-SUFFIX,gepush.com
+  - DOMAIN-SUFFIX,geseek.com
+  - DOMAIN-SUFFIX,getui.cn
+  - DOMAIN-SUFFIX,getui.com
+  - DOMAIN-SUFFIX,getui.net
+  - DOMAIN-SUFFIX,huadan.in
+  - DOMAIN-SUFFIX,igehuo.com
+  - DOMAIN-SUFFIX,igetui.com
+  - DOMAIN-SUFFIX,igexin.com
+  - DOMAIN-SUFFIX,lmmindex.com
+  - DOMAIN-SUFFIX,pusure.com
+  - DOMAIN-SUFFIX,viyouhui.com
   ## > 果壳网
   - DOMAIN-SUFFIX,guokr.com
   ## > 海南航空
@@ -4186,6 +4210,7 @@ payload:
   - DOMAIN-SUFFIX,5566ua.com
   - DOMAIN-SUFFIX,aurorapush.cn
   - DOMAIN-SUFFIX,e0n.cn
+  - DOMAIN-SUFFIX,easytomessage.com
   - DOMAIN-SUFFIX,japps.cn
   - DOMAIN-SUFFIX,jchat.io
   - DOMAIN-SUFFIX,jiguang.cn
@@ -10874,6 +10899,18 @@ payload:
   - DOMAIN-SUFFIX,yfdurl14.com
   - DOMAIN-SUFFIX,yfdurl19.com
   - DOMAIN-SUFFIX,yfdurl20.com
+  ## > 月之暗面
+  - DOMAIN-SUFFIX,kimi-bot.com
+  - DOMAIN-SUFFIX,kimi-chat.com
+  - DOMAIN-SUFFIX,kimi.cn
+  - DOMAIN-SUFFIX,kimi.com
+  - DOMAIN-SUFFIX,kimi.com.cn
+  - DOMAIN-SUFFIX,kimistatus.cn
+  - DOMAIN-SUFFIX,moonshot.cn
+  - DOMAIN-SUFFIX,moonshotstatus.cn
+  - DOMAIN-SUFFIX,moonshotstatus.com
+  - DOMAIN-SUFFIX,msdev.cc
+  - DOMAIN-SUFFIX,msh.team
   ## > 云帆加速
   - DOMAIN-SUFFIX,cdndns2.cn
   - DOMAIN-SUFFIX,cdndns2.net
@@ -11090,7 +11127,6 @@ payload:
   - DOMAIN-SUFFIX,12530.com
   # >> 中移互联
   - DOMAIN-SUFFIX,10086kuaixiu.com
-  - DOMAIN-SUFFIX,117.161.2.5
   - DOMAIN-SUFFIX,andfx.cn
   - DOMAIN-SUFFIX,andfx.net
   - DOMAIN-SUFFIX,chinamobiledevice.com
@@ -11105,6 +11141,7 @@ payload:
   - DOMAIN-SUFFIX,mmarket.com
   - DOMAIN-SUFFIX,mmarket6.com
   - DOMAIN-SUFFIX,zdsdp.com
+  - IP-CIDR,117.161.2.5/32,no-resolve
   ## > 中国互联网络信息中心
   - DOMAIN-SUFFIX,cfid-lab.cn
   - DOMAIN-SUFFIX,cfidlab.cn
@@ -11166,8 +11203,17 @@ payload:
   - DOMAIN-SUFFIX,sinopecnews.com.cn
   - DOMAIN-SUFFIX,sinopecsales.com
   ## > 中国太平
+  - DOMAIN-SUFFIX,95589.com
   - DOMAIN-SUFFIX,cntaiping.com
   - DOMAIN-SUFFIX,cntaiping.com.hk
+  - DOMAIN-SUFFIX,itaiping.com
+  - DOMAIN-SUFFIX,tp95589.com
+  ## > 中互智安
+  - DOMAIN-SUFFIX,lapsn.com.cn
+  - DOMAIN-SUFFIX,mobileservice.cn
+  - DOMAIN-SUFFIX,zhdatasec.com
+  - DOMAIN-SUFFIX,zjjh.org.cn
+  - DOMAIN-SUFFIX,zxbigdata.cn
   ## > 中维世纪
   - DOMAIN-SUFFIX,afdvr.cc
   - DOMAIN-SUFFIX,aiwei365.com.cn
@@ -12566,7 +12612,6 @@ payload:
   - DOMAIN-SUFFIX,geilimei.cc
   - DOMAIN-SUFFIX,genelinkout.com
   - DOMAIN-SUFFIX,getpricetag.com
-  - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,gexingshuo.com
   - DOMAIN-SUFFIX,gezida.com
   - DOMAIN-SUFFIX,gfan.com
