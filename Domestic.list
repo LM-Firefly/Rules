@@ -9148,8 +9148,15 @@ DOMAIN-SUFFIX,sinopecgroup.com
 DOMAIN-SUFFIX,sinopecnews.com.cn
 DOMAIN-SUFFIX,sinopecsales.com
 ## > 中国太平
+DOMAIN-SUFFIX,95589.com
 DOMAIN-SUFFIX,cntaiping.com
 DOMAIN-SUFFIX,cntaiping.com.hk
+## > 中互智安
+DOMAIN-SUFFIX,lapsn.com.cn
+DOMAIN-SUFFIX,mobileservice.cn
+DOMAIN-SUFFIX,zhdatasec.com
+DOMAIN-SUFFIX,zjjh.org.cn
+DOMAIN-SUFFIX,zxbigdata.cn
 ## > 中维世纪
 DOMAIN-SUFFIX,afdvr.cc
 DOMAIN-SUFFIX,aiwei365.com.cn
