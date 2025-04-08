@@ -536,143 +536,135 @@ test-timeout = 5
 {% if request.target == "singbox" %}
 
 {
-  "log": { "disabled": false, "level": "info", "timestamp": true },
+  "log": { "disabled": false, "level": "info", "output": "box.log", "timestamp": true },
   "dns": {
     "servers": [
       {
+        "type": "fakeip",
+        "tag": "fakeip",
+        "inet4_range": "28.0.0.0/8",
+        "inet6_range": "fc00::/18"
+      },
+      {
+        "type": "tls",
         "tag": "local",
-        "address": "tls://223.5.5.5",
-        "address_resolver": "dns_resolver",
-        "address_strategy": "prefer_ipv4",
-        "strategy": "prefer_ipv4",
+        "server": "tls://223.5.5.5",
+        "server_port": 853,
         "detour": "DIRECT"
       },
       {
-        "tag": "remote",
-        "address": "tls://1.1.1.1",
-        "address_resolver": "dns_resolver",
-        "address_strategy": "prefer_ipv4",
-        "strategy": "prefer_ipv4",
-        "detour": "select"
-      },
-      { "tag": "fakeip", "address": "fakeip" },
-      { "tag": "dns_resolver", "address": "tls://223.5.5.5", "detour": "DIRECT" },
-      { "tag": "block", "address": "rcode://success" }
+        "type": "tls",
+        "tag": "proxy",
+        "server": "tls://1.1.1.1",
+        "server_port": 853,
+        "detour": "proxy"
+      }
     ],
     "rules": [
-      { "outbound": ["any"], "server": "dns_resolver" },
       {
-        "inbound": ["tun-in"],
-        "query_type": ["A", "AAAA", "HTTPS"],
-        "network": ["tcp", "udp"],
-        "protocol": ["tls", "http", "quic"],
-        "port": [80, 443],
-        "port_range": ["1000:2000", ":3000", "4000:"],
-        "clash_mode": "Rule",
-        "invert": false,
-        "outbound": ["any"],
-        "server": "fakeip",
-        "disable_cache": false,
-        "rewrite_ttl": 100
+        "query_type": ["A", "AAAA"],
+        "server": "fakeip"
       },
-      { "clash_mode": "Global", "server": "remote" },
-      { "clash_mode": "Direct", "server": "local" }
+      {
+        "rule_set": "geoip-cn",
+        "clash_mode": "rule",
+        "action": "route",
+        "server": "local"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "invert": true,
+        "clash_mode": "rule",
+        "action": "route",
+        "server": "proxy"
+      }
     ],
     "final": "",
-    "strategy": "prefer_ipv4",
-    "disable_cache": false,
-    "disable_expire": false,
-    "independent_cache": true,
-    "reverse_mapping": true,
-    "fakeip": {
-      "enabled": true,
-      {% if default(request.singbox.ipv6, "") == "1" %}
-      "inet6_range": "fc00::\/18",
-      {% endif %}
-      "inet4_range": "28.0.0.0\/8"
-    }
+    "strategy": "prefer_ipv4"
   },
   "ntp": {
     "enabled": true,
     "server": "time.apple.com",
     "server_port": 123,
     "interval": "30m",
-    "detour": "DIRECT"
+    "detour": "local"
   },
+  "certificate": {},
+  "endpoints": [],
   "inbounds": [
     {
       "type": "tun",
       "tag": "tun-in",
-      "interface_name": "tun0",
-      "inet4_address": "22.0.0.1/30",
-      {% if default(request.singbox.ipv6, "") == "1" %}
-      "inet6_address": "fdfe:dcba:9876::1/126",
-      {% endif %}
+      "interface_name": "singtun",
+      "address": ["28.0.0.1/30", "fdfe:dcba:9876::1/126"],
       "mtu": 9000,
       "auto_route": true,
+      "iproute2_table_index": 2022,
+      "iproute2_rule_index": 9000,
+      "auto_redirect": false,
+      "auto_redirect_input_mark": "0x2023",
+      "auto_redirect_output_mark": "0x2024",
       "strict_route": true,
-      "domain_strategy": "prefer_ipv4",
+      "route_address": ["0.0.0.0/1", "128.0.0.0/1", "::/1", "8000::/1"],
       "endpoint_independent_nat": false,
-      "stack": "mixed",
-      "sniff": true,
-      "sniff_override_destination": true,
-      "sniff_timeout": "300ms",
+      "udp_timeout": "5m",
+      "stack": "system",
       "platform": {
-          "http_proxy": {
-              "enabled": true,
-              "server": "127.0.0.1",
-              "server_port": 2334
-          }
-       }
-    },
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "domain_strategy": "prefer_ipv4",
-      {% if bool(default(global.singbox.allow_lan, "")) %}
-      "listen": "0.0.0.0",
-      {% else %}
-      "listen": "127.0.0.1",
-      {% endif %}
-      "listen_port": {{ default(global.singbox.mixed_port, "2080") }}
+        "http_proxy": {
+          "enabled": false,
+          "server": "127.0.0.1",
+          "server_port": 18888
+        }
+      },
+      "listen": "::",
+      "listen_port": 18888,
+      "tcp_fast_open": true,
+      "tcp_multi_path": false,
+      "udp_fragment": false
     }
   ],
   "outbounds": [],
   "route": {
     "rules": [
-        {
-            "port": 53,
-            "outbound": "dns-out"
-        },
-        {
-            "clash_mode": "Direct",
-            "outbound": "DIRECT"
-        },
-        {
-            "clash_mode": "Global",
-            "outbound": "select"
-        },
-        {
-            "ip_is_private": true,
-            "outbound": "DIRECT"
-        }
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "outbound": "direct"
+      }
     ],
-    "auto_detect_interface": true,
-    "override_android_vpn": true,
-    "find_process": true
+    "rule_set": [
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "download_detour": "proxy"
+      }
+    ]
   },
   "experimental": {
-    "clash_api": {
-      "external_controller": "0.0.0.0:19090",
-      "secret": "",
-      "default_mode": "Rule"
-    },
     "cache_file": {
       "enabled": true,
-      "path": "",
+      "path": "cache.db",
       "cache_id": "",
-      "store_fakeip": false
-    }
+      "store_fakeip": true,
+      "store_rdrc": true,
+      "rdrc_timeout": ""
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:19090",
+      "external_ui": "",
+      "external_ui_download_url": "",
+      "external_ui_download_detour": "proxy",
+      "secret": "",
+      "default_mode": "rule",
+      "access_control_allow_origin": [],
+      "access_control_allow_private_network": false
+    },
+    "v2ray_api": {}
   }
 }
 
