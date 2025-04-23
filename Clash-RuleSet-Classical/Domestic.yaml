@@ -9064,7 +9064,6 @@ payload:
   - DOMAIN-SUFFIX,12530.com
   # >> 中移互联
   - DOMAIN-SUFFIX,10086kuaixiu.com
-  - DOMAIN-SUFFIX,117.161.2.5
   - DOMAIN-SUFFIX,andfx.cn
   - DOMAIN-SUFFIX,andfx.net
   - DOMAIN-SUFFIX,chinamobiledevice.com
@@ -9079,6 +9078,7 @@ payload:
   - DOMAIN-SUFFIX,mmarket.com
   - DOMAIN-SUFFIX,mmarket6.com
   - DOMAIN-SUFFIX,zdsdp.com
+  - IP-CIDR,117.161.2.5/32,no-resolve
   ## > 中国互联网络信息中心
   - DOMAIN-SUFFIX,cfid-lab.cn
   - DOMAIN-SUFFIX,cfidlab.cn
