@@ -408,6 +408,7 @@ payload:
   - DOMAIN-SUFFIX,disneyturkiye.com.tr
   - DOMAIN-SUFFIX,disneytvajobs.com
   - DOMAIN-SUFFIX,disneyworld-go.com
+  - DOMAIN-SUFFIX,dssedge.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,go-disneyworldgo.com
