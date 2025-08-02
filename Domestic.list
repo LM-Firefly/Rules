@@ -1557,6 +1557,21 @@ DOMAIN-SUFFIX,aliyungf.com
 DOMAIN-SUFFIX,aliyunwaf.com
 DOMAIN-SUFFIX,yundunddos.com
 DOMAIN-SUFFIX,yundunwaf.com
+# >> 橙盾
+DOMAIN-SUFFIX,xtianlang.com
+DOMAIN-SUFFIX,taji-ai.com
+DOMAIN-SUFFIX,oshield.com
+DOMAIN-SUFFIX,nndz3xu7.com
+DOMAIN-SUFFIX,hzchengdun.net
+DOMAIN-SUFFIX,hzchengdun.com
+DOMAIN-SUFFIX,h7fpuyk8.com
+DOMAIN-SUFFIX,ggunk1tn.com
+DOMAIN-SUFFIX,f09qgja1.com
+DOMAIN-SUFFIX,cthh9mnv.com
+DOMAIN-SUFFIX,cs-eval.com
+DOMAIN-SUFFIX,alibabastars.com
+DOMAIN-SUFFIX,alibabachengdun.net
+DOMAIN-SUFFIX,alibabachengdun.com
 # >> 万网
 DOMAIN-SUFFIX,hichina.cn
 DOMAIN-SUFFIX,hichina.com.cn
@@ -6719,8 +6734,16 @@ DOMAIN-SUFFIX,antgroup.com
 DOMAIN-SUFFIX,fund123.cn
 DOMAIN-SUFFIX,xin.xin
 ## >> 书旗(阿里文学)
+DOMAIN-SUFFIX,aliwx.com.cn
+DOMAIN-SUFFIX,aliwx.net
+DOMAIN-SUFFIX,ishuqi.com
+DOMAIN-SUFFIX,newstjk.com
 DOMAIN-SUFFIX,shuqi.com
+DOMAIN-SUFFIX,shuqiapi.com
+DOMAIN-SUFFIX,shuqiread.com
 DOMAIN-SUFFIX,shuqireader.com
+DOMAIN-SUFFIX,shuqistat.com
+DOMAIN-SUFFIX,sqreader.com
 ## >> 神马
 DOMAIN-SUFFIX,shenma-inc.com
 DOMAIN-SUFFIX,sm.cn
@@ -12124,7 +12147,6 @@ DOMAIN-SUFFIX,aizhan.com
 DOMAIN-SUFFIX,akxs6.com
 DOMAIN-SUFFIX,algocasts.io
 DOMAIN-SUFFIX,alittle-tea.com
-DOMAIN-SUFFIX,aliwx.com.cn
 DOMAIN-SUFFIX,allcp.net
 DOMAIN-SUFFIX,allyes.com
 DOMAIN-SUFFIX,amxsw.com
