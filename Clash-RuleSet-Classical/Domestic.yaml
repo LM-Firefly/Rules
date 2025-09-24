@@ -3210,6 +3210,11 @@ payload:
   - DOMAIN-SUFFIX,moxz.cn
   ## > 动漫之家
   - DOMAIN-SUFFIX,dmzj.com
+  ## > 度友科技
+  - DOMAIN-SUFFIX,antpcdn.com
+  - DOMAIN-SUFFIX,dyp365.com
+  - DOMAIN-SUFFIX,pan-ics.com
+  - DOMAIN-SUFFIX,wangpan.com
   ## > 多玩
   - DOMAIN-SUFFIX,5253.com
   - DOMAIN-SUFFIX,bcshipgo.com
