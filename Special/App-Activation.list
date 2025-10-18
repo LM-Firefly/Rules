@@ -145,6 +145,14 @@ DOMAIN,genuine-software2.autodesk.com
 DOMAIN,help.autodesk.com
 DOMAIN,ipm-aem.autodesk.com
 DOMAIN,update.delivery.autodesk.com
+# >> Ccleaner
+DOMAIN,analytics.ff.avast.com
+DOMAIN,ip-info.ff.avast.com
+DOMAIN,ipm-provider.ff.avast.com
+DOMAIN,shepherd.ff.avast.concc.avast.com
+DOMAIN,ncc.avast.com.edgesuite.net
+DOMAIN,ccleaner.com
+DOMAIN,license.piriform.com
 # >> Connectify
 DOMAIN-SUFFIX,updates.connectify.me
 DOMAIN-SUFFIX,activate.connectify.me
