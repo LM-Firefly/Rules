@@ -5208,6 +5208,8 @@ DOMAIN-SUFFIX,ecimg.tw
 DOMAIN-SUFFIX,pchome.com.tw
 DOMAIN-SUFFIX,pchomepay.com.tw
 DOMAIN-SUFFIX,pcloud.tw
+## > perplexity
+DOMAIN-SUFFIX,perplexity.ai
 ## > Phantomjs
 DOMAIN-SUFFIX,phantomjs.org
 ## > Picsee
