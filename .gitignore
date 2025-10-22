@@ -1,0 +1,20 @@
+# Ignore generated results for test runs
+/Subconverter-base/results.json
+/Subconverter-base/results.txt
+
+# Python defaults
+__pycache__/
+*.py[cod]
+*.so
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+
+# Virtual envs
+venv/
+.env
+
+# Logs and temp
+*.log
+*.tmp
