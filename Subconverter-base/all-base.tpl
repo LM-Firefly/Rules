@@ -227,7 +227,6 @@ dns:
     - +.mijia.tech
 find-process-mode: strict
 tcp-concurrent: true
-global-client-fingerprint: chrome
 keep-alive-interval: 30
 unified-delay: true
 # Clash for Android
