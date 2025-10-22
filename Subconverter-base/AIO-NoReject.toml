@@ -13,9 +13,7 @@ loon_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subc
 sssub_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
 singbox_rule_base = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl"
 
-exclude_remarks = [
-    "((到期)|(剩余流量)|(时间)|(官网)|(产品)|(先购买套餐)|(流量消耗)|(更新订阅)|(套餐到期)|(.*流量.*剩.*天)|(■等级警报■)|(\\(限速\\))|(\\[限速\\])|(\\[游戏\\])|(\\[游戏专用\\])|(\\[将下线\\])|(.*耗尽.*)|(近期下线)|(游戏专线)|(维护)|(测试节点)|(防失联地址)|(官方地址)|(官方网站)|(群组))",
-]
+# exclude_remarks = []
 
 
 [node_pref]
@@ -36,7 +34,7 @@ match = "((^CordCloud - )|(关注TG@txwl666)|(一元机场:ssrsub.de)|(机场推
 replace = ""
 
 [[node_pref.rename_node]]
-match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V\\d-)|((IEPL)|(IEPL专线)|(IPLC)|(IPLC专线))|(IPV6)|((海外\\|新疆专用))|((\u6d77\u5916\\|\u65b0\u7586\u4e13\u7528))"
+match = "(标准)|(标准线路)|(线路)|(中转)|(直连)|(80端口)|(V\\d-)|((IEPL)|(IEPL专线)|(IPLC)|(IPLC专线))|(IPV6)|((海外\\|新疆专用))|((\u6d77\u5916\\|\u65b0\u7586\u4e13\u7528)|(CLOUD))"
 replace = ""
 
 [[node_pref.rename_node]]
@@ -69,75 +67,75 @@ replace = ""
 
 [[node_pref.rename_node]]
 match = "^(.*)(?i:\\bHK[G]?\\d*\\b|Hong.*?Kong|\\bHKT\\d*\\b|\\bHKBN\\d*\\b|\\bHGC\\d*\\b|\\bWTT\\d*\\b|\\bCMI\\d*\\b|\\bHK\\d*\\b)([\u4e00-\u9fa5].*|\\d*)"
-replace = "香港 $2"
+replace = "🇭🇰 香港$2"
 
 [[node_pref.rename_node]]
 match = "^((「|\u300c)(🇭🇰)(」|\u300d))(.*)"
-replace = "香港 $5"
+replace = "🇭🇰 香港$5"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bUS[A]?\\d*\\b)|((「|\u300c)(🇺🇸)(」|\u300d)))(.*)"
-replace = "美国 $6"
+match = "^(🇺🇸\\s*)?((?i:\\bUS[A]?\\d*\\b)|((「|\\u300c)(🇺🇸)(」|\\u300d)))\\s*(.*)"
+replace = "🇺🇸 美国$7"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bJP[N]?\\d*\\b)|((「|\u300c)(🇯🇵)(」|\u300d)))(.*)"
-replace = "日本 $6"
+match = "^(🇯🇵\\s*)?((?i:\\bJP[N]?\\d*\\b)|((「|\\u300c)(🇯🇵)(」|\\u300d)))\\s*(.*)"
+replace = "🇯🇵 日本$7"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bTW[N]?\\d*\\b)|((「|\u300c)(🇹🇼)(」|\u300d)))(.*)"
-replace = "台湾 $6"
+match = "^(🇹🇼\\s*)?((?i:\\bTW[N]?\\d*\\b)|((「|\\u300c)(🇹🇼)(」|\\u300d)))\\s*(.*)"
+replace = "🇹🇼 台湾$7"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bMO\\d*\\b)|((「|\u300c)(🇲🇴)(」|\u300d)))(.*)"
-replace = "澳门 $6"
+match = "^(🇲🇴\\s*)?((?i:\\bMO\\d*\\b)|((「|\\u300c)(🇲🇴)(」|\\u300d)))\\s*(.*)"
+replace = "🇲🇴 澳门$7"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bSG[P]?\\d*\\b)|((「|\u300c)(🇸🇬)(」|\u300d)))(.*)"
-replace = "新加坡 $6"
+match = "^(🇸🇬\\s*)?((?i:\\bSG[P]?\\d*\\b)|((「|\\u300c)(🇸🇬)(」|\\u300d)))\\s*(.*)"
+replace = "🇸🇬 新加坡$7"
 
 [[node_pref.rename_node]]
 match = "^(?i:\\bRU[S]?\\d*\\b)(.*)"
-replace = "俄罗斯 $2"
+replace = "俄罗斯$2"
 
 [[node_pref.rename_node]]
 match = "^(\\bT[U]R\\b)(.*)"
-replace = "土耳其 $2"
+replace = "土耳其$2"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bUK\\d*\\b|\\bGB[R]?\\d*\\b)|((「|\u300c)(🇬🇧)(」|\u300d)))(.*)"
-replace = "英国 $6"
+match = "^(🇬🇧\\s*)?((?i:\\bUK\\d*\\b|\\bGB[R]?\\d*\\b)|((「|\\u300c)(🇬🇧)(」|\\u300d)))\\s*(.*)"
+replace = "🇬🇧 英国$7"
 
 [[node_pref.rename_node]]
-match = "^((?i:(?<!North\\s)(\\bK[O]?R\\d*\\b))|((「|\u300c)(🇰🇷)(」|\u300d)))(.*)"
-replace = "韩国 $7"
+match = "^(🇰🇷\\s*)?((?i:(?<!North\\s)(\\bK[O]?R\\d*\\b))|((「|\\u300c)(🇰🇷)(」|\\u300d)))\\s*(.*)"
+replace = "🇰🇷 韩国$8"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bFR[A]?\\d*\\b)|((「|\u300c)(🇫🇷)(」|\u300d)))(.*)"
-replace = "法国 $6"
+match = "^(🇫🇷\\s*)?((?i:\\bFR[A]?\\d*\\b)|((「|\\u300c)(🇫🇷)(」|\\u300d)))\\s*(.*)"
+replace = "🇫🇷 法国$7"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bCA[N]?\\d*\\b)|((「|\u300c)(🇨🇦)(」|\u300d)))(.*)"
-replace = "加拿大 $6"
+match = "^(🇨🇦\\s*)?((?i:\\bCA[N]?\\d*\\b)|((「|\\u300c)(🇨🇦)(」|\\u300d)))\\s*(.*)"
+replace = "🇨🇦 加拿大$7"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bAU[S]?\\d*\\b)|((「|\u300c)(🇦🇺)(」|\u300d)))(.*)"
-replace = "澳大利亚 $6"
+match = "^(🇦🇺\\s*)?((?i:\\bAU[S]?\\d*\\b)|((「|\\u300c)(🇦🇺)(」|\\u300d)))\\s*(.*)"
+replace = "🇦🇺 澳大利亚$7"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bC[H]?N\\b)|((「|\u300c)(🇨🇳)(」|\u300d)))(.*)"
-replace = "中国 $6"
+match = "^(🇨🇳\\s*)?((?i:\\bC[H]?N\\b)|((「|\\u300c)(🇨🇳)(」|\\u300d)))\\s*(.*)"
+replace = "🇨🇳 中国$7"
 
 [[node_pref.rename_node]]
 match = "^(\\bRO\\d*\\b)(.*)"
-replace = "罗马尼亚 $2"
+replace = "罗马尼亚$2"
 
 [[node_pref.rename_node]]
 match = "^(\\bBR\\d*\\b)(.*)"
-replace = "巴西 $2"
+replace = "巴西$2"
 
 [[node_pref.rename_node]]
-match = "^((?i:\\bES[P]?\\d*\\b)|((「|\u300c)(🇪🇸)(」|\u300d)))(.*)"
-replace = "西班牙 $6"
+match = "^(🇪🇸\\s*)?((?i:\\bES[P]?\\d*\\b)|((「|\\u300c)(🇪🇸)(」|\\u300d)))\\s*(.*)"
+replace = "🇪🇸 西班牙$7"
 
 [[node_pref.rename_node]]
 match = "移动"
@@ -172,49 +170,29 @@ match = "(\\w+|[\u4e00-\u9fa5]+)\\s\\1"
 replace = "$1 "
 
 [[node_pref.rename_node]]
+match = "((?:\\p{RI}{2})|[\\x{2600}-\\x{27BF}\\x{1F300}-\\x{1F5FF}\\x{1F600}-\\x{1F64F}\\x{1F680}-\\x{1F6FF}\\x{1F900}-\\x{1F9FF}\\x{1FA70}-\\x{1FAFF}])\\1+"
+replace = "$1"
+
+[[node_pref.rename_node]]
 match = "\\[CM\\]|\\[CU\\]|\\[BT\\/PT专用\\]|\\[荐\\]|\\[Beta\\]|\\[移动\\]|\\[联通\\]|\\[综合\\]|\\[备用\\]|\\[阿里云\\]|\\[测试\\]|\\[v6\\]|高速|100m限速|CDN加速|Game|PPCW|Sakura"
 replace = ""
 
-# [[node_pref.rename_node]]
-# match = "(?!<=[\\]|\\)])$"
-# replace = "[x1]"
+[[node_pref.rename_node]]
+match = "(.*?)(?:\\[?倍率:?\\]?\\s*(\\d+(?:\\.\\d+)?)(?:\\s*倍(?:率)?)?|(?:x|X)(\\d+(?:\\.\\d+)?))(.*)"
+replace = "$1[x$2$3]$4"
 
 [[node_pref.rename_node]]
-match = "(x|X)(\\d*.?\\d*\\d)"
-replace = "[x$2]"
-
-[[node_pref.rename_node]]
-match = "(.*)(\\[)(倍率:)(.*\\d)(\\])"
-replace = "$1[x$4]"
-
-[[node_pref.rename_node]]
-match = "(\\[x.*\\d\\])(.*)"
-replace = "$2$1"
-
-[[node_pref.rename_node]]
-match = "(.*)( )(.*\\d)(倍率)"
-replace = "$1[x$3]"
-
-[[node_pref.rename_node]]
-match = "(.*)(\\|)(x.*\\d)(倍率)"
-replace = "$1[$3]"
-
-[[node_pref.rename_node]]
-match = "(.*)( )(x.*\\d)"
-replace = "$1[$3]"
+match = "(.*)\\[x(\\d+(?:\\.\\d+)?)\\](.*)"
+replace = "$1$3[x$2]"
 
 [[node_pref.rename_node]]
 match = "\\[\\]"
 replace = ""
 
-[[node_pref.rename_node]]
-match = "\\(?((x|X)?(\\d+)(\\.?\\d+)?)((\\s?倍率?)|(x|X))\\)?"
-replace = "[x$1]"
-
 
 [emojis]
 add_emoji = true
-remove_old_emoji = true
+remove_old_emoji = false
 
 [[emojis.emoji]]
 match = "(?i:(^☠️)|(Bandwidth)|(expire)|(流量)|(时间)|(应急)|(过期))"
