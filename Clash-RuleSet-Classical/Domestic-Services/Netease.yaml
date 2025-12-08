@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,321fenx.com
   - DOMAIN-SUFFIX,gamehaopu.com
   - DOMAIN-SUFFIX,haowu.link
+  - DOMAIN-SUFFIX,infiniteborders3kingdoms.com
   - DOMAIN-SUFFIX,laiqukankan.com
   - DOMAIN-SUFFIX,marvelunlimitedresources.com
   - DOMAIN-SUFFIX,ndiip.com
@@ -55,6 +56,9 @@ payload:
   - DOMAIN-SUFFIX,nease.net
   - DOMAIN-SUFFIX,netease-inc.com
   - DOMAIN-SUFFIX,netease.com
+  ## >> 网易UU远程
+  - DOMAIN-SUFFIX,gameviewer.cn
+  - DOMAIN-SUFFIX,gameviewer.com
   ## >> 网易大话西游
   - DOMAIN-SUFFIX,大话西游.cn
   - DOMAIN-SUFFIX,大话西游.com
