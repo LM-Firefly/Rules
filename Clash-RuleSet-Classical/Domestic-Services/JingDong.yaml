@@ -57,6 +57,8 @@ payload:
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,jdpaydns.com
   - DOMAIN-SUFFIX,shlsyb.com
+  # >> 京东保险
+  - DOMAIN-SUFFIX,tjjt360.com
   # >> 京东金融
   - DOMAIN-SUFFIX,jdfinance.com
   - DOMAIN-SUFFIX,jdjinrong.com
