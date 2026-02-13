@@ -4007,6 +4007,8 @@ payload:
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,jdpaydns.com
   - DOMAIN-SUFFIX,shlsyb.com
+  # >> 京东保险
+  - DOMAIN-SUFFIX,tjjt360.com
   # >> 京东金融
   - DOMAIN-SUFFIX,jdfinance.com
   - DOMAIN-SUFFIX,jdjinrong.com
@@ -13513,7 +13515,6 @@ payload:
   - DOMAIN-SUFFIX,tingshubao.com
   - DOMAIN-SUFFIX,tingyun.com
   - DOMAIN-SUFFIX,titixs.cc
-  - DOMAIN-SUFFIX,tjjt360.com
   - DOMAIN-SUFFIX,tmcdn.net
   - DOMAIN-SUFFIX,tmetb.net
   - DOMAIN-SUFFIX,tmiaoo.com
