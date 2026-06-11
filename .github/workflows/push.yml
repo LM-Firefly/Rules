@@ -29,8 +29,8 @@ jobs:
               });
               core.info(`Triggered ${context.repo.owner}/subconverter submodule.yml on simpleweb.`);
             } catch (error) {
-              if (error?.status === 401 || error?.status === 403) {
-                core.warning(`Skipped downstream dispatch due to authentication or permission issue: ${error.message}`);
+              if (error && (error.status === 401 || error.status === 403)) {
+                core.warning(`Skipped downstream dispatch due to authentication or permission issue: ${error?.message || 'Unknown error'}`);
               } else {
                 throw error;
               }
