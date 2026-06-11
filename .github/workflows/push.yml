@@ -20,9 +20,18 @@ jobs:
         with:
           github-token: ${{env.GIT_TOKEN}}
           script: |
-            github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: 'subconverter',
-              workflow_id: 'submodule.yml',
-              ref: 'simpleweb',
-            });
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: 'subconverter',
+                workflow_id: 'submodule.yml',
+                ref: 'simpleweb',
+              });
+              core.info('Triggered LM-Firefly/subconverter submodule.yml on simpleweb.');
+            } catch (error) {
+              if (error?.status === 401 || error?.status === 403) {
+                core.warning(`Skipped downstream dispatch due to token permissions: ${error.message}`);
+              } else {
+                throw error;
+              }
+            }
