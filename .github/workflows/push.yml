@@ -30,7 +30,7 @@ jobs:
               core.info('Triggered LM-Firefly/subconverter submodule.yml on simpleweb.');
             } catch (error) {
               if (error?.status === 401 || error?.status === 403) {
-                core.warning(`Skipped downstream dispatch due to token permissions: ${error.message}`);
+                core.warning(`Skipped downstream dispatch due to authentication or permission issue: ${error.message}`);
               } else {
                 throw error;
               }
