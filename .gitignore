@@ -1,4 +1,5 @@
 # Ignore generated results for test runs
+/Subconverter-base/mihomo
 /Subconverter-base/results.json
 /Subconverter-base/results.txt
 
