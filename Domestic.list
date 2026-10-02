@@ -10322,6 +10322,18 @@ DOMAIN-SUFFIX,lsttnews.com
 DOMAIN-SUFFIX,newsapp01.com
 DOMAIN-SUFFIX,ttnea.com
 DOMAIN-SUFFIX,xiaoyiads.com
+## > 喔影网络
+DOMAIN-SUFFIX,alltuu.cn
+DOMAIN-SUFFIX,alltuu.com
+DOMAIN-SUFFIX,guituu.com
+DOMAIN-SUFFIX,piufoto.com
+DOMAIN-SUFFIX,piuphoto.com
+DOMAIN-SUFFIX,showmephoto.com
+DOMAIN-SUFFIX,singaphoto.com
+DOMAIN-SUFFIX,tupianzhibo.com
+DOMAIN-SUFFIX,vphant.cn
+DOMAIN-SUFFIX,vphant.com
+DOMAIN-SUFFIX,xxalbum.com
 ## > 我来
 DOMAIN-SUFFIX,wol.tv
 DOMAIN-SUFFIX,wolai.com
