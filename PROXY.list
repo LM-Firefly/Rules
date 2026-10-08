@@ -28,8 +28,6 @@ DOMAIN-SUFFIX,acer.com
 DOMAIN-SUFFIX,acer.com.cn
 DOMAIN-SUFFIX,founderpc.cn
 DOMAIN-SUFFIX,founderpc.com
-## > ACM
-DOMAIN-SUFFIX,acm.org
 ## > Adblockplus
 DOMAIN-SUFFIX,adblockplus.org
 ## > Adidas
@@ -454,8 +452,6 @@ DOMAIN-SUFFIX,ao3.org
 DOMAIN-SUFFIX,archiveofourown.org
 DOMAIN-SUFFIX,archiveofourown.com
 DOMAIN-SUFFIX,archiveofourown.net
-## > Arxiv
-DOMAIN-SUFFIX,arxiv.org
 ## > Atlassian
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,bitbucket.org
@@ -551,6 +547,9 @@ DOMAIN-SUFFIX,dealtree.org
 DOMAIN-SUFFIX,techliquidators.com
 ## > Bitwarden
 DOMAIN-SUFFIX,bitwarden.com
+DOMAIN-SUFFIX,bitwarden.eu
+DOMAIN-SUFFIX,bitwarden.net
+DOMAIN-SUFFIX,btwrdn.com
 ## > Blued
 DOMAIN-SUFFIX,blued.cn
 DOMAIN-SUFFIX,blued.com
@@ -1623,8 +1622,6 @@ DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,comodoca2.com
 DOMAIN-SUFFIX,comodoca3.com
 DOMAIN-SUFFIX,comodoca4.com
-## > Computingreviews
-DOMAIN-SUFFIX,computingreviews.com
 ## > CordCloud
 DOMAIN-SUFFIX,cordcloud.online
 DOMAIN-SUFFIX,cordcloud.site
@@ -1810,6 +1807,7 @@ DOMAIN-SUFFIX,airhornbot.com
 DOMAIN-SUFFIX,bigbeans.solutions
 DOMAIN-SUFFIX,dis.gd
 DOMAIN-SUFFIX,discord-activities.com
+DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.design
@@ -2703,6 +2701,7 @@ DOMAIN-SUFFIX,github.dev
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,githubhackathon.com
 DOMAIN-SUFFIX,githubnext.com
 DOMAIN-SUFFIX,githubpreview.dev
@@ -4183,9 +4182,16 @@ DOMAIN-SUFFIX,intellij.net
 DOMAIN-SUFFIX,intellij.org
 DOMAIN-SUFFIX,jetbrains.com
 DOMAIN-SUFFIX,jetbrains.net
+DOMAIN-SUFFIX,jetbrains.org
 DOMAIN-SUFFIX,jetbrains.space
 DOMAIN-SUFFIX,jetbrains.team
+DOMAIN-SUFFIX,kotlinconf.com
 DOMAIN-SUFFIX,kotlinlang.org
+# >> JetBrains AI
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,jetbrains.io
 ## > Jfrog
 DOMAIN-SUFFIX,jfrog.com
 DOMAIN-SUFFIX,jfrog.org
@@ -4809,18 +4815,28 @@ DOMAIN-SUFFIX,tegrazone.jp
 DOMAIN-SUFFIX,tegrazone.kr
 DOMAIN-SUFFIX,nvda.d2.sc.omtrdc.net
 DOMAIN-SUFFIX,nvidia.tt.omtrdc.net
-## > OpenAi
+## > OpenAI
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,stripe.com
+## >> CDN & API
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
 ## > Opera
 DOMAIN-SUFFIX,1npq4.tk
 DOMAIN-SUFFIX,coastbyopera.com
@@ -5192,6 +5208,8 @@ DOMAIN-SUFFIX,ecimg.tw
 DOMAIN-SUFFIX,pchome.com.tw
 DOMAIN-SUFFIX,pchomepay.com.tw
 DOMAIN-SUFFIX,pcloud.tw
+## > perplexity
+DOMAIN-SUFFIX,perplexity.ai
 ## > Phantomjs
 DOMAIN-SUFFIX,phantomjs.org
 ## > Picsee
@@ -5318,8 +5336,6 @@ DOMAIN-SUFFIX,brewmp.com
 ## > Quora
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
-## > Railway Corp
-DOMAIN-SUFFIX,railway.app
 ## > Rakuten (乐天)
 DOMAIN-SUFFIX,ebates.com
 DOMAIN-SUFFIX,infoseek.co.jp
@@ -5383,9 +5399,6 @@ DOMAIN-SUFFIX,jboss.org
 DOMAIN-SUFFIX,noobaa.io
 DOMAIN-SUFFIX,redhat.com
 DOMAIN-SUFFIX,stackrox.io
-## > Render
-DOMAIN-SUFFIX,onrender.com
-DOMAIN-SUFFIX,render.com
 ## > Ruleoflaw
 DOMAIN-SUFFIX,rolfoundation.org
 DOMAIN-SUFFIX,rolsociety.org
@@ -5646,8 +5659,6 @@ DOMAIN-SUFFIX,sf.net
 DOMAIN-SUFFIX,fsdn.com
 ## > Spark
 DOMAIN-SUFFIX,smartmailcloud.com
-## > Springer
-DOMAIN-SUFFIX,springerlink.com
 ## > Stackexchange
 DOMAIN-SUFFIX,askubuntu.com
 DOMAIN-SUFFIX,blogoverflow.com
@@ -5748,6 +5759,7 @@ PROCESS-NAME,org.telegram.messenger
 PROCESS-NAME,telegram-desktop
 PROCESS-NAME,Telegram.exe
 PROCESS-NAME,tw.nekomimi.nekogram
+PROCESS-NAME,xyz.nextalone.nagram
 ## > Telegram CIDR
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
@@ -5756,45 +5768,15 @@ IP-CIDR,91.108.12.0/22,no-resolve
 IP-CIDR,91.108.16.0/22,no-resolve
 IP-CIDR,91.108.20.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,95.161.64.0/20,no-resolve
-IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,149.154.164.0/22,no-resolve
-IP-CIDR,149.154.164.8/29,no-resolve
-IP-CIDR,149.154.164.250/32,no-resolve
-IP-CIDR,149.154.165.120/32,no-resolve
-IP-CIDR,149.154.166.120/32,no-resolve
-IP-CIDR,149.154.167.40/32,no-resolve
-IP-CIDR,149.154.167.42/32,no-resolve
-IP-CIDR,149.154.167.50/32,no-resolve
-IP-CIDR,149.154.167.51/32,no-resolve
-IP-CIDR,149.154.167.90/32,no-resolve
-IP-CIDR,149.154.167.91/32,no-resolve
-IP-CIDR,149.154.167.99/32,no-resolve
-IP-CIDR,149.154.167.117/32,no-resolve
-IP-CIDR,149.154.167.118/32,no-resolve
-IP-CIDR,149.154.167.192/27,no-resolve
-IP-CIDR,149.154.168.0/22,no-resolve
 IP-CIDR,149.154.172.0/22,no-resolve
-IP-CIDR,149.154.175.10/32,no-resolve
-IP-CIDR,149.154.175.50/32,no-resolve
-IP-CIDR,149.154.175.100/32,no-resolve
-IP-CIDR,149.154.175.117/32,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:67c:4e8:f002::a/128,no-resolve
-IP-CIDR6,2001:67c:4e8:f002::e/128,no-resolve
-IP-CIDR6,2001:67c:4e8:f004::a/128,no-resolve
-IP-CIDR6,2001:67c:4e8:fa60::/64,no-resolve
-IP-CIDR6,2001:b28:f23c::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23d:f001::a/128,no-resolve
-IP-CIDR6,2001:b28:f23d:f001::e/128,no-resolve
-IP-CIDR6,2001:b28:f23d:f003::a/128,no-resolve
-IP-CIDR6,2001:b28:f23d:f003::e/128,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2001:b28:f23f:f005::a/128,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
+IP-CIDR6,2a0a:f280:203::/48,no-resolve
 ## > Telekom
 DOMAIN-SUFFIX,telekom.com
 DOMAIN-SUFFIX,telekom.de
@@ -5887,6 +5869,7 @@ IP-CIDR6,2402:2a80::/32,no-resolve
 ## > Twitter
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,t.co
@@ -5980,8 +5963,6 @@ DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,udn.com.tw
 DOMAIN-SUFFIX,udndata.com
 DOMAIN-SUFFIX,udnfunlife.com
-## > Un
-DOMAIN-SUFFIX,un.org
 ## > Unpkg
 DOMAIN-SUFFIX,unpkg.com
 ## > Unsplash
@@ -6826,14 +6807,29 @@ DOMAIN-SUFFIX,xubuntu.org
 DOMAIN-SUFFIX,zorin.com
 DOMAIN-SUFFIX,zorincdn.com
 ## > Developer
-DOMAIN-SUFFIX,apache.org
+# >> back4app
 DOMAIN-SUFFIX,b4a.run
 DOMAIN-SUFFIX,back4app.com
+# >> Fly.io
+DOMAIN-SUFFIX,fly-metrics.net
+DOMAIN-SUFFIX,fly.dev
+DOMAIN-SUFFIX,fly.io
+# >> Koyeb
+DOMAIN-SUFFIX,koyeb.app
+DOMAIN-SUFFIX,koyeb.com
+# >> Netlify
+DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,netlify.com
+# >> Railway
+DOMAIN-SUFFIX,railway.app
+# >> Render
+DOMAIN-SUFFIX,onrender.com
+DOMAIN-SUFFIX,render.com
+# >> &more
+DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,elastic.co
 DOMAIN-SUFFIX,elastic.com
 DOMAIN-SUFFIX,jitpack.io
-DOMAIN-SUFFIX,koyeb.app
-DOMAIN-SUFFIX,koyeb.com
 DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mvnrepository.com
@@ -6841,9 +6837,13 @@ DOMAIN-SUFFIX,quay.io
 DOMAIN-SUFFIX,sonatype.org
 DOMAIN-SUFFIX,sourcegraph.com
 ## > Scholar 国内外学术网站
+# >> ACM
+DOMAIN-SUFFIX,acm.org
 # >> Apa
 DOMAIN-SUFFIX,apa.org
 DOMAIN-SUFFIX,psyccareers.com
+# >> Arxiv
+DOMAIN-SUFFIX,arxiv.org
 # >> Cambridge
 DOMAIN-SUFFIX,cambridge.org
 DOMAIN-SUFFIX,cambridgedigital.net
@@ -6855,6 +6855,8 @@ DOMAIN-SUFFIX,isiknowledge.com
 DOMAIN-SUFFIX,newisiknowledge.com
 DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,webofscience.com
+# >> Computingreviews
+DOMAIN-SUFFIX,computingreviews.com
 # >> Doi
 DOMAIN-SUFFIX,doi.info
 DOMAIN-SUFFIX,doi.org
@@ -6867,7 +6869,10 @@ DOMAIN-SUFFIX,engineeringvillage.com
 DOMAIN-SUFFIX,evise.com
 DOMAIN-SUFFIX,scopus.com
 # >> Ieee
+DOMAIN-SUFFIX,computer.org
 DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,ieeecomputer.org
+DOMAIN-SUFFIX,ieeecomputersociety.org
 # >> Imperialcollege
 DOMAIN-SUFFIX,ic.ac.uk
 DOMAIN-SUFFIX,imperial.ac.uk
@@ -6921,6 +6926,7 @@ DOMAIN-SUFFIX,sciencedirectassets.com
 # >> Springer
 DOMAIN-SUFFIX,apress.com
 DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,springerlink.com
 DOMAIN-SUFFIX,springernature.com
 DOMAIN-SUFFIX,wkap.nl
 # >> Taylorfrancis
@@ -6928,6 +6934,8 @@ DOMAIN-SUFFIX,tandf.co.uk
 DOMAIN-SUFFIX,tandfonline.com
 DOMAIN-SUFFIX,taylorandfrancis.com
 DOMAIN-SUFFIX,taylorfrancis.com
+# >> Un
+DOMAIN-SUFFIX,un.org
 # >> Z-Library
 DOMAIN-SUFFIX,1lib.cloud
 DOMAIN-SUFFIX,1lib.domains
@@ -6970,6 +6978,7 @@ DOMAIN-SUFFIX,zlibcdn2.com
 # >> Others
 DOMAIN-SUFFIX,aclweb.org
 DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,aiaa.org
 DOMAIN-SUFFIX,aip.org
 DOMAIN-SUFFIX,altmetric.com
 DOMAIN-SUFFIX,ams.org
@@ -6992,6 +7001,7 @@ DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,cell.com
 DOMAIN-SUFFIX,cnki.net
 DOMAIN-SUFFIX,cqvip.com
+DOMAIN-SUFFIX,crossref.org
 DOMAIN-SUFFIX,csiro.au
 DOMAIN-SUFFIX,deepdyve.com
 DOMAIN-SUFFIX,degruyter.com
@@ -7004,6 +7014,7 @@ DOMAIN-SUFFIX,europepmc.org
 DOMAIN-SUFFIX,frontiersin.org
 DOMAIN-SUFFIX,gale.com
 DOMAIN-SUFFIX,galegroup.com
+DOMAIN-SUFFIX,geoscienceworld.org
 DOMAIN-SUFFIX,ggsrv.com
 DOMAIN-SUFFIX,hindawi.com
 DOMAIN-SUFFIX,icevirtuallibrary.com
@@ -7024,6 +7035,7 @@ DOMAIN-SUFFIX,kuke.com
 DOMAIN-SUFFIX,lawdata.com.tw
 DOMAIN-SUFFIX,libguides.com
 DOMAIN-SUFFIX,literatumonline.com
+DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,mdpi.com
 DOMAIN-SUFFIX,mpg.de
 DOMAIN-SUFFIX,myilibrary.com
@@ -7047,10 +7059,12 @@ DOMAIN-SUFFIX,rsc.org
 DOMAIN-SUFFIX,sagepub.com
 DOMAIN-SUFFIX,scholarpedia.org
 DOMAIN-SUFFIX,sci-hub.tw
+DOMAIN-SUFFIX,science.org
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,sciencenets.com
 DOMAIN-SUFFIX,scientificamerican.com
 DOMAIN-SUFFIX,scitation.org
+DOMAIN-SUFFIX,semanticscholar.org
 DOMAIN-SUFFIX,siam.org
 DOMAIN-SUFFIX,silverchair-cdn.com
 DOMAIN-SUFFIX,spiedigitallibrary.org
@@ -7067,6 +7081,7 @@ DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
 DOMAIN-SUFFIX,yale.edu
+DOMAIN-SUFFIX,zotero.org
 ## > Porn
 ## >> 18comic
 DOMAIN-SUFFIX,18comic.cc
