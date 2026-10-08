@@ -6,6 +6,8 @@ DOMAIN-SUFFIX,chinamobileltd.com
 DOMAIN-SUFFIX,warmchina121.com
 DOMAIN-SUFFIX,monternet.com
 DOMAIN-SUFFIX,cmccb2b.com
+DOMAIN-SUFFIX,cmecloud.cn
+DOMAIN-SUFFIX,ecpan.cn
 # >> 咪咕
 DOMAIN-SUFFIX,lovev.com
 DOMAIN-SUFFIX,lovev.cn
@@ -22,7 +24,6 @@ DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,12530.com
 # >> 中移互联
 DOMAIN-SUFFIX,10086kuaixiu.com
-DOMAIN-SUFFIX,117.161.2.5
 DOMAIN-SUFFIX,andfx.cn
 DOMAIN-SUFFIX,andfx.net
 DOMAIN-SUFFIX,chinamobiledevice.com
@@ -37,3 +38,4 @@ DOMAIN-SUFFIX,fxltsbl.com
 DOMAIN-SUFFIX,mmarket.com
 DOMAIN-SUFFIX,mmarket6.com
 DOMAIN-SUFFIX,zdsdp.com
+IP-CIDR,117.161.2.5/32,no-resolve
