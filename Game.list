@@ -285,20 +285,25 @@ DOMAIN-SUFFIX,menu-static.gog-statics.com
 DOMAIN-SUFFIX,productcard.gog-statics.com
 DOMAIN-SUFFIX,static-login.gog-statics.com
 DOMAIN-SUFFIX,www4-static.gog-statics.com
-## > HoYoverse
+## >> HoYoverse
 DOMAIN-SUFFIX,hoyoverse.com
-## >> 原神
-DOMAIN-SUFFIX,genshinimpact.com
-## >> 崩壞3
+# >> 崩壞3
 DOMAIN-SUFFIX,honkaiimpact3.com
-## >> 星穹鐵道
-DOMAIN-SUFFIX,honkaistarrail.com
-## >> 短网址
+# >> 短网址
 DOMAIN-SUFFIX,hoyo.link
-## >> HoYoLab
+# >> HoYoLab
 DOMAIN-SUFFIX,hoyolab.com
-## >> n0va
+# >> 绝区零
+DOMAIN-SUFFIX,juequling.com
+# >> n0va
 DOMAIN-SUFFIX,n0vadesktop.com
+# >> 未定事件簿
+DOMAIN-SUFFIX,themisweeps.com
+# >> 星穹鐵道
+DOMAIN-SUFFIX,honkaistarrail.com
+DOMAIN-SUFFIX,starrails.com
+# >> 原神
+DOMAIN-SUFFIX,genshinimpact.com
 ## >Nintendo
 DOMAIN-SUFFIX,100classicbooks.com
 DOMAIN-SUFFIX,amiibo.com
@@ -315,7 +320,7 @@ DOMAIN-SUFFIX,legendofzelda.com.cn
 DOMAIN-SUFFIX,miitomo.com
 DOMAIN-SUFFIX,miitomo.com.cn
 DOMAIN-SUFFIX,miiverse.com
-DOMAIN-SUFFIX,nentindo.net
+DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,nintendo-europe-sales.com
 DOMAIN-SUFFIX,nintendo-europe.com
 DOMAIN-SUFFIX,nintendo.at
@@ -517,9 +522,11 @@ DOMAIN-SUFFIX,playartifact.com
 DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,steam-api.com
 DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steam.tv
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamcontent.tnkjmec.com
+DOMAIN-SUFFIX,steamdeck.com
 DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamserver.net
@@ -533,6 +540,9 @@ DOMAIN-SUFFIX,valvesoftware.com
 DOMAIN-SUFFIX,steambroadcast.akamaized.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steammobile.akamaized.net
+DOMAIN-SUFFIX,steampipe-kr.akamaized.net
+DOMAIN-SUFFIX,steampipe-partner.akamaized.net
 DOMAIN-SUFFIX,steampipe.akamaized.net
 DOMAIN-SUFFIX,steamstore-a.akamaihd.net
 DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
@@ -544,11 +554,20 @@ DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
 DOMAIN-SUFFIX,st.dl.bscstorage.net
 DOMAIN-SUFFIX,st.dl.eccdnx.com
 DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+## >>  edgecast Download CDN
+DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+## >> HIGHWINDS Download CDN
+DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net
 ## >> 华为云 Download CDN
 DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
+## >> internode Download CDN
+DOMAIN-SUFFIX,steam.cdn.on.net
 ## >> 金山云 Download CDN
 DOMAIN-SUFFIX,dl.steam.clngaa.com
 DOMAIN-SUFFIX,dl.steam.ksyna.com
+## >> orcon Download CDN
+DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
 ## >> 腾讯云 Download CDN
 DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
 ## >> 完美 Download CDN
@@ -557,8 +576,14 @@ DOMAIN-SUFFIX,dota2.wmsj.cn
 DOMAIN-SUFFIX,wmsjsteam.com
 ## >> 网宿 Download CDN
 DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+DOMAIN-SUFFIX,steam.apac.qtlglb.com
+DOMAIN-SUFFIX,steam.eca.qtlglb.com
+DOMAIN-SUFFIX,steam.naeu.qtlglb.com
+DOMAIN-SUFFIX,steam.ru.qtlglb.com
 DOMAIN-SUFFIX,steampowered.com.8686c.com
 DOMAIN-SUFFIX,steamstatic.com.8686c.com
+## >> webra Download CDN
+DOMAIN-SUFFIX,steam.cdn.webra.ru
 DOMAIN-KEYWORD,steamstore
 DOMAIN-KEYWORD,steamuserimages
 DOMAIN-KEYWORD,steambroadcast
