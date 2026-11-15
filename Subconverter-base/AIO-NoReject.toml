@@ -58,7 +58,7 @@ replace = "$1 $2"
 # replace = "$2"
 
 [[node_pref.rename_node]]
-match = "(?:CN\\d•|HK🔛|US🔛|^)(?:⓪|❶|❷|❸|❻)(?:TJ\\.|gR\\.|V2\\.|H2\\.|SS\\.)"
+match = "((?:CN\\d•|HK🔛|US🔛|🔛|✖︎被墙✖︎|^)(?:⓪|❶|❷|❸|❻)(?:TJ\\.|gR\\.|V2\\.|H2\\.|SS\\.)?)"
 replace = ""
 
 [[node_pref.rename_node]]
@@ -112,6 +112,10 @@ replace = "🇰🇷 韩国$1"
 [[node_pref.rename_node]]
 match = "^(?:🇫🇷\\s*)?(?:(?i:\\bFR[A]?\\d*\\b)|(?:「|\u300c)🇫🇷(?:」|\u300d))\\s*(.*)"
 replace = "🇫🇷 法国$1"
+
+[[node_pref.rename_node]]
+match = "^(?:🇩🇪\\s*)?(?:(?i:\\bDE\\d*\\b)|(?:「|\u300c)🇩🇪(?:」|\u300d))\\s*(.*)"
+replace = "🇩🇪 德国$1"
 
 [[node_pref.rename_node]]
 match = "^(?:🇨🇦\\s*)?(?:(?i:\\bCA[N]?\\d*\\b)|(?:「|\u300c)🇨🇦(?:」|\u300d))\\s*(.*)"

@@ -1,0 +1,69 @@
+name: Convert rule sets
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "**.list"
+      - "Subconverter-base/convert-list-to-classical-yaml.bat"
+      - "Subconverter-base/convert-list-to-classical-yaml.ps1"
+      - "Subconverter-base/convert-classical-to-mrs.bat"
+      - "Subconverter-base/convert-classical-to-mrs.ps1"
+      - ".github/workflows/convert-rules.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  convert:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          # 需要完整历史：后面要 amend 当前 commit 并 force-push
+          fetch-depth: 0
+
+      - name: Clone mihomo (Meta branch)
+        shell: cmd
+        # 与 convert-classical-to-mrs.ps1 内部的 clone 完全一致；预先 clone 是为了给 setup-go 的缓存提供 go.sum（ps1 发现目录已存在会跳过自己 clone）
+        run: git clone --depth 1 https://github.com/metacubex/mihomo -b Meta Subconverter-base/mihomo
+
+      - name: Set up Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: "stable"
+          cache-dependency-path: Subconverter-base/mihomo/go.sum
+
+      - name: Convert .list to classical YAML
+        shell: cmd
+        # 调用方式与 convert-list-to-classical-yaml.bat 相同（pwsh 7）
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File Subconverter-base\convert-list-to-classical-yaml.ps1
+
+      - name: Convert classical YAML to MRS
+        shell: cmd
+        # 调用方式与 convert-classical-to-mrs.bat 相同（带 -Clean 全量重建 MRS）
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File Subconverter-base\convert-classical-to-mrs.ps1 -Clean
+
+      - name: Squash outputs into current commit and force-push
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- Clash-RuleSet-Classical Clash-RuleSet-MRS
+          $status = git status --porcelain -- Clash-RuleSet-Classical Clash-RuleSet-MRS
+          if (-not $status) {
+            Write-Host "Generated outputs unchanged; nothing to push."
+            exit 0
+          }
+          Write-Host "Generated output changes:"
+          $status | ForEach-Object { Write-Host "  $_" }
+          # 把生成结果 squash 进触发本次运行的 commit，再 force-push 保持单提交
+          git commit --amend --no-edit
+          git push --force-with-lease origin "HEAD:${{ github.ref_name }}"
